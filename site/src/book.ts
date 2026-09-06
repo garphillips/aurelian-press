@@ -96,6 +96,7 @@ export async function startBook(scene: Scene, book: BookConfig, onShelf: () => v
     const i = byKey >= 0 ? byKey : byNum;
     if (i >= 0 && i < N) start = i;
   }
+  history.scrollRestoration = 'manual';   // a reload must honour the deep link, not the old scroll position
   scrollToPlate(start, false); camY = -start * PITCH;
 
   on('keydown', (e) => {
