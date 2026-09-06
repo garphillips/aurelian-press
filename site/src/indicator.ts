@@ -27,6 +27,8 @@ export class Indicator {
       li.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onSelect(i); } });
       ol.appendChild(li); this.ticks.push(li);
     }
+    // a volume's first plate carries its own label; the tick just before it stays quiet so the two never collide
+    this.ticks.forEach((t, i) => { if (i > 0 && t.classList.contains('vol')) this.ticks[i - 1].classList.remove('ten'); });
   }
 
   private pct(i: number) { return this.count > 1 ? (i / (this.count - 1)) * 100 : 0; }

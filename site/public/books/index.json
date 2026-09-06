@@ -45,8 +45,8 @@
       "authorLong": "Francis Orpen Morris",
       "place": "London",
       "year": "1903",
-      "plates": 30,
-      "specimens": 331,
+      "plates": 60,
+      "specimens": 639,
       "noun": "moths",
       "status": "ready",
       "volumes": [
@@ -56,7 +56,7 @@
         },
         {
           "n": 2,
-          "status": "coming"
+          "status": "ready"
         },
         {
           "n": 3,
