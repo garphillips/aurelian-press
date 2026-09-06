@@ -85,7 +85,8 @@
       "cover": {
         "front": "/covers/british-moths/front.jpg",
         "frontMr": "/covers/british-moths/front-mr.png",
-        "grain": "/covers/british-moths/grain.jpg"
+        "grain": "/covers/british-moths/grain.jpg",
+        "ornament": "/covers/british-moths/moth.png"
       },
       "spineFont": "Libre Baskerville"
     }

@@ -15,7 +15,7 @@ export interface BookConfig {
   spineTitle?: string;           // gilt along the spine; the year goes at the foot
   spineFont?: string;            // each book's spine in its own face
   spine?: string[][];            // older style: gilt panels, each a stack of lines
-  cover?: { front: string; frontMr?: string; grain?: string };   // photographs of the real binding
+  cover?: { front: string; frontMr?: string; grain?: string; ornament?: string };   // photographs of the real binding; ornament = a gilt device for the head of the spine
   portrait?: { image: string; caption: string; dates?: string };   // the author, as a frontispiece under the cover
   masthead?: string; credit?: string; unreadNote?: string;
 }

@@ -17,7 +17,7 @@ const FELL = '"IM Fell English", "EB Garamond", Georgia, serif';
 /** Cover photographs are fetched before the shelf is built so every face can be drawn at once. */
 const images = new Map<string, HTMLImageElement>();
 export function preloadCovers(cfgs: BookConfig[]): Promise<void> {
-  const urls = cfgs.flatMap(c => [c.cover?.front, c.cover?.frontMr, c.cover?.grain]).filter((u): u is string => !!u);
+  const urls = cfgs.flatMap(c => [c.cover?.front, c.cover?.frontMr, c.cover?.grain, c.cover?.ornament]).filter((u): u is string => !!u);
   const fonts = cfgs.map(c => c.spineFont).filter((f): f is string => !!f).map(f => document.fonts.load(`20px "${f}"`).catch(() => []));
   return Promise.all<unknown>([...fonts, ...urls.map(u => new Promise<void>((res) => {
     if (images.has(u)) return res();
@@ -65,7 +65,8 @@ export function cloth(g: CanvasRenderingContext2D, colour: string, seed = 3) {
 /** Gilt lettering with a hint of emboss: dark offset beneath, bright face on top. */
 /** Pale lettering is stamped pigment, not leaf: matte. Gold is metallic. */
 function isPale(hex: string) { const [r, g, b] = hexToRgb(hex); return (r + g + b) / 3 > 200 && Math.max(r, g, b) - Math.min(r, g, b) < 40; }
-const letteringMR = (gilt: string) => isPale(gilt) ? 'rgb(0,150,40)' : 'rgb(0,70,230)';
+const MR_GILT = 'rgb(0,70,230)';
+const letteringMR = (gilt: string) => isPale(gilt) ? 'rgb(0,150,40)' : MR_GILT;
 function giltText(g: CanvasRenderingContext2D, text: string, x: number, y: number, size: number, gilt: string, mr: boolean, maxW: number, font = FELL) {
   g.font = `${size}px ${font}`; g.textAlign = 'center'; g.textBaseline = 'middle';
   let w = g.measureText(text).width;
@@ -112,14 +113,26 @@ export function spine(cfg: BookConfig, mr: boolean): HTMLCanvasElement {
   if (mr) mrBase(g); else binding(g, cfg, cfg.volume ?? 1);
   if (cfg.spine && !cfg.spineTitle) return spinePanels(cfg, g, W, H, mr);
   const pad = W * 0.16, head = H * 0.07, foot = H * 0.9;
-  giltRule(g, pad, W - pad, head, 3, cfg.gilt, mr); giltRule(g, pad, W - pad, head + 9, 1.5, cfg.gilt, mr);
+  const ornament = image(cfg.cover?.ornament);
+  if (ornament) {
+    // the binding's gilt device at the head of the spine, in place of the top rule
+    const ow = W - pad * 1.6, oh = ow * ornament.height / ornament.width, ox = (W - ow) / 2, oy = head - 2;
+    if (mr) {
+      const t = canvas(ow, oh), tg = t.getContext('2d')!;
+      tg.drawImage(ornament, 0, 0, ow, oh); tg.globalCompositeOperation = 'source-in'; tg.fillStyle = MR_GILT; tg.fillRect(0, 0, ow, oh);
+      g.drawImage(t, ox, oy);
+    } else {
+      g.save(); g.globalAlpha = 0.5; g.drawImage(ornament, ox + 2, oy + 3, ow, oh); g.restore();   // a little depth beneath the stamp
+      g.drawImage(ornament, ox, oy, ow, oh);
+    }
+  } else { giltRule(g, pad, W - pad, head, 3, cfg.gilt, mr); giltRule(g, pad, W - pad, head + 9, 1.5, cfg.gilt, mr); }
   giltRule(g, pad, W - pad, foot, 3, cfg.gilt, mr); giltRule(g, pad, W - pad, foot - 9, 1.5, cfg.gilt, mr);
   // title, reading top to bottom, one or two lines across the width of the spine
   const lines = balance(cfg.spineTitle ?? cfg.title), n = lines.length;
   const font = cfg.spineFont ? `"${cfg.spineFont}", ${FELL}` : FELL;
   const length = foot - head - H * 0.08, across = W - pad * 1.2;
   // a single line sits at about a quarter of the spine's width; two lines share it
-  const size = n === 1 ? W * 0.17 : Math.min(across / n * 0.6, W * 0.3);
+  const size = n === 1 ? W * 0.13 : Math.min(across / n * 0.6, W * 0.3);
   g.save(); g.translate(W / 2, (head + foot) / 2 - H * 0.02); g.rotate(Math.PI / 2);
   const lh = across / n;
   lines.forEach((t, i) => giltText(g, t, 0, (i - (n - 1) / 2) * lh * 0.9, size, cfg.gilt, mr, length, font));
