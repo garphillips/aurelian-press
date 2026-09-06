@@ -41,7 +41,7 @@ body.shelf #labels,body.shelf #more{display:block;}
 
 /* label cards under the books; JS moves each to sit beneath its book */
 #labels{list-style:none;margin:0;padding:0;inset:0;}
-#labels a{position:absolute;left:0;top:0;display:block;width:190px;padding:10px 12px 9px;text-align:center;text-decoration:none;color:var(--ink);
+#labels a{position:absolute;left:0;top:0;display:block;width:190px;padding:10px 14px 9px;text-align:left;text-decoration:none;color:var(--ink);
   pointer-events:auto;opacity:0;transition:opacity .35s ease;
   background:rgba(240,232,212,.92);border:1px solid var(--rule-faint);box-shadow:0 10px 30px rgba(60,40,15,.14), inset 0 0 0 3px rgba(240,232,212,.9), inset 0 0 0 4px rgba(90,75,50,.22);}
 #labels a.hover,#labels a:focus-visible{opacity:1;outline:none;}
