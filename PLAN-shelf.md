@@ -27,7 +27,7 @@ Each book carries a small label card on the shelf edge: title, author, year, pla
 
 **Cover art from the books themselves.** Both title pages exist in the scans:
 - Lucas: the IA copy `bp_4916219-14` has the letterpress title page; we already have its OCR text, and the page image is one download away. Use the actual title page as the front-board paste-down label, sepia-graded.
-- Morris: leaf 9 of `historyofbritish01morr_1` is the title page; leaf 8 is the frontispiece plate (Plate I), which can appear as the "opened" first page.
+- Morris: leaf 8 of `historyofbritish01morr_1` is the title page; leaf 7 is the frontispiece plate (Plate I, already downloaded as `n007.jpg`), which can appear as the "opened" first page.
 Spines are designed, not scanned: title, author, volume, in gilt on the cloth colour of each book's period binding.
 
 **Fallback and SEO.** The shelf is also a plain HTML list (each book a link with title and blurb) beneath the canvas, so the page reads without WebGL and search engines see the two books.
