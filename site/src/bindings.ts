@@ -135,10 +135,10 @@ export function spine(cfg: BookConfig, mr: boolean): HTMLCanvasElement {
   const size = n === 1 ? W * 0.13 : Math.min(across / n * 0.6, W * 0.3);
   g.save(); g.translate(W / 2, (head + foot) / 2 - H * 0.02); g.rotate(Math.PI / 2);
   const lh = across / n;
-  const sub = cfg.spineSubtitle, shift = sub ? -size * 0.45 : 0;   // make room for the subline beneath
-  lines.forEach((t, i) => giltText(g, t, 0, (i - (n - 1) / 2) * lh * 0.9 + shift, size, cfg.gilt, mr, length, font, style));
-  if (sub) giltText(g, sub, 0, shift + size * 1.25, size * 0.5, cfg.gilt, mr, length, font, style);
+  lines.forEach((t, i) => giltText(g, t, 0, (i - (n - 1) / 2) * lh * 0.9, size, cfg.gilt, mr, length, font, style));
   g.restore();
+  // subtitle across the spine, just above the foot rule
+  if (cfg.spineSubtitle) giltText(g, cfg.spineSubtitle, W / 2, foot - 9 - W * 0.13, W * 0.11, cfg.gilt, mr, W - pad * 1.4, font, style);
   // year, horizontal at the foot
   giltText(g, cfg.year.split('–')[0], W / 2, foot + (H - foot) / 2, Math.min(W * 0.17, (H - foot) * 0.5), cfg.gilt, mr, W - pad, font, style);
   return c;
