@@ -214,7 +214,8 @@ export class Shelf {
       b.label.classList.toggle('hover', b === hit);
       // label to the right of the book, projected to the screen
       const p = new THREE.Vector3(b.cfg.format.h / 2 + 0.3, b.slot.y, b.slot.z + b.cfg.format.w / 2 + b.hover * PULL).applyMatrix4(this.group.matrixWorld).project(cam);
-      b.label.style.transform = `translate(${((p.x * 0.5 + 0.5) * innerWidth).toFixed(1)}px, ${((-p.y * 0.5 + 0.5) * innerHeight).toFixed(1)}px) translate(0, -50%)`;
+      const lx = Math.min((p.x * 0.5 + 0.5) * innerWidth, innerWidth - b.label.offsetWidth - 16);   // keep the card inside the window
+      b.label.style.transform = `translate(${lx.toFixed(1)}px, ${((-p.y * 0.5 + 0.5) * innerHeight).toFixed(1)}px) translate(0, -50%)`;
       b.label.style.opacity = this.opening ? '0' : '';
     }
     const m = this.moreSlot.clone().applyMatrix4(this.group.matrixWorld).project(cam);
