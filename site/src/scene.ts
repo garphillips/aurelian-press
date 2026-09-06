@@ -29,7 +29,10 @@ export class Scene {
   scene = new THREE.Scene();
   camera = new THREE.PerspectiveCamera(FOV, 1, 0.1, 100);
   sun: THREE.DirectionalLight;
+  ambient: THREE.AmbientLight;
   paper: THREE.Mesh;
+  /** Where the sun sits relative to the focus; the shelf pulls it toward the viewing axis for softer shadows. */
+  sunOffset = new THREE.Vector3(-1.8, 2.6, 6.5);
 
   constructor(canvas: HTMLCanvasElement) {
     this.renderer = new THREE.WebGLRenderer({ canvas, antialias: true });
@@ -48,7 +51,7 @@ export class Scene {
     this.paper.receiveShadow = true;
     this.scene.add(this.paper);
 
-    this.scene.add(new THREE.AmbientLight(0xfff6e6, 1.85));
+    this.ambient = new THREE.AmbientLight(0xfff6e6, 1.85); this.scene.add(this.ambient);
     this.sun = new THREE.DirectionalLight(0xfff1dc, 1.25);
     this.sun.castShadow = true;
     this.sun.shadow.mapSize.set(2048, 2048);
@@ -62,7 +65,7 @@ export class Scene {
 
   /** Keep the light (and its shadow frustum) centred on what the camera looks at. */
   follow(focus: THREE.Vector3) {
-    this.sun.position.set(focus.x - 1.8, focus.y + 2.6, 6.5);
+    this.sun.position.set(focus.x + this.sunOffset.x, focus.y + this.sunOffset.y, this.sunOffset.z);
     this.sun.target.position.copy(focus); this.sun.target.updateMatrixWorld();
     this.paper.position.y = focus.y;      // the paper is a window that travels with the camera
   }

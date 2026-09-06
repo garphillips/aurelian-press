@@ -94,6 +94,7 @@ export class Shelf {
   private opening: ShelfBook | null = null;
   private ac = new AbortController();
   private colTop = 0; private colH = 0; private viewH = 1;
+  private lightBefore!: { offset: THREE.Vector3; radius: number; samples: number; sun: number; ambient: number };
   private labels = document.getElementById('labels')!;
   private more = document.getElementById('more')!;
   private moreSlot = new THREE.Vector3();
@@ -104,6 +105,11 @@ export class Shelf {
     this.pmrem = pm.fromScene(new RoomEnvironment(), 0.04).texture; pm.dispose();
     scene.scene.environment = this.pmrem;
     (scene.scene as any).environmentIntensity = 0.35;
+    // softer light for the floating books: sun near the viewing axis, wide penumbra, less contrast
+    this.lightBefore = { offset: scene.sunOffset.clone(), radius: scene.sun.shadow.radius, samples: scene.sun.shadow.blurSamples, sun: scene.sun.intensity, ambient: scene.ambient.intensity };
+    scene.sunOffset.set(-0.5, 0.8, 7.5);
+    scene.sun.shadow.radius = 30; scene.sun.shadow.blurSamples = 48;
+    scene.sun.intensity = 0.75; scene.ambient.intensity = 2.3;
 
     this.labels.innerHTML = '';
     for (const cfg of configs) {
@@ -250,6 +256,8 @@ export class Shelf {
     this.group.removeFromParent();
     document.getElementById('spacer')!.style.height = '0px';
     this.scene.scene.environment = null; this.pmrem.dispose();
+    const L = this.lightBefore, sc = this.scene;
+    sc.sunOffset.copy(L.offset); sc.sun.shadow.radius = L.radius; sc.sun.shadow.blurSamples = L.samples; sc.sun.intensity = L.sun; sc.ambient.intensity = L.ambient;
     this.labels.innerHTML = '';
     document.body.classList.remove('shelf');
   }
