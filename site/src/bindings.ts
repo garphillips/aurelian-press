@@ -63,19 +63,22 @@ export function cloth(g: CanvasRenderingContext2D, colour: string, seed = 3) {
 }
 
 /** Gilt lettering with a hint of emboss: dark offset beneath, bright face on top. */
+const MR_GILT = 'rgb(0,70,230)', MR_CLOTH = 'rgb(0,225,0)';
+let inverted = false;   // while drawing an inverted spine: lettering is dark and matte on a gold ground
 function giltText(g: CanvasRenderingContext2D, text: string, x: number, y: number, size: number, gilt: string, mr: boolean, maxW: number, font = FELL) {
   g.font = `${size}px ${font}`; g.textAlign = 'center'; g.textBaseline = 'middle';
   let w = g.measureText(text).width;
   if (w > maxW) { size *= maxW / w; g.font = `${size}px ${font}`; }
-  if (mr) { g.fillStyle = 'rgb(0,70,230)'; g.fillText(text, x, y); return size; }
+  if (mr) { g.fillStyle = inverted ? MR_CLOTH : MR_GILT; g.fillText(text, x, y); return size; }
+  if (inverted) { g.fillStyle = 'rgba(0,0,0,0.25)'; g.fillText(text, x + size * 0.015, y + size * 0.02); g.fillStyle = gilt; g.fillText(text, x, y); return size; }
   g.fillStyle = 'rgba(0,0,0,0.45)'; g.fillText(text, x + size * 0.03, y + size * 0.04);
   g.fillStyle = gilt; g.fillText(text, x, y);
   g.fillStyle = 'rgba(255,245,210,0.35)'; g.fillText(text, x - size * 0.015, y - size * 0.02);
   return size;
 }
 function giltRule(g: CanvasRenderingContext2D, x0: number, x1: number, y: number, thick: number, gilt: string, mr: boolean) {
-  g.fillStyle = mr ? 'rgb(0,70,230)' : gilt; g.fillRect(x0, y - thick / 2, x1 - x0, thick);
-  if (!mr) { g.fillStyle = 'rgba(0,0,0,0.35)'; g.fillRect(x0, y + thick / 2, x1 - x0, Math.max(1, thick * 0.6)); }
+  g.fillStyle = mr ? (inverted ? MR_CLOTH : MR_GILT) : gilt; g.fillRect(x0, y - thick / 2, x1 - x0, thick);
+  if (!mr && !inverted) { g.fillStyle = 'rgba(0,0,0,0.35)'; g.fillRect(x0, y + thick / 2, x1 - x0, Math.max(1, thick * 0.6)); }
 }
 /** A roughness/metalness canvas base: cloth is rough and not metallic. */
 function mrBase(g: CanvasRenderingContext2D) { g.fillStyle = 'rgb(0,225,0)'; g.fillRect(0, 0, g.canvas.width, g.canvas.height); }
@@ -108,9 +111,18 @@ export function spine(cfg: BookConfig, mr: boolean): HTMLCanvasElement {
   const { d, h } = cfg.format, W = d * PX, H = h * PX, c = canvas(W, H), g = c.getContext('2d')!;
   if (mr) mrBase(g); else binding(g, cfg, cfg.volume ?? 1);
   if (cfg.spine && !cfg.spineTitle) return spinePanels(cfg, g, W, H, mr);
+  inverted = !!cfg.spineInverted;
+  let gilt = cfg.gilt;
+  if (inverted) {
+    // gold laid over the whole spine, the grain showing through; lettering in the binding's own colour
+    if (mr) { g.fillStyle = 'rgb(0,120,110)'; g.fillRect(0, 0, W, H); }      // half-metallic: gold leaf that still shows in diffuse light
+    else { g.fillStyle = '#e2c27a'; g.globalAlpha = 0.9; g.fillRect(0, 0, W, H); g.globalAlpha = 1;
+           const e = g.createLinearGradient(0, 0, W, 0); e.addColorStop(0, 'rgba(0,0,0,0.18)'); e.addColorStop(0.5, 'rgba(255,250,230,0.10)'); e.addColorStop(1, 'rgba(0,0,0,0.22)'); g.fillStyle = e; g.fillRect(0, 0, W, H); }
+    gilt = cfg.cloth;
+  }
   const pad = W * 0.16, head = H * 0.07, foot = H * 0.9;
-  giltRule(g, pad, W - pad, head, 3, cfg.gilt, mr); giltRule(g, pad, W - pad, head + 9, 1.5, cfg.gilt, mr);
-  giltRule(g, pad, W - pad, foot, 3, cfg.gilt, mr); giltRule(g, pad, W - pad, foot - 9, 1.5, cfg.gilt, mr);
+  giltRule(g, pad, W - pad, head, 3, gilt, mr); giltRule(g, pad, W - pad, head + 9, 1.5, gilt, mr);
+  giltRule(g, pad, W - pad, foot, 3, gilt, mr); giltRule(g, pad, W - pad, foot - 9, 1.5, gilt, mr);
   // title, reading top to bottom, one or two lines across the width of the spine
   const lines = balance(cfg.spineTitle ?? cfg.title), n = lines.length;
   const font = cfg.spineFont ? `"${cfg.spineFont}", ${FELL}` : FELL;
@@ -119,10 +131,11 @@ export function spine(cfg: BookConfig, mr: boolean): HTMLCanvasElement {
   const size = n === 1 ? W * 0.17 : Math.min(across / n * 0.6, W * 0.3);
   g.save(); g.translate(W / 2, (head + foot) / 2 - H * 0.02); g.rotate(Math.PI / 2);
   const lh = across / n;
-  lines.forEach((t, i) => giltText(g, t, 0, (i - (n - 1) / 2) * lh * 0.9, size, cfg.gilt, mr, length, font));
+  lines.forEach((t, i) => giltText(g, t, 0, (i - (n - 1) / 2) * lh * 0.9, size, gilt, mr, length, font));
   g.restore();
   // year, horizontal at the foot
-  giltText(g, cfg.year.split('–')[0], W / 2, foot + (H - foot) / 2, Math.min(W * 0.17, (H - foot) * 0.5), cfg.gilt, mr, W - pad, font);
+  giltText(g, cfg.year.split('–')[0], W / 2, foot + (H - foot) / 2, Math.min(W * 0.17, (H - foot) * 0.5), gilt, mr, W - pad, font);
+  inverted = false;
   return c;
 }
 

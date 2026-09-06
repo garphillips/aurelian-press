@@ -14,6 +14,7 @@ export interface BookConfig {
   cloth: string; gilt: string;   // binding colour (spine, edges) and the gilt
   spineTitle?: string;           // gilt along the spine; the year goes at the foot
   spineFont?: string;            // each book's spine in its own face
+  spineInverted?: boolean;       // gilt ground, dark lettering
   spine?: string[][];            // older style: gilt panels, each a stack of lines
   cover?: { front: string; frontMr?: string; grain?: string };   // photographs of the real binding
   portrait?: { image: string; caption: string; dates?: string };   // the author, as a frontispiece under the cover
