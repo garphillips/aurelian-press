@@ -1,0 +1,83 @@
+:root{
+  --paper:#e8dec4; --ink:#211a13; --ink-soft:#4a3f33; --rule:#8a7a62; --rule-faint:rgba(90,75,50,.35);
+  --serif:"IM Fell English", "EB Garamond", Georgia, serif;
+  --body:"EB Garamond", Georgia, serif;
+}
+html,body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);}
+body{overflow-x:hidden;}
+#spacer{width:1px;}
+#gl{position:fixed;inset:0;width:100%;height:100%;display:block;touch-action:pan-y;}
+#vignette{position:fixed;inset:0;pointer-events:none;
+  background:radial-gradient(ellipse at 50% 50%, rgba(0,0,0,0) 52%, rgba(70,48,22,.26) 100%);
+  box-shadow:inset 0 0 120px rgba(60,40,15,.22);}
+
+.ui{position:fixed;pointer-events:none;font-family:var(--serif);color:var(--ink);margin:0;}
+#masthead{top:28px;left:36px;}
+#masthead h1{margin:0;font-weight:400;font-size:22px;letter-spacing:.02em;}
+#masthead h1 em{font-style:italic;}
+#masthead p{margin:4px 0 0;font-size:13px;color:var(--ink-soft);font-variant:small-caps;letter-spacing:.14em;}
+
+#plate{top:32px;right:72px;text-align:right;font-size:15px;font-variant:small-caps;letter-spacing:.16em;color:var(--ink-soft);}
+#plate b{display:block;font-size:30px;font-weight:400;letter-spacing:.05em;color:var(--ink);font-variant:normal;}
+#plate small{display:block;font-size:12px;font-variant:normal;letter-spacing:.06em;color:var(--ink-soft);font-style:italic;}
+
+/* vertical ruler: one tick per plate, long tick every ten, a marker for the current plate */
+#ruler{top:50%;right:26px;height:min(62vh, 640px);width:28px;transform:translateY(-50%);pointer-events:auto;}
+#ruler .line{position:absolute;top:0;bottom:0;right:11px;width:1px;background:var(--rule-faint);}
+#ticks{list-style:none;margin:0;padding:0;position:absolute;inset:0;}
+#ticks li{position:absolute;right:8px;width:7px;height:1px;background:var(--rule);opacity:.55;cursor:pointer;
+  transform:translateY(-.5px);transition:width .2s, opacity .2s;}
+#ticks li::before{content:"";position:absolute;right:-8px;top:-5px;height:11px;width:28px;}   /* fat hit area */
+#ticks li.ten{width:13px;opacity:.9;}
+#ticks li:hover,#ticks li:focus-visible{width:16px;opacity:1;outline:none;}
+#ticks li span{position:absolute;right:26px;top:-9px;font-size:12px;letter-spacing:.06em;color:var(--ink-soft);white-space:nowrap;
+  opacity:0;transition:opacity .2s;font-variant:small-caps;}
+#ticks li.ten span{opacity:.75;}
+#ticks li.current span{opacity:0!important;}
+#ticks li:hover span,#ticks li:focus-visible span{opacity:1;color:var(--ink);}
+#marker{position:absolute;right:6px;width:11px;height:11px;transform:translateY(-5.5px) rotate(45deg);
+  background:var(--ink);border:1.5px solid var(--paper);box-shadow:0 0 0 1px var(--ink);transition:top .35s cubic-bezier(.2,.8,.2,1);}
+#marker span{position:absolute;right:26px;top:-3px;transform:rotate(-45deg);font-size:14px;color:var(--ink);letter-spacing:.06em;}
+#ruler{transition:opacity .4s;}
+body.pinned #ruler{opacity:.18;pointer-events:none;}
+@media (max-width:640px){ #ruler{right:10px;} #plate{right:44px;} }
+
+#hint{bottom:64px;left:0;right:0;text-align:center;font-size:14px;color:var(--ink-soft);font-style:italic;letter-spacing:.03em;transition:opacity .8s;}
+#hint.gone{opacity:0;}
+#credit{bottom:20px;left:24px;max-width:360px;font-family:var(--body);font-size:12px;line-height:1.35;color:var(--ink-soft);pointer-events:auto;}
+#credit a{color:inherit;}
+@media (max-width:760px){ #credit{display:none;} #masthead h1{font-size:18px;} #masthead p{display:none;} }
+
+#card{position:fixed;width:min(340px, calc(100vw - 48px));padding:22px 26px 20px;pointer-events:auto;
+  background:rgba(240,232,212,.94);border:1px solid var(--rule-faint);
+  box-shadow:0 18px 50px rgba(60,40,15,.18), inset 0 0 0 4px rgba(240,232,212,.9), inset 0 0 0 5px rgba(90,75,50,.25);
+  opacity:0;transform:translateY(10px) scale(.98);transition:opacity .45s ease, transform .55s cubic-bezier(.2,.8,.2,1);
+  font-family:var(--body);visibility:hidden;}
+#card.show{opacity:1;transform:none;visibility:visible;}
+#card .num{font-family:var(--serif);font-variant:small-caps;letter-spacing:.18em;font-size:12px;color:var(--ink-soft);}
+#card h2{font-family:var(--serif);font-weight:400;margin:6px 0 0;font-size:26px;line-height:1.1;text-wrap:balance;}
+#card h3{font-family:var(--serif);font-weight:400;font-style:italic;margin:2px 0 12px;font-size:17px;color:var(--ink-soft);min-height:1em;}
+#card hr{border:0;border-top:1px solid var(--rule);margin:0 0 12px;opacity:.6;}
+#card dl{margin:0 0 12px;display:grid;grid-template-columns:auto 1fr;gap:3px 14px;font-size:14px;}
+#card dl:empty{display:none;}
+#card dt{font-variant:small-caps;letter-spacing:.1em;color:var(--ink-soft);}
+#card dd{margin:0;}
+#card ul{margin:0;padding-left:18px;font-size:15px;line-height:1.45;}
+#card ul:empty{display:none;}
+#card li{margin-bottom:6px;}
+#card .src{margin:12px 0 0;font-size:12px;color:var(--ink-soft);line-height:1.4;}
+#card .src a{color:inherit;}
+#card .close{position:absolute;top:8px;right:12px;font-family:var(--serif);font-size:18px;color:var(--ink-soft);cursor:pointer;background:none;border:0;}
+#card .close:focus-visible{outline:2px solid var(--rule);}
+@media (max-width:640px){ #card{left:24px!important;right:24px;bottom:24px;top:auto!important;width:auto;} }
+
+#tune{position:fixed;left:24px;bottom:64px;pointer-events:auto;font-family:var(--body);font-size:13px;
+  background:rgba(240,232,212,.9);border:1px solid var(--rule-faint);padding:8px 12px;color:var(--ink-soft);}
+#tune summary{cursor:pointer;font-family:var(--serif);font-variant:small-caps;letter-spacing:.12em;}
+#tune label{display:grid;grid-template-columns:96px 1fr 38px;gap:8px;align-items:center;margin-top:6px;}
+#tune input{accent-color:#5a4a33;}
+#tune .row{display:flex;gap:8px;margin-top:8px;}
+#tune button{font-family:var(--serif);font-variant:small-caps;letter-spacing:.1em;font-size:13px;background:none;border:1px solid rgba(90,75,50,.4);color:var(--ink);padding:4px 10px;cursor:pointer;}
+#tune button[aria-pressed="true"]{background:rgba(90,75,50,.15);}
+
+@media (prefers-reduced-motion: reduce){ #marker{transition:none;} #card{transition:none;} }

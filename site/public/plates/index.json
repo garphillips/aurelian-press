@@ -1,0 +1,1026 @@
+[
+{
+"plateKey": "n16",
+"order": 1,
+"specimens": [
+"n16-1"
+],
+"rotate": [
+"cw"
+]
+},
+{
+"plateKey": "n18",
+"order": 2,
+"specimens": [
+"n18-1",
+"n18-2"
+],
+"rotate": [
+"none",
+"none"
+]
+},
+{
+"plateKey": "n20",
+"order": 3,
+"specimens": [
+"n20-1"
+],
+"rotate": [
+"cw"
+]
+},
+{
+"plateKey": "n22",
+"order": 4,
+"specimens": [
+"n22-1",
+"n22-2"
+],
+"rotate": [
+"none",
+"none"
+]
+},
+{
+"plateKey": "n32",
+"order": 5,
+"specimens": [
+"n32-1",
+"n32-2"
+],
+"rotate": [
+"none",
+"none"
+]
+},
+{
+"plateKey": "n34",
+"order": 6,
+"specimens": [
+"n34-1",
+"n34-2"
+],
+"rotate": [
+"none",
+"none"
+]
+},
+{
+"plateKey": "n36",
+"order": 7,
+"specimens": [
+"n36-1",
+"n36-2"
+],
+"rotate": [
+"none",
+"none"
+]
+},
+{
+"plateKey": "n38",
+"order": 8,
+"specimens": [
+"n38-1",
+"n38-2"
+],
+"rotate": [
+"none",
+"none"
+]
+},
+{
+"plateKey": "n40",
+"order": 9,
+"specimens": [
+"n40-1",
+"n40-2"
+],
+"rotate": [
+"none",
+"none"
+]
+},
+{
+"plateKey": "n50",
+"order": 10,
+"specimens": [
+"n50-1",
+"n50-2"
+],
+"rotate": [
+"none",
+"none"
+]
+},
+{
+"plateKey": "n52",
+"order": 11,
+"specimens": [
+"n52-1"
+],
+"rotate": [
+"cw"
+]
+},
+{
+"plateKey": "n54",
+"order": 12,
+"specimens": [
+"n54-1",
+"n54-2"
+],
+"rotate": [
+"none",
+"none"
+]
+},
+{
+"plateKey": "n56",
+"order": 13,
+"specimens": [
+"n56-1",
+"n56-2"
+],
+"rotate": [
+"none",
+"none"
+]
+},
+{
+"plateKey": "n66",
+"order": 14,
+"specimens": [
+"n66-1",
+"n66-2"
+],
+"rotate": [
+"none",
+"none"
+]
+},
+{
+"plateKey": "n68",
+"order": 15,
+"specimens": [
+"n68-1",
+"n68-2",
+"n68-3"
+],
+"rotate": [
+"none",
+"none",
+"none"
+]
+},
+{
+"plateKey": "n70",
+"order": 16,
+"specimens": [
+"n70-1",
+"n70-2"
+],
+"rotate": [
+"none",
+"none"
+]
+},
+{
+"plateKey": "n80",
+"order": 17,
+"specimens": [
+"n80-1",
+"n80-2"
+],
+"rotate": [
+"none",
+"none"
+]
+},
+{
+"plateKey": "n82",
+"order": 18,
+"specimens": [
+"n82-1",
+"n82-2"
+],
+"rotate": [
+"none",
+"none"
+]
+},
+{
+"plateKey": "n84",
+"order": 19,
+"specimens": [
+"n84-1",
+"n84-2"
+],
+"rotate": [
+"none",
+"none"
+]
+},
+{
+"plateKey": "n86",
+"order": 20,
+"specimens": [
+"n86-1",
+"n86-2"
+],
+"rotate": [
+"none",
+"none"
+]
+},
+{
+"plateKey": "n96",
+"order": 21,
+"specimens": [
+"n96-1",
+"n96-2"
+],
+"rotate": [
+"none",
+"none"
+]
+},
+{
+"plateKey": "n98",
+"order": 22,
+"specimens": [
+"n98-1",
+"n98-2"
+],
+"rotate": [
+"none",
+"none"
+]
+},
+{
+"plateKey": "n100",
+"order": 23,
+"specimens": [
+"n100-1",
+"n100-2"
+],
+"rotate": [
+"none",
+"none"
+]
+},
+{
+"plateKey": "n102",
+"order": 24,
+"specimens": [
+"n102-1",
+"n102-2"
+],
+"rotate": [
+"none",
+"none"
+]
+},
+{
+"plateKey": "n112",
+"order": 25,
+"specimens": [
+"n112-1",
+"n112-2",
+"n112-3"
+],
+"rotate": [
+"none",
+"none",
+"none"
+]
+},
+{
+"plateKey": "n114",
+"order": 26,
+"specimens": [
+"n114-1",
+"n114-2",
+"n114-3"
+],
+"rotate": [
+"none",
+"none",
+"none"
+]
+},
+{
+"plateKey": "n116",
+"order": 27,
+"specimens": [
+"n116-1",
+"n116-2",
+"n116-3"
+],
+"rotate": [
+"none",
+"none",
+"none"
+]
+},
+{
+"plateKey": "n118",
+"order": 28,
+"specimens": [
+"n118-1",
+"n118-2",
+"n118-3"
+],
+"rotate": [
+"none",
+"none",
+"none"
+]
+},
+{
+"plateKey": "n128",
+"order": 29,
+"specimens": [
+"n128-1",
+"n128-2",
+"n128-3"
+],
+"rotate": [
+"none",
+"none",
+"none"
+]
+},
+{
+"plateKey": "n130",
+"order": 30,
+"specimens": [
+"n130-1",
+"n130-2",
+"n130-3"
+],
+"rotate": [
+"none",
+"none",
+"none"
+]
+},
+{
+"plateKey": "n132",
+"order": 31,
+"specimens": [
+"n132-1",
+"n132-2",
+"n132-3"
+],
+"rotate": [
+"none",
+"none",
+"none"
+]
+},
+{
+"plateKey": "n134",
+"order": 32,
+"specimens": [
+"n134-1",
+"n134-2",
+"n134-3"
+],
+"rotate": [
+"none",
+"none",
+"none"
+]
+},
+{
+"plateKey": "n144",
+"order": 33,
+"specimens": [
+"n144-1",
+"n144-2",
+"n144-3"
+],
+"rotate": [
+"none",
+"none",
+"none"
+]
+},
+{
+"plateKey": "n146",
+"order": 34,
+"specimens": [
+"n146-1",
+"n146-2",
+"n146-3"
+],
+"rotate": [
+"none",
+"none",
+"none"
+]
+},
+{
+"plateKey": "n148",
+"order": 35,
+"specimens": [
+"n148-1",
+"n148-2",
+"n148-3"
+],
+"rotate": [
+"none",
+"none",
+"none"
+]
+},
+{
+"plateKey": "n150",
+"order": 36,
+"specimens": [
+"n150-1",
+"n150-2",
+"n150-3",
+"n150-4"
+],
+"rotate": [
+"none",
+"none",
+"none",
+"none"
+]
+},
+{
+"plateKey": "n160",
+"order": 37,
+"specimens": [
+"n160-1",
+"n160-2",
+"n160-3",
+"n160-4"
+],
+"rotate": [
+"none",
+"none",
+"none",
+"none"
+]
+},
+{
+"plateKey": "n162",
+"order": 38,
+"specimens": [
+"n162-1",
+"n162-2",
+"n162-3",
+"n162-4"
+],
+"rotate": [
+"none",
+"none",
+"none",
+"none"
+]
+},
+{
+"plateKey": "n164",
+"order": 39,
+"specimens": [
+"n164-1",
+"n164-2",
+"n164-3",
+"n164-4",
+"n164-5"
+],
+"rotate": [
+"none",
+"none",
+"none",
+"none",
+"none"
+]
+},
+{
+"plateKey": "n174",
+"order": 40,
+"specimens": [
+"n174-1",
+"n174-2",
+"n174-3"
+],
+"rotate": [
+"none",
+"none",
+"none"
+]
+},
+{
+"plateKey": "n176",
+"order": 41,
+"specimens": [
+"n176-1",
+"n176-2"
+],
+"rotate": [
+"none",
+"none"
+]
+},
+{
+"plateKey": "n178",
+"order": 42,
+"specimens": [
+"n178-1",
+"n178-2"
+],
+"rotate": [
+"none",
+"none"
+]
+},
+{
+"plateKey": "n180",
+"order": 43,
+"specimens": [
+"n180-1",
+"n180-2",
+"n180-3",
+"n180-4"
+],
+"rotate": [
+"none",
+"none",
+"none",
+"none"
+]
+},
+{
+"plateKey": "n182",
+"order": 44,
+"specimens": [
+"n182-1",
+"n182-2",
+"n182-3",
+"n182-4"
+],
+"rotate": [
+"none",
+"none",
+"none",
+"none"
+]
+},
+{
+"plateKey": "n184",
+"order": 45,
+"specimens": [
+"n184-1",
+"n184-2"
+],
+"rotate": [
+"none",
+"none"
+]
+},
+{
+"plateKey": "n194",
+"order": 46,
+"specimens": [
+"n194-1",
+"n194-2"
+],
+"rotate": [
+"none",
+"none"
+]
+},
+{
+"plateKey": "n196",
+"order": 47,
+"specimens": [
+"n196-1",
+"n196-2"
+],
+"rotate": [
+"none",
+"none"
+]
+},
+{
+"plateKey": "n198",
+"order": 48,
+"specimens": [
+"n198-1"
+],
+"rotate": [
+"cw"
+]
+},
+{
+"plateKey": "n200",
+"order": 49,
+"specimens": [
+"n200-1",
+"n200-2",
+"n200-3"
+],
+"rotate": [
+"none",
+"none",
+"none"
+]
+},
+{
+"plateKey": "n202",
+"order": 50,
+"specimens": [
+"n202-1",
+"n202-2",
+"n202-3"
+],
+"rotate": [
+"none",
+"none",
+"none"
+]
+},
+{
+"plateKey": "n212",
+"order": 51,
+"specimens": [
+"n212-1",
+"n212-2",
+"n212-3"
+],
+"rotate": [
+"none",
+"none",
+"none"
+]
+},
+{
+"plateKey": "n214",
+"order": 52,
+"specimens": [
+"n214-1",
+"n214-2",
+"n214-3"
+],
+"rotate": [
+"none",
+"none",
+"none"
+]
+},
+{
+"plateKey": "n216",
+"order": 53,
+"specimens": [
+"n216-1",
+"n216-2"
+],
+"rotate": [
+"none",
+"none"
+]
+},
+{
+"plateKey": "n226",
+"order": 54,
+"specimens": [
+"n226-1",
+"n226-2",
+"n226-3"
+],
+"rotate": [
+"none",
+"none",
+"none"
+]
+},
+{
+"plateKey": "n228",
+"order": 55,
+"specimens": [
+"n228-1",
+"n228-2"
+],
+"rotate": [
+"none",
+"none"
+]
+},
+{
+"plateKey": "n230",
+"order": 56,
+"specimens": [
+"n230-1",
+"n230-2"
+],
+"rotate": [
+"none",
+"none"
+]
+},
+{
+"plateKey": "n232",
+"order": 57,
+"specimens": [
+"n232-1",
+"n232-2"
+],
+"rotate": [
+"none",
+"none"
+]
+},
+{
+"plateKey": "n234",
+"order": 58,
+"specimens": [
+"n234-1",
+"n234-2",
+"n234-3"
+],
+"rotate": [
+"none",
+"none",
+"none"
+]
+},
+{
+"plateKey": "n244",
+"order": 59,
+"specimens": [
+"n244-1",
+"n244-2",
+"n244-3"
+],
+"rotate": [
+"none",
+"none",
+"none"
+]
+},
+{
+"plateKey": "n246",
+"order": 60,
+"specimens": [
+"n246-1",
+"n246-2",
+"n246-3"
+],
+"rotate": [
+"none",
+"none",
+"none"
+]
+},
+{
+"plateKey": "n248",
+"order": 61,
+"specimens": [
+"n248-1",
+"n248-2",
+"n248-3"
+],
+"rotate": [
+"none",
+"none",
+"none"
+]
+},
+{
+"plateKey": "n250",
+"order": 62,
+"specimens": [
+"n250-1",
+"n250-2"
+],
+"rotate": [
+"none",
+"none"
+]
+},
+{
+"plateKey": "n252",
+"order": 63,
+"specimens": [
+"n252-1",
+"n252-2"
+],
+"rotate": [
+"none",
+"none"
+]
+},
+{
+"plateKey": "n262",
+"order": 64,
+"specimens": [
+"n262-1",
+"n262-2"
+],
+"rotate": [
+"none",
+"none"
+]
+},
+{
+"plateKey": "n264",
+"order": 65,
+"specimens": [
+"n264-1",
+"n264-2"
+],
+"rotate": [
+"none",
+"none"
+]
+},
+{
+"plateKey": "n266",
+"order": 66,
+"specimens": [
+"n266-1"
+],
+"rotate": [
+"cw"
+]
+},
+{
+"plateKey": "n268",
+"order": 67,
+"specimens": [
+"n268-1",
+"n268-2"
+],
+"rotate": [
+"none",
+"none"
+]
+},
+{
+"plateKey": "n270",
+"order": 68,
+"specimens": [
+"n270-1",
+"n270-2",
+"n270-3"
+],
+"rotate": [
+"none",
+"none",
+"none"
+]
+},
+{
+"plateKey": "n280",
+"order": 69,
+"specimens": [
+"n280-1",
+"n280-2",
+"n280-3"
+],
+"rotate": [
+"none",
+"none",
+"none"
+]
+},
+{
+"plateKey": "n282",
+"order": 70,
+"specimens": [
+"n282-1",
+"n282-2"
+],
+"rotate": [
+"none",
+"none"
+]
+},
+{
+"plateKey": "n284",
+"order": 71,
+"specimens": [
+"n284-1",
+"n284-2"
+],
+"rotate": [
+"none",
+"none"
+]
+},
+{
+"plateKey": "n286",
+"order": 72,
+"specimens": [
+"n286-1",
+"n286-2",
+"n286-3",
+"n286-4"
+],
+"rotate": [
+"none",
+"none",
+"none",
+"none"
+]
+},
+{
+"plateKey": "n288",
+"order": 73,
+"specimens": [
+"n288-1",
+"n288-2"
+],
+"rotate": [
+"none",
+"none"
+]
+},
+{
+"plateKey": "n298",
+"order": 74,
+"specimens": [
+"n298-1"
+],
+"rotate": [
+"cw"
+]
+},
+{
+"plateKey": "n300",
+"order": 75,
+"specimens": [
+"n300-1"
+],
+"rotate": [
+"cw"
+]
+},
+{
+"plateKey": "n302",
+"order": 76,
+"specimens": [
+"n302-1"
+],
+"rotate": [
+"cw"
+]
+},
+{
+"plateKey": "n304",
+"order": 77,
+"specimens": [
+"n304-1"
+],
+"rotate": [
+"cw"
+]
+},
+{
+"plateKey": "n306",
+"order": 78,
+"specimens": [
+"n306-1",
+"n306-2"
+],
+"rotate": [
+"none",
+"none"
+]
+},
+{
+"plateKey": "n308",
+"order": 79,
+"specimens": [
+"n308-1",
+"n308-2",
+"n308-3"
+],
+"rotate": [
+"none",
+"none",
+"none"
+]
+},
+{
+"plateKey": "n310",
+"order": 80,
+"specimens": [
+"n310-1",
+"n310-2",
+"n310-3"
+],
+"rotate": [
+"none",
+"none",
+"none"
+]
+}
+]

@@ -1,0 +1,44 @@
+{
+ "n16": {
+  "rotate": "cw",
+  "_note": "printed sideways, head to the left"
+ },
+ "n20": {
+  "rotate": "cw",
+  "_note": "printed sideways, head to the left"
+ },
+ "n52": {
+  "rotate": "cw",
+  "_note": "printed sideways, head to the left"
+ },
+ "n198": {
+  "rotate": "cw",
+  "_note": "printed sideways, head to the left"
+ },
+ "n266": {
+  "rotate": "cw",
+  "_note": "printed sideways, head to the left"
+ },
+ "n298": {
+  "rotate": "cw",
+  "_note": "printed sideways, head to the left"
+ },
+ "n300": {
+  "rotate": "cw",
+  "_note": "printed sideways, head to the left"
+ },
+ "n302": {
+  "rotate": "cw",
+  "_note": "printed sideways, head to the left"
+ },
+ "n304": {
+  "rotate": "cw",
+  "_note": "printed sideways, head to the left"
+ },
+ "n284": {
+  "splitY": [
+   970
+  ],
+  "_note": "two specimens joined through the frame"
+ }
+}

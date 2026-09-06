@@ -1,0 +1,365 @@
+<meta charset="utf-8">
+<title>Priam's Birdwing</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#e8dec4; --ink:#211a13; --ink-soft:#4a3f33; --rule:#8a7a62;
+    --serif:"IM Fell English", "EB Garamond", Georgia, serif;
+    --body:"EB Garamond", Georgia, serif;
+  }
+  html,body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);}
+  body{overflow:hidden;}
+  #gl{position:fixed;inset:0;width:100%;height:100%;display:block;touch-action:none;}
+  #vignette{position:fixed;inset:0;pointer-events:none;
+    background:radial-gradient(ellipse at 50% 50%, rgba(0,0,0,0) 50%, rgba(70,48,22,.28) 100%);}
+  #edge{position:fixed;inset:0;pointer-events:none;box-shadow:inset 0 0 120px rgba(60,40,15,.25);}
+
+  .ui{position:fixed;pointer-events:none;font-family:var(--serif);color:var(--ink);}
+  #masthead{top:28px;left:36px;}
+  #masthead h1{margin:0;font-weight:400;font-size:22px;letter-spacing:.02em;}
+  #masthead h1 em{font-style:italic;}
+  #masthead p{margin:4px 0 0;font-size:13px;color:var(--ink-soft);font-variant:small-caps;letter-spacing:.14em;}
+  #plate{top:32px;right:40px;text-align:right;font-size:15px;font-variant:small-caps;letter-spacing:.16em;color:var(--ink-soft);}
+  #plate b{display:block;font-size:30px;font-weight:400;letter-spacing:.05em;color:var(--ink);font-variant:normal;}
+  #hint{bottom:26px;left:0;right:0;text-align:center;font-size:14px;color:var(--ink-soft);
+    font-style:italic;letter-spacing:.03em;transition:opacity .8s;}
+  #hint.gone{opacity:0;}
+  #credit{bottom:22px;right:28px;max-width:300px;text-align:right;font-family:var(--body);font-size:12px;line-height:1.35;color:var(--ink-soft);}
+  #credit i{font-style:italic;}
+  @media (max-width:760px){ #credit{display:none;} #masthead h1{font-size:18px;} }
+
+  #card{position:fixed;width:min(340px, calc(100vw - 48px));padding:22px 26px 20px;pointer-events:auto;
+    background:rgba(240,232,212,.94);border:1px solid rgba(90,75,50,.35);
+    box-shadow:0 18px 50px rgba(60,40,15,.18), inset 0 0 0 4px rgba(240,232,212,.9), inset 0 0 0 5px rgba(90,75,50,.25);
+    opacity:0;transform:translateY(10px) scale(.98);transition:opacity .45s ease, transform .55s cubic-bezier(.2,.8,.2,1);
+    font-family:var(--body);}
+  #card.show{opacity:1;transform:none;}
+  #card .num{font-family:var(--serif);font-variant:small-caps;letter-spacing:.18em;font-size:12px;color:var(--ink-soft);}
+  #card h2{font-family:var(--serif);font-weight:400;margin:6px 0 0;font-size:26px;line-height:1.1;text-wrap:balance;}
+  #card h3{font-family:var(--serif);font-weight:400;font-style:italic;margin:2px 0 12px;font-size:17px;color:var(--ink-soft);}
+  #card hr{border:0;border-top:1px solid var(--rule);margin:0 0 12px;opacity:.6;}
+  #card dl{margin:0 0 12px;display:grid;grid-template-columns:auto 1fr;gap:3px 14px;font-size:14px;}
+  #card dt{font-variant:small-caps;letter-spacing:.1em;color:var(--ink-soft);}
+  #card dd{margin:0;}
+  #card ul{margin:0;padding-left:18px;font-size:15px;line-height:1.45;}
+  #card li{margin-bottom:6px;}
+  #card .close{position:absolute;top:8px;right:12px;font-family:var(--serif);font-size:18px;
+    color:var(--ink-soft);cursor:pointer;background:none;border:0;}
+  #card .close:focus-visible{outline:2px solid var(--rule);}
+  @media (max-width:640px){ #card{left:24px!important;right:24px;bottom:24px;top:auto!important;width:auto;} }
+
+  #tune{position:fixed;left:24px;bottom:24px;pointer-events:auto;font-family:var(--body);font-size:13px;
+    background:rgba(240,232,212,.85);border:1px solid rgba(90,75,50,.3);padding:8px 12px;color:var(--ink-soft);}
+  #tune summary{cursor:pointer;font-family:var(--serif);font-variant:small-caps;letter-spacing:.12em;}
+  #tune label{display:grid;grid-template-columns:96px 1fr 38px;gap:8px;align-items:center;margin-top:6px;}
+  #tune input{accent-color:#5a4a33;}
+  #tune .row{display:flex;gap:8px;margin-top:8px;}
+  #tune button{font-family:var(--serif);font-variant:small-caps;letter-spacing:.1em;font-size:13px;background:none;
+    border:1px solid rgba(90,75,50,.4);color:var(--ink);padding:4px 10px;cursor:pointer;}
+  #tune button[aria-pressed="true"]{background:rgba(90,75,50,.15);}
+  @media (max-width:640px){ #tune{display:none;} }
+</style>
+
+<canvas id="gl"></canvas>
+<div id="vignette"></div><div id="edge"></div>
+
+<div class="ui" id="masthead">
+  <h1>The <em>Lepidoptera</em> Plates</h1>
+  <p>a trial with a real engraving</p>
+</div>
+<div class="ui" id="plate"><span>Plate</span><b>I</b></div>
+<div class="ui" id="hint">move near the specimen &nbsp;·&nbsp; click to pin it</div>
+<div class="ui" id="credit">Plate from <i>Histoire naturelle des lépidoptères exotiques</i>, Paris, 1835–36, drawn and engraved by Pauquet. Biodiversity Heritage Library, public domain.</div>
+
+<div id="card" class="ui">
+  <button class="close" aria-label="Unpin">×</button>
+  <div class="num">Plate I</div>
+  <h2>Priam’s Birdwing</h2>
+  <h3>Ornithoptera priamus</h3>
+  <hr>
+  <dl><dt>Family</dt><dd>Papilionidae</dd><dt>Wingspan</dt><dd>150–190 mm (male)</dd><dt>Range</dt><dd>Moluccas to New Guinea and northern Australia</dd></dl>
+  <ul>
+    <li>The first birdwing ever described, named by Linnaeus in 1758 after Priam, king of Troy. He gave the great swallowtails the names of Trojan heroes.</li>
+    <li>The male’s green is structural colour, not pigment: microscopic ridges on the scales scatter light. The engraver could only approximate it with paint.</li>
+    <li>Females are larger, brown and cream, and were long thought to be a different species.</li>
+    <li>Caterpillars feed on poisonous Dutchman’s pipe vines and carry the toxin into adulthood, so birds learn to leave the adults alone.</li>
+  </ul>
+</div>
+
+<details id="tune" class="ui">
+  <summary>Tune the motion</summary>
+  <label>Flap amplitude <input type="range" id="tAmp" min="0" max="1.0" step="0.01" value="0.38"><span></span></label>
+  <label>Flap speed <input type="range" id="tFreq" min="0.2" max="4" step="0.1" value="1.1"><span></span></label>
+  <label>Wing bend <input type="range" id="tLag" min="0" max="1.6" step="0.01" value="0.85"><span></span></label>
+  <label>Resting tilt <input type="range" id="tRest" min="0" max="0.6" step="0.01" value="0.14"><span></span></label>
+  <label>Breathing <input type="range" id="tBreath" min="0" max="0.2" step="0.005" value="0.05"><span></span></label>
+  <div class="row">
+    <button id="bColour" aria-pressed="true">Hand-coloured</button>
+    <button id="bInk" aria-pressed="false">Ink only</button>
+  </div>
+</details>
+
+<script type="module">
+import * as THREE from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/0.160.0/three.module.min.js';
+
+const MANIFEST = __MANIFEST_JSON__;
+
+/* ------------------------------------------------------------------ */
+/*  Paper                                                               */
+/* ------------------------------------------------------------------ */
+function rng(seed){ let a = seed>>>0; return ()=>{ a|=0; a = a + 0x6D2B79F5|0; let t = Math.imul(a^a>>>15, 1|a); t = t + Math.imul(t^t>>>7, 61|t)^t; return ((t^t>>>14)>>>0)/4294967296; }; }
+function drawPaper(){
+  const P = 2048;
+  const c = document.createElement('canvas'); c.width=c.height=P; const g = c.getContext('2d');
+  g.fillStyle = '#ece3ca'; g.fillRect(0,0,P,P);
+  const img = g.getImageData(0,0,P,P), d = img.data; const r = rng(7);
+  for (let i=0;i<d.length;i+=4){ const n = (r()-0.5)*22; d[i]+=n; d[i+1]+=n*0.95; d[i+2]+=n*0.8; }
+  g.putImageData(img,0,0);
+  g.strokeStyle = 'rgba(120,95,60,0.10)'; g.lineWidth = 1;
+  for (let i=0;i<2600;i++){ const x=r()*P, y=r()*P, a=r()*6.28, l=6+r()*26; g.beginPath(); g.moveTo(x,y); g.lineTo(x+Math.cos(a)*l, y+Math.sin(a)*l); g.stroke(); }
+  for (let i=0;i<26;i++){ const x=r()*P, y=r()*P, rad=20+r()*90; const gr=g.createRadialGradient(x,y,0,x,y,rad); gr.addColorStop(0,`rgba(150,110,60,${0.05+r()*0.08})`); gr.addColorStop(1,'rgba(150,110,60,0)'); g.fillStyle=gr; g.beginPath(); g.arc(x,y,rad,0,6.28); g.fill(); }
+  const gr = g.createLinearGradient(0,0,P,P); gr.addColorStop(0,'rgba(255,250,235,0.18)'); gr.addColorStop(1,'rgba(120,90,50,0.10)'); g.fillStyle=gr; g.fillRect(0,0,P,P);
+  return c;
+}
+
+/* ------------------------------------------------------------------ */
+/*  Scene                                                               */
+/* ------------------------------------------------------------------ */
+const canvas = document.getElementById('gl');
+const renderer = new THREE.WebGLRenderer({ canvas, antialias:true });
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+renderer.shadowMap.enabled = true;
+renderer.shadowMap.type = THREE.VSMShadowMap;
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(22, 1, 0.1, 100);
+const CAM_DIST = 8.4;
+camera.position.set(0, 0, CAM_DIST);
+
+const paperTex = new THREE.CanvasTexture(drawPaper());
+paperTex.colorSpace = THREE.SRGBColorSpace; paperTex.wrapS = paperTex.wrapT = THREE.MirroredRepeatWrapping;
+paperTex.repeat.set(4, 4); paperTex.anisotropy = renderer.capabilities.getMaxAnisotropy();
+const paper = new THREE.Mesh(new THREE.PlaneGeometry(40, 40), new THREE.MeshLambertMaterial({ map: paperTex }));
+paper.receiveShadow = true; scene.add(paper);
+
+scene.add(new THREE.AmbientLight(0xfff6e6, 1.85));
+const sun = new THREE.DirectionalLight(0xfff1dc, 1.25);
+sun.castShadow = true; sun.shadow.mapSize.set(2048, 2048);
+sun.shadow.camera.near = 1; sun.shadow.camera.far = 20;
+sun.shadow.camera.left = sun.shadow.camera.bottom = -3.5; sun.shadow.camera.right = sun.shadow.camera.top = 3.5;
+sun.shadow.radius = 9; sun.shadow.blurSamples = 16; sun.shadow.bias = -0.0005;
+sun.position.set(-1.8, 2.6, 6.5);
+scene.add(sun); scene.add(sun.target);
+
+/* ------------------------------------------------------------------ */
+/*  Shader injection: hinge + bend in the vertex stage, ink toggle in   */
+/*  the fragment stage. Shared by visible and shadow-depth materials.   */
+/* ------------------------------------------------------------------ */
+const WING_UNIFORMS = /* glsl */`
+  uniform float uPhase; uniform float uAmp; uniform float uRest; uniform float uLag;
+  void main() {`;
+const WING_VERT = /* glsl */`
+  vec3 transformed = vec3(position);
+  float u = clamp(position.x, 0.0, 1.0);
+  float th = uRest + uAmp * sin(uPhase - uLag * pow(u, 1.5));
+  transformed.x = position.x * cos(th);
+  transformed.z = position.x * sin(th);
+`;
+const INK_FRAG = /* glsl */`
+  #include <map_fragment>
+  {
+    float l = dot(diffuseColor.rgb, vec3(0.299, 0.587, 0.114));
+    vec3 sepia = vec3(l) * vec3(1.0, 0.96, 0.90);
+    diffuseColor.rgb = mix(diffuseColor.rgb, sepia, uInk);
+  }
+`;
+const inkUniform = { value: 0 };
+function inject(mat, wingUniforms){
+  mat.onBeforeCompile = (shader)=>{
+    shader.uniforms.uInk = inkUniform;
+    if (wingUniforms){
+      Object.assign(shader.uniforms, wingUniforms);
+      shader.vertexShader = shader.vertexShader.replace('void main() {', WING_UNIFORMS).replace('#include <begin_vertex>', WING_VERT);
+    }
+    shader.fragmentShader = shader.fragmentShader.replace('void main() {', 'uniform float uInk;\n void main() {').replace('#include <map_fragment>', INK_FRAG);
+  };
+  mat.customProgramCacheKey = ()=> wingUniforms ? 'wing' : 'body';
+}
+
+/* ------------------------------------------------------------------ */
+/*  Build the specimen from the manifest                                */
+/* ------------------------------------------------------------------ */
+const loader = new THREE.TextureLoader();
+function loadTex(uri, srgb){
+  const t = loader.load(uri);
+  if (srgb) t.colorSpace = THREE.SRGBColorSpace;
+  t.anisotropy = 8; t.minFilter = THREE.LinearMipmapLinearFilter; return t;
+}
+
+const wingGeo = new THREE.PlaneGeometry(1, 1, 48, 48); wingGeo.translate(0.5, 0, 0);
+const group = new THREE.Group(); scene.add(group);
+
+const P = MANIFEST.parts;
+const totalW = P['fore-R'].bbox[2] - P['fore-L'].bbox[0];
+const SPAN = 2.6;                               // world units across the spread specimen
+const s = SPAN / totalW;                        // px -> world
+const [axisX, bodyCy] = MANIFEST.bodyCenter;
+
+const wingUniforms = {
+  fore: { uPhase:{value:0}, uAmp:{value:0.04}, uRest:{value:0.14}, uLag:{value:0.7} },
+  hind: { uPhase:{value:0}, uAmp:{value:0.04}, uRest:{value:0.14}, uLag:{value:0.7} },
+};
+
+function makeMaterials(part, wingU){
+  const map = loadTex(part.rgb, true), alpha = loadTex(part.alpha, false);
+  const mat = new THREE.MeshBasicMaterial({ map, alphaMap: alpha, blending: THREE.MultiplyBlending, transparent: true, depthWrite: false, side: THREE.DoubleSide });
+  mat.alphaTest = 0.5; inject(mat, wingU);
+  const dm = new THREE.MeshDepthMaterial({ depthPacking: THREE.RGBADepthPacking, side: THREE.DoubleSide });
+  if (wingU) inject(dm, wingU);
+  return { mat, dm };
+}
+
+const wings = [];
+for (const name of ['hind-R', 'hind-L', 'fore-R', 'fore-L']){
+  const part = P[name], side = name.endsWith('R') ? 1 : -1, kind = name.startsWith('fore') ? 'fore' : 'hind';
+  const { mat, dm } = makeMaterials(part, wingUniforms[kind]);
+  const mesh = new THREE.Mesh(wingGeo, mat);
+  mesh.customDepthMaterial = dm; mesh.castShadow = true;
+  mesh.scale.set(side * part.w * s, part.h * s, 1);
+  const hingeX = side > 0 ? part.bbox[0] : part.bbox[2];
+  mesh.position.set((hingeX - axisX) * s, -((part.bbox[1] + part.bbox[3]) / 2 - bodyCy) * s, kind === 'fore' ? 0.006 : 0.002);
+  mesh.renderOrder = kind === 'fore' ? 2 : 1;
+  group.add(mesh); wings.push(mesh);
+}
+{
+  const part = P.body;
+  const { mat, dm } = makeMaterials(part, null);
+  const mesh = new THREE.Mesh(new THREE.PlaneGeometry(part.w * s, part.h * s), mat);
+  mesh.customDepthMaterial = dm; mesh.castShadow = true; mesh.renderOrder = 3;
+  mesh.position.set(((part.bbox[0] + part.bbox[2]) / 2 - axisX) * s, -((part.bbox[1] + part.bbox[3]) / 2 - bodyCy) * s, 0.012);
+  group.add(mesh); group.userData.body = mesh;
+}
+const spanW = SPAN;
+const hit = new THREE.Mesh(new THREE.PlaneGeometry(spanW, (P.body.h) * s), new THREE.MeshBasicMaterial({ visible:false }));
+group.add(hit);
+
+/* ------------------------------------------------------------------ */
+/*  Interaction                                                         */
+/* ------------------------------------------------------------------ */
+const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const tune = { amp: 0.38, freq: 1.1, lag: 0.85, rest: 0.14, breath: 0.05 };
+for (const [id, key] of [['tAmp','amp'],['tFreq','freq'],['tLag','lag'],['tRest','rest'],['tBreath','breath']]){
+  const el = document.getElementById(id); const out = el.nextElementSibling;
+  const upd = ()=>{ tune[key] = parseFloat(el.value); out.textContent = el.value; }; el.addEventListener('input', upd); upd();
+}
+const bColour = document.getElementById('bColour'), bInk = document.getElementById('bInk');
+let inkTarget = 0;
+bColour.addEventListener('click', ()=>{ inkTarget = 0; bColour.setAttribute('aria-pressed','true'); bInk.setAttribute('aria-pressed','false'); });
+bInk.addEventListener('click', ()=>{ inkTarget = 1; bColour.setAttribute('aria-pressed','false'); bInk.setAttribute('aria-pressed','true'); });
+
+const raycaster = new THREE.Raycaster();
+const pointer = new THREE.Vector2(-10,-10), pointerWorld = new THREE.Vector3();
+let pointerSpeed = 0, lastPX = 0, lastPY = 0, hasPointer = false;
+const plane0 = new THREE.Plane(new THREE.Vector3(0,0,1), 0);
+const state = { phase: Math.random()*6.28, energy: 0, burst: 0, nextBurst: 2.5, lift: 0, amp: 0.04, freq: 0.7, pinned: false };
+
+addEventListener('pointermove', (e)=>{
+  hasPointer = true;
+  pointer.set((e.clientX/innerWidth)*2-1, -(e.clientY/innerHeight)*2+1);
+  pointerSpeed = Math.min(1, Math.hypot(e.clientX-lastPX, e.clientY-lastPY)/40);
+  lastPX = e.clientX; lastPY = e.clientY;
+});
+addEventListener('pointerleave', ()=>{ hasPointer = false; });
+addEventListener('keydown', (e)=>{ if (e.key==='Escape') unpin(); });
+
+const card = document.getElementById('card');
+card.querySelector('.close').addEventListener('click', (e)=>{ e.stopPropagation(); unpin(); });
+function pin(){ state.pinned = true; card.classList.add('show'); document.getElementById('hint').classList.add('gone'); }
+function unpin(){ state.pinned = false; card.classList.remove('show'); }
+canvas.addEventListener('click', (e)=>{
+  pointer.set((e.clientX/innerWidth)*2-1, -(e.clientY/innerHeight)*2+1);
+  raycaster.setFromCamera(pointer, camera);
+  if (raycaster.intersectObject(hit).length){ state.pinned ? unpin() : pin(); }
+  else if (state.pinned) unpin();
+});
+
+function resize(){
+  const w = innerWidth, h = innerHeight;
+  renderer.setSize(w, h, false);
+  camera.aspect = w/h; camera.updateProjectionMatrix();
+  // keep the specimen inside narrow viewports
+  const viewW = 2 * CAM_DIST * Math.tan(THREE.MathUtils.degToRad(22/2)) * camera.aspect;
+  group.scale.setScalar(Math.min(1, (viewW * 0.92) / SPAN));
+}
+addEventListener('resize', resize); resize();
+
+/* ------------------------------------------------------------------ */
+/*  Frame loop                                                          */
+/* ------------------------------------------------------------------ */
+const clock = new THREE.Clock();
+const camTarget = new THREE.Vector3(), tmpV = new THREE.Vector3();
+let camX = 0;
+
+function frame(){
+  const dt = Math.min(clock.getDelta(), 0.05), t = clock.elapsedTime;
+  const S = state;
+
+  const wantX = S.pinned && innerWidth > 640 ? spanW * 0.42 : 0;
+  camX += (wantX - camX) * (1 - Math.pow(0.001, dt));
+  const fovTarget = S.pinned ? 19 : 22;
+  camera.fov += (fovTarget - camera.fov) * (1 - Math.pow(0.01, dt)); camera.updateProjectionMatrix();
+
+  const px = hasPointer ? pointer.x : 0, py = hasPointer ? pointer.y : 0;
+  camTarget.set(px*0.18 + camX, py*0.12, CAM_DIST);
+  camera.position.lerp(camTarget, 1 - Math.pow(0.02, dt));
+  camera.lookAt(px*0.05 + camX, py*0.03, 0);
+
+  raycaster.setFromCamera(pointer, camera);
+  raycaster.ray.intersectPlane(plane0, pointerWorld);
+  let hovering = false;
+  if (hasPointer && !reduceMotion){
+    const d = tmpV.copy(pointerWorld).length() / (spanW*0.6*group.scale.x);
+    if (d < 1){ S.energy = Math.min(1, S.energy + dt*(0.35 + 0.6*pointerSpeed)*(1-d)); hovering = d < 0.85; }
+  }
+  S.nextBurst -= dt;
+  if (S.nextBurst < 0 && !reduceMotion){ S.burst = 1.2 + Math.random()*1.5; S.nextBurst = 5 + Math.random()*8; }
+  if (S.burst > 0){ S.burst -= dt; S.energy = Math.min(0.6, S.energy + dt*0.3); }
+  S.energy *= Math.pow(0.55, dt);
+  if (S.pinned) S.energy *= Math.pow(0.02, dt);
+
+  const breathing = reduceMotion ? 0 : tune.breath;
+  const targetAmp  = S.pinned ? 0 : breathing + S.energy*tune.amp;
+  const targetFreq = S.pinned ? 0.25 : 0.4 + S.energy*tune.freq;
+  S.amp  += (targetAmp  - S.amp)  * (1 - Math.pow(0.08, dt));
+  S.freq += (targetFreq - S.freq) * (1 - Math.pow(0.15, dt));
+  S.phase += 6.2831*S.freq*dt;
+  S.lift += ((S.pinned ? 0 : S.energy*0.3) - S.lift) * (1 - Math.pow(0.08, dt));
+  const rest = S.pinned ? 0.03 : tune.rest + 0.04*Math.sin(t*0.7);
+
+  for (const k of ['fore','hind']){ const u = wingUniforms[k]; u.uAmp.value = S.amp; u.uRest.value = rest; u.uLag.value = tune.lag; }
+  wingUniforms.fore.uPhase.value = S.phase;
+  wingUniforms.hind.uPhase.value = S.phase - 0.35;
+  group.position.z = S.lift;
+  group.userData.body.position.z = 0.012 + Math.max(0, -Math.sin(S.phase))*0.02*S.amp;
+  group.rotation.z = Math.sin(t*0.4)*0.01*S.energy;
+
+  inkUniform.value += (inkTarget - inkUniform.value) * (1 - Math.pow(0.02, dt));
+
+  pointerSpeed *= Math.pow(0.001, dt);
+  canvas.style.cursor = hovering ? 'pointer' : 'default';
+
+  if (S.pinned && innerWidth > 640){
+    tmpV.set(spanW*0.55*group.scale.x, spanW*0.30*group.scale.x, 0).project(camera);
+    const x = (tmpV.x*0.5+0.5)*innerWidth + 28, y = (-tmpV.y*0.5+0.5)*innerHeight;
+    card.style.left = `${Math.min(innerWidth - card.offsetWidth - 32, Math.max(24, x))}px`;
+    card.style.top  = `${Math.min(innerHeight - card.offsetHeight - 24, Math.max(24, y))}px`;
+  }
+
+  renderer.render(scene, camera);
+  requestAnimationFrame(frame);
+}
+frame();
+</script>

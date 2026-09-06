@@ -1,0 +1,655 @@
+<title>Lepidoptera Plates</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#e8dec4; --ink:#211a13; --ink-soft:#4a3f33; --rule:#8a7a62;
+    --serif:"IM Fell English", "EB Garamond", Georgia, serif;
+    --body:"EB Garamond", Georgia, serif;
+  }
+  html,body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);}
+  body{overflow-x:hidden;}
+  #spacer{width:1px;}
+  #gl{position:fixed;inset:0;width:100%;height:100%;display:block;touch-action:pan-y;}
+  #vignette{position:fixed;inset:0;pointer-events:none;
+    background:radial-gradient(ellipse at 50% 50%, rgba(0,0,0,0) 50%, rgba(70,48,22,.28) 100%);}
+  #edge{position:fixed;inset:0;pointer-events:none;
+    box-shadow:inset 0 0 120px rgba(60,40,15,.25);}
+
+  .ui{position:fixed;pointer-events:none;font-family:var(--serif);color:var(--ink);}
+  #masthead{top:28px;left:36px;}
+  #masthead h1{margin:0;font-weight:400;font-size:22px;letter-spacing:.02em;}
+  #masthead h1 em{font-style:italic;}
+  #masthead p{margin:4px 0 0;font-size:13px;color:var(--ink-soft);font-variant:small-caps;letter-spacing:.14em;}
+  #plate{top:32px;right:40px;text-align:right;font-size:15px;font-variant:small-caps;letter-spacing:.16em;color:var(--ink-soft);}
+  #plate b{display:block;font-size:30px;font-weight:400;letter-spacing:.05em;color:var(--ink);font-variant:normal;}
+  #hint{bottom:26px;left:0;right:0;text-align:center;font-size:14px;color:var(--ink-soft);
+    font-style:italic;letter-spacing:.03em;transition:opacity .8s;}
+  #hint.gone{opacity:0;}
+
+  #card{position:fixed;width:min(340px, calc(100vw - 48px));padding:22px 26px 20px;pointer-events:auto;
+    background:rgba(240,232,212,.92);border:1px solid rgba(90,75,50,.35);
+    box-shadow:0 18px 50px rgba(60,40,15,.18), inset 0 0 0 4px rgba(240,232,212,.9), inset 0 0 0 5px rgba(90,75,50,.25);
+    opacity:0;transform:translateY(10px) scale(.98);transition:opacity .45s ease, transform .55s cubic-bezier(.2,.8,.2,1);
+    font-family:var(--body);}
+  #card.show{opacity:1;transform:none;}
+  #card .num{font-family:var(--serif);font-variant:small-caps;letter-spacing:.18em;font-size:12px;color:var(--ink-soft);}
+  #card h2{font-family:var(--serif);font-weight:400;margin:6px 0 0;font-size:26px;line-height:1.1;}
+  #card h3{font-family:var(--serif);font-weight:400;font-style:italic;margin:2px 0 12px;font-size:17px;color:var(--ink-soft);}
+  #card hr{border:0;border-top:1px solid var(--rule);margin:0 0 12px;opacity:.6;}
+  #card dl{margin:0 0 12px;display:grid;grid-template-columns:auto 1fr;gap:3px 14px;font-size:14px;}
+  #card dt{font-variant:small-caps;letter-spacing:.1em;color:var(--ink-soft);}
+  #card dd{margin:0;}
+  #card ul{margin:0;padding-left:18px;font-size:15px;line-height:1.45;}
+  #card li{margin-bottom:6px;}
+  #card .close{position:absolute;top:8px;right:12px;font-family:var(--serif);font-size:18px;
+    color:var(--ink-soft);cursor:pointer;background:none;border:0;}
+  @media (max-width:640px){ #card{left:24px!important;right:24px;bottom:24px;top:auto!important;width:auto;} }
+
+  #tune{position:fixed;left:24px;bottom:24px;pointer-events:auto;font-family:var(--body);font-size:13px;
+    background:rgba(240,232,212,.85);border:1px solid rgba(90,75,50,.3);padding:8px 12px;color:var(--ink-soft);}
+  #tune summary{cursor:pointer;font-family:var(--serif);font-variant:small-caps;letter-spacing:.12em;}
+  #tune label{display:grid;grid-template-columns:96px 1fr 38px;gap:8px;align-items:center;margin-top:6px;}
+  #tune input{accent-color:#5a4a33;}
+  @media (max-width:640px){ #tune{display:none;} }
+</style>
+
+<div id="spacer"></div>
+<canvas id="gl"></canvas>
+<div id="vignette"></div><div id="edge"></div>
+
+<div class="ui" id="masthead">
+  <h1>The <em>Lepidoptera</em> Plates</h1>
+  <p>a trial of the fluttering plate</p>
+</div>
+<div class="ui" id="plate"><span id="plateLabel">Plate</span><b id="plateNum">I</b></div>
+<div class="ui" id="hint">scroll to turn the page &nbsp;·&nbsp; move near a specimen &nbsp;·&nbsp; click to pin it</div>
+
+<div id="card" class="ui">
+  <button class="close" aria-label="Unpin">×</button>
+  <div class="num" id="cNum"></div>
+  <h2 id="cName"></h2>
+  <h3 id="cLatin"></h3>
+  <hr>
+  <dl><dt>Family</dt><dd id="cFam"></dd><dt>Wingspan</dt><dd id="cSpan"></dd><dt>Flies</dt><dd id="cFlies"></dd></dl>
+  <ul id="cFacts"></ul>
+</div>
+
+<details id="tune" class="ui">
+  <summary>Tune the motion</summary>
+  <label>Flap amplitude <input type="range" id="tAmp" min="0" max="1.0" step="0.01" value="0.38"><span></span></label>
+  <label>Flap speed <input type="range" id="tFreq" min="0.2" max="4" step="0.1" value="1.1"><span></span></label>
+  <label>Wing bend <input type="range" id="tLag" min="0" max="1.6" step="0.01" value="0.85"><span></span></label>
+  <label>Resting tilt <input type="range" id="tRest" min="0" max="0.6" step="0.01" value="0.16"><span></span></label>
+  <label>Breathing <input type="range" id="tBreath" min="0" max="0.2" step="0.005" value="0.05"><span></span></label>
+</details>
+
+<script type="module">
+import * as THREE from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/0.160.0/three.module.min.js';
+
+/* ------------------------------------------------------------------ */
+/*  Content: three real species, placeholder engravings                */
+/* ------------------------------------------------------------------ */
+const SPECIES = [
+  { id:'emperor', num:'I', name:'Emperor Moth', latin:'Saturnia pavonia', family:'Saturniidae',
+    span:'55–80 mm', flies:'April – May, males by day',
+    facts:[
+      'Britain’s only resident member of the silk-moth family.',
+      'Males can detect a female’s scent from over a mile away using their feathered antennae.',
+      'The adult has no working mouthparts and never feeds; it lives on fat stored as a caterpillar.'],
+    shape:{ foreLen:1.0, apexY:0.16, hindSize:1.0, eyespot:true, hatchAngle:-0.35, dark:0.9, antenna:'feather', scale:1.0, freq:0.9, wash:0.06 } },
+  { id:'peppered', num:'II', name:'Peppered Moth', latin:'Biston betularia', family:'Geometridae',
+    span:'45–62 mm', flies:'May – August, at night',
+    facts:[
+      'The textbook case of natural selection: a black form spread through sooty Victorian cities and retreated as the air cleared.',
+      'It rests by day on bark and lichen, wings held flat like a fallen leaf of paper.',
+      'Its caterpillars are twig mimics and can even shift colour to match the branch they sit on.'],
+    shape:{ foreLen:1.08, apexY:0.22, hindSize:0.82, eyespot:false, hatchAngle:-0.6, dark:0.7, antenna:'thread', scale:0.82, freq:1.3, wash:0.22, speckle:true } },
+  { id:'atlas', num:'III', name:'Atlas Moth', latin:'Attacus atlas', family:'Saturniidae',
+    span:'up to 240 mm', flies:'Year-round in the tropics, at night',
+    facts:[
+      'One of the largest insects on Earth by wing area, wider than a spread hand.',
+      'The forewing tips are patterned like a snake’s head, thought to deter predators.',
+      'In Taiwan the enormous cocoons were once used as purses.'],
+    shape:{ foreLen:1.12, apexY:0.10, hindSize:1.15, eyespot:true, hatchAngle:-0.25, dark:1.0, antenna:'feather', scale:1.35, freq:0.55, wash:0.1, window:true } },
+];
+
+/* ------------------------------------------------------------------ */
+/*  Deterministic random                                               */
+/* ------------------------------------------------------------------ */
+function rng(seed){ let a = seed>>>0; return ()=>{ a|=0; a = a + 0x6D2B79F5|0; let t = Math.imul(a^a>>>15, 1|a); t = t + Math.imul(t^t>>>7, 61|t)^t; return ((t^t>>>14)>>>0)/4294967296; }; }
+
+/* ------------------------------------------------------------------ */
+/*  Procedural "engraved" wing textures                                 */
+/*  Ink drawn on white  -> multiply-blended onto paper                  */
+/*  Silhouette (white on transparent) -> shadow casting                 */
+/* ------------------------------------------------------------------ */
+const S = 1024;
+const INK = '#1d160f';
+
+function wingPath(kind, p){
+  const path = new Path2D();
+  if (kind === 'fore'){
+    const ax = 0.94*p.foreLen*0.92, ay = p.apexY;
+    path.moveTo(0, S*0.46);
+    path.bezierCurveTo(S*0.28, S*0.40, S*0.66, S*(ay+0.06), S*ax, S*ay);      // leading edge to a pointed apex
+    path.bezierCurveTo(S*(ax-0.02), S*0.36, S*0.86, S*0.58, S*0.70, S*0.70);  // outer margin sweeps back
+    path.bezierCurveTo(S*0.50, S*0.76, S*0.24, S*0.72, 0, S*0.66);            // trailing edge
+  } else {
+    const h = p.hindSize;
+    path.moveTo(0, S*0.38);
+    path.bezierCurveTo(S*0.22, S*0.32, S*0.50, S*0.26, S*0.66*h, S*0.34);
+    path.bezierCurveTo(S*0.84*h, S*0.46, S*0.80*h, S*0.68, S*0.56*h, S*0.86*h+S*(1-h)*0.5);
+    path.bezierCurveTo(S*0.36*h, S*0.96*h+S*(1-h)*0.5, S*0.10, S*0.84, 0, S*0.66);
+  }
+  path.closePath();
+  return path;
+}
+
+function hatch(g, angle, spacing, baseW, density, rnd, jitter=1.2){
+  // Draw parallel hatch lines in segments so the weight can vary across the wing
+  const cos = Math.cos(angle), sin = Math.sin(angle);
+  const L = S*1.6, step = 9;
+  g.lineCap = 'round'; g.strokeStyle = INK;
+  for (let d = -S*0.9; d < S*1.4; d += spacing){
+    // line: points p = c + t*(cos,sin), c = d*(-sin,cos) offset from centre
+    const cx = S/2 - d*sin, cy = S/2 + d*cos;
+    let px = cx - cos*L/2, py = cy - sin*L/2;
+    const wob = rnd()*6.28;
+    for (let t = 0; t < L; t += step){
+      const nx = cx + cos*(t - L/2) + Math.sin(t*0.02 + wob)*jitter;
+      const ny = cy + sin*(t - L/2) + Math.cos(t*0.017 + wob)*jitter;
+      const w = baseW * density(nx, ny) * (0.85 + rnd()*0.3);
+      if (w > 0.15){ g.lineWidth = w; g.beginPath(); g.moveTo(px, py); g.lineTo(nx, ny); g.stroke(); }
+      px = nx; py = ny;
+    }
+  }
+}
+
+function drawWing(kind, p, seed){
+  const rnd = rng(seed);
+  const ink = document.createElement('canvas'); ink.width = ink.height = S;
+  const sil = document.createElement('canvas'); sil.width = sil.height = S;
+  const g = ink.getContext('2d'), sg = sil.getContext('2d');
+  const path = wingPath(kind, p);
+
+  // silhouette for shadows
+  sg.fillStyle = '#fff'; sg.fill(path); sg.lineWidth = 6; sg.strokeStyle = '#fff'; sg.stroke(path);
+
+  g.fillStyle = '#ffffff'; g.fillRect(0,0,S,S);
+  g.save(); g.clip(path);
+
+  // soft wash toward the root and along the outer margin
+  const wash = g.createLinearGradient(0,0,S,0);
+  wash.addColorStop(0, `rgba(40,30,18,${0.22*p.dark})`);
+  wash.addColorStop(0.45, `rgba(40,30,18,${p.wash*0.6})`);
+  wash.addColorStop(1, `rgba(40,30,18,${0.18*p.dark})`);
+  g.fillStyle = wash; g.fillRect(0,0,S,S);
+
+  // primary hatching: heavy near root, light mid-wing, heavier at margin
+  const dens1 = (x,y)=> (0.18 + 0.95*Math.pow(1 - x/S, 2.0) + 0.5*Math.pow(x/S, 5)) * p.dark;
+  hatch(g, p.hatchAngle, 7, 1.35, dens1, rnd);
+  // cross hatching near the root and margin only
+  const dens2 = (x,y)=> ((x < S*0.36 ? (1 - x/(S*0.36)) : 0) + (x > S*0.72 ? (x - S*0.72)/(S*0.28) : 0)) * 0.9 * p.dark;
+  hatch(g, p.hatchAngle + 1.25, 8, 1.1, dens2, rnd);
+
+  // peppered speckles
+  if (p.speckle){
+    g.fillStyle = INK;
+    for (let i=0;i<2600;i++){ const x=rnd()*S, y=rnd()*S, r=0.6+rnd()*2.2; g.globalAlpha = 0.35+rnd()*0.5; g.beginPath(); g.arc(x,y,r,0,6.28); g.fill(); }
+    g.globalAlpha = 1;
+  }
+
+  // veins fanning from the root
+  const rootX = 0, rootY = S*0.55;
+  const nV = kind==='fore' ? 8 : 6;
+  for (let i=0;i<nV;i++){
+    const t = (i+0.5)/nV;
+    let ex, ey;
+    if (kind==='fore'){ ex = S*(0.58 + 0.34*(1-t)*p.foreLen*0.95); ey = S*(p.apexY + (0.72 - p.apexY)*t); }
+    else { ex = S*(0.70*p.hindSize*(1-t*0.35)); ey = S*(0.34 + 0.56*t); }
+    const cx = rootX + (ex-rootX)*0.5 + (rnd()-0.5)*40, cy = rootY + (ey-rootY)*0.45 + (rnd()-0.5)*40;
+    // taper by drawing segments with decreasing width
+    const segs = 22; let lx = rootX, ly = rootY;
+    g.strokeStyle = INK; g.lineCap='round';
+    for (let s=1;s<=segs;s++){
+      const u = s/segs, a=1-u;
+      const x = a*a*rootX + 2*a*u*cx + u*u*ex, y = a*a*rootY + 2*a*u*cy + u*u*ey;
+      g.lineWidth = (3.2 - 2.3*u) * p.dark; g.globalAlpha = 0.9;
+      g.beginPath(); g.moveTo(lx,ly); g.lineTo(x,y); g.stroke(); lx=x; ly=y;
+    }
+    g.globalAlpha = 1;
+  }
+
+  // row of pale spots inside the margin (like the reference plate's wing borders)
+  const spots = kind==='fore' ? 9 : 7;
+  for (let i=0;i<spots;i++){
+    const t=(i+0.5)/spots; let x,y;
+    if (kind==='fore'){ x = S*(0.80 - 0.26*t)*p.foreLen*0.97; y = S*(p.apexY+0.12 + (0.60-p.apexY)*t); }
+    else { x = S*(0.74 - 0.30*t)*p.hindSize; y = S*(0.42 + 0.42*t); }
+    g.fillStyle = '#fff'; g.globalAlpha = 0.8; g.beginPath(); g.ellipse(x,y,9,6,p.hatchAngle,0,6.28); g.fill(); g.globalAlpha=1;
+    g.strokeStyle = INK; g.lineWidth = 1.2; g.stroke();
+  }
+
+  // eyespot
+  if (p.eyespot && kind==='fore'){
+    const ex = S*0.56, ey = S*0.46;
+    const rings = [[38,'#fff',1],[38,INK,0],[30,INK,0.85],[19,'#fff',0.9],[19,INK,0],[9,INK,1]];
+    for (const [r,c,a] of rings){ g.beginPath(); g.arc(ex,ey,r,0,6.28); if (a>0){ g.fillStyle=c; g.globalAlpha=a; g.fill(); } else { g.strokeStyle=c; g.lineWidth=2.5; g.globalAlpha=1; g.stroke(); } }
+    g.globalAlpha = 1;
+    // radial hatch around the eye
+    g.strokeStyle = INK; g.lineWidth = 1;
+    for (let i=0;i<40;i++){ const a=i/40*6.28; g.beginPath(); g.moveTo(ex+Math.cos(a)*40, ey+Math.sin(a)*40); g.lineTo(ex+Math.cos(a)*(52+rnd()*14), ey+Math.sin(a)*(52+rnd()*14)); g.stroke(); }
+  }
+  // atlas-style translucent "window"
+  if (p.window && kind==='fore'){
+    g.fillStyle='#fff'; g.globalAlpha=0.85; g.beginPath(); g.ellipse(S*0.50,S*0.50,26,16,-0.4,0,6.28); g.fill(); g.globalAlpha=1;
+    g.strokeStyle=INK; g.lineWidth=2; g.stroke();
+  }
+  if (p.window && kind==='hind'){
+    g.fillStyle='#fff'; g.globalAlpha=0.85; g.beginPath(); g.ellipse(S*0.42,S*0.52,20,14,0.3,0,6.28); g.fill(); g.globalAlpha=1;
+    g.strokeStyle=INK; g.lineWidth=2; g.stroke();
+  }
+
+  // dark margin band
+  g.strokeStyle = INK; g.lineCap='round';
+  g.globalAlpha = 0.18*p.dark; g.lineWidth = 34; g.stroke(path);
+  g.globalAlpha = 0.35*p.dark; g.lineWidth = 14; g.stroke(path);
+  g.restore();
+
+  // outline, drawn twice with a slight hand-wobble
+  g.globalAlpha = 1; g.strokeStyle = INK; g.lineWidth = 2.6; g.stroke(path);
+  g.save(); g.translate(1.5, -1); g.globalAlpha = 0.5; g.lineWidth = 1.2; g.stroke(path); g.restore();
+
+  return { ink, sil };
+}
+
+function drawBody(p, seed){
+  const rnd = rng(seed);
+  const W = 512, H = 1024;
+  const ink = document.createElement('canvas'); ink.width=W; ink.height=H;
+  const sil = document.createElement('canvas'); sil.width=W; sil.height=H;
+  const g = ink.getContext('2d'), sg = sil.getContext('2d');
+  g.fillStyle='#fff'; g.fillRect(0,0,W,H);
+  const cx = W/2;
+
+  const shapes = [];
+  // head
+  shapes.push(()=>{ g.beginPath(); g.ellipse(cx, 300, 34, 30, 0, 0, 6.28); });
+  // thorax
+  shapes.push(()=>{ g.beginPath(); g.ellipse(cx, 400, 62, 78, 0, 0, 6.28); });
+  // abdomen segments
+  const segN = 7;
+  for (let i=0;i<segN;i++){
+    const t = i/(segN-1);
+    const y = 480 + i*58, r = 52*(1 - 0.75*t*t) + 6, ry = 34;
+    shapes.push(()=>{ g.beginPath(); g.ellipse(cx, y, r, ry, 0, 0, 6.28); });
+  }
+  // silhouette
+  sg.fillStyle='#fff';
+  for (const s of shapes){ s(); sg.fill(new Path2D()); }
+  // (redo silhouette by drawing directly)
+  const silShapes = () => {
+    sg.beginPath(); sg.ellipse(cx,300,34,30,0,0,6.28); sg.fill();
+    sg.beginPath(); sg.ellipse(cx,400,62,78,0,0,6.28); sg.fill();
+    for (let i=0;i<segN;i++){ const t=i/(segN-1); sg.beginPath(); sg.ellipse(cx, 480+i*58, 52*(1-0.75*t*t)+6, 34, 0,0,6.28); sg.fill(); }
+  };
+  silShapes();
+
+  // ink: fill with hatch, stroke outlines
+  g.strokeStyle = INK; g.fillStyle = INK;
+  for (const s of shapes){
+    s(); g.save(); g.clip();
+    g.globalAlpha = 0.85*p.dark; g.fillRect(0,0,W,H);           // dark body like the reference cicada
+    g.globalAlpha = 1;
+    // highlight stripe down the centre
+    const grad = g.createLinearGradient(cx-60,0,cx+60,0);
+    grad.addColorStop(0,'rgba(255,255,255,0)'); grad.addColorStop(0.5,'rgba(255,255,255,0.55)'); grad.addColorStop(1,'rgba(255,255,255,0)');
+    g.fillStyle = grad; g.fillRect(0,0,W,H); g.fillStyle = INK;
+    g.restore();
+    s(); g.lineWidth = 2.5; g.globalAlpha = 1; g.stroke();
+  }
+  // segment lines
+  g.lineWidth = 1.5; g.globalAlpha = 0.9;
+  for (let i=0;i<segN;i++){ const y = 480 + i*58 - 30; g.beginPath(); g.moveTo(cx-48, y); g.quadraticCurveTo(cx, y+10, cx+48, y); g.stroke(); }
+  // eyes
+  g.fillStyle = INK; g.globalAlpha = 1;
+  g.beginPath(); g.arc(cx-26, 292, 9, 0, 6.28); g.fill(); g.beginPath(); g.arc(cx+26, 292, 9, 0, 6.28); g.fill();
+  g.fillStyle='#fff'; g.beginPath(); g.arc(cx-23, 289, 3, 0, 6.28); g.fill(); g.beginPath(); g.arc(cx+29, 289, 3, 0, 6.28); g.fill();
+
+  // antennae
+  g.strokeStyle = INK; g.lineCap='round';
+  for (const side of [-1,1]){
+    const pts = []; const n = 40;
+    for (let i=0;i<=n;i++){ const t=i/n; pts.push([cx + side*(10 + 150*Math.sin(t*1.4)), 275 - 250*t + 30*t*t]); }
+    g.lineWidth = 2.2; g.beginPath(); pts.forEach(([x,y],i)=> i?g.lineTo(x,y):g.moveTo(x,y)); g.stroke();
+    sg.strokeStyle='#fff'; sg.lineWidth = p.antenna==='feather' ? 26 : 5; sg.lineCap='round'; sg.beginPath(); pts.forEach(([x,y],i)=> i?sg.lineTo(x,y):sg.moveTo(x,y)); sg.stroke();
+    if (p.antenna==='feather'){
+      for (let i=2;i<n-2;i++){
+        const [x,y]=pts[i], [x2,y2]=pts[i+1]; const dx=x2-x, dy=y2-y, L=Math.hypot(dx,dy); const nx=-dy/L, ny=dx/L;
+        const len = 14 + 16*Math.sin(i/n*3.14) ;
+        g.lineWidth = 1; g.globalAlpha = 0.9;
+        g.beginPath(); g.moveTo(x,y); g.lineTo(x+nx*len*side, y+ny*len*side); g.stroke();
+        g.beginPath(); g.moveTo(x,y); g.lineTo(x-nx*len*side*0.6, y-ny*len*side*0.6); g.stroke();
+      }
+    }
+  }
+  // legs
+  g.lineWidth = 2; g.globalAlpha = 1;
+  for (const side of [-1,1]) for (let i=0;i<3;i++){
+    const y = 360 + i*40; g.beginPath(); g.moveTo(cx+side*40, y); g.lineTo(cx+side*(95+i*8), y+35+i*10); g.lineTo(cx+side*(100+i*8), y+80+i*10); g.stroke();
+  }
+  return { ink, sil };
+}
+
+function drawPaper(){
+  const P = 2048;
+  const c = document.createElement('canvas'); c.width=c.height=P; const g = c.getContext('2d');
+  g.fillStyle = '#ece3ca'; g.fillRect(0,0,P,P);
+  // grain
+  const img = g.getImageData(0,0,P,P), d = img.data; const r = rng(7);
+  for (let i=0;i<d.length;i+=4){ const n = (r()-0.5)*22; d[i]+=n; d[i+1]+=n*0.95; d[i+2]+=n*0.8; }
+  g.putImageData(img,0,0);
+  // fibres
+  g.strokeStyle = 'rgba(120,95,60,0.10)'; g.lineWidth = 1;
+  for (let i=0;i<2600;i++){ const x=r()*P, y=r()*P, a=r()*6.28, l=6+r()*26; g.beginPath(); g.moveTo(x,y); g.lineTo(x+Math.cos(a)*l, y+Math.sin(a)*l); g.stroke(); }
+  // foxing
+  for (let i=0;i<26;i++){ const x=r()*P, y=r()*P, rad=20+r()*90; const gr=g.createRadialGradient(x,y,0,x,y,rad); gr.addColorStop(0,`rgba(150,110,60,${0.05+r()*0.08})`); gr.addColorStop(1,'rgba(150,110,60,0)'); g.fillStyle=gr; g.beginPath(); g.arc(x,y,rad,0,6.28); g.fill(); }
+  // broad tonal drift
+  const gr = g.createLinearGradient(0,0,P,P); gr.addColorStop(0,'rgba(255,250,235,0.18)'); gr.addColorStop(1,'rgba(120,90,50,0.10)'); g.fillStyle=gr; g.fillRect(0,0,P,P);
+  return c;
+}
+
+/* ------------------------------------------------------------------ */
+/*  Three.js scene                                                     */
+/* ------------------------------------------------------------------ */
+const canvas = document.getElementById('gl');
+const renderer = new THREE.WebGLRenderer({ canvas, antialias:true, alpha:false });
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+renderer.shadowMap.enabled = true;
+renderer.shadowMap.type = THREE.VSMShadowMap;
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(22, 1, 0.1, 100);
+const CAM_DIST = 8.4;
+camera.position.set(0, 0, CAM_DIST);
+
+const SPACING = 3.3; // world units between plates (≈ one viewport)
+
+// paper
+const paperTex = new THREE.CanvasTexture(drawPaper());
+paperTex.colorSpace = THREE.SRGBColorSpace; paperTex.wrapS = paperTex.wrapT = THREE.MirroredRepeatWrapping;
+paperTex.repeat.set(4, 4*3); paperTex.anisotropy = renderer.capabilities.getMaxAnisotropy();
+const paper = new THREE.Mesh(new THREE.PlaneGeometry(40, 40*3), new THREE.MeshLambertMaterial({ map: paperTex }));
+paper.position.y = -SPACING*(SPECIES.length-1)/2; paper.receiveShadow = true; scene.add(paper);
+
+// light
+scene.add(new THREE.AmbientLight(0xfff6e6, 1.85));
+const sun = new THREE.DirectionalLight(0xfff1dc, 1.25);
+sun.castShadow = true; sun.shadow.mapSize.set(2048, 2048);
+sun.shadow.camera.near = 1; sun.shadow.camera.far = 20;
+sun.shadow.camera.left = sun.shadow.camera.bottom = -3.5; sun.shadow.camera.right = sun.shadow.camera.top = 3.5;
+sun.shadow.radius = 9; sun.shadow.blurSamples = 16; sun.shadow.bias = -0.0005;
+scene.add(sun); scene.add(sun.target);
+
+// wing shader injection (shared by the visible material and its shadow depth material)
+const WING_UNIFORMS = /* glsl */`
+  uniform float uPhase; uniform float uAmp; uniform float uRest; uniform float uLag;
+  void main() {`;
+const WING_VERT = /* glsl */`
+  vec3 transformed = vec3(position);
+  float u = clamp(position.x, 0.0, 1.0);
+  float th = uRest + uAmp * sin(uPhase - uLag * pow(u, 1.5));
+  transformed.x = position.x * cos(th);
+  transformed.z = position.x * sin(th);
+`;
+function injectWing(mat, uniforms){
+  mat.onBeforeCompile = (shader)=>{
+    Object.assign(shader.uniforms, uniforms);
+    shader.vertexShader = shader.vertexShader
+      .replace('void main() {', WING_UNIFORMS)
+      .replace('#include <begin_vertex>', WING_VERT);
+  };
+  mat.customProgramCacheKey = ()=> 'wing';
+}
+
+const wingGeo = new THREE.PlaneGeometry(1, 1, 48, 48); wingGeo.translate(0.5, 0, 0); // root at x=0
+
+function tex(canvas){ const t = new THREE.CanvasTexture(canvas); t.colorSpace = THREE.SRGBColorSpace; t.anisotropy = 8; t.generateMipmaps = true; t.minFilter = THREE.LinearMipmapLinearFilter; return t; }
+
+// The shadow pass copies map/alphaMap/alphaTest from the visible material onto the depth material,
+// so the silhouette rides along as the alphaMap of the ink material.
+function makeInkMaterial(inkTex, silTex){
+  const m = new THREE.MeshBasicMaterial({ map: inkTex, alphaMap: silTex, blending: THREE.MultiplyBlending, transparent: true, depthWrite: false, side: THREE.DoubleSide });
+  m.alphaTest = 0.5; return m;
+}
+function makeDepthMaterial(silTex){
+  const m = new THREE.MeshDepthMaterial({ depthPacking: THREE.RGBADepthPacking, map: silTex, side: THREE.DoubleSide });
+  m.alphaTest = 0.5; return m;
+}
+// VSM shadow maps use a distance material as well
+function makeDistanceMaterial(silTex){
+  const m = new THREE.MeshDistanceMaterial({ map: silTex, side: THREE.DoubleSide });
+  m.alphaTest = 0.5; return m;
+}
+
+/* ------------------------------------------------------------------ */
+/*  Specimen rig                                                       */
+/* ------------------------------------------------------------------ */
+const specimens = [];
+const raycaster = new THREE.Raycaster();
+const hitTargets = [];
+
+SPECIES.forEach((sp, i)=>{
+  const p = sp.shape;
+  const group = new THREE.Group();
+  group.position.set(0, -i*SPACING, 0);
+  scene.add(group);
+
+  const spanW = 2.1 * p.scale;      // world width of the spread specimen
+  const wingW = spanW/2;            // each wing plane, root at body axis
+  const wingH = wingW;              // textures are square
+
+  const fore = drawWing('fore', p, 100+i), hind = drawWing('hind', p, 200+i), body = drawBody(p, 300+i);
+  const foreInk = tex(fore.ink), foreSil = tex(fore.sil), hindInk = tex(hind.ink), hindSil = tex(hind.sil);
+  const bodyInk = tex(body.ink), bodySil = tex(body.sil);
+
+  const uniformsFore = { uPhase:{value:0}, uAmp:{value:0.05}, uRest:{value:0.16}, uLag:{value:0.75} };
+  const uniformsHind = { uPhase:{value:0}, uAmp:{value:0.05}, uRest:{value:0.16}, uLag:{value:0.75} };
+  const wings = [];
+
+  for (const side of [-1, 1]){
+    for (const [kind, inkT, silT, uni, yOff, zOff] of [
+      ['hind', hindInk, hindSil, uniformsHind, -0.26*wingH, 0.002],
+      ['fore', foreInk, foreSil, uniformsFore,  0.02*wingH, 0.006]]){
+      const mat = makeInkMaterial(inkT, silT); injectWing(mat, uni);
+      const mesh = new THREE.Mesh(wingGeo, mat);
+      const dm = makeDepthMaterial(silT); injectWing(dm, uni); mesh.customDepthMaterial = dm;
+      const dsm = makeDistanceMaterial(silT); injectWing(dsm, uni); mesh.customDistanceMaterial = dsm;
+      mesh.castShadow = true;
+      mesh.scale.set(side*wingW, wingH, 1);
+      mesh.position.set(0, yOff, zOff);
+      // the wing textures were drawn with the root around y≈0.55 of the canvas; centre that on the body axis
+      mesh.position.y += (0.55-0.5)*wingH * 0.5;
+      mesh.renderOrder = kind==='fore' ? 2 : 1;
+      group.add(mesh); wings.push(mesh);
+    }
+  }
+
+  // body
+  const bodyH = wingH*0.95, bodyW = bodyH/2;
+  const bodyMat = makeInkMaterial(bodyInk, bodySil);
+  const bodyMesh = new THREE.Mesh(new THREE.PlaneGeometry(bodyW, bodyH), bodyMat);
+  bodyMesh.customDepthMaterial = makeDepthMaterial(bodySil);
+  bodyMesh.customDistanceMaterial = makeDistanceMaterial(bodySil);
+  bodyMesh.castShadow = true; bodyMesh.position.set(0, 0.05*wingH, 0.012); bodyMesh.renderOrder = 3;
+  group.add(bodyMesh);
+
+  // invisible hit target
+  const hit = new THREE.Mesh(new THREE.PlaneGeometry(spanW*1.0, wingH*0.95), new THREE.MeshBasicMaterial({ visible:false }));
+  hit.userData.index = i; group.add(hit); hitTargets.push(hit);
+
+  specimens.push({ sp, group, wings, bodyMesh, uniformsFore, uniformsHind, spanW,
+    phase: Math.random()*6.28, energy: 0, burst: 0, nextBurst: 2 + Math.random()*5, lift: 0,
+    amp: 0.05, freq: p.freq, pinned: false });
+});
+
+/* ------------------------------------------------------------------ */
+/*  Interaction state                                                  */
+/* ------------------------------------------------------------------ */
+const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const tune = { amp: 0.38, freq: 1.1, lag: 0.85, rest: 0.16, breath: 0.05 };
+for (const [id, key] of [['tAmp','amp'],['tFreq','freq'],['tLag','lag'],['tRest','rest'],['tBreath','breath']]){
+  const el = document.getElementById(id); const out = el.nextElementSibling;
+  const upd = ()=>{ tune[key] = parseFloat(el.value); out.textContent = el.value; }; el.addEventListener('input', upd); upd();
+}
+
+const pointer = new THREE.Vector2(-10,-10), pointerWorld = new THREE.Vector3();
+let pointerSpeed = 0, lastPX = 0, lastPY = 0, hasPointer = false;
+const plane0 = new THREE.Plane(new THREE.Vector3(0,0,1), 0);
+let pinnedIndex = -1;
+
+const spacer = document.getElementById('spacer');
+spacer.style.height = `${SPECIES.length*100}vh`;
+
+addEventListener('pointermove', (e)=>{
+  hasPointer = true;
+  pointer.set((e.clientX/innerWidth)*2-1, -(e.clientY/innerHeight)*2+1);
+  pointerSpeed = Math.min(1, Math.hypot(e.clientX-lastPX, e.clientY-lastPY)/40);
+  lastPX = e.clientX; lastPY = e.clientY;
+});
+addEventListener('pointerleave', ()=>{ hasPointer = false; });
+addEventListener('keydown', (e)=>{ if (e.key==='Escape') unpin(); });
+
+const card = document.getElementById('card');
+card.querySelector('.close').addEventListener('click', (e)=>{ e.stopPropagation(); unpin(); });
+function pin(i){
+  pinnedIndex = i; specimens.forEach((s,k)=> s.pinned = k===i);
+  const sp = SPECIES[i];
+  document.getElementById('cNum').textContent = `Plate ${sp.num}`;
+  document.getElementById('cName').textContent = sp.name;
+  document.getElementById('cLatin').textContent = sp.latin;
+  document.getElementById('cFam').textContent = sp.family;
+  document.getElementById('cSpan').textContent = sp.span;
+  document.getElementById('cFlies').textContent = sp.flies;
+  document.getElementById('cFacts').innerHTML = sp.facts.map(f=>`<li>${f}</li>`).join('');
+  card.classList.add('show');
+  document.getElementById('hint').classList.add('gone');
+}
+function unpin(){ pinnedIndex = -1; specimens.forEach(s=> s.pinned = false); card.classList.remove('show'); }
+
+canvas.addEventListener('click', (e)=>{
+  pointer.set((e.clientX/innerWidth)*2-1, -(e.clientY/innerHeight)*2+1);   // touch devices get no pointermove first
+  raycaster.setFromCamera(pointer, camera);
+  const hits = raycaster.intersectObjects(hitTargets);
+  if (hits.length){ const i = hits[0].object.userData.index; if (pinnedIndex===i) unpin(); else pin(i); }
+  else if (pinnedIndex>=0) unpin();
+});
+let lastScroll = scrollY;
+addEventListener('scroll', ()=>{ if (Math.abs(scrollY-lastScroll) > 80 && pinnedIndex>=0) unpin(); lastScroll = scrollY; document.getElementById('hint').classList.add('gone'); }, { passive:true });
+
+/* ------------------------------------------------------------------ */
+/*  Resize                                                             */
+/* ------------------------------------------------------------------ */
+function resize(){
+  const w = innerWidth, h = innerHeight;
+  renderer.setSize(w, h, false);
+  camera.aspect = w/h; camera.updateProjectionMatrix();
+}
+addEventListener('resize', resize); resize();
+
+/* ------------------------------------------------------------------ */
+/*  Frame loop                                                         */
+/* ------------------------------------------------------------------ */
+const clock = new THREE.Clock();
+const focus = new THREE.Vector3(0,0,0);
+const camTarget = new THREE.Vector3();
+let camY = 0, camX = 0, fovTarget = 22;
+const tmpV = new THREE.Vector3();
+const plateNum = document.getElementById('plateNum');
+const romans = SPECIES.map(s=>s.num);
+
+function frame(){
+  const dt = Math.min(clock.getDelta(), 0.05), t = clock.elapsedTime;
+
+  // scroll → camera
+  const progress = scrollY / innerHeight;
+  const scrollTargetY = -progress*SPACING;
+  let wantY = scrollTargetY, wantX = 0;
+  if (pinnedIndex>=0){ wantY = specimens[pinnedIndex].group.position.y; wantX = innerWidth > 640 ? specimens[pinnedIndex].spanW*0.42 : 0; }
+  camY += (wantY - camY) * (1 - Math.pow(0.001, dt));
+  focus.set(0, camY, 0);
+  fovTarget = pinnedIndex>=0 ? 19 : 22;
+  camera.fov += (fovTarget - camera.fov) * (1 - Math.pow(0.01, dt)); camera.updateProjectionMatrix();
+
+  // pointer parallax
+  const px = hasPointer ? pointer.x : 0, py = hasPointer ? pointer.y : 0;
+  camX += (wantX - camX) * (1 - Math.pow(0.001, dt));
+  camTarget.set(px*0.18 + camX, camY + py*0.12, CAM_DIST);
+  camera.position.lerp(camTarget, 1 - Math.pow(0.02, dt));
+  camera.lookAt(px*0.05 + camX, camY + py*0.03, 0);
+
+  // light follows the focus so the shadow camera stays tight
+  sun.position.set(focus.x - 1.8, focus.y + 2.6, 6.5); sun.target.position.copy(focus); sun.target.updateMatrixWorld();
+
+  // pointer in world
+  raycaster.setFromCamera(pointer, camera);
+  raycaster.ray.intersectPlane(plane0, pointerWorld);
+  let hovering = false;
+
+  const nearest = Math.round(-camY / SPACING);
+  plateNum.textContent = romans[Math.max(0, Math.min(romans.length-1, nearest))] || '';
+
+  for (const s of specimens){
+    // startle from cursor proximity
+    if (hasPointer && !reduceMotion){
+      const d = tmpV.copy(pointerWorld).sub(s.group.position).length() / (s.spanW*0.6);
+      if (d < 1){ s.energy = Math.min(1, s.energy + dt*(0.35 + 0.6*pointerSpeed)*(1-d)); hovering = hovering || d < 0.8; }
+    }
+    // spontaneous flutter bursts
+    s.nextBurst -= dt;
+    if (s.nextBurst < 0 && !reduceMotion){ s.burst = 1.2 + Math.random()*1.5; s.nextBurst = 4 + Math.random()*8; }
+    if (s.burst > 0){ s.burst -= dt; s.energy = Math.min(0.6, s.energy + dt*0.3); }
+    s.energy *= Math.pow(0.55, dt);            // decay
+    if (s.pinned) s.energy *= Math.pow(0.02, dt);
+
+    // targets
+    const breathing = reduceMotion ? 0 : tune.breath;
+    const targetAmp  = s.pinned ? 0 : breathing + s.energy*tune.amp;
+    const targetFreq = s.pinned ? 0.25 : s.sp.shape.freq*0.5 + s.energy*tune.freq;
+    s.amp  += (targetAmp  - s.amp)  * (1 - Math.pow(0.08, dt));
+    s.freq += (targetFreq - s.freq) * (1 - Math.pow(0.15, dt));
+    s.phase += 6.2831*s.freq*dt;
+    const targetLift = s.pinned ? 0.0 : s.energy*0.3;
+    s.lift += (targetLift - s.lift) * (1 - Math.pow(0.08, dt));
+    const rest = s.pinned ? 0.03 : tune.rest + 0.05*Math.sin(t*0.7 + s.phase*0.01);
+
+    for (const u of [s.uniformsFore, s.uniformsHind]){ u.uAmp.value = s.amp; u.uRest.value = rest; u.uLag.value = tune.lag; }
+    s.uniformsFore.uPhase.value = s.phase;
+    s.uniformsHind.uPhase.value = s.phase - 0.35;   // hindwing lags the forewing
+
+    // body bob and lift off the page
+    s.group.position.z = s.lift;
+    s.bodyMesh.position.z = 0.012 + Math.max(0, -Math.sin(s.phase))*0.02*s.amp;
+    s.group.rotation.z = Math.sin(t*0.4 + s.phase*0.003)*0.01*s.energy;
+  }
+  pointerSpeed *= Math.pow(0.001, dt);
+  canvas.style.cursor = hovering ? 'pointer' : 'default';
+
+  // card follows the pinned specimen
+  if (pinnedIndex>=0 && innerWidth > 640){
+    const s = specimens[pinnedIndex];
+    tmpV.set(s.spanW*0.55, s.spanW*0.30, 0).add(s.group.position).project(camera);
+    const x = (tmpV.x*0.5+0.5)*innerWidth + 28, y = (-tmpV.y*0.5+0.5)*innerHeight;
+    card.style.left = `${Math.min(innerWidth - card.offsetWidth - 32, Math.max(24, x))}px`;
+    card.style.top  = `${Math.min(innerHeight - card.offsetHeight - 24, Math.max(24, y))}px`;
+  }
+
+  renderer.render(scene, camera);
+  requestAnimationFrame(frame);
+}
+frame();
+window.__dbg = { THREE, renderer, camera, specimens, scene, sun, paper, get camY(){ return camY; } };
+</script>

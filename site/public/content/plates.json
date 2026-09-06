@@ -1,0 +1,540 @@
+{
+"book": {
+"title": "Histoire naturelle des lépidoptères exotiques",
+"publisher": "Paris: Pauquet, éditeurs",
+"years": "1835–1836",
+"engraver": "Pauquet",
+"bhlItem": "https://www.biodiversitylibrary.org/item/213697",
+"flickrAlbum": "https://www.flickr.com/photos/biodivlibrary/albums/72157714792813638"
+},
+"plates": {
+"n16": {
+"order": 1,
+"numeral": "I",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50026094636/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028681"
+},
+"n18": {
+"order": 2,
+"numeral": "II",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50026356162/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028679"
+},
+"n20": {
+"order": 3,
+"numeral": "III",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50026094926/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028677"
+},
+"n22": {
+"order": 4,
+"numeral": "IV",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50025552228/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028675"
+},
+"n32": {
+"order": 5,
+"numeral": "V",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50025552353/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028665"
+},
+"n34": {
+"order": 6,
+"numeral": "VI",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50026356762/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028663"
+},
+"n36": {
+"order": 7,
+"numeral": "VII",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50026356892/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028661"
+},
+"n38": {
+"order": 8,
+"numeral": "VIII",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50026357027/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028628"
+},
+"n40": {
+"order": 9,
+"numeral": "IX",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50026357192/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028630"
+},
+"n50": {
+"order": 10,
+"numeral": "X",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50026357332/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028640"
+},
+"n52": {
+"order": 11,
+"numeral": "XI",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50026357497/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028642"
+},
+"n54": {
+"order": 12,
+"numeral": "XII",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50026357607/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028644"
+},
+"n56": {
+"order": 13,
+"numeral": "XIII",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50025553658/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028646"
+},
+"n66": {
+"order": 14,
+"numeral": "XIV",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50026096801/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028656"
+},
+"n68": {
+"order": 15,
+"numeral": "XV",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50026097011/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028658"
+},
+"n70": {
+"order": 16,
+"numeral": "XVI",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50026358327/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028698"
+},
+"n80": {
+"order": 17,
+"numeral": "XVII",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50026358492/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028708"
+},
+"n82": {
+"order": 18,
+"numeral": "XVIII",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50026358637/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028710"
+},
+"n84": {
+"order": 19,
+"numeral": "XIX",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50025554813/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028712"
+},
+"n86": {
+"order": 20,
+"numeral": "XX",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50026097981/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028714"
+},
+"n96": {
+"order": 21,
+"numeral": "XXI",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50025555183/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028724"
+},
+"n98": {
+"order": 22,
+"numeral": "XXII",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50026359187/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028726"
+},
+"n100": {
+"order": 23,
+"numeral": "XXIII",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50026359422/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028728"
+},
+"n102": {
+"order": 24,
+"numeral": "XXIV",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50026359617/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028730"
+},
+"n112": {
+"order": 25,
+"numeral": "XXV",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50026099036/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028740"
+},
+"n114": {
+"order": 26,
+"numeral": "XXVI",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50025556128/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028742"
+},
+"n116": {
+"order": 27,
+"numeral": "XXVII",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50025556333/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028744"
+},
+"n118": {
+"order": 28,
+"numeral": "XXVIII",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50026360662/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028746"
+},
+"n128": {
+"order": 29,
+"numeral": "XXIX",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50025556668/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028756"
+},
+"n130": {
+"order": 30,
+"numeral": "XXX",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50026361117/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028758"
+},
+"n132": {
+"order": 31,
+"numeral": "XXXI",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50025557003/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028760"
+},
+"n134": {
+"order": 32,
+"numeral": "XXXII",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50026100396/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028762"
+},
+"n144": {
+"order": 33,
+"numeral": "XXXIII",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50026100586/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028772"
+},
+"n146": {
+"order": 34,
+"numeral": "XXXIV",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50026361902/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028774"
+},
+"n148": {
+"order": 35,
+"numeral": "XXXV",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50025557688/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028776"
+},
+"n150": {
+"order": 36,
+"numeral": "XXXVI",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50025557838/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028778"
+},
+"n160": {
+"order": 37,
+"numeral": "XXXVII",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50025558063/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028788"
+},
+"n162": {
+"order": 38,
+"numeral": "XXXVIII",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50026101346/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028790"
+},
+"n164": {
+"order": 39,
+"numeral": "XXXIX",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50026362782/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028792"
+},
+"n174": {
+"order": 40,
+"numeral": "XL",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50025558558/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028802"
+},
+"n176": {
+"order": 41,
+"numeral": "XLI",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50025558728/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028804"
+},
+"n178": {
+"order": 42,
+"numeral": "XLII",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50025558893/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028806"
+},
+"n180": {
+"order": 43,
+"numeral": "XLIII",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50026363477/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028808"
+},
+"n182": {
+"order": 44,
+"numeral": "XLIV",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50025559188/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028810"
+},
+"n184": {
+"order": 45,
+"numeral": "XLV",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50025559413/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028812"
+},
+"n194": {
+"order": 46,
+"numeral": "XLVI",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50026364017/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028822"
+},
+"n196": {
+"order": 47,
+"numeral": "XLVII",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50025559748/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028824"
+},
+"n198": {
+"order": 48,
+"numeral": "XLVIII",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50026364432/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028826"
+},
+"n200": {
+"order": 49,
+"numeral": "XLIX",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50025560093/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028828"
+},
+"n202": {
+"order": 50,
+"numeral": "L",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50025560328/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028830"
+},
+"n212": {
+"order": 51,
+"numeral": "LI",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50026364987/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028840"
+},
+"n214": {
+"order": 52,
+"numeral": "LII",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50025560668/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028842"
+},
+"n216": {
+"order": 53,
+"numeral": "LIII",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50026365227/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028844"
+},
+"n226": {
+"order": 54,
+"numeral": "LIV",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50025561023/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028854"
+},
+"n228": {
+"order": 55,
+"numeral": "LV",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50026365537/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028856"
+},
+"n230": {
+"order": 56,
+"numeral": "LVI",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50025561418/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028858"
+},
+"n232": {
+"order": 57,
+"numeral": "LVII",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50026365932/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028860"
+},
+"n234": {
+"order": 58,
+"numeral": "LVIII",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50026366122/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028862"
+},
+"n244": {
+"order": 59,
+"numeral": "LIX",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50025562013/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028872"
+},
+"n246": {
+"order": 60,
+"numeral": "LX",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50026366657/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028874"
+},
+"n248": {
+"order": 61,
+"numeral": "LXI",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50026366857/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028876"
+},
+"n250": {
+"order": 62,
+"numeral": "LXII",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50026367007/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028878"
+},
+"n252": {
+"order": 63,
+"numeral": "LXIII",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50025562793/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028880"
+},
+"n262": {
+"order": 64,
+"numeral": "LXIV",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50026105971/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028890"
+},
+"n264": {
+"order": 65,
+"numeral": "LXV",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50025563203/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028892"
+},
+"n266": {
+"order": 66,
+"numeral": "LXVI",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50026106296/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028894"
+},
+"n268": {
+"order": 67,
+"numeral": "LXVII",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50025563628/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028896"
+},
+"n270": {
+"order": 68,
+"numeral": "LXVIII",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50025563888/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028898"
+},
+"n280": {
+"order": 69,
+"numeral": "LXIX",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50026106776/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028908"
+},
+"n282": {
+"order": 70,
+"numeral": "LXX",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50025564303/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028910"
+},
+"n284": {
+"order": 71,
+"numeral": "LXXI",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50025564488/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028912"
+},
+"n286": {
+"order": 72,
+"numeral": "LXXII",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50025564688/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028914"
+},
+"n288": {
+"order": 73,
+"numeral": "LXXIII",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50026369107/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028916"
+},
+"n298": {
+"order": 74,
+"numeral": "LXXIV",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50026369307/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028926"
+},
+"n300": {
+"order": 75,
+"numeral": "LXXV",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50026107921/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028928"
+},
+"n302": {
+"order": 76,
+"numeral": "LXXVI",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50026108121/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028930"
+},
+"n304": {
+"order": 77,
+"numeral": "LXXVII",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50026370002/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028932"
+},
+"n306": {
+"order": 78,
+"numeral": "LXXVIII",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50026370257/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028934"
+},
+"n308": {
+"order": 79,
+"numeral": "LXXIX",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50026370492/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028936"
+},
+"n310": {
+"order": 80,
+"numeral": "LXXX",
+"flickrUrl": "https://www.flickr.com/photos/biodivlibrary/50025566413/",
+"bhlUrl": "https://www.biodiversitylibrary.org/page/52028938"
+}
+},
+"specimens": {
+"n16-1": {
+"name": "Priam’s Birdwing",
+"latin": "Ornithoptera priamus",
+"family": "Papilionidae",
+"wingspan": "150–190 mm (male)",
+"range": "Moluccas to New Guinea and northern Australia",
+"confidence": "confirmed",
+"caption": "g. Ornithoptera Priamus ♂, île d’Amboine",
+"facts": [
+"The first birdwing ever described, named by Linnaeus in 1758 after Priam, king of Troy. He gave the great swallowtails the names of Trojan heroes.",
+"The male’s green is structural colour, not pigment: microscopic ridges on the scales scatter light. The engraver could only approximate it with paint.",
+"Females are larger, brown and cream, and were long thought to be a different species.",
+"Caterpillars feed on poisonous Dutchman’s pipe vines and carry the toxin into adulthood, so birds learn to leave the adults alone."
+]
+},
+"n298-1": {
+"latin": "Caligo beltrao",
+"name": "Beltrão’s Owl Butterfly",
+"family": "Nymphalidae",
+"confidence": "probable",
+"facts": [
+"One of the owl butterflies: the underside carries a huge eyespot that reads as an owl’s eye when the wings are closed."
+]
+},
+"n302-1": {
+"latin": "Morpho menelaus",
+"name": "Menelaus Blue Morpho",
+"family": "Nymphalidae",
+"wingspan": "120–150 mm",
+"range": "Central and South America",
+"confidence": "probable",
+"facts": [
+"Another Trojan name from Linnaeus. The blue is structural: the scales are stacked like tiny Christmas trees and reflect only blue light.",
+"The undersides are brown with eyespots, so a flying morpho seems to flash on and off."
+]
+},
+"n304-1": {
+"latin": "Morpho laertes",
+"name": "White Morpho",
+"family": "Nymphalidae",
+"range": "Brazil",
+"confidence": "probable",
+"facts": [
+"A pale morpho whose white takes a faint pearly blue in the light. Named for Laertes, father of Odysseus."
+]
+}
+}
+}

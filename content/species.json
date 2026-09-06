@@ -1,0 +1,19 @@
+{
+  "n16-1": {
+    "name": "Priam’s Birdwing", "latin": "Ornithoptera priamus", "family": "Papilionidae",
+    "wingspan": "150–190 mm (male)", "range": "Moluccas to New Guinea and northern Australia", "confidence": "confirmed",
+    "caption": "g. Ornithoptera Priamus ♂, île d’Amboine",
+    "facts": [
+      "The first birdwing ever described, named by Linnaeus in 1758 after Priam, king of Troy. He gave the great swallowtails the names of Trojan heroes.",
+      "The male’s green is structural colour, not pigment: microscopic ridges on the scales scatter light. The engraver could only approximate it with paint.",
+      "Females are larger, brown and cream, and were long thought to be a different species.",
+      "Caterpillars feed on poisonous Dutchman’s pipe vines and carry the toxin into adulthood, so birds learn to leave the adults alone."
+    ]
+  },
+  "n298-1": { "latin": "Caligo beltrao", "name": "Beltrão’s Owl Butterfly", "family": "Nymphalidae", "confidence": "probable",
+    "facts": ["One of the owl butterflies: the underside carries a huge eyespot that reads as an owl’s eye when the wings are closed."] },
+  "n302-1": { "latin": "Morpho menelaus", "name": "Menelaus Blue Morpho", "family": "Nymphalidae", "wingspan": "120–150 mm", "range": "Central and South America", "confidence": "probable",
+    "facts": ["Another Trojan name from Linnaeus. The blue is structural: the scales are stacked like tiny Christmas trees and reflect only blue light.", "The undersides are brown with eyespots, so a flying morpho seems to flash on and off."] },
+  "n304-1": { "latin": "Morpho laertes", "name": "White Morpho", "family": "Nymphalidae", "range": "Brazil", "confidence": "probable",
+    "facts": ["A pale morpho whose white takes a faint pearly blue in the light. Named for Laertes, father of Odysseus."] }
+}

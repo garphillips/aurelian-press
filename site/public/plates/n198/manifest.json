@@ -1,0 +1,70 @@
+{
+"plateKey": "n198",
+"order": 48,
+"canvas": [
+1329,
+2171
+],
+"paper": [
+0.9803921580314636,
+0.9254902005195618,
+0.7686274647712708
+],
+"source": {
+"flickr": "https://www.flickr.com/photos/biodivlibrary/50026364432/",
+"bhl": "https://www.biodiversitylibrary.org/page/52028826"
+},
+"specimens": [
+{
+"id": "n198-1",
+"rotate": "cw",
+"plateBox": [
+311,
+327,
+1013,
+1682
+],
+"axis": 1161,
+"bodyHalf": 47,
+"wingTop": 321,
+"bbox": [
+489,
+311,
+1844,
+1013
+],
+"parts": {
+"body": {
+"bbox": [
+1108,
+464,
+1213,
+927
+],
+"w": 105,
+"h": 463
+},
+"wing-R": {
+"bbox": [
+1208,
+304,
+1850,
+1011
+],
+"w": 642,
+"h": 707
+},
+"wing-L": {
+"bbox": [
+483,
+312,
+1114,
+1019
+],
+"w": 631,
+"h": 707
+}
+}
+}
+]
+}
