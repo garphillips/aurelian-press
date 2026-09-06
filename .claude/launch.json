@@ -22,6 +22,16 @@
       ],
       "port": 5199,
       "cwd": "site"
+    },
+    {
+      "name": "moths-site",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "dev"
+      ],
+      "port": 5200,
+      "cwd": "fork/site"
     }
   ]
 }
