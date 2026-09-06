@@ -86,7 +86,11 @@ async function openBook(b: BookConfig, push: boolean) {
   if (busy || session) return; busy = true;
   if (push) history.pushState(null, '', b.route);
   document.title = `${b.shortTitle} · ${SITE}`;
-  if (shelf) { await shelf.animateOpen(b, 1, 1.7); }
+  if (shelf) {
+    await shelf.animateOpen(b, 1, 1.7);
+    // linger on the frontispiece before the pages take over
+    if (!matchMedia('(prefers-reduced-motion: reduce)').matches) await new Promise(r => setTimeout(r, 1600));
+  }
   await curtain(true);
   hideShelf();
   session = await startBook(scene, b, () => closeBook(b, true)); current = b;
