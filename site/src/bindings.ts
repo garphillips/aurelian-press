@@ -236,7 +236,6 @@ export function firstLeaf(cfg: BookConfig, faceW: number, faceH: number, onLoad:
     g.fillStyle = 'rgba(60,40,20,0.10)'; g.fillRect(x - 6, y + 4, iw + 12, ih + 12);        // faint plate-mark
     g.drawImage(img, x, y, iw, ih);
     g.strokeStyle = 'rgba(60,40,20,0.35)'; g.lineWidth = 2; g.strokeRect(x - 10, y - 10, iw + 20, ih + 20);
-    g.fillStyle = 'rgba(120,90,50,0.06)'; g.fillRect(x, y, iw, ih);
     g.textAlign = 'center'; g.textBaseline = 'alphabetic'; g.fillStyle = '#2a2018';
     const size = W * 0.062; g.font = `${size}px ${FELL}`;
     g.fillText(p.caption, W / 2, y + ih + size * 2.0);
