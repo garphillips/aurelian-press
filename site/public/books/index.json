@@ -38,10 +38,14 @@
           "1835"
         ]
       ],
-      "firstPage": "/covers/lucas/first.jpg",
       "masthead": "Histoire naturelle des lépidoptères exotiques · Paris, 1835",
       "credit": "Plates drawn and engraved by Pauquet for <i>Histoire naturelle des lépidoptères exotiques</i>, Paris, 1835–36. Scans: <a href=\"https://www.biodiversitylibrary.org/item/213697\" target=\"_blank\" rel=\"noopener\">Biodiversity Heritage Library</a>, public domain.",
-      "unreadNote": "The handwritten caption for this figure has not been transcribed yet. Its species and facts will follow."
+      "unreadNote": "The handwritten caption for this figure has not been transcribed yet. Its species and facts will follow.",
+      "portrait": {
+        "image": "/covers/lucas/author.jpg",
+        "caption": "Hippolyte Lucas",
+        "dates": "1814–1899"
+      }
     },
     {
       "id": "british-moths",
@@ -99,10 +103,14 @@
           "NIMMO"
         ]
       ],
-      "firstPage": "/covers/british-moths/first.jpg",
       "masthead": "A History of British Moths · F. O. Morris · London, 1903",
       "credit": "Plates from F. O. Morris, <i>A History of British Moths</i>, new edition in four volumes, London: John C. Nimmo, 1903. Scans: <a href=\"https://archive.org/details/historyofbritish01morr_1\" target=\"_blank\" rel=\"noopener\">Internet Archive</a>, public domain.",
-      "unreadNote": "Morris’s text for this figure was not recovered from the scan yet. Its species and facts will follow."
+      "unreadNote": "Morris’s text for this figure was not recovered from the scan yet. Its species and facts will follow.",
+      "portrait": {
+        "image": "/covers/british-moths/author.jpg",
+        "caption": "Francis Orpen Morris",
+        "dates": "1810–1893"
+      }
     }
   ]
 }

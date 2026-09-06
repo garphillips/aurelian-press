@@ -13,7 +13,7 @@ export interface BookConfig {
   format: { h: number; w: number; d: number };   // world units: height, width (spine to fore-edge), thickness
   cloth: string; gilt: string;
   spine: string[][];             // gilt panels on the spine, each a stack of lines
-  firstPage?: string;            // image revealed when the cover opens
+  portrait?: { image: string; caption: string; dates?: string };   // the author, as a frontispiece under the cover
   masthead?: string; credit?: string; unreadNote?: string;
 }
 

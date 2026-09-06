@@ -138,19 +138,27 @@ export function pages(long: number, thick: number, seed = 11): HTMLCanvasElement
   return c;
 }
 
-/** The first leaf: the opening plate on cream paper, fitted to the page face. */
+/** The first leaf: a frontispiece portrait of the author on cream paper, name and dates beneath. */
 export function firstLeaf(cfg: BookConfig, faceW: number, faceH: number, onLoad: () => void): HTMLCanvasElement {
-  const W = faceW * PX, H = faceH * PX, c = canvas(W, H), g = c.getContext('2d')!;
+  const W = faceW * PX, H = faceH * PX, c = canvas(W, H), g = c.getContext('2d')!, r = rng(23);
   g.fillStyle = '#e9dfc6'; g.fillRect(0, 0, W, H);
-  if (cfg.firstPage) {
-    const img = new Image(); img.src = cfg.firstPage;
-    img.onload = () => {
-      const s = Math.min((W * 0.96) / img.width, (H * 0.97) / img.height), iw = img.width * s, ih = img.height * s;
-      g.drawImage(img, (W - iw) / 2, (H - ih) / 2, iw, ih);
-      g.fillStyle = 'rgba(120,90,50,0.08)'; g.fillRect(0, 0, W, H);
-      onLoad();
-    };
-  }
+  for (let i = 0; i < 30; i++) { g.fillStyle = `rgba(150,110,60,${0.03 + r() * 0.06})`; g.beginPath(); g.arc(r() * W, r() * H, 2 + r() * 8, 0, 6.28); g.fill(); }
+  const p = cfg.portrait; if (!p) return c;
+  const img = new Image(); img.src = p.image;
+  img.onload = () => {
+    // the plate sits a little above centre, about three-fifths of the page wide
+    const pw = W * 0.6, ph = Math.min(H * 0.6, pw * img.height / img.width), s = Math.min(pw / img.width, ph / img.height);
+    const iw = img.width * s, ih = img.height * s, x = (W - iw) / 2, y = H * 0.14;
+    g.fillStyle = 'rgba(60,40,20,0.10)'; g.fillRect(x - 6, y + 4, iw + 12, ih + 12);        // faint plate-mark
+    g.drawImage(img, x, y, iw, ih);
+    g.strokeStyle = 'rgba(60,40,20,0.35)'; g.lineWidth = 2; g.strokeRect(x - 10, y - 10, iw + 20, ih + 20);
+    g.fillStyle = 'rgba(120,90,50,0.06)'; g.fillRect(x, y, iw, ih);
+    g.textAlign = 'center'; g.textBaseline = 'alphabetic'; g.fillStyle = '#2a2018';
+    const size = W * 0.062; g.font = `${size}px ${FELL}`;
+    g.fillText(p.caption, W / 2, y + ih + size * 2.0);
+    if (p.dates) { g.font = `italic ${size * 0.72}px ${FELL}`; g.fillStyle = '#5a4a38'; g.fillText(p.dates, W / 2, y + ih + size * 3.0); }
+    onLoad();
+  };
   return c;
 }
 
