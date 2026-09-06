@@ -233,7 +233,8 @@ export function firstLeaf(cfg: BookConfig, faceW: number, faceH: number, onLoad:
     // the plate sits a little above centre, about three-fifths of the page wide
     const pw = W * 0.6, ph = Math.min(H * 0.6, pw * img.height / img.width), s = Math.min(pw / img.width, ph / img.height);
     const iw = img.width * s, ih = img.height * s, x = (W - iw) / 2, y = H * 0.14;
-    g.drawImage(img, x, y, iw, ih);
+    // multiplied onto the leaf: the sketch's white becomes the paper, its ink sits on the grain
+    g.save(); g.globalCompositeOperation = 'multiply'; g.drawImage(img, x, y, iw, ih); g.restore();
     g.textAlign = 'center'; g.textBaseline = 'alphabetic'; g.fillStyle = '#2a2018';
     const size = W * 0.062; g.font = `${size}px ${FELL}`;
     g.fillText(p.caption, W / 2, y + ih + size * 2.0);

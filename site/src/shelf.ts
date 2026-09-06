@@ -41,7 +41,7 @@ class ShelfBook {
     const leafCanvas = firstLeaf(cfg, blockW, blockH, () => { leaf.map!.needsUpdate = true; onTextureReady(); });
     // the leaf and paste-down are lit by ambient + sun + room, which sum to well over 1; their base is scaled so
     // their cream renders as the site's paper (measured: 0xb0 lands the leaf at the paper's 223/255)
-    const PAGE_BASE = 0xb0b0b0;
+    const PAGE_BASE = 0xcacaca;
     const leaf = new THREE.MeshStandardMaterial({ map: tex(leafCanvas), roughness: 0.95, color: PAGE_BASE }); this.disposables.push(leaf);
     inside.color.set(PAGE_BASE);
     const cream = new THREE.MeshStandardMaterial({ color: 0xe6dcc2, roughness: 0.95 }); this.disposables.push(cream);
