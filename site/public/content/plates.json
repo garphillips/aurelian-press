@@ -417,6 +417,7 @@
 "name": "Priam’s Birdwing",
 "family": "Papilionidae",
 "wingspan": "150–190 mm (male)",
+"range": "Moluccas to New Guinea and northern Australia",
 "confidence": "confirmed",
 "facts": [
 "The first birdwing ever described, named by Linnaeus in 1758 after Priam, king of Troy. He gave the great swallowtails the names of Trojan heroes.",
@@ -424,7 +425,6 @@
 "Females are larger, brown and cream, and were long thought to be a different species.",
 "Caterpillars feed on poisonous Dutchman’s pipe vines and carry the toxin into adulthood, so birds learn to leave the adults alone."
 ],
-"range": "Moluccas to New Guinea and northern Australia",
 "caption": "g. Ornithoptera Priamus ♂, île d’Amboine"
 },
 "n18-1": {
@@ -434,10 +434,12 @@
 "name": "Golden Birdwing",
 "family": "Papilionidae",
 "wingspan": "140 mm",
+"range": "Lucas's specimen: Iles Philippines",
 "confidence": "ocr",
 "facts": [
 "Troides rhadamantus, the tropical golden birdwing, is a birdwing butterfly that inhabits the Philippines. The species was first described by Hippolyte Lucas in 1835.",
-"Lucas called it Ornithoptera rhadamantus; the accepted name today is Troides rhadamantus."
+"Lucas called it Ornithoptera rhadamantus; the accepted name today is Troides rhadamantus.",
+"Named for Rhadamanthus, the Cretan lawgiver who became a judge of the dead. Boisduval gave the name in 1836; Lucas printed it the year the species was described."
 ]
 },
 "n18-2": {
@@ -447,23 +449,26 @@
 "name": "Androgeus Swallowtail",
 "family": "Papilionidae",
 "wingspan": "134–140 mm",
+"range": "Lucas's specimen: Guyane, Brésil",
 "confidence": "ocr",
 "facts": [
 "Papilio androgeus, the Androgeus swallowtail, queen page, or queen swallowtail, is a Neotropical butterfly of the family Papilionidae. It is found from Mexico to Argentina with a small population in southern Florida.",
-"Lucas called it Papilio polycaon; the accepted name today is Papilio androgeus."
+"Lucas called it Papilio polycaon; the accepted name today is Papilio androgeus.",
+"Named for Polycaon, a Spartan prince who became the first king of Messenia."
 ]
 },
 "n20-1": {
 "latin": "Papilio ulysses",
 "latin1835": "Papilio ulysses",
 "french1835": "Ulysse",
-"name": "Ulysses Butterfly",
+"name": "Blue Mountain Swallowtail",
 "family": "Papilionidae",
 "wingspan": "140 mm",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The forewings are velvet black above, with a patch of azure blue that turns violet or green according to the angle at which one examines it. This patch runs from the base of all four wings to beyond the middle, its hind edge scalloped, and near the front edge of the forewings there is a fairly large black dot, present in the female too.”",
-"Papilio ulysses, the Ulysses butterfly, is a large swallowtail butterfly, in the subgenus Achillides, of Australia, Indonesia, Papua New Guinea and the Solomon Islands. Its size varies depending on subspecies, but the wingspan is about 10.5 cm (4.1 in) in Queensland."
+"Papilio ulysses, the Ulysses butterfly, is a large swallowtail butterfly, in the subgenus Achillides, of Australia, Indonesia, Papua New Guinea and the Solomon Islands. Its size varies depending on subspecies, but the wingspan is about 10.5 cm (4.1 in) in Queensland.",
+"Named by Linnaeus for Ulysses, the wanderer of the Odyssey. The name has never changed, which is rare for a butterfly described in 1758."
 ]
 },
 "n22-1": {
@@ -471,55 +476,62 @@
 "latin1835": "Papilio agavus",
 "french1835": "Agavus",
 "family": "Papilionidae",
+"range": "Lucas's specimen: Brésil",
 "confidence": "ocr",
 "facts": [
 "Parides agavus, the Agavus Cattleheart, is a species of butterfly in the family Papilionidae. It is found in Brazil, Paraguay, and north Argentina.",
-"Lucas called it Papilio agavus; the accepted name today is Parides agavus."
+"Lucas called it Papilio agavus; the accepted name today is Parides agavus.",
+"Named for Agave, daughter of Cadmus, who in her frenzy tore her own son Pentheus apart."
 ]
 },
 "n22-2": {
-"latin": "Papilio polytes",
+"latin": "Pachliopta hector",
 "latin1835": "Papilio hector",
 "french1835": "Hector",
-"name": "Common Mormon",
+"name": "Crimson Rose",
 "family": "Papilionidae",
+"range": "Lucas's specimen: Bengale, Coromandel, Ile d'Amboine",
 "confidence": "ocr",
 "facts": [
-"Papilio polytes, the common Mormon, is a common species of swallowtail butterfly widely distributed across Asia."
+"Pachliopta hector, the crimson rose, is a large swallowtail butterfly belonging to the genus Pachliopta (roses) of the red-bodied swallowtails.",
+"Named for Hector, Troy's champion. A Trojan name from Linnaeus, given to a red-bodied swallowtail he placed among the Trojans."
 ]
 },
 "n32-1": {
 "latin": "Graphium sarpedon",
 "latin1835": "Papilio sarpedon",
 "french1835": "Sarpédon",
-"name": "Blue Triangle",
+"name": "Common Bluebottle",
 "family": "Papilionidae",
+"range": "Lucas's specimen: Java",
 "confidence": "ocr",
 "facts": [
 "Graphium sarpedon, the common bluebottle is a species of swallowtail butterfly that is found in East, South and Southeast Asia. There are approximately sixteen subspecies with differing geographical distributions.",
-"Lucas called it Papilio sarpedon; the accepted name today is Graphium sarpedon."
+"Lucas called it Papilio sarpedon; the accepted name today is Graphium sarpedon.",
+"Named for Sarpedon, the Lycian king killed by Patroclus before the walls of Troy."
 ]
 },
 "n32-2": {
 "latin": "Graphium bathycles",
 "latin1835": "Papilio bathycles",
 "french1835": "Bathycles",
-"name": "Veined Jay",
+"name": "Striped Jay",
 "family": "Papilionidae",
+"range": "Lucas's specimen: Java, Ile d'Amboine",
 "confidence": "ocr",
 "facts": [
-"Graphium bathycles, the veined jay, is a butterfly in the family Papilionidae, that is found in the Indomalayan realm."
+"Graphium bathycles, the veined jay, is a butterfly in the family Papilionidae, that is found in the Indomalayan realm.",
+"Named for Bathycles of Magnesia, the sculptor who made the throne of Apollo at Amyclae."
 ]
 },
 "n34-1": {
-"latin": "Emesis mandana",
+"latin": "Papilio polymetus",
 "latin1835": "Papilio polymetus",
 "french1835": "Polymetus",
-"name": "Great Emesis",
-"family": "Lycaenidae",
+"range": "Lucas's specimen: Brésil",
 "confidence": "ocr",
 "facts": [
-"Lucas called it Papilio polymetus; the accepted name today is Emesis mandana."
+"Named for Polymetus; Cramer's coinage, from the Greek for much counsel."
 ]
 },
 "n34-2": {
@@ -529,20 +541,22 @@
 "name": "Common Clubtail",
 "family": "Papilionidae",
 "wingspan": "100–120 mm",
+"range": "Lucas's specimen: Java, Coromandel",
 "confidence": "ocr",
 "facts": [
 "Losaria coon, the common clubtail, is a butterfly belonging to the swallowtail family, Papilionidae. The butterfly belongs to the clubtails, genus Losaria.",
-"Lucas called it Papilio coon; the accepted name today is Losaria coon."
+"Lucas called it Papilio coon; the accepted name today is Losaria coon.",
+"Not a hero at all: Fabricius took the name from Coön, a Trojan warrior in the Iliad who wounded Agamemnon."
 ]
 },
 "n36-1": {
-"latin": "Papilio melander",
+"latin": "Papilio evander",
 "latin1835": "Papilio evander",
 "french1835": "Evander",
-"family": "Papilionidae",
+"range": "Lucas's specimen: Brésil",
 "confidence": "ocr",
 "facts": [
-"Mylon maimon, the common mylon or black-veined mylon, is a butterfly of the family Hesperiidae. It is found from Argentina to Colombia and Bolivia, and north to Mexico."
+"Named for Evander, the Arcadian who settled on the Palatine before Rome was founded and welcomed Aeneas."
 ]
 },
 "n36-2": {
@@ -551,22 +565,25 @@
 "french1835": "Vertumne",
 "name": "Vertumnus Cattleheart",
 "family": "Papilionidae",
+"range": "Lucas's specimen: Brésil",
 "confidence": "ocr",
 "facts": [
 "Parides vertumnus  is a species of butterfly in the family Papilionidae. It is found in the Neotropical realm.",
-"Lucas called it Papilio vertumnus; the accepted name today is Parides vertumnus."
+"Lucas called it Papilio vertumnus; the accepted name today is Parides vertumnus.",
+"Named for Vertumnus, the Roman god of the changing seasons and of gardens."
 ]
 },
 "n38-1": {
-"latin": "Junonia iphita",
+"latin": "Eurytides iphitas",
 "latin1835": "Papilio iphitas",
 "french1835": "Iphitas",
-"name": "Chocolate Pansy",
-"family": "Nymphalidae",
+"name": "Yellow Kite Swallowtail",
+"family": "Papilionidae",
+"range": "Lucas's specimen: Amérique mérid.",
 "confidence": "ocr",
 "facts": [
-"Junonia iphita, the chocolate pansy or chocolate soldier, is a butterfly found in Asia.",
-"Lucas called it Papilio iphitas; the accepted name today is Junonia iphita."
+"Eurytides iphitas, commonly known as the yellow kite swallowtail, is a species of butterfly in the family Papilionidae. It is an endangered species that is endemic to Brazil.",
+"Named for Iphitus, whose bow Odysseus carried and used to slay the suitors."
 ]
 },
 "n38-2": {
@@ -575,24 +592,27 @@
 "french1835": "Philenor",
 "name": "Pipevine Swallowtail",
 "family": "Papilionidae",
+"range": "Lucas's specimen: Amérique sept.",
 "confidence": "ocr",
 "facts": [
 "Battus philenor, the pipevine swallowtail or blue swallowtail, is a swallowtail butterfly found in North America and Central America. This butterfly is black with iridescent-blue hindwings.",
-"Lucas called it Papilio philenor; the accepted name today is Battus philenor."
+"Lucas called it Papilio philenor; the accepted name today is Battus philenor.",
+"The name means lover of husband in Greek; Linnaeus gave it in 1771 to the pipevine swallowtail of North America."
 ]
 },
 "n40-1": {
-"latin": "Colias electo",
+"latin": "Papilio aegeus",
 "latin1835": "Papilio erecteus",
 "french1835": "Erecthéa",
-"name": "Lucerne Butterfly",
-"family": "Pieridae",
-"wingspan": "35–40 mm",
+"name": "Orchard Swallowtail Butterfly",
+"family": "Papilionidae",
+"wingspan": "140 mm",
+"range": "Lucas's specimen: Nlle Hollande",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “All the wings are toothed, black, with whitish notches. The forewings carry a whitish, interrupted streak opposite the apex; the hindwings are crossed in the middle by a broad greyish-white band, sinuous on its outer side, ending at the anal angle in a blood-red lunule dusted with blue.”",
-"Colias electo, the African clouded yellow or lucerne butterfly, is a butterfly of the family Pieridae. It is found in eastern and southern Africa, as well as Arabia.",
-"Lucas called it Papilio erecteus; the accepted name today is Colias electo."
+"Papilio aegeus, the orchard swallowtail butterfly or large citrus butterfly is a species of butterfly from the family Papilionidae, that is found in eastern Australia and Papua New Guinea.",
+"Named for Erechtheus, the legendary king of Athens whose temple stands on the Acropolis."
 ]
 },
 "n40-2": {
@@ -601,9 +621,11 @@
 "french1835": "Demoleus",
 "name": "Citrus Swallowtail",
 "family": "Papilionidae",
+"range": "Lucas's specimen: Cap de Bonne Espérance",
 "confidence": "ocr",
 "facts": [
-"Papilio demoleus is a common and widespread swallowtail butterfly. The butterfly is also known as the lemon butterfly and chequered swallowtail."
+"Papilio demoleus is a common and widespread swallowtail butterfly. The butterfly is also known as the lemon butterfly and chequered swallowtail.",
+"Named for Demoleus, a Greek slain by Aeneas in the Aeneid. Linnaeus placed the species among the Achivi, the Greek knights."
 ]
 },
 "n50-1": {
@@ -612,9 +634,11 @@
 "french1835": "Phorbanla",
 "name": "Small Reunion Swallowtail",
 "family": "Papilionidae",
+"range": "Lucas's specimen: Ile de France, Bourbon",
 "confidence": "ocr",
 "facts": [
-"Papilio phorbanta, also known as the small Réunion swallowtail, is a species of butterfly in the family Papilionidae. It is thought to be endemic to Réunion but may also be present on the Seychelles, but it might be extinct there."
+"Papilio phorbanta, also known as the small Réunion swallowtail, is a species of butterfly in the family Papilionidae. It is thought to be endemic to Réunion but may also be present on the Seychelles, but it might be extinct there.",
+"Named for Phorbas, a hero of several Greek tales, among them the boxer who challenged travellers to Delphi."
 ]
 },
 "n50-2": {
@@ -623,6 +647,7 @@
 "french1835": "Dispari lis",
 "name": "Small Reunion Swallowtail",
 "family": "Papilionidae",
+"range": "Lucas's specimen: Ile de France",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The four wings are toothed, of a deep blackish brown above, with whitish notches. Towards the middle of the wing the male shows a large patch of fine blue-green, set transversely and divided in three by the veins, and near the apex of the same wings three more spots of the same colour.”",
@@ -639,7 +664,8 @@
 "wingspan": "130–160 mm",
 "confidence": "ocr",
 "facts": [
-"Papilio deiphobus is a species of swallowtail butterfly in the Papilioninae subfamily. It is found from the Mollucas to Sulawesi in Indonesia."
+"Papilio deiphobus is a species of swallowtail butterfly in the Papilioninae subfamily. It is found from the Mollucas to Sulawesi in Indonesia.",
+"Named for Deiphobus, son of Priam, who took Helen as his wife after Paris fell."
 ]
 },
 "n54-1": {
@@ -649,9 +675,11 @@
 "name": "Blue Mormon",
 "family": "Papilionidae",
 "wingspan": "120–150 mm",
+"range": "Lucas's specimen: Indes Orientales",
 "confidence": "ocr",
 "facts": [
-"Papilio agenor polymnestor, the Indian blue mormon, is a large swallowtail butterfly found in south India. It is the \"state butterfly\" of the Indian state of Maharashtra."
+"Papilio agenor polymnestor, the Indian blue mormon, is a large swallowtail butterfly found in south India. It is the \"state butterfly\" of the Indian state of Maharashtra.",
+"Named for Polymnestor, the Thracian king of Euripides' Hecuba, who murdered Priam's youngest son for his gold."
 ]
 },
 "n54-2": {
@@ -660,55 +688,61 @@
 "french1835": "Peranthus",
 "name": "Swift Peacock Swallowtail",
 "family": "Papilionidae",
+"range": "Lucas's specimen: Java, Cochinchine",
 "confidence": "ocr",
 "facts": [
-"Papilio peranthus, the Indonesian swallowtail is a butterfly of the family Papilionidae. It is found in Indonesia."
+"Papilio peranthus, the Indonesian swallowtail is a butterfly of the family Papilionidae. It is found in Indonesia.",
+"Named for Peranthus; Fabricius's coinage, apparently from the Greek for around the flowers."
 ]
 },
 "n56-1": {
-"latin": "Papilio cresphontes",
+"latin": "Papilio demolion",
 "latin1835": "Papilio cresphontes",
 "french1835": "Cresphonte",
-"name": "Giant Swallowtail",
+"name": "Banded Swallowtail",
 "family": "Papilionidae",
+"range": "Lucas's specimen: Java",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “This species, of middling size, is sulphur white on both surfaces. The tip of the forewings is edged above by a broad arched black band, much widened at the apex, where it carries a dot of the ground colour; the hindwings have very blunt teeth and a fairly long yellowish spatulate tail, with three black spots towards the middle of the surface.”",
-"The eastern giant swallowtail is the largest butterfly in North America. It is abundant through many parts of eastern North America; populations from western North America and down into Panama are now considered to belong to a different species, Papilio rumiko."
+"Papilio demolion, the banded swallowtail, is a species of swallowtail butterfly belonging to the family Papilionidae.",
+"Named for Cresphontes, a descendant of Heracles who won Messenia by lot when the Peloponnese was divided."
 ]
 },
 "n56-2": {
 "latin": "Papilio helenus",
 "latin1835": "Papilio helenus",
 "french1835": "Helenus",
-"name": "Red Helen",
+"name": "Red Helen Swallowtail",
 "family": "Papilionidae",
+"range": "Lucas's specimen: Chine",
 "confidence": "ocr",
 "facts": [
-"Papilio helenus, the red Helen, is a large swallowtail butterfly found in forests of southern India and parts of southeast Asia."
+"Papilio helenus, the red Helen, is a large swallowtail butterfly found in forests of southern India and parts of southeast Asia.",
+"Named for Helenus, the seer-prince of Troy and twin of Cassandra."
 ]
 },
 "n66-1": {
-"latin": "Charaxes brutus",
+"latin": "Papilio dardanus",
 "latin1835": "Papilio brutus",
 "french1835": "Brutus",
-"name": "White-barred Charaxes",
-"family": "Nymphalidae",
+"name": "Mocker Swallowtail",
+"family": "Papilionidae",
+"range": "Lucas's specimen: Côte occ. Afrique, Cap de Bonne-Espérance",
 "confidence": "ocr",
 "facts": [
-"Charaxes brutus, the white-barred emperor or white-barred Charaxes, is a butterfly of the family Nymphalidae. It is found in Africa.",
-"Lucas called it Papilio brutus; the accepted name today is Charaxes brutus."
+"Papilio dardanus, the Saharan swallowtail, African swallowtail, mocker swallowtail or flying handkerchief, is a species of butterfly in the family Papilionidae. The species is broadly distributed throughout Sub-Saharan Africa.",
+"Named for Brutus, the Roman who drove out the Tarquin kings. Fabricius named it in 1793."
 ]
 },
 "n66-2": {
 "latin": "Papilio dardanus",
 "latin1835": "Papilio dardanus",
 "french1835": "Dardanus",
-"name": "Mocker Swallowtail",
-"family": "Papilionidae",
+"range": "Lucas's specimen: Brésil",
 "confidence": "ocr",
 "facts": [
-"Papilio dardanus, the Saharan swallowtail, African swallowtail, mocker swallowtail or flying handkerchief, is a species of butterfly in the family Papilionidae. The species is broadly distributed throughout Sub-Saharan Africa."
+"Named for Dardanus, the mythical founder of the Trojan line, from whom the Dardanelles take their name."
 ]
 },
 "n66-3": {
@@ -716,10 +750,12 @@
 "latin1835": "Papilio aeneas",
 "french1835": "Enée",
 "family": "Papilionidae",
+"range": "Lucas's specimen: Guyane",
 "confidence": "ocr",
 "facts": [
 "Parides aeneas is a species of butterfly in the family Papilionidae. It is found in the Neotropical realm.",
-"Lucas called it Papilio aeneas; the accepted name today is Parides aeneas."
+"Lucas called it Papilio aeneas; the accepted name today is Parides aeneas.",
+"Named by Linnaeus for Aeneas, the Trojan prince who escaped the burning city to found the Roman line."
 ]
 },
 "n68-1": {
@@ -729,30 +765,34 @@
 "name": "Southern Cattle Heart",
 "family": "Papilionidae",
 "wingspan": "100–110 mm",
+"range": "Lucas's specimen: Guyane",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The wings are deep black above and crossed towards the middle by a band of greenish yellow, narrowed and broken into round spots near the apex of the forewings; the hindwings carry a row of lunules of the same colour parallel to the hind edge. These wings are very bluntly toothed, edged with white at the notches, and end in a black tail a little spatulate.”",
 "Parides sesostris, the emerald-patched cattleheart or southern cattleheart, is a species of butterfly in the family Papilionidae.",
-"Lucas called it Papilio sesostris; the accepted name today is Parides sesostris."
+"Lucas called it Papilio sesostris; the accepted name today is Parides sesostris.",
+"Named for Sesostris, the legendary Egyptian conqueror of Herodotus, who is usually identified with the pharaohs Senusret."
 ]
 },
 "n68-2": {
-"latin": "Glaucopsyche alexis",
+"latin": "Papilio dimas",
 "latin1835": "Papilio dimas",
 "french1835": "Dimas",
-"name": "Green-underside Blue",
-"family": "Lycaenidae",
+"range": "Lucas's specimen: Brésil",
 "confidence": "ocr",
 "facts": [
-"Glaucopsyche alexis, the green-underside blue, is a butterfly of the family Lycaenidae. It is found in the Palearctic.",
-"Lucas called it Papilio dimas; the accepted name today is Glaucopsyche alexis."
+"Named for Dymas, king of Phrygia and father of Hecuba."
 ]
 },
 "n68-3": {
 "latin": "Papilio nephalion",
 "latin1835": "Papilio nephalion",
 "french1835": "Néphalion",
-"confidence": "ocr"
+"range": "Lucas's specimen: Brésil",
+"confidence": "ocr",
+"facts": [
+"Named for Nephalion, a son of Minos killed by Heracles at Paros."
+]
 },
 "n70-1": {
 "latin": "Parides ascanius",
@@ -760,19 +800,23 @@
 "french1835": "Ascagne",
 "name": "Fluminense Swallowtail",
 "family": "Papilionidae",
+"range": "Lucas's specimen: Brésil",
 "confidence": "ocr",
 "facts": [
-"Parides ascanius, the Fluminense swallowtail, is a species of butterfly in the family Papilionidae. It is endemic to Brazil where it is confined to the municipalities of Atafona and Itaguaí.It is found in subcoastal swamps and thickets ('restinga')."
+"Parides ascanius, the Fluminense swallowtail, is a species of butterfly in the family Papilionidae. It is endemic to Brazil where it is confined to the municipalities of Atafona and Itaguaí.It is found in subcoastal swamps and thickets ('restinga').",
+"Named for Ascanius, son of Aeneas, who founded Alba Longa."
 ]
 },
 "n70-2": {
-"latin": "Papilio libythea",
+"latin": "Mimoides lysithous",
 "latin1835": "Papilio lysithous",
 "french1835": "Lysithous",
 "family": "Papilionidae",
+"range": "Lucas's specimen: Brésil",
 "confidence": "ocr",
 "facts": [
-"Eurema brigitta, the small grass yellow or broad-bordered grass yellow, is a small butterfly of the family Pieridae, that is, the yellows and whites. It is found in India, other parts of Asia, Australia and Africa."
+"Mimoides lysithous  is a species of butterfly in the family Papilionidae. It is found in the Neotropical realm.",
+"Named for Lysithous; Fabricius's coinage, of uncertain origin."
 ]
 },
 "n80-1": {
@@ -781,10 +825,12 @@
 "french1835": "Bélus",
 "name": "Belus Swallowtail",
 "family": "Papilionidae",
+"range": "Lucas's specimen: Guyane, Brésil",
 "confidence": "ocr",
 "facts": [
 "Battus belus, the Belus swallowtail is a species of butterfly from the family Papilionidae that is found in Brazil, Colombia, Guatemala, Peru and Venezuela.",
-"Lucas called it Papilio belus; the accepted name today is Battus belus."
+"Lucas called it Papilio belus; the accepted name today is Battus belus.",
+"Named for Belus, the legendary king of Egypt or Tyre and father of Dido in the Aeneid."
 ]
 },
 "n80-2": {
@@ -793,23 +839,22 @@
 "french1835": "Polydamas",
 "name": "Polydamas Swallowtail",
 "family": "Papilionidae",
+"range": "Lucas's specimen: Guyane, Brésil",
 "confidence": "ocr",
 "facts": [
 "Battus polydamas, also known as the gold rim swallowtail, the Polydamas swallowtail or the tailless swallowtail, is a species of butterfly in the family Papilionidae. The species was first described by Carl Linnaeus in his 10th edition of Systema Naturae, published in 1758.",
-"Lucas called it Papilio polydamas; the accepted name today is Battus polydamas."
+"Lucas called it Papilio polydamas; the accepted name today is Battus polydamas.",
+"Named by Linnaeus for Polydamas, the Trojan counsellor and friend of Hector who urged caution the night before the Greeks broke out."
 ]
 },
 "n82-1": {
-"latin": "Papilio menatius",
+"latin": "Papilio licoraeus",
 "latin1835": "Papilio licoraeus",
 "french1835": "Lycoræus",
-"name": "Victorine Swallowtail",
-"family": "Papilionidae",
-"wingspan": "95–110 mm",
+"range": "Lucas's specimen: Amérique sept.",
 "confidence": "ocr",
 "facts": [
-"Papilio menatius is a butterfly of the family Papilionidae.",
-"Lucas called it Papilio licoraeus; the accepted name today is Papilio menatius."
+"Named for Lycoreus, a son of Apollo and founder of Lycoreia on Parnassus."
 ]
 },
 "n82-2": {
@@ -818,10 +863,12 @@
 "french1835": "Turnus",
 "name": "Eastern Tiger Swallowtail",
 "family": "Papilionidae",
+"range": "Lucas's specimen: Amérique sept.",
 "confidence": "ocr",
 "facts": [
 "Papilio glaucus, the eastern tiger swallowtail, is a species of butterfly native to eastern North America. It is one of the most familiar butterflies in the eastern United States, ranging north to southern Ontario, Canada, and is common in many different habitats.",
-"Lucas called it Papilio turnus; the accepted name today is Papilio glaucus."
+"Lucas called it Papilio turnus; the accepted name today is Papilio glaucus.",
+"Named for Turnus, king of the Rutuli and Aeneas's rival in the Aeneid. The species is now Papilio glaucus, the tiger swallowtail."
 ]
 },
 "n84-1": {
@@ -830,9 +877,11 @@
 "french1835": "Xuthus",
 "name": "Chinese Swallowtail",
 "family": "Papilionidae",
+"range": "Lucas's specimen: Chine",
 "confidence": "ocr",
 "facts": [
-"Papilio xuthus, the Asian swallowtail, Chinese yellow swallowtail, Japanese swallowtail, Korean swallowtail or Xuthus swallowtail, is a yellow-colored, medium to large sized swallowtail butterfly found in northeast Asia, northern Myanmar, southern China, Taiwan, the Korean Peninsula, Japan, Siberia…"
+"Papilio xuthus, the Asian swallowtail, Chinese yellow swallowtail, Japanese swallowtail, Korean swallowtail or Xuthus swallowtail, is a yellow-colored, medium to large sized swallowtail butterfly found in northeast Asia, northern Myanmar, southern China, Taiwan, the Korean Peninsula, Japan, Siberia…",
+"Named by Linnaeus for Xuthus, a son of Hellen and ancestor of the Ionians."
 ]
 },
 "n84-2": {
@@ -841,23 +890,25 @@
 "french1835": "Troilus",
 "name": "Spicebush Swallowtail",
 "family": "Papilionidae",
+"range": "Lucas's specimen: Amérique sept.",
 "confidence": "ocr",
 "facts": [
-"Papilio troilus, the spicebush swallowtail or green-clouded butterfly, is a common black swallowtail butterfly found in North America. It has two subspecies, Papilio troilus troilus and Papilio troilus ilioneus, the latter found mainly in the Florida peninsula."
+"Papilio troilus, the spicebush swallowtail or green-clouded butterfly, is a common black swallowtail butterfly found in North America. It has two subspecies, Papilio troilus troilus and Papilio troilus ilioneus, the latter found mainly in the Florida peninsula.",
+"Named by Linnaeus for Troilus, the young prince of Troy slain by Achilles."
 ]
 },
 "n86-1": {
-"latin": "Junonia almana",
+"latin": "Papilio polyxenes",
 "latin1835": "Papilio asterias",
 "french1835": "Astérias",
-"name": "Peacock Pansy",
-"family": "Nymphalidae",
-"wingspan": "54–62 mm",
+"name": "Black Swallowtail",
+"family": "Papilionidae",
+"range": "Lucas's specimen: Amérique sept.",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “This species of middling size is brownish black, with a yellow transverse band made up of triangular spots on the forewings and divided by black veins on the hindwings. The hind edge of the forewings is slightly toothed and preceded by a row of yellow dots; the hindwings have curved blunt teeth, a black tail of moderate length, and a tawny anal angle marked with a very black dot beneath a lunule of blue atoms.”",
-"Junonia almana, the peacock pansy, is a species of nymphalid butterfly found in Cambodia and South Asia. It exists in two distinct adult forms, which differ chiefly in the patterns on the underside of the wings; the dry-season form has few markings, while the wet-season form has additional eyespots…",
-"Lucas called it Papilio asterias; the accepted name today is Junonia almana."
+"Papilio polyxenes, the (eastern) black swallowtail, American swallowtail or parsnip swallowtail, is a butterfly found throughout much of North America. An extremely similar-appearing species, Papilio joanae, occurs in the Ozark Mountains region, but it appears to be closely related to Papilio…",
+"Asterias means starry; Fabricius's name for the black swallowtail, whose rows of yellow spots the engraver has picked out here."
 ]
 },
 "n86-2": {
@@ -866,9 +917,11 @@
 "french1835": "Delalande",
 "name": "Cream-lined Swallowtail",
 "family": "Papilionidae",
+"range": "Lucas's specimen: Californie",
 "confidence": "ocr",
 "facts": [
-"Papilio delalandei is a butterfly of the family Papilionidae. It is endemic to Madagascar."
+"Papilio delalandei is a butterfly of the family Papilionidae. It is endemic to Madagascar.",
+"Named for Pierre Antoine Delalande, the Paris museum's collector at the Cape of Good Hope, who died in 1823."
 ]
 },
 "n96-1": {
@@ -876,42 +929,50 @@
 "latin1835": "Papilio protesilaus",
 "french1835": "Protesilas",
 "family": "Papilionidae",
+"range": "Lucas's specimen: Brésil",
 "confidence": "ocr",
 "facts": [
 "Protesilaus protesilaus is a species of butterfly of the family Papilionidae. It is found in the Neotropical realm.",
-"Lucas called it Papilio protesilaus; the accepted name today is Protesilaus protesilaus."
+"Lucas called it Papilio protesilaus; the accepted name today is Protesilaus protesilaus.",
+"Named by Linnaeus for Protesilaus, the first Greek to leap ashore at Troy and the first to die there."
 ]
 },
 "n96-2": {
-"latin": "Papilio alphenor",
+"latin": "Papilio agapenor",
 "latin1835": "Papilio agapenor",
 "french1835": "Agapénor",
-"name": "Philippine Mormon",
-"family": "Papilionidae",
-"confidence": "ocr"
+"range": "Lucas's specimen: Afrique",
+"confidence": "ocr",
+"facts": [
+"Named for Agapenor, leader of the Arcadians at Troy, whose ships were blown to Cyprus on the way home."
+]
 },
 "n98-1": {
-"latin": "Mimoides lysithous",
+"latin": "Graphium antiphates",
 "latin1835": "Papilio pompilius",
 "french1835": "Pompilius",
+"name": "Five-bar Swordtail",
 "family": "Papilionidae",
+"range": "Lucas's specimen: Java",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The wings are white above with a very faint greenish tint, gently strengthened at the base and apex of the forewings; along the costa run seven transverse black bands, the three foremost nearly equal, the next two short, the two hindmost longer and broader, ending in a point and meeting near the inner angle. The hindwings have their lower edge cut by black lunules, mostly on an ashen ground.”",
-"Mimoides lysithous  is a species of butterfly in the family Papilionidae. It is found in the Neotropical realm.",
-"Lucas called it Papilio pompilius; the accepted name today is Mimoides lysithous."
+"Graphium antiphates, The Five-bar swordtail is a species of papilionid butterfly found in South and Southeast Asia. The species was first described by Pieter Cramer in 1775.",
+"Named for Numa Pompilius, the second king of Rome and founder of its religious calendar."
 ]
 },
 "n98-2": {
-"latin": "Papilio polyxenes",
+"latin": "Graphium policenes",
 "latin1835": "Papilio polixenus",
 "french1835": "Polixenus",
-"name": "Black Swallowtail",
+"name": "Small Striped Swordtail",
 "family": "Papilionidae",
+"range": "Lucas's specimen: Amérique sept.",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The wings are black above, with an interrupted band, four transverse streaks and a row of marginal spots of pale green. The band curves inward and crosses the middle of all four wings; the streak nearest the body continues on the hindwings to above the anal angle, where it ends in a dot of carmine red.”",
-"Papilio polyxenes, the (eastern) black swallowtail, American swallowtail or parsnip swallowtail, is a butterfly found throughout much of North America. An extremely similar-appearing species, Papilio joanae, occurs in the Ozark Mountains region, but it appears to be closely related to Papilio…"
+"Graphium policenes, the common swordtail or small striped swordtail, is a species of butterfly in the family Papilionidae (swallowtails). It is found in tropical Africa.",
+"Named for Polyxena, Priam's daughter, sacrificed at the tomb of Achilles."
 ]
 },
 "n100-1": {
@@ -920,10 +981,12 @@
 "french1835": "Macarée",
 "name": "Lesser Zebra",
 "family": "Papilionidae",
+"range": "Lucas's specimen: Java",
 "confidence": "ocr",
 "facts": [
 "Graphium macareus, the lesser zebra, is a relatively common and not threatened species of swallowtail butterfly found in Southeast Asia. It is also found in parts of India including Assam and Sikkim.",
-"Lucas called it Papilio macareus; the accepted name today is Graphium macareus."
+"Lucas called it Papilio macareus; the accepted name today is Graphium macareus.",
+"Named for Macareus, a name borne by several figures of Greek myth, among them a son of Aeolus."
 ]
 },
 "n100-2": {
@@ -932,22 +995,26 @@
 "french1835": "Dissemblable",
 "name": "Common Mime",
 "family": "Papilionidae",
+"range": "Lucas's specimen: Chine",
 "confidence": "ocr",
 "facts": [
 "Papilio clytia, the common mime, is a swallowtail butterfly found in south and southeast Asia. The butterfly belongs to the subgenus Chilasa, the black-bodied swallowtails.",
-"Lucas called it Papilio dissimilis; the accepted name today is Chilasa clytia."
+"Lucas called it Papilio dissimilis; the accepted name today is Chilasa clytia.",
+"Dissimilis means unlike in Latin: Linnaeus named the mime for looking nothing like its relatives."
 ]
 },
 "n102-1": {
 "latin": "Papilio zenobia",
 "latin1835": "Papilio zenobius",
 "french1835": "Zénobius",
-"name": "Volta Swallowtail",
+"name": "Zenobia Swallowtail",
 "family": "Papilionidae",
+"range": "Lucas's specimen: Côte occ. d'Afrique",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “This is a large species; all its wings are slightly toothed, brownish black above, and crossed in the middle by a fairly broad white band faintly tinged with yellow, a little fringed on the hindwings and cut by fine black veins. The small notches of the forewings are edged with faintly yellowish dots, those of the hindwings with oblong spots of the same colour.”",
-"Papilio zenobia, the Zenobia swallowtail or Volta swallowtail, is a species of swallowtail butterfly from the genus Papilio that is found in Guinea, Sierra Leone, Liberia, Ivory Coast, Ghana, Nigeria, Cameroon, Equatorial Guinea, the Republic of the Congo and Uganda. It was first described by Johan…"
+"Papilio zenobia, the Zenobia swallowtail or Volta swallowtail, is a species of swallowtail butterfly from the genus Papilio that is found in Guinea, Sierra Leone, Liberia, Ivory Coast, Ghana, Nigeria, Cameroon, Equatorial Guinea, the Republic of the Congo and Uganda. It was first described by Johan…",
+"Named for Zenobia, the third-century queen of Palmyra who defied Rome."
 ]
 },
 "n102-2": {
@@ -956,10 +1023,12 @@
 "french1835": "Cynortas",
 "name": "Mimetic Swallowtail",
 "family": "Papilionidae",
+"range": "Lucas's specimen: Cafrerie",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “This species closely resembles Zenobius, but is much smaller and much less dark in colour. All the wings are toothed and finely edged with white on both surfaces; the forewings are reddish brown, crossed in the middle by a broad band finely cut by reddish veins and strongly interrupted towards the front.”",
-"Papilio cynorta, the mimetic swallowtail or common white banded papilio, is a butterfly of the family Papilionidae. It is found in Africa, including Sierra Leone, Liberia, Ivory Coast, Ghana, Togo, southern Nigeria, Cameroon, Equatorial Guinea, the Democratic Republic of the Congo, Angola, the…"
+"Papilio cynorta, the mimetic swallowtail or common white banded papilio, is a butterfly of the family Papilionidae. It is found in Africa, including Sierra Leone, Liberia, Ivory Coast, Ghana, Togo, southern Nigeria, Cameroon, Equatorial Guinea, the Democratic Republic of the Congo, Angola, the…",
+"Named for Cynortas, a mythical king of Sparta."
 ]
 },
 "n112-1": {
@@ -968,9 +1037,11 @@
 "french1835": "Gélestine",
 "name": "Blue Albatross",
 "family": "Pieridae",
+"range": "Lucas's specimen: Nlle Guinée",
 "confidence": "ocr",
 "facts": [
-"Lucas, 1835: “The wings are nearly round, entire, of a frosted blue; the forewings have a black border, broadest at the apex and toothed inwardly near the base, and are lightly speckled with black, as are the veins. Beneath, the forewings are pearl grey, faintly yellow at the base, and near the base the hindwings carry silky, faintly bluish hairs.”"
+"Lucas, 1835: “The wings are nearly round, entire, of a frosted blue; the forewings have a black border, broadest at the apex and toothed inwardly near the base, and are lightly speckled with black, as are the veins. Beneath, the forewings are pearl grey, faintly yellow at the base, and near the base the hindwings carry silky, faintly bluish hairs.”",
+"Celestina means heavenly, for the frosted blue of the wings."
 ]
 },
 "n112-2": {
@@ -980,17 +1051,23 @@
 "name": "Common Melwhite",
 "family": "Pieridae",
 "wingspan": "52–56 mm",
+"range": "Lucas's specimen: Amérique mér.",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “All the wings above, and the forewings beneath, are white, both surfaces ending in a fairly broad black border, curved on the hindwings and forming on the forewings a long triangle whose point reaches the inner angle. Beneath, the costa of the forewings is edged with black and washed with a yellow that fades from the border towards the base.”",
-"Melete lycimnia, the common melwhite, primrose flag or lycimnia white flag, is a butterfly in the family Pieridae. It is found from Texas in the United States to Bolivia."
+"Melete lycimnia, the common melwhite, primrose flag or lycimnia white flag, is a butterfly in the family Pieridae. It is found from Texas in the United States to Bolivia.",
+"Named for Licymnius, the uncle of Heracles."
 ]
 },
 "n112-3": {
 "latin": "Pieris thyria",
 "latin1835": "Pieris thyria",
 "french1835": "Thyria",
-"confidence": "ocr"
+"range": "Lucas's specimen: Java",
+"confidence": "ocr",
+"facts": [
+"Named for Thyria, a town of Elis in Greece."
+]
 },
 "n114-1": {
 "latin": "Appias ada",
@@ -998,10 +1075,12 @@
 "french1835": "Ada",
 "name": "Orange Albatross",
 "family": "Pieridae",
+"range": "Lucas's specimen: Port Praslin",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “All the wings are bluish white above, with the hind margin, the vein tips and the costa of the forewings black. The black band, broadest at the apex, is lightly toothed inwardly; the middle of the hindwings is white and faintly orange where the marigold-coloured patch beneath shows through.”",
-"Appias ada, the rare albatross, is a butterfly of the family Pieridae. It is found on the Moluccas, New Guinea, Indonesia, Australia and the Solomon Islands."
+"Appias ada, the rare albatross, is a butterfly of the family Pieridae. It is found on the Moluccas, New Guinea, Indonesia, Australia and the Solomon Islands.",
+"Named for Ada, the Carian queen who adopted Alexander the Great as her son."
 ]
 },
 "n114-2": {
@@ -1010,9 +1089,11 @@
 "french1835": "Limnorie",
 "family": "Pieridae",
 "wingspan": "52–56 mm",
+"range": "Lucas's specimen: Brésil",
 "confidence": "ocr",
 "facts": [
-"Melete lycimnia, the common melwhite, primrose flag or lycimnia white flag, is a butterfly in the family Pieridae. It is found from Texas in the United States to Bolivia."
+"Melete lycimnia, the common melwhite, primrose flag or lycimnia white flag, is a butterfly in the family Pieridae. It is found from Texas in the United States to Bolivia.",
+"Named for Limnoreia, a Nereid."
 ]
 },
 "n114-3": {
@@ -1021,47 +1102,50 @@
 "french1835": "Poppée",
 "name": "Western Dotted Border",
 "family": "Pieridae",
+"range": "Lucas's specimen: Guinée",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “All the wings are white. The forewings carry at the apex an arched and widened patch, sometimes elliptical, sometimes joined into a continuous band, and their base is orange with a blackish costa. Beneath, the apex is paler and faintly greenish, the base a deeper orange spreading much further than above.”",
-"Mylothris poppea, the Poppea dotted border, is a butterfly in the family Pieridae. It is found in Guinea, Sierra Leone, Liberia, Ivory Coast, Ghana and Togo."
+"Mylothris poppea, the Poppea dotted border, is a butterfly in the family Pieridae. It is found in Guinea, Sierra Leone, Liberia, Ivory Coast, Ghana and Togo.",
+"Named for Poppaea Sabina, the wife of Nero."
 ]
 },
 "n116-1": {
-"latin": "Nepheronia pharis",
+"latin": "Pieris phaloe",
 "latin1835": "Pieris phaloe",
 "french1835": "Phaloé",
-"name": "Round-winged Vagrant",
-"family": "Pieridae",
+"range": "Lucas's specimen: Brésil",
 "confidence": "ocr",
 "facts": [
-"Nepheronia pharis, the round-winged vagrant, is a butterfly in the family Pieridae. It is found in Sierra Leone, Guinea, Liberia, Ivory Coast, Ghana, Togo, Benin, Nigeria, Cameroon, Equatorial Guinea, the Republic of the Congo, Angola, the Central African Republic, the Democratic Republic of the…",
-"Lucas called it Pieris phaloe; the accepted name today is Nepheronia pharis."
+"Named for Phaloe, a Naiad."
 ]
 },
 "n116-2": {
 "latin": "Appias paulina",
 "latin1835": "Pieris paulina",
 "french1835": "Pauline",
-"name": "Yellow Albatross",
+"name": "Ceylon Lesser Albatross",
 "family": "Pieridae",
+"range": "Lucas's specimen: Coromandel, Java",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The wings are white faintly tinged with blue above, with a dark base. The forewings have the whole costa black and, at the tip, a border of the same colour, sinuous inwardly and widened at the apex, where it is divided by a broken band or by two white spots. Beneath, the hindwings are entirely pearl grey with a faint violet gleam.”",
-"Appias paulina, known variously as the yellow albatross, lesser albatross, common albatross or Christmas Island white, is a butterfly of the family Pieridae. It is found from India to Samoa, including Indonesia, Japan, Malaysia, New Caledonia, Thailand and Australia."
+"Appias paulina, known variously as the yellow albatross, lesser albatross, common albatross or Christmas Island white, is a butterfly of the family Pieridae. It is found from India to Samoa, including Indonesia, Japan, Malaysia, New Caledonia, Thailand and Australia.",
+"Named for Paulina, a Roman matron's name; Cramer and Fabricius favoured such names for the tropical whites."
 ]
 },
 "n116-3": {
-"latin": "Pontia callidice",
+"latin": "Belenois calypso",
 "latin1835": "Pieris calypso",
 "french1835": "Calypso",
-"name": "Peak White",
+"name": "Calypso White",
 "family": "Pieridae",
+"range": "Lucas's specimen: Côte d'Angole",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The wings are white above with a dark base. The male has at the tip of the forewings a black border, sinuous inwardly and broader at the apex, where it shows a transverse row of five or six white triangular spots pointing outward; the hindwings are edged by a run of closely set oval black spots.”",
-"Pontia callidice, the lofty Bath white or peak white, is a small butterfly of the yellows and whites family (Pieridae), which occurs in the Palearctic realm.",
-"Lucas called it Pieris calypso; the accepted name today is Pontia callidice."
+"Belenois calypso, the Calypso white or Calypso caper white, is a butterfly in the family Pieridae. It is found in Senegal, the Gambia, Guinea-Bissau, Guinea, Sierra Leone, Liberia, Ivory Coast, Burkina Faso, Ghana, Togo, Benin, Nigeria, Cameroon, the Republic of the Congo, the Central African…",
+"Named for Calypso, the nymph who kept Odysseus on her island for seven years."
 ]
 },
 "n118-1": {
@@ -1070,10 +1154,12 @@
 "french1835": "Teutonia",
 "name": "Caper White",
 "family": "Pieridae",
+"range": "Lucas's specimen: Timor",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The wings are white above, with a broad black hind border entirely divided by a row of white spots, the foremost oval, the rest round and smaller. The forewings also have, towards the middle of the costa, a curved transverse black band, broader in the female than in the male; beneath, the hindwings are strongly veined with black and marked with deep yellow.”",
-"Belenois java, the caper white or common white, is a small butterfly of the family Pieridae found in Australia, Indonesia, and Melanesia. It is highly migratory and is often confused with the cabbage white."
+"Belenois java, the caper white or common white, is a small butterfly of the family Pieridae found in Australia, Indonesia, and Melanesia. It is highly migratory and is often confused with the cabbage white.",
+"Named for the Teutons; Fabricius often reached for tribal and place names when the classical stock ran thin."
 ]
 },
 "n118-2": {
@@ -1085,32 +1171,40 @@
 "confidence": "ocr",
 "facts": [
 "Pinacopteryx is a monotypic genus of pierid butterflies found in Africa containing Pinacopteryx eriphia, the zebra white.",
-"Lucas called it Pieris eriphia; the accepted name today is Pinacopteryx eriphia."
+"Lucas called it Pieris eriphia; the accepted name today is Pinacopteryx eriphia.",
+"Named for Eriphia, one of the nymphs who nursed the infant Dionysus."
 ]
 },
 "n118-3": {
-"latin": "Pieris cronissa",
+"latin": "Pieris coronea",
 "latin1835": "Pieris coronea",
 "french1835": "Coronée",
-"family": "Pieridae",
+"range": "Lucas's specimen: Java, Bornéo, Indes Or.",
 "confidence": "ocr",
 "facts": [
-"Lucas, 1835: “The wings are bluish white above in the male and yellow-tinged white in the female, with a black hind border sinuous on its inner side, very broad in the female. Both sexes are black beneath, with a very large orange patch at the base of the forewings and a transverse row of four or five oval greenish spots on the hind margin.”"
+"Lucas, 1835: “The wings are bluish white above in the male and yellow-tinged white in the female, with a black hind border sinuous on its inner side, very broad in the female. Both sexes are black beneath, with a very large orange patch at the base of the forewings and a transverse row of four or five oval greenish spots on the hind margin.”",
+"Named for Coronea, the town of Boeotia where the Spartans fought in 394 BC."
 ]
 },
 "n128-1": {
 "latin": "Pieris pitys",
 "latin1835": "Pieris pitys",
 "french1835": "Pitys",
-"confidence": "ocr"
+"range": "Lucas's specimen: Java",
+"confidence": "ocr",
+"facts": [
+"Named for Pitys, the nymph pursued by Pan and turned into a pine tree."
+]
 },
 "n128-2": {
 "latin": "Pieris judith",
 "latin1835": "Pieris judith",
 "french1835": "Judith",
+"range": "Lucas's specimen: Java",
 "confidence": "ocr",
 "facts": [
-"Lucas, 1835: “The forewings are white above, with the base and most of the costa ashen, the veins black and the middle one much widened, and at the tip a black border carrying four or five small oblong white spots. The hindwings above are a fine yellow, turning orange towards the anal angle, with the whole hind margin black.”"
+"Lucas, 1835: “The forewings are white above, with the base and most of the costa ashen, the veins black and the middle one much widened, and at the tip a black border carrying four or five small oblong white spots. The hindwings above are a fine yellow, turning orange towards the anal angle, with the whole hind margin black.”",
+"Named for Judith, the biblical heroine who beheaded the Assyrian general Holofernes."
 ]
 },
 "n128-3": {
@@ -1118,19 +1212,23 @@
 "latin1835": "Pieris belisama",
 "french1835": "Bélisama",
 "family": "Pieridae",
+"range": "Lucas's specimen: Java, Amboine",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The male is white above, with the hind margin of the hindwings and two thirds of the costa of the forewings black, the forewings also bearing at the tip a very large triangular black space. Beneath, the forewings are black with a whitish crescent in the middle; the hindwings are ochre yellow, with a fairly broad black border saw-toothed on its inner side.”",
-"Delias belisama is a butterfly in the family Pieridae. It was described by Pieter Cramer in 1779."
+"Delias belisama is a butterfly in the family Pieridae. It was described by Pieter Cramer in 1779.",
+"Named for Belisama, a Celtic goddess equated by the Romans with Minerva."
 ]
 },
 "n130-1": {
 "latin": "Pieris philyra",
 "latin1835": "Pieris philyra",
 "french1835": "Philyre",
+"range": "Lucas's specimen: Ile d'Amboine",
 "confidence": "ocr",
 "facts": [
-"Lucas, 1835: “The male is bluish white above, with a black apex divided transversely by an arched band of four or five oval white spots, and a narrow black border to the hindwings. The female is dull white above with each wing broadly edged in black; both sexes are black beneath, with about the front third of all four wings yellow and pricked with blackish.”"
+"Lucas, 1835: “The male is bluish white above, with a black apex divided transversely by an arched band of four or five oval white spots, and a narrow black border to the hindwings. The female is dull white above with each wing broadly edged in black; both sexes are black beneath, with about the front third of all four wings yellow and pricked with blackish.”",
+"Named for Philyra, the Oceanid who was mother of the centaur Chiron."
 ]
 },
 "n130-2": {
@@ -1138,10 +1236,12 @@
 "latin1835": "Pieris isse",
 "french1835": "Isse",
 "family": "Pieridae",
+"range": "Lucas's specimen: Ile d'Amboine",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The forewings are white above with a black apex divided transversely by an arched band of four or five white spots; the hindwings are faintly bluish above with a fairly broad black border cut by a run of whitish dots. Beneath, the hindwings are clouded yellow from base to middle, then black to the tip, with a marginal row of six marigold-coloured spots, three heart-shaped and three nearly round.”",
-"Delias isse is a butterfly in the family Pieridae. It was described by Pieter Cramer in 1775."
+"Delias isse is a butterfly in the family Pieridae. It was described by Pieter Cramer in 1775.",
+"Named for Isse, daughter of Macareus, loved by Apollo in the guise of a shepherd."
 ]
 },
 "n130-3": {
@@ -1150,10 +1250,12 @@
 "french1835": "Epicbaris",
 "name": "Indian Jezebel",
 "family": "Pieridae",
+"range": "Lucas's specimen: Coromandel",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “Above, the male is bluish white with black veins, more pronounced on the forewings than the hindwings, and each wing ends in a broad black border faintly fringed with whitish, arched and gently sinuous inwardly. Along its whole length this border is divided by a row of fairly large oval spots, white on the forewings and faintly flesh-coloured on the hindwings.”",
-"Delias eucharis, the common Jezebel, is a medium-sized pierid butterfly found in many areas of south and southeast Asia, especially in the non-arid regions of India, Bangladesh, Sri Lanka, Indonesia, Myanmar and Thailand. The common Jezebel is one of the most common of the approximately 225…"
+"Delias eucharis, the common Jezebel, is a medium-sized pierid butterfly found in many areas of south and southeast Asia, especially in the non-arid regions of India, Bangladesh, Sri Lanka, Indonesia, Myanmar and Thailand. The common Jezebel is one of the most common of the approximately 225…",
+"Named for Epicharis, the freedwoman who kept silent under torture during the conspiracy against Nero."
 ]
 },
 "n132-1": {
@@ -1162,20 +1264,26 @@
 "french1835": "Hyparete,",
 "name": "Painted Jezebel",
 "family": "Pieridae",
+"range": "Lucas's specimen: Chine, Java",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The male is a slightly bluish white above, with the hind margin of the hindwings black. The forewings end in a black band forming a long triangle, its inner side sinuous, cut along its length by a run of six whitish spots, the first five elliptical and larger, the sixth rounded. All four wings are entirely veined with black beneath.”",
-"Delias hyparete, the painted Jezebel, is a medium-sized butterfly of the family Pieridae, found in South Asia and Southeast Asia."
+"Delias hyparete, the painted Jezebel, is a medium-sized butterfly of the family Pieridae, found in South Asia and Southeast Asia.",
+"Named for Hipparete, the wife of the Athenian statesman Alcibiades."
 ]
 },
 "n132-2": {
-"latin": "Pieris narina",
+"latin": "Delias nigrina",
 "latin1835": "Pieris nigrina",
 "french1835": "Nigrina",
+"name": "Black Jezebel",
 "family": "Pieridae",
+"range": "Lucas's specimen: Nlle Hollande",
 "confidence": "ocr",
 "facts": [
-"Lucas, 1835: “The wings are bluish white above, especially in the male. The forewings have the costa lightly edged with black and, at the tip, a large deep black triangular space, arched and faintly sinuous inwardly, divided opposite the apex by a transverse line of three or four small white spots. Both sexes are brownish black beneath, dusted with white, with a deep yellow oblique band at the apex of the forewings.”"
+"Lucas, 1835: “The wings are bluish white above, especially in the male. The forewings have the costa lightly edged with black and, at the tip, a large deep black triangular space, arched and faintly sinuous inwardly, divided opposite the apex by a transverse line of three or four small white spots. Both sexes are brownish black beneath, dusted with white, with a deep yellow oblique band at the apex of the forewings.”",
+"Delias nigrina, the black Jezebel or common Jezebel, is a butterfly in the family Pieridae. It is found along the eastern seaboard of Australia, from Queensland, through New South Wales to Victoria.",
+"Nigrina means blackish in Latin."
 ]
 },
 "n132-3": {
@@ -1185,22 +1293,26 @@
 "name": "Imperial Jezebel",
 "family": "Pieridae",
 "wingspan": "60–70 mm",
+"range": "Lucas's specimen: Nlle Hollande",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The wings are bluish white above, broadly edged with black at their tips. The forewings carry at the apex an arched, spotted white band; the hindwings are unspotted. Beneath, both are velvet black with a whitish lunule in the middle, and the hindwings are crossed by a vermilion red band, spotted and winding, from the front edge to the inner edge.”",
-"Delias harpalyce, the imperial white, is a butterfly in the family Pieridae. It is endemic to Australia."
+"Delias harpalyce, the imperial white, is a butterfly in the family Pieridae. It is endemic to Australia.",
+"Named for Harpalyce, the Thracian huntress raised by her father to fight as a warrior."
 ]
 },
 "n134-1": {
 "latin": "Delias aganippe",
 "latin1835": "Pieris aganippe",
 "french1835": "Aganippe",
-"name": "wood white butterfly",
+"name": "Spotted Jezebel",
 "family": "Pieridae",
+"range": "Lucas's specimen: Nlle Hollande",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The wings are bluish white above with a very broad black hind border on which are ranged round spots close to the ground colour. Below the costa of the forewings, near this border, the male has a black space divided across by a white lunule; in the female this space merges with the border and shows, besides the lunule, an angular white band facing the apex.”",
-"Delias aganippe, the wood white or red-spotted Jezebel, is a butterfly in the family Pieridae."
+"Delias aganippe, the wood white or red-spotted Jezebel, is a butterfly in the family Pieridae.",
+"Named for Aganippe, the spring on Mount Helicon sacred to the Muses."
 ]
 },
 "n134-2": {
@@ -1210,10 +1322,12 @@
 "name": "Chiapas White",
 "family": "Pieridae",
 "wingspan": "66–70 mm",
+"range": "Lucas's specimen: Guyane, Brésil",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “All the wings are white, with a light black border at the tip of the hindwings and along the costa of the forewings, which carry at the apex a triangular black space whose point rests on the middle of the hind edge. Beneath, the hindwings are brownish black with two transverse bands, the front one pale sulphur yellow, the hind one white washed with yellow, separated by a streak of marigold red.”",
-"Perrhybris pamela, the Pamela, is a butterfly of the family Pieridae. It is found from Mexico, Honduras, El Salvador, Costa Rica and Panama, south to Colombia, Venezuela, Suriname, French Guiana, Brazil, Ecuador, Peru, and Bolivia."
+"Perrhybris pamela, the Pamela, is a butterfly of the family Pieridae. It is found from Mexico, Honduras, El Salvador, Costa Rica and Panama, south to Colombia, Venezuela, Suriname, French Guiana, Brazil, Ecuador, Peru, and Bolivia.",
+"Named for Pyrrha, wife of Deucalion, who with him repeopled the earth after the flood by throwing stones over their shoulders."
 ]
 },
 "n134-3": {
@@ -1222,10 +1336,12 @@
 "french1835": "Argie",
 "name": "Large Vagrant",
 "family": "Pieridae",
+"range": "Lucas's specimen: Côte de Guinée",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The four wings above are white faintly tinged with green. The forewings are edged at the tip by a very black band of moderate width forming a long triangle pointing downward, its inner side sinuous and cut by five or six small longitudinal black strokes; the hindwings are unspotted. Beneath, the black of the costa and tip is replaced by pale ochre yellow.”",
-"Nepheronia argia, the large vagrant, is a butterfly of the family Pieridae. It is found throughout Africa."
+"Nepheronia argia, the large vagrant, is a butterfly of the family Pieridae. It is found throughout Africa.",
+"Named for Argia, daughter of Adrastus and wife of Polynices in the tale of Thebes."
 ]
 },
 "n144-1": {
@@ -1236,7 +1352,8 @@
 "family": "Pieridae",
 "confidence": "ocr",
 "facts": [
-"Pieris virginiensis, the West Virginia white, is a butterfly found in North America in the Great Lakes states, along the Appalachians from New England to Alabama, and in southern Ontario. They are often found in moist deciduous forests."
+"Pieris virginiensis, the West Virginia white, is a butterfly found in North America in the Great Lakes states, along the Appalachians from New England to Alabama, and in southern Ontario. They are often found in moist deciduous forests.",
+"Named for Virginia, the colony, or for the Roman maiden of that name; the species is American."
 ]
 },
 "n144-2": {
@@ -1245,21 +1362,22 @@
 "french1835": "Valérie",
 "name": "Common Wanderer?",
 "family": "Pieridae",
+"range": "Lucas's specimen: Java",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The male is greenish white above with the veins and the hind margin black; the costa of the forewings is likewise black, and their tip shows a marginal row of whitish dots. In the female these dots appear on all four wings, the ground is less green and the veins are wider. Beneath, the hindwings are pearl grey with a faint violet gleam.”",
-"Pareronia valeria, the common wanderer or Malayan wanderer, is a medium-sized butterfly of the family Pieridae, that is, the yellows and whites, and is found in India and Southeast Asia. The butterfly found in India is sometimes considered as a separate species, Pareronia hippia."
+"Pareronia valeria, the common wanderer or Malayan wanderer, is a medium-sized butterfly of the family Pieridae, that is, the yellows and whites, and is found in India and Southeast Asia. The butterfly found in India is sometimes considered as a separate species, Pareronia hippia.",
+"Named for the Valerii, one of the great patrician families of Rome."
 ]
 },
 "n144-3": {
-"latin": "Chlosyne endeis",
+"latin": "Pieris endeis",
 "latin1835": "Pieris endeis",
 "french1835": "Endeis",
-"name": "Banded Patch",
-"family": "Nymphalidae",
+"range": "Lucas's specimen: Brésil",
 "confidence": "ocr",
 "facts": [
-"Chlosyne endeis, known generally as the banded checkerspot or banded patch, is a species of crescents, checkerspots, anglewings, etc. in the butterfly family Nymphalidae."
+"Named for Endeis, mother of Peleus and grandmother of Achilles."
 ]
 },
 "n146-1": {
@@ -1268,9 +1386,11 @@
 "french1835": "Nina",
 "name": "Black-spotted White",
 "family": "Pieridae",
+"range": "Lucas's specimen: Indes Or.",
 "confidence": "ocr",
 "facts": [
-"Leptosia nina, the psyche, is a small butterfly of the family Pieridae and is found in Indian subcontinent, southeast Asia and Australia. The upper forewing has a black spot on a mainly white background."
+"Leptosia nina, the psyche, is a small butterfly of the family Pieridae and is found in Indian subcontinent, southeast Asia and Australia. The upper forewing has a black spot on a mainly white background.",
+"Nina is a girl's name, not a myth; Fabricius gave it to this little white in 1793."
 ]
 },
 "n146-2": {
@@ -1278,10 +1398,12 @@
 "latin1835": "Anthocharis leucippe",
 "french1835": "Leucippe",
 "family": "Pieridae",
+"range": "Lucas's specimen: Java, Ile d'Amboine",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The wings are a cheerful tawny above, with the veins black and widened; the hind margin is also black, with two rows of unequal white dots preceded outwardly by a small broken edging of the same colour. The forewings have at the apex a large triangular black space crossed obliquely by a fine white angular band made up of five touching spots.”",
-"Hebomoia leucippe is a butterfly in the family Pieridae. It is endemic to the Moluccas and Peleng in Indonesia."
+"Hebomoia leucippe is a butterfly in the family Pieridae. It is endemic to the Moluccas and Peleng in Indonesia.",
+"Named for Leucippe, a name of several heroines meaning white horse."
 ]
 },
 "n146-3": {
@@ -1290,10 +1412,12 @@
 "french1835": "Glaucippe",
 "name": "Great Orange Tip",
 "family": "Pieridae",
+"range": "Lucas's specimen: Java",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The forewings above are a vivid tawny, lightly glazed with red, with a clouded greenish-yellow base and the veins and whole outer edge black; parallel to the hind edge runs a row of black triangular spots pointing towards the base, larger and closer in the female. The hindwings are a fine lemon yellow above, edged in the female by a black band toothed inwardly.”",
-"Hebomoia glaucippe, the great orange-tip, is a butterfly belonging to the family Pieridae, that is the yellows and whites. It is found in the Indomalayan realm and Wallacea."
+"Hebomoia glaucippe, the great orange-tip, is a butterfly belonging to the family Pieridae, that is the yellows and whites. It is found in the Indomalayan realm and Wallacea.",
+"Glaucippe means grey-green horse in Greek, a companion name to Leucippe given by Linnaeus in 1758."
 ]
 },
 "n148-1": {
@@ -1302,10 +1426,12 @@
 "french1835": "Marianne",
 "name": "White Orange Tip",
 "family": "Pieridae",
+"range": "Lucas's specimen: Bengale, Coromandel",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The male is bluish white above, the female yellowish white. In both sexes the forewings carry at the tip a very large triangular black space bearing a broad, arched patch of dawn orange, a little paler in the female and cut by a transverse line of black dots. The hindwings have the hind margin black in both sexes and the edge slightly sinuous.”",
-"Ixias marianne, the white orange tip, is a small butterfly of the family Pieridae, found in India and Sri Lanka."
+"Ixias marianne, the white orange tip, is a small butterfly of the family Pieridae, found in India and Sri Lanka.",
+"Named for Marianne; Cramer used the names of women of his own day as freely as those of antiquity."
 ]
 },
 "n148-2": {
@@ -1314,19 +1440,23 @@
 "french1835": "Pirène",
 "name": "Yellow Orange Tip",
 "family": "Pieridae",
+"range": "Lucas's specimen: Bengale, Coromandel, Chine",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “Both sexes are lemon yellow above. The forewings have at the tip a very large triangular black space on which sits an arched patch of dawn orange, narrowed at its lower end and a little paler in the female; the hindwings have a black hind margin. Beneath, all four wings are greenish yellow with usually only a very small blackish dot in the middle of each.”",
-"Ixias pyrene, the yellow orange tip, is a small butterfly of the family Pieridae, that is, the yellows and whites, which is found in Sri Lanka, India and southeast Asia."
+"Ixias pyrene, the yellow orange tip, is a small butterfly of the family Pieridae, that is, the yellows and whites, which is found in Sri Lanka, India and southeast Asia.",
+"Named for Pirene, the fountain of Corinth where Pegasus was said to drink."
 ]
 },
 "n148-3": {
 "latin": "Anthocharis oenippe",
 "latin1835": "Anthocharis oenippe",
 "french1835": "OEnippe",
+"range": "Lucas's specimen: Chine, Bengale, Java",
 "confidence": "ocr",
 "facts": [
-"Lucas, 1835: “The wings are lemon yellow above, with the margin of the hindwings and the rear half of the forewings black. The forewings also carry, opposite the apex, an oblique transverse band, yellow or pale dawn according to sex, sinuous on both sides and marked with a dot near its lower end. This species is found in China, in Bengal and in the island of Java.”"
+"Lucas, 1835: “The wings are lemon yellow above, with the margin of the hindwings and the rear half of the forewings black. The forewings also carry, opposite the apex, an oblique transverse band, yellow or pale dawn according to sex, sinuous on both sides and marked with a dot near its lower end. This species is found in China, in Bengal and in the island of Java.”",
+"Named for Oenippe; Fabricius's coinage from the Greek for wine-horse."
 ]
 },
 "n150-1": {
@@ -1334,21 +1464,25 @@
 "latin1835": "Anthocharis venilia",
 "french1835": "Vénilie",
 "family": "Pieridae",
+"range": "Lucas's specimen: Java",
 "confidence": "ocr",
 "facts": [
-"Lucas, 1835: “The forewings above are faintly ashen at the base, lemon yellow along the inner edge and black over the rest, with a very large patch of dawn orange rounded outwardly, marked with a black dot in its middle and divided by veins of that colour. The hindwings are lemon yellow above with a black border, sometimes very narrow, sometimes fairly broad, toothed on its inner side.”"
+"Lucas, 1835: “The forewings above are faintly ashen at the base, lemon yellow along the inner edge and black over the rest, with a very large patch of dawn orange rounded outwardly, marked with a black dot in its middle and divided by veins of that colour. The hindwings are lemon yellow above with a black border, sometimes very narrow, sometimes fairly broad, toothed on its inner side.”",
+"Named for Venilia, a Roman sea nymph, wife of Janus in some accounts."
 ]
 },
 "n150-2": {
 "latin": "Colotis fausta",
 "latin1835": "Anthocharis fausta",
 "french1835": "Fausta",
-"name": "Large Salmon Arab",
+"name": "Large Salmon Arab Tip",
 "family": "Pieridae",
+"range": "Lucas's specimen: Syrie",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “All the wings are pale tawny above with a row of black dots along the hind edge. The forewings have a black dot in the middle and, between this and the marginal dots, a curved, broken transverse black streak that does not reach the inner edge. Beneath, the hindwings are very pale yellow with a faintly blackish waved streak continuing the streak of the forewings.”",
-"Colotis fausta, the large salmon Arab, is a small butterfly of the family Pieridae, that is, the yellows and whites, which is found in Israel, Syria, Turkey, Iran, Afghanistan, Turkmenistan, India, Arabia, Chad, Somalia and United Arab Emirates."
+"Colotis fausta, the large salmon Arab, is a small butterfly of the family Pieridae, that is, the yellows and whites, which is found in Israel, Syria, Turkey, Iran, Afghanistan, Turkmenistan, India, Arabia, Chad, Somalia and United Arab Emirates.",
+"Fausta means fortunate in Latin, and was the name of Constantine's empress."
 ]
 },
 "n150-3": {
@@ -1357,21 +1491,25 @@
 "french1835": "Eupompé",
 "name": "Three Spot Crimson Tip",
 "family": "Pieridae",
+"range": "Lucas's specimen: Nubie",
 "confidence": "ocr",
 "facts": [
-"Colotis eunoma, the three spot crimson tip, is a butterfly in the family Pieridae. It is found in Mozambique, Tanzania, and Kenya."
+"Colotis eunoma, the three spot crimson tip, is a butterfly in the family Pieridae. It is found in Mozambique, Tanzania, and Kenya.",
+"Eupompe means fair procession in Greek, the name of a Nereid."
 ]
 },
 "n150-4": {
 "latin": "Colotis danae",
 "latin1835": "Anthocharis danae",
 "french1835": "Danaé",
-"name": "Crimson Tip",
+"name": "Red Tip",
 "family": "Pieridae",
+"range": "Lucas's specimen: Indes Or.",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The four wings are white above. The forewings have at the tip a triangular black space almost entirely filled by a patch of fine carmine red; the hindwings carry a run of black triangular spots along the hind edge. Beneath, the apex of the forewings is whitish with a narrow reddish band cut lengthwise by a line of black dots.”",
-"Colotis danae, the crimson tip or scarlet tip, is a small butterfly of the family Pieridae, that is, the yellows and whites. It is found in Asia and Africa."
+"Colotis danae, the crimson tip or scarlet tip, is a small butterfly of the family Pieridae, that is, the yellows and whites. It is found in Asia and Africa.",
+"Named for Danaë, mother of Perseus, to whom Zeus came as a shower of gold."
 ]
 },
 "n160-1": {
@@ -1380,10 +1518,12 @@
 "french1835": "Evippe",
 "name": "Round-winged Orange Tip",
 "family": "Pieridae",
+"range": "Lucas's specimen: Côte d'Angole",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The four wings are white above with a faintly dark base. The forewings have at the apex a fairly large triangular black space bearing a patch of vivid tawny, rounded outwardly, sinuous inwardly and a little narrowed at its lower end, and a very small black dot in the middle. The hindwings carry on the hind margin a row of nearly round black spots.”",
-"Colotis euippe is a butterfly of the family Pieridae that is found in the Afrotropical realm."
+"Colotis euippe is a butterfly of the family Pieridae that is found in the Afrotropical realm.",
+"Named for Euippe, one of the Danaids."
 ]
 },
 "n160-2": {
@@ -1392,7 +1532,8 @@
 "french1835": "A chiné",
 "confidence": "ocr",
 "facts": [
-"Lucas, 1835: “The wings are white faintly tinged with yellow above, with a black base. The forewings have the apex black with a pale tawny patch rounded outwardly and deeply cleft, and a black dot in the middle, more or less distinct. The hindwings are broadly edged with black at the tip, with a broken row of fairly large white dots.”"
+"Lucas, 1835: “The wings are white faintly tinged with yellow above, with a black base. The forewings have the apex black with a pale tawny patch rounded outwardly and deeply cleft, and a black dot in the middle, more or less distinct. The hindwings are broadly edged with black at the tip, with a broken row of fairly large white dots.”",
+"Named for Achine; Cramer's spelling of a name of uncertain origin."
 ]
 },
 "n160-3": {
@@ -1400,18 +1541,22 @@
 "latin1835": "Anthocharis evarne",
 "french1835": "Evarne",
 "family": "Pieridae",
-"confidence": "ocr"
+"confidence": "ocr",
+"facts": [
+"Named for Evarne, one of the Nereids."
+]
 },
 "n160-4": {
 "latin": "Colotis ione",
 "latin1835": "Anthocharis ione",
 "french1835": "Ione",
-"name": "Purple Tip",
+"name": "Bushveld Purple Tip",
 "family": "Pieridae",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The four wings are white, the base speckled with blackish. The forewings have at the tip an arched black border, narrow towards the inner angle and broad opposite the apex, where it is divided obliquely by a fine and very brilliant violet band, rounded outwardly; in the middle is a very black dot that repeats on the underside.”",
-"Colotis ione, the bushveld purple tip, common purple tip, or violet tip, is a butterfly of the family Pieridae. It is found in the dry parts of Africa south of the Sahara."
+"Colotis ione, the bushveld purple tip, common purple tip, or violet tip, is a butterfly of the family Pieridae. It is found in the dry parts of Africa south of the Sahara.",
+"Named for Ione, a sea nymph, one of the Nereids."
 ]
 },
 "n162-1": {
@@ -1420,36 +1565,39 @@
 "french1835": "Proterpia",
 "name": "Tailed Orange",
 "family": "Pieridae",
+"range": "Lucas's specimen: Jamaïque",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The forewings are canary yellow with a black border fringed with whitish outwardly, faintly sinuous inwardly and ending in a point at the inner angle; in the male the costa is also broadly edged with black, and from the base runs a straight black line along almost the whole lower edge, which is orange. The hindwings are white above with a black border finely and irregularly toothed towards the base.”",
-"Eurema proterpia, the tailed orange, is a North and South American butterfly in the family Pieridae."
+"Eurema proterpia, the tailed orange, is a North and South American butterfly in the family Pieridae.",
+"Named for Proterpia; Fabricius's coinage from the Greek for delighting first."
 ]
 },
 "n162-2": {
 "latin": "Eurema hecabe",
 "latin1835": "Terias hecabe",
 "french1835": "Hecabe",
-"name": "Common Grass Yellow",
+"name": "Grass Yellow",
 "family": "Pieridae",
+"range": "Lucas's specimen: Indes Or.",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The upperside of all four wings is a fine yellow. The forewings have at the tip a black border lightly edged with yellow outwardly and very sinuous inwardly, beginning in a point towards the middle of the costa and ending at the inner angle in a very broad hook; the hindwings have a narrower black border, arched and crenellated only on the side facing the base.”",
 "Eurema hecabe, the common grass yellow, is a small pierid butterfly species found in Asia, Africa and Australia. They are found flying close to the ground and are found in open grass and scrub habitats.",
-"Lucas called it Terias hecabe; the accepted name today is Eurema hecabe."
+"Lucas called it Terias hecabe; the accepted name today is Eurema hecabe.",
+"Named for Hecuba, queen of Troy and mother of Hector. Linnaeus gave the name in 1758 to this common yellow of the East."
 ]
 },
 "n162-3": {
-"latin": "Eurema brigitta",
+"latin": "Eurema candida",
 "latin1835": "Terias candida",
 "french1835": "Candide",
-"name": "Small Grass Yellow",
 "family": "Pieridae",
+"range": "Lucas's specimen: Ile d'Amboine",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The four wings are a fine deep yellow above, with a broad black border embracing their outline, a little narrower on the costa of the hindwings. Beneath, the border is a less deep black; the antennae are black, the body blackish above and yellow beneath, with a blackish line along the sides reaching the anal part. Found in the island of Amboina.”",
-"Eurema brigitta, the small grass yellow or broad-bordered grass yellow, is a small butterfly of the family Pieridae, that is, the yellows and whites. It is found in India, other parts of Asia, Australia and Africa.",
-"Lucas called it Terias candida; the accepted name today is Eurema brigitta."
+"Candida means shining white in Latin, a curious name for a yellow butterfly; it refers to the white of the underside."
 ]
 },
 "n162-4": {
@@ -1458,10 +1606,12 @@
 "french1835": "Nicippe",
 "name": "Sleepy Orange",
 "family": "Pieridae",
+"range": "Lucas's specimen: Virginie",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The four wings are a vivid tawny above with a fairly broad black border, sinuous below, narrowed in the middle on the forewings and widened on the hindwings. The forewings also carry a black crescent in the middle. Beneath, the wings are paler and the border is replaced by blackish atoms; the hindwings are yellow with several rust-coloured spots.”",
-"Eurema nicippe, the sleepy orange, is a North American butterfly in the family Pieridae. Its range spans from Central America to north along the United States–Mexico border, and it often travels further to non-mountainous regions of the Southeastern United States."
+"Eurema nicippe, the sleepy orange, is a North American butterfly in the family Pieridae. Its range spans from Central America to north along the United States–Mexico border, and it often travels further to non-mountainous regions of the Southeastern United States.",
+"Named for Nicippe, a daughter of Pelops."
 ]
 },
 "n164-1": {
@@ -1470,21 +1620,25 @@
 "french1835": "Elathée",
 "name": "Banded Yellow",
 "family": "Pieridae",
+"range": "Lucas's specimen: Brésil",
 "confidence": "ocr",
 "facts": [
-"Lucas, 1835: “The wings are blackish brown above, with a broad transverse band of blood red across the disc, cleft at each end and not reaching the tip of the hindwings. On the forewings this band is preceded outwardly by a narrower white band of five touching spots, and near the hind edge of each wing runs a line of white dots.”"
+"Lucas, 1835: “The wings are blackish brown above, with a broad transverse band of blood red across the disc, cleft at each end and not reaching the tip of the hindwings. On the forewings this band is preceded outwardly by a narrower white band of five touching spots, and near the hind edge of each wing runs a line of white dots.”",
+"Named for Elatea, an ancient town of Phocis in central Greece."
 ]
 },
 "n164-2": {
 "latin": "Eurema smilax",
 "latin1835": "Terias smilax",
 "french1835": "Smilax",
-"name": "small grass yellow",
+"name": "Small Grass-yellow",
 "family": "Pieridae",
+"range": "Lucas's specimen: Indes Or.",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The male is a fine yellow above, the female a pale sulphur yellow, with a brownish-black border edged with reddish outwardly and sinuous inwardly, very narrow on the hindwings of the male and formed, on those of the female, by a run of spots of which the foremost is much the largest. Beneath, the forewings are yellow with a black dot in the middle.”",
-"Eurema smilax, the small grass yellow, is a small pierid butterfly species found in Australia, with some additional records from India, Indonesia and Niger."
+"Eurema smilax, the small grass yellow, is a small pierid butterfly species found in Australia, with some additional records from India, Indonesia and Niger.",
+"Named for Smilax, the nymph who loved the youth Crocus and was turned into the bindweed that bears her name."
 ]
 },
 "n164-3": {
@@ -1493,10 +1647,12 @@
 "french1835": "Amate",
 "name": "Topaz Arab",
 "family": "Pieridae",
+"range": "Lucas's specimen: Côte de Coromandel",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The upperside of the wings is a shining silvery green, ending on the forewings in a large triangular space of dark green and on the hindwings in a clouded band carrying a row of black dots. Beneath, all four wings are meadow green with a few rusty spots in the middle and light silvery shades along the inner edge. Found on the west coast of Africa.”",
-"Colotis amata, the Small Salmon Arab, is a small butterfly in the family Pieridae. It is primarily found in South Asia in countries like India, Pakistan and Sri Lanka."
+"Colotis amata, the Small Salmon Arab, is a small butterfly in the family Pieridae. It is primarily found in South Asia in countries like India, Pakistan and Sri Lanka.",
+"Named for Amata, queen of the Latins and mother of Lavinia in the Aeneid."
 ]
 },
 "n164-4": {
@@ -1505,10 +1661,12 @@
 "french1835": "Philodice",
 "name": "Clouded Sulphur",
 "family": "Pieridae",
+"range": "Lucas's specimen: Amérique sept.",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The wings are canary yellow above, with a fairly broad black border divided, on the forewings of the female, by a strongly interrupted yellow spotted band. The forewings have an oblong black dot towards the middle of the costa; the hindwings have a pale, rounded orange patch on the disc, and beneath two silver dots, the outer one smaller.”",
-"Colias philodice, the common sulphur or clouded sulphur, is a North American butterfly in the family Pieridae, subfamily Coliadinae."
+"Colias philodice, the common sulphur or clouded sulphur, is a North American butterfly in the family Pieridae, subfamily Coliadinae.",
+"Named for Philodice, a Naiad, wife of Leucippus."
 ]
 },
 "n164-5": {
@@ -1517,21 +1675,25 @@
 "french1835": "Ccesonia",
 "name": "Southern Dogface",
 "family": "Pieridae",
+"range": "Lucas's specimen: Amérique sept.",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “All the wings are a fine yellow above. The forewings, whose apex is a little sharp, have the front half of the costa dark, a fairly large black dot in the middle, and at the tip a very broad black border whose inner side is sinuous and deeply notched in the middle, its outer side finely cut with yellow and red-brown. The hindwings are rounded and marked in the middle with two orange dots.”",
-"Zerene cesonia, the southern dogface, is a North and South American butterfly in the family Pieridae, subfamily Coliadinae."
+"Zerene cesonia, the southern dogface, is a North and South American butterfly in the family Pieridae, subfamily Coliadinae.",
+"Named for Caesonia, the last wife of the emperor Caligula."
 ]
 },
 "n174-1": {
 "latin": "Catopsilia scylla",
 "latin1835": "Callidryas scylla",
 "french1835": "Scylla",
-"name": "Orange Migrant",
+"name": "Yellow Migrant",
 "family": "Pieridae",
+"range": "Lucas's specimen: Chine, Bengale, Java",
 "confidence": "ocr",
 "facts": [
-"Catopsilia scylla, the orange migrant or orange emigrant, is a species of butterfly that lives in South East Asia and Australasia. Its larvae feed predominantly on plants of the genera Cassia and Senna."
+"Catopsilia scylla, the orange migrant or orange emigrant, is a species of butterfly that lives in South East Asia and Australasia. Its larvae feed predominantly on plants of the genera Cassia and Senna.",
+"Named for Scylla, the sea monster of the Strait of Messina in the Odyssey."
 ]
 },
 "n174-2": {
@@ -1540,7 +1702,8 @@
 "french1835": "Evadne",
 "confidence": "ocr",
 "facts": [
-"Lucas, 1835: “The four wings are a shining greenish white; the forewings are lightly edged with black, and the lemon yellow of the upperside reaches the middle of the forewings and the margin of the hindwings. All four wings are greenish beneath; the body is greenish white, the antennae black with a whitish club.”"
+"Lucas, 1835: “The four wings are a shining greenish white; the forewings are lightly edged with black, and the lemon yellow of the upperside reaches the middle of the forewings and the margin of the hindwings. All four wings are greenish beneath; the body is greenish white, the antennae black with a whitish club.”",
+"Named for Evadne, who threw herself on her husband Capaneus's funeral pyre at Thebes."
 ]
 },
 "n174-3": {
@@ -1550,10 +1713,12 @@
 "name": "Apricot Sulphur",
 "family": "Pieridae",
 "wingspan": "54–67 mm",
+"range": "Lucas's specimen: Guyane, Brésil",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The wings are an orange yellow, a little shot with colour, above. Beneath, they are a deep ochre yellow, with silvery discal dots and winding reddish lines accompanied by a multitude of rusty atoms; in some individuals the silver dots have little brilliance. This species is found in Guiana and Brazil.”",
-"Phoebis argante, the apricot sulphur or Argante giant sulphur, is a butterfly in the family Pieridae."
+"Phoebis argante, the apricot sulphur or Argante giant sulphur, is a butterfly in the family Pieridae.",
+"Named for Argante, an Amazon queen in Tasso's Jerusalem Delivered."
 ]
 },
 "n176-1": {
@@ -1561,9 +1726,11 @@
 "latin1835": "Callidryas trite",
 "french1835": "Tri te",
 "family": "Pieridae",
+"range": "Lucas's specimen: Guyane, Brésil",
 "confidence": "ocr",
 "facts": [
-"Lucas, 1835: “The upperside of all four wings is a fine lemon yellow, a little matt towards the tip. Beneath, they are greenish or greyish and shining, with a rusty line running from the apex of the forewings towards the middle of the inner edge of the hindwings. The body is lemon yellow above and faintly yellowish white beneath.”"
+"Lucas, 1835: “The upperside of all four wings is a fine lemon yellow, a little matt towards the tip. Beneath, they are greenish or greyish and shining, with a rusty line running from the apex of the forewings towards the middle of the inner edge of the hindwings. The body is lemon yellow above and faintly yellowish white beneath.”",
+"Named by Linnaeus in 1758 for Trite, a name of Athena."
 ]
 },
 "n176-2": {
@@ -1572,19 +1739,23 @@
 "french1835": "Philéa",
 "name": "Orange-barred Sulphur",
 "family": "Pieridae",
+"range": "Lucas's specimen: Guyane, Brésil",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The wings are a vivid lemon yellow, a little matt towards the tip, and almost rounded in shape. The forewings have towards the middle a transverse orange patch of varying size; the hindwings are orange, sometimes from the middle to the tip, sometimes only at the tip, and the hind edge of both is cut by very small black dots.”",
-"Phoebis philea, the orange-barred sulphur, is a species of butterfly found in the Americas including the Caribbean."
+"Phoebis philea, the orange-barred sulphur, is a species of butterfly found in the Americas including the Caribbean.",
+"Philea means loving in Greek; Linnaeus's name for this orange-barred sulphur."
 ]
 },
 "n178-1": {
 "latin": "Callidryas leachiana",
 "latin1835": "Callidryas leachiana",
 "french1835": "Leach",
+"range": "Lucas's specimen: Brésil",
 "confidence": "ocr",
 "facts": [
-"Lucas, 1835: “The wings are entire and greenish white. The upperside of the forewings shows at the slightly pointed apex a fine triangular patch of dawn orange running from the middle of the costa to the middle of the hind edge, bordered outwardly by a black line and marked on its inner side by a large black dot. Beneath, all the wings are greenish white with a rusty, faintly purplish patch near the centre.”"
+"Lucas, 1835: “The wings are entire and greenish white. The upperside of the forewings shows at the slightly pointed apex a fine triangular patch of dawn orange running from the middle of the costa to the middle of the hind edge, bordered outwardly by a black line and marked on its inner side by a large black dot. Beneath, all the wings are greenish white with a rusty, faintly purplish patch near the centre.”",
+"Named for William Elford Leach, zoologist at the British Museum, who died in 1836, the year this book was completed."
 ]
 },
 "n178-2": {
@@ -1593,10 +1764,12 @@
 "french1835": "Clorinde",
 "name": "White Angled-Sulphur",
 "family": "Pieridae",
+"range": "Lucas's specimen: Brésil",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The wings are greenish white above with a central orange dot having a black pupil. The forewings also carry, towards the middle of the costa, a large patch of lemon yellow. Beneath, the wings are greenish and faintly netted, with a flesh-coloured central dot answering the eye-spot of the opposite surface.”",
-"Anteos clorinde, the white angled-sulphur or the ghost brimstone, is a butterfly of the family Pieridae. The species was originally described by Jean-Baptiste Godart in 1824."
+"Anteos clorinde, the white angled-sulphur or the ghost brimstone, is a butterfly of the family Pieridae. The species was originally described by Jean-Baptiste Godart in 1824.",
+"Named for Clorinda, the warrior maiden of Tasso's Jerusalem Delivered, killed unknowingly by the knight who loved her."
 ]
 },
 "n180-1": {
@@ -1605,28 +1778,34 @@
 "french1835": "Gnidus",
 "name": "Gnidus Metalmark",
 "family": "Riodinidae",
+"range": "Lucas's specimen: Surinam",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “In the male the wings are white on both surfaces, with the base tawny and the tip black; the tip of the forewings shows above a run of small white strokes. Beneath, the hindwings carry towards the hind edge some twenty silver spots, the three at each end elongated on a white ground, the others round on a rusty ground, all edged with black.”",
-"Helicopis gnidus, the gnidus metalmark or spider-wing cupid, is a species of butterfly in the family Riodinidae."
+"Helicopis gnidus, the gnidus metalmark or spider-wing cupid, is a species of butterfly in the family Riodinidae.",
+"Named for Cnidus, the Greek city of Asia Minor famous for its statue of Aphrodite."
 ]
 },
 "n180-2": {
 "latin": "Erycina lysippus",
 "latin1835": "Erycina lysippus",
 "french1835": "Lysippe",
+"range": "Lucas's specimen: Guyane, Brésil",
 "confidence": "ocr",
 "facts": [
-"Lucas, 1835: “The wings are black above with an orange band, more or less narrow. On the forewings the band descends obliquely from the middle of the costa to the inner angle, where it bends a little; on the hindwings it is arched outwardly and runs from the apex to the anal angle, near which is an oblong red dot. Beneath, the space between base and band shows a multitude of small pale ochre dots.”"
+"Lucas, 1835: “The wings are black above with an orange band, more or less narrow. On the forewings the band descends obliquely from the middle of the costa to the inner angle, where it bends a little; on the hindwings it is arched outwardly and runs from the apex to the anal angle, near which is an oblong red dot. Beneath, the space between base and band shows a multitude of small pale ochre dots.”",
+"Named for Lysippus, the sculptor of Alexander the Great."
 ]
 },
 "n180-3": {
 "latin": "Erycina phareus",
 "latin1835": "Erycina phareus",
 "french1835": "Phareus",
+"range": "Lucas's specimen: Guyane, Brésil",
 "confidence": "ocr",
 "facts": [
-"Lucas, 1835: “The four wings are a shining carmine red, with the outer margin and the costa of the forewings black. The black of the costa shows three unequal teeth above and reaches beyond the middle of the surface beneath; the hindwings often have a small black lunule at their centre. The body is red above and yellowish beneath.”"
+"Lucas, 1835: “The four wings are a shining carmine red, with the outer margin and the costa of the forewings black. The black of the costa shows three unequal teeth above and reaches beyond the middle of the surface beneath; the hindwings often have a small black lunule at their centre. The body is red above and yellowish beneath.”",
+"Named for Pharos, the island lighthouse of Alexandria."
 ]
 },
 "n180-4": {
@@ -1634,19 +1813,26 @@
 "latin1835": "Myrina jafra",
 "french1835": "Jafra",
 "family": "Lycaenidae",
+"range": "Lucas's specimen: Java",
 "confidence": "ocr",
 "facts": [
-"Lucas called it Myrina jafra; the accepted name today is Cheritra jafra."
+"Lucas called it Myrina jafra; the accepted name today is Cheritra jafra.",
+"Named for Jaffa, the ancient port of Palestine."
 ]
 },
 "n182-1": {
-"latin": "Polyommatus marcida",
+"latin": "Pseudolycaena marsyas",
 "latin1835": "Polyommatus marsyas",
 "french1835": "Marsyas",
+"name": "Marsyas Hairstreak",
 "family": "Lycaenidae",
+"wingspan": "40–50 mm",
+"range": "Lucas's specimen: Brésil",
 "confidence": "ocr",
 "facts": [
-"Lucas, 1835: “The four wings are a greenish violet blue, changing to violet, with the whole costa and the apex of the forewings black. Beneath, they are lilac or pale shining violet, with seven or eight black dots ringed with whitish scattered over the middle of each wing; the anal region of the hindwings is greenish blue with two short white bands. The tails are black tipped with white.”"
+"Lucas, 1835: “The four wings are a greenish violet blue, changing to violet, with the whole costa and the apex of the forewings black. Beneath, they are lilac or pale shining violet, with seven or eight black dots ringed with whitish scattered over the middle of each wing; the anal region of the hindwings is greenish blue with two short white bands. The tails are black tipped with white.”",
+"Pseudolycaena marsyas, the Cambridge blue, giant hairstreak or Marsyas hairstreak, is a species of butterfly in the family Lycaenidae.",
+"Named for Marsyas, the satyr who challenged Apollo to a music contest and was flayed for losing."
 ]
 },
 "n182-2": {
@@ -1654,31 +1840,37 @@
 "latin1835": "Polyommatus narbal",
 "french1835": "Narbal",
 "family": "Lycaenidae",
+"range": "Lucas's specimen: Guyane, Brésil",
 "confidence": "ocr",
 "facts": [
-"Lucas, 1835: “The four wings are a shining cornflower blue above with a black apex; the forewings of the male have a greyish eye-spot towards the middle of the costa. Beneath, they are dark brown with the origin of the costa red on all four wings; the hindwings carry a white, waved, broken transverse line edged with black on its inner side, and two black eye-spots. Found in Guiana and Brazil.”"
+"Lucas, 1835: “The four wings are a shining cornflower blue above with a black apex; the forewings of the male have a greyish eye-spot towards the middle of the costa. Beneath, they are dark brown with the origin of the costa red on all four wings; the hindwings carry a white, waved, broken transverse line edged with black on its inner side, and two black eye-spots. Found in Guiana and Brazil.”",
+"Named for Narbal, the Tyrian admiral in Fénelon's Télémaque, a favourite book of the eighteenth century."
 ]
 },
 "n182-3": {
 "latin": "Polyommatus longinus",
 "latin1835": "Polyommatus longinus",
 "french1835": "Longin",
+"range": "Lucas's specimen: Bengale",
 "confidence": "ocr",
 "facts": [
-"Lucas, 1835: “In the male the wings are a shining cornflower blue above, in the female a pale violet blue, with the apex of the forewings and the outer edge of the hindwings brownish black. Both sexes are a whitish satin grey beneath with a waved line of small black arcs, and the hindwings have at the anal angle two black eyes with a tawny iris, separated by a cluster of silvery blue atoms. This species is found in Bengal.”"
+"Lucas, 1835: “In the male the wings are a shining cornflower blue above, in the female a pale violet blue, with the apex of the forewings and the outer edge of the hindwings brownish black. Both sexes are a whitish satin grey beneath with a waved line of small black arcs, and the hindwings have at the anal angle two black eyes with a tawny iris, separated by a cluster of silvery blue atoms. This species is found in Bengal.”",
+"Named for Longinus, the Greek critic to whom the treatise On the Sublime is attributed."
 ]
 },
 "n182-4": {
 "latin": "Arhopala centaurus",
 "latin1835": "Polyommatus helus",
 "french1835": "Helus",
-"name": "Dull Oakblue",
+"name": "Dull Oak-blue",
 "family": "Lycaenidae",
+"range": "Lucas's specimen: Indes Or.",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The male is a deep velvet violet above, with the channel of the hindwings blackish. Beneath, the wings are blackish brown netted with grey, with a run of three golden-green rings on the middle of the forewings and a small band of atoms of the same green at the anal angle of the hindwings, ending in a large black dot. The tail is black with a white tip.”",
 "Arhopala centaurus, the centaur oakblue or dull oakblue, is a species of lycaenid or blue butterfly found in India and southeast Asia to the Philippines.",
-"Lucas called it Polyommatus helus; the accepted name today is Arhopala centaurus."
+"Lucas called it Polyommatus helus; the accepted name today is Arhopala centaurus.",
+"Named for Helos, a town of Laconia whose people became the helots of Sparta."
 ]
 },
 "n184-1": {
@@ -1686,20 +1878,25 @@
 "latin1835": "Danais eunice",
 "french1835": "Eunice",
 "family": "Nymphalidae",
+"range": "Lucas's specimen: Java",
 "confidence": "ocr",
 "facts": [
-"Euploea eunice, commonly called the blue-banded king crow, is a species of butterfly that belongs to the Danaid group of the brush-footed butterflies family. It is found in the Indomalayan realm."
+"Euploea eunice, commonly called the blue-banded king crow, is a species of butterfly that belongs to the Danaid group of the brush-footed butterflies family. It is found in the Indomalayan realm.",
+"Named for Eunice, one of the Nereids."
 ]
 },
 "n184-2": {
-"latin": "Cyclosia midama",
+"latin": "Euploea midamus",
 "latin1835": "Danais midama",
 "french1835": "Midama",
-"name": "Blue-spotted Jewel Moth",
-"family": "Zygaenidae",
+"name": "Blue-spotted Crow Butterfly",
+"family": "Nymphalidae",
+"range": "Lucas's specimen: Chine, Bengale, Java",
 "confidence": "ocr",
 "facts": [
-"Lucas, 1835: “The forewings are velvet black above, with a shot gleam from violet blue to azure according to the light; their front half is unspotted, the rest carries a great many white dots, the outer ones smaller and ranged along the edge. The hindwings above are brownish black, matt ash grey towards the apex; beneath, they show a dozen small violet spots between the middle and the apex.”"
+"Lucas, 1835: “The forewings are velvet black above, with a shot gleam from violet blue to azure according to the light; their front half is unspotted, the rest carries a great many white dots, the outer ones smaller and ranged along the edge. The hindwings above are brownish black, matt ash grey towards the apex; beneath, they show a dozen small violet spots between the middle and the apex.”",
+"Euploea midamus, the blue spotted crow, is a butterfly found in India and South-East Asia that belongs to the crows and tigers, that is, the danaid group of the brush-footed butterflies family",
+"Named by Linnaeus for Midamus; the name is his own coinage."
 ]
 },
 "n194-1": {
@@ -1707,10 +1904,12 @@
 "latin1835": "Danais niavia",
 "french1835": "Niavia",
 "family": "Nymphalidae",
+"range": "Lucas's specimen: Guinée",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The forewings are black on both surfaces and crossed between the middle and the tip by a fairly broad white band, sinuous on its sides and cut by fine veins of the ground colour, preceded outwardly by one or two white dots and inwardly by four or five more. The hindwings above are brownish black with a white patch set transversely at the base.”",
-"Amauris niavius, the friar, is a butterfly of the family Nymphalidae. It is found in the forests of tropical Africa."
+"Amauris niavius, the friar, is a butterfly of the family Nymphalidae. It is found in the forests of tropical Africa.",
+"Named for Niavius; Linnaeus's coinage, of uncertain meaning."
 ]
 },
 "n194-2": {
@@ -1719,41 +1918,47 @@
 "french1835": "Plexippe",
 "name": "Monarch",
 "family": "Nymphalidae",
+"range": "Lucas's specimen: Indes Or.",
 "confidence": "ocr",
 "facts": [
-"The monarch butterfly or simply monarch is a milkweed butterfly in the family Nymphalidae. Other common names, depending on region, include milkweed, common tiger, wanderer, and black-veined brown."
+"The monarch butterfly or simply monarch is a milkweed butterfly in the family Nymphalidae. Other common names, depending on region, include milkweed, common tiger, wanderer, and black-veined brown.",
+"Named for Plexippus, uncle of Meleager, killed by him after the Calydonian boar hunt. The Monarch has carried the name since 1758."
 ]
 },
 "n196-1": {
-"latin": "Hegesippe hegesippe",
+"latin": "Danais hegesippe",
 "latin1835": "Danais hegesippe",
 "french1835": "Hegesippe",
-"family": "Hesperiidae",
+"range": "Lucas's specimen: Ile de Sumatra",
 "confidence": "ocr",
 "facts": [
-"Lucas, 1835: “The ground of the forewings is black, and at the base is a large longitudinal tawny patch divided unequally in three by a forked black vein; opposite the apex is a white, spotted transverse band preceded outwardly by two marginal lines of white dots. The hindwings are brownish black with two rows of white dots on the hind margin and eight longitudinal white streaks running to the base.”"
+"Lucas, 1835: “The ground of the forewings is black, and at the base is a large longitudinal tawny patch divided unequally in three by a forked black vein; opposite the apex is a white, spotted transverse band preceded outwardly by two marginal lines of white dots. The hindwings are brownish black with two rows of white dots on the hind margin and eight longitudinal white streaks running to the base.”",
+"Named for Hegesippus, the Athenian orator and rival of Demosthenes' enemies."
 ]
 },
 "n196-2": {
 "latin": "Danais cleone",
 "latin1835": "Danais cleone",
 "french1835": "Cléone",
+"range": "Lucas's specimen: Ile de Java, d'Amboine",
 "confidence": "ocr",
 "facts": [
-"Lucas, 1835: “The wings are black above and dark brown beneath. The forewings carry on their front half three longitudinal spots of shining greenish yellow, two converging at the base and enclosing the third, which is much shorter; opposite the apex is a transparent transverse band faintly tinged with yellow, followed by white dots in two lines parallel to the hind edge.”"
+"Lucas, 1835: “The wings are black above and dark brown beneath. The forewings carry on their front half three longitudinal spots of shining greenish yellow, two converging at the base and enclosing the third, which is much shorter; opposite the apex is a transparent transverse band faintly tinged with yellow, followed by white dots in two lines parallel to the hind edge.”",
+"Named for Cleone, a nymph, daughter of the river Asopus."
 ]
 },
 "n198-1": {
 "latin": "Idea idea",
 "latin1835": "Idea agelia",
 "french1835": "Agélie",
-"name": "Linnaeus Tree Nymph",
+"name": "Linnaeus' idea",
 "family": "Nymphalidae",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “All the wings are elliptical, entire and a little transparent. Their upperside is greyish white with black veins and a black hind border, fairly broad, very sinuous on its inner side and divided across its whole width, at least on the forewings, by a run of large white dots, some round, some oval; between each vein, towards the tip, is a black lance-shaped spot reaching the border.”",
 "Idea idea, also known as Linnaeus's idea or rice paper, is a large butterfly that belongs to the danaid group of the family Nymphalidae. It was described by Carl Linnaeus in his 1763 Centuria Insectorum.",
-"Lucas called it Idea agelia; the accepted name today is Idea idea."
+"Lucas called it Idea agelia; the accepted name today is Idea idea.",
+"Named for Agelaus, a Greek name meaning leader of the people."
 ]
 },
 "n200-1": {
@@ -1762,22 +1967,26 @@
 "french1835": "Sara",
 "name": "Sara Longwing",
 "family": "Nymphalidae",
+"range": "Lucas's specimen: Guyane, Brésil",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The four wings are deep black above with a blue gleam at the base. The forewings have two oblique transverse patches of sulphur yellow, one in the middle and one near the apex, the latter very narrow and made of four touching spots; the hindwings are unspotted above, their hind edge a little toothed and finely edged with white at the notches.”",
-"The Sara longwing is a species of neotropical heliconiid butterfly found from Mexico to the Amazon Basin and southern Brazil. It is a colourful species: the dorsal wing surface is black with a large medial patch of metallic blue that is framed by two bands of white on the forewings."
+"The Sara longwing is a species of neotropical heliconiid butterfly found from Mexico to the Amazon Basin and southern Brazil. It is a colourful species: the dorsal wing surface is black with a large medial patch of metallic blue that is framed by two bands of white on the forewings.",
+"Sara is a plain Hebrew name; Fabricius gave it to this small longwing in 1793."
 ]
 },
 "n200-2": {
 "latin": "Heliconius melpomene",
 "latin1835": "Heliconia melpomene",
 "french1835": "Melpomène",
-"name": "Postman Butterfly",
+"name": "postman",
 "family": "Nymphalidae",
+"range": "Lucas's specimen: Guyane",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “All the wings are a fairly deep black above. The forewings carry in the middle a broad transverse band of dull minium red, a little oblique, ending almost in a point below and more sinuous in the female than in the male; the hindwings are unspotted. Beneath, the hindwings are brownish black with the front half of the costa dull sulphur yellow and a few blood-red dots ranged in a half circle against the base.”",
-"Heliconius melpomene, the postman butterfly, common postman or simply postman, is a brightly colored, geographically variable butterfly species found throughout Central and South America. It was first described by Carl Linnaeus in his 1758 10th edition of Systema Naturae."
+"Heliconius melpomene, the postman butterfly, common postman or simply postman, is a brightly colored, geographically variable butterfly species found throughout Central and South America. It was first described by Carl Linnaeus in his 1758 10th edition of Systema Naturae.",
+"Named by Linnaeus for Melpomene, the Muse of tragedy."
 ]
 },
 "n200-3": {
@@ -1785,21 +1994,25 @@
 "latin1835": "Heliconia phillis",
 "french1835": "Phyllis",
 "family": "Nymphalidae",
+"range": "Lucas's specimen: Guyane",
 "confidence": "ocr",
 "facts": [
-"Lucas, 1835: “Between the middle and the apex the forewings carry a broad transverse band of more or less vivid vermilion red starting from the costa, with a single tooth outwardly near its lower end and not reaching the inner edge; at the base is a longitudinal yellow line ending in a dot. The hindwings have near their origin a straight band of sulphur yellow of moderate width.”"
+"Lucas, 1835: “Between the middle and the apex the forewings carry a broad transverse band of more or less vivid vermilion red starting from the costa, with a single tooth outwardly near its lower end and not reaching the inner edge; at the base is a longitudinal yellow line ending in a dot. The hindwings have near their origin a straight band of sulphur yellow of moderate width.”",
+"Named for Phyllis, the Thracian princess who hanged herself waiting for Demophon and became an almond tree."
 ]
 },
 "n202-1": {
 "latin": "Heliconius charithonia",
 "latin1835": "Heliconia charitonia",
 "french1835": "Charitonia",
-"name": "Zebra Long Wing",
+"name": "Zebra Heliconian",
 "family": "Nymphalidae",
+"range": "Lucas's specimen: Amérique",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “All the wings are black with bands of sulphur yellow. The forewings have three, the two outer ones transverse and oblique, the inner running straight from the base to the middle of the surface, where it bends a little to reach the hind edge; the hindwings have two transverse bands, the upper broad, straight and continuous, the lower curved and made of dots.”",
-"Heliconius charithonia, the zebra longwing or zebra heliconian, is a species of butterfly belonging to the subfamily Heliconiinae of the family Nymphalidae. It was first described by Carl Linnaeus in his 1767 12th edition of Systema Naturae."
+"Heliconius charithonia, the zebra longwing or zebra heliconian, is a species of butterfly belonging to the subfamily Heliconiinae of the family Nymphalidae. It was first described by Carl Linnaeus in his 1767 12th edition of Systema Naturae.",
+"Named by Linnaeus for the Charites, the Graces of Greek myth."
 ]
 },
 "n202-2": {
@@ -1808,10 +2021,12 @@
 "french1835": "Ilione",
 "name": "Clearwing Mimic-Queen",
 "family": "Nymphalidae",
+"range": "Lucas's specimen: Brésil",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The forewings are deep black with three faintly yellowish, transparent bands; the triangular patch at the base is the largest, while the transverse band across the middle is narrower and divided into five spots, the three lower ones dot-like. The hindwings are faintly yellowish and transparent, with widened veins and a black hind border, and four or five curved teeth.”",
-"Lycorea ilione, the clearwing mimic queen is a species of nymphalid butterfly in the subfamily Danainae. The species was first described by Pieter Cramer in 1775."
+"Lycorea ilione, the clearwing mimic queen is a species of nymphalid butterfly in the subfamily Danainae. The species was first described by Pieter Cramer in 1775.",
+"Named for Ilione, eldest daughter of Priam."
 ]
 },
 "n202-3": {
@@ -1820,10 +2035,12 @@
 "french1835": "Narcea",
 "name": "Lysimnia Tigerwing",
 "family": "Nymphalidae",
+"range": "Lucas's specimen: Antilles",
 "confidence": "ocr",
 "facts": [
 "Mechanitis lysimnia, the confused tigerwing, sweet-oil tiger or lysimnia tigerwing, is a species of butterfly of the family Nymphalidae. It was described by Johan Christian Fabricius in 1793.",
-"Lucas called it Heliconia narcea; the accepted name today is Mechanitis lysimnia."
+"Lucas called it Heliconia narcea; the accepted name today is Mechanitis lysimnia.",
+"Named for Narcaea, an epithet of Athena at Olympia."
 ]
 },
 "n212-1": {
@@ -1832,11 +2049,13 @@
 "french1835": "Zidora",
 "family": "Nymphalidae",
 "wingspan": "60–65 mm",
+"range": "Lucas's specimen: Sierra Léone",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The upperside of all four wings is faintly yellowish. The forewings have at the apex a triangular black space on which sits a patch of fine pale tawny, rounded outwardly, sinuous inwardly and narrowed at its lower end; the hindwings carry a row of well-spaced black spots on the hind margin. The body is whitish beneath and black above.”",
 "Acraea egina, the elegant acraea, is a species of butterfly in the family Nymphalidae with an extensive range in sub-Saharan Africa.",
-"Lucas called it Acraea zidora; the accepted name today is Acraea egina."
+"Lucas called it Acraea zidora; the accepted name today is Acraea egina.",
+"Named for Zidora, of uncertain origin; Cramer had earlier called this butterfly Egina."
 ]
 },
 "n212-2": {
@@ -1844,10 +2063,12 @@
 "latin1835": "Acraea euryta",
 "french1835": "Laomédia",
 "family": "Nymphalidae",
+"range": "Lucas's specimen: Sierra Léone",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “In this species the wings are proportionally less narrow than in the preceding ones. Their upperside is a deep matt black with the hind edge cut by white and slightly sinuous. The forewings are crossed by two lines of faintly shining sulphur-yellow spots, the inner line of about six spots arching from the middle of the costa towards the inner angle, the outer of four spots midway to the apex.”",
-"Bematistes alcinoe, the alcinoe bematistes, is a species of butterfly in the family Nymphalidae. It is found in Guinea-Bissau, Guinea, Sierra Leone, Liberia, Ivory Coast, Ghana, Togo, Nigeria, Cameroon, Equatorial Guinea, São Tomé and Príncipe, the Democratic Republic of the Congo, Ethiopia,…"
+"Bematistes alcinoe, the alcinoe bematistes, is a species of butterfly in the family Nymphalidae. It is found in Guinea-Bissau, Guinea, Sierra Leone, Liberia, Ivory Coast, Ghana, Togo, Nigeria, Cameroon, Equatorial Guinea, São Tomé and Príncipe, the Democratic Republic of the Congo, Ethiopia,…",
+"Named by Linnaeus for Eurytus, a king of Oechalia and famous archer."
 ]
 },
 "n212-3": {
@@ -1855,7 +2076,11 @@
 "latin1835": "Acraea thalia",
 "french1835": "Thalie",
 "family": "Nymphalidae",
-"confidence": "ocr"
+"range": "Lucas's specimen: Guyane, Brésil",
+"confidence": "ocr",
+"facts": [
+"Named by Linnaeus for Thalia, the Muse of comedy and one of the Graces."
+]
 },
 "n214-1": {
 "latin": "Eueides vibilia",
@@ -1863,42 +2088,50 @@
 "french1835": "Vibilie",
 "name": "Acting Heliconian",
 "family": "Nymphalidae",
+"range": "Lucas's specimen: Brésil",
 "confidence": "ocr",
 "facts": [
-"Lucas, 1835: “The upperside of the hindwings is dark brown at the base and along the hind edge, and crossed between these by a broad curved band of tawny or cherry red, toothed outwardly and marked in the middle with a few black dots; in the male this band just reaches the forewings, in the female it rises much higher and is divided into five oval spots.”"
+"Lucas, 1835: “The upperside of the hindwings is dark brown at the base and along the hind edge, and crossed between these by a broad curved band of tawny or cherry red, toothed outwardly and marked in the middle with a few black dots; in the male this band just reaches the forewings, in the female it rises much higher and is divided into five oval spots.”",
+"Named for Vibilia, the Roman goddess of journeys and of travellers who had lost their way."
 ]
 },
 "n214-2": {
 "latin": "Dryas iulia",
 "latin1835": "Cethosia julia",
 "french1835": "Julia",
-"name": "Flame",
+"name": "Julia",
 "family": "Nymphalidae",
+"range": "Lucas's specimen: Guyane, Brésil",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The forewings are blackish brown and crossed by a band, reddish white in the male and very white in the female, broader in her than in him, sinuous on its sides and cut by fine veins of the ground colour; it descends obliquely from the costa towards the hind angle, narrows greatly above it and folds inward to reach the inner edge. The hindwings are reddish in the male and reddish white in the female.”",
-"Dryas iulia, commonly called the Julia butterfly, Julia heliconian, the flame, or flambeau, is a species of brush-footed butterfly. The sole representative of its genus Dryas, it is native from Brazil to southern Texas and Florida, and in summer can sometimes be found as far north as eastern…"
+"Dryas iulia, commonly called the Julia butterfly, Julia heliconian, the flame, or flambeau, is a species of brush-footed butterfly. The sole representative of its genus Dryas, it is native from Brazil to southern Texas and Florida, and in summer can sometimes be found as far north as eastern…",
+"Named by Fabricius for the Julian house of Rome. The modern spelling, Dryas iulia, keeps the Latin i."
 ]
 },
 "n214-3": {
 "latin": "Dione juno",
 "latin1835": "Cethosia juno",
 "french1835": "Juno",
-"name": "Juno Silverspot",
+"name": "Juno Longwing",
 "family": "Nymphalidae",
+"range": "Lucas's specimen: Guyane, Brésil",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The forewings are dark brown with ochre-yellow spots arranged thus: two longitudinal at the base, the front one shorter; two nearly round in the middle; five oblong, unequal and touching, forming a transverse band opposite the apex. The hindwings above are rust-coloured with rays or streaks and a dark brown marginal band.”",
-"Dione juno, the Juno silverspot, juno longwing, or Juno heliconian, is a species of butterfly of the subfamily Heliconiinae in the family Nymphalidae found from southern United States to South America."
+"Dione juno, the Juno silverspot, juno longwing, or Juno heliconian, is a species of butterfly of the subfamily Heliconiinae in the family Nymphalidae found from southern United States to South America.",
+"Named for Juno, queen of the Roman gods."
 ]
 },
 "n216-1": {
 "latin": "Heliconia eva",
 "latin1835": "Heliconia eva",
 "french1835": "Eva",
+"range": "Lucas's specimen: Surinam",
 "confidence": "ocr",
 "facts": [
-"Lucas, 1835: “The forewings are black above, with the inner edge and two bands tawny: the front band runs from the base to about the middle of the surface, where it is deeply cleft, then descends curving and widening to near the anal angle; the outer band lies obliquely opposite the apex without reaching the edges. The hindwings are tawny above with black streaks and a broad, curved, crenellated black border.”"
+"Lucas, 1835: “The forewings are black above, with the inner edge and two bands tawny: the front band runs from the base to about the middle of the surface, where it is deeply cleft, then descends curving and widening to near the anal angle; the outer band lies obliquely opposite the apex without reaching the edges. The hindwings are tawny above with black streaks and a broad, curved, crenellated black border.”",
+"Named for Eve, the first woman."
 ]
 },
 "n216-2": {
@@ -1906,22 +2139,26 @@
 "latin1835": "Heliconia humboldtii",
 "french1835": "Humboldtii",
 "family": "Nymphalidae",
+"range": "Lucas's specimen: Amazones",
 "confidence": "ocr",
 "facts": [
-"Lucas, 1835: “The male is a vivid tawny above; the female a light tawny, a little darkened towards the base of the forewings. These have a black, slightly concave hind edge, and their apex shows from that edge to the middle of the costa a large triangular black space mostly filled by an oblique tawny patch cleft behind. The hindwings are toothed and end in a fairly broad black border divided by a double row of dusky tawny spots.”"
+"Lucas, 1835: “The male is a vivid tawny above; the female a light tawny, a little darkened towards the base of the forewings. These have a black, slightly concave hind edge, and their apex shows from that edge to the middle of the costa a large triangular black space mostly filled by an oblique tawny patch cleft behind. The hindwings are toothed and end in a fairly broad black border divided by a double row of dusky tawny spots.”",
+"Named for Alexander von Humboldt, whose travels in the Americas with Bonpland filled the cabinets of Paris."
 ]
 },
 "n226-1": {
 "latin": "Philaethria dido",
 "latin1835": "Cethosia dido",
 "french1835": "Didon",
-"name": "Dido Longwing",
+"name": "Scarce Bamboo Page",
 "family": "Nymphalidae",
 "wingspan": "110 mm",
+"range": "Lucas's specimen: Guyane, Brésil",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “All the wings are toothed and black above. The forewings have two bands of celadon green, one longitudinal, one transverse: the first, from the base, is lance-shaped and reaches the disc, keeping nearer the front edge than the inner; the second, broader and strongly interrupted, is made of five unequal oblong spots, and the costa carries a line of three or four small whitish-green spots from its middle to the apex.”",
-"Philaethria dido, the scarce bamboo page or dido longwing, is a butterfly in the family Nymphalidae. It is found in Central America and tropical South America, both east and west of the Andes, from Brazil and Ecuador northwards to Mexico."
+"Philaethria dido, the scarce bamboo page or dido longwing, is a butterfly in the family Nymphalidae. It is found in Central America and tropical South America, both east and west of the Andes, from Brazil and Ecuador northwards to Mexico.",
+"Named for Dido, queen of Carthage, who loved and lost Aeneas. Linnaeus gave the name in 1767."
 ]
 },
 "n226-2": {
@@ -1929,28 +2166,36 @@
 "latin1835": "Cethosia lamarckii",
 "french1835": "Lamarckii",
 "family": "Nymphalidae",
-"confidence": "ocr"
+"range": "Lucas's specimen: Nlle Hollande",
+"confidence": "ocr",
+"facts": [
+"Named for Jean-Baptiste Lamarck, who coined the word invertebrate and whose lectures shaped Lucas's generation of naturalists."
+]
 },
 "n226-3": {
 "latin": "Cethosia leschenaultii",
 "latin1835": "Cethosia leschenault",
 "french1835": "Leschenault",
 "family": "Nymphalidae",
+"range": "Lucas's specimen: Java",
 "confidence": "ocr",
 "facts": [
-"Lucas, 1835: “The four wings are nearly round and toothed. Their upperside is velvet black with a violet gleam, and a broad terminal band of ochre yellow, repeated beneath, formed of closely set wedge-shaped spots. Beneath, each wing is rust-coloured and drawn thus: between base and middle, three transverse bands of greyish green cut lengthwise by black lines, then a series of small spots parallel to the terminal band.”"
+"Lucas, 1835: “The four wings are nearly round and toothed. Their upperside is velvet black with a violet gleam, and a broad terminal band of ochre yellow, repeated beneath, formed of closely set wedge-shaped spots. Beneath, each wing is rust-coloured and drawn thus: between base and middle, three transverse bands of greyish green cut lengthwise by black lines, then a series of small spots parallel to the terminal band.”",
+"Named for Jean-Baptiste Leschenault de la Tour, botanist of the Baudin expedition, who collected in Java."
 ]
 },
 "n228-1": {
 "latin": "Cethosia penthesilea",
 "latin1835": "Cethosia penthesilea",
 "french1835": "Penthésilée",
-"name": "Orange Lacewing",
+"name": "Plain Lacewing Butterfly",
 "family": "Nymphalidae",
+"range": "Lucas's specimen: Java",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The wings are tawny above with a blackish terminal band divided by a run of whitish crescents concave outwardly. Opposite the apex of the forewings is a large triangular space of bluish black joined to the border, carrying an oblique, sinuous white transverse band separated from the crescents by an arc of four or five white dots. The border of the hindwings is preceded inwardly by two rows of black spots.”",
-"Cethosia penthesilea, the orange lacewing, is a species of heliconiine butterfly found in Southeast Asia, as well as the Australia's Northern Territory."
+"Cethosia penthesilea, the orange lacewing, is a species of heliconiine butterfly found in Southeast Asia, as well as the Australia's Northern Territory.",
+"Named for Penthesilea, queen of the Amazons, killed by Achilles at Troy."
 ]
 },
 "n228-2": {
@@ -1959,10 +2204,12 @@
 "french1835": "Cydippe",
 "name": "Red Lacewing",
 "family": "Nymphalidae",
+"range": "Lucas's specimen: Chine",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The four wings are finely toothed and edged with whitish at the notches. The upperside is a vivid tawny in the male, a dark and faintly greenish brick colour in the female, with a very broad brownish-black border arched inwardly. This border casts a faint violet gleam and is entirely divided by two curved parallel lines of white crescents facing one another by their convex sides.”",
-"Cethosia cydippe, the eastern red lacewing, is a species of butterfly from Australia, New Guinea and nearby islands. The Australian subspecies, C."
+"Cethosia cydippe, the eastern red lacewing, is a species of butterfly from Australia, New Guinea and nearby islands. The Australian subspecies, C.",
+"Named for Cydippe, the Athenian girl tricked into marriage by an apple inscribed with a vow, in a tale told by Callimachus."
 ]
 },
 "n230-1": {
@@ -1972,11 +2219,13 @@
 "name": "Regal Fritillary",
 "family": "Nymphalidae",
 "wingspan": "68–105 mm",
+"range": "Lucas's specimen: Jamaïque, Amérique sept.",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The forewings are tawny above with about fifteen black spots: the foremost linear and set transversely beneath the costa, which is itself black; the next forming a zigzag transverse band across the middle; the rest round, smaller and ranged in a line parallel to the hind edge, which is covered by a fairly broad black band toothed inwardly and divided in the male by tawny lunules, in the female by white dots.”",
 "The regal fritillary is a striking nymphalid butterfly found in tallgrass and mixed-grass prairies in the east-central United States. This prairie-specialist butterfly is deep orange with distinctive dark hindwings with two bands of spots.",
-"Lucas called it Argynnis idalia; the accepted name today is Speyeria idalia."
+"Lucas called it Argynnis idalia; the accepted name today is Speyeria idalia.",
+"Idalia is an epithet of Venus, from Idalium in Cyprus where she was worshipped."
 ]
 },
 "n230-2": {
@@ -1986,20 +2235,24 @@
 "name": "Indian Fritillary",
 "family": "Nymphalidae",
 "wingspan": "80–98 mm",
+"range": "Lucas's specimen: Chine",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The wings are yellowish tawny strewn with black spots above and end in a black border crenellated inwardly and carrying two rows of bluish lunules facing one another. Opposite the apex of the forewings is a large triangular bluish-black space crossed by an oblique, sinuous white band cut by the veins and marked below with two black dots. Daubenton called it the Leopard of China.”",
 "The Indian fritillary is a species of butterfly of the nymphalid or brush-footed family. It is usually found from south and southeast Asia to Australia.",
-"Lucas called it Argynnis niphe; the accepted name today is Argyreus hyperbius."
+"Lucas called it Argynnis niphe; the accepted name today is Argyreus hyperbius.",
+"Niphe means snowflake in Greek."
 ]
 },
 "n232-1": {
 "latin": "Vanessa juliana",
 "latin1835": "Vanessa juliana",
 "french1835": "Juliana",
+"range": "Lucas's specimen: Ile d'Amboine",
 "confidence": "ocr",
 "facts": [
-"Lucas, 1835: “The wings are dark brown above with a broad transverse band of greenish white set between the middle and the hind margin. On the forewings the band is a double row of spots, the inner ones smaller and crescent-shaped, the outer oval and each charged with a large black dot; on the hindwings it is continuous, preceded outwardly by a string of lunules, with two black eye-spots having a bluish pupil and a yellow iris.”"
+"Lucas, 1835: “The wings are dark brown above with a broad transverse band of greenish white set between the middle and the hind margin. On the forewings the band is a double row of spots, the inner ones smaller and crescent-shaped, the outer oval and each charged with a large black dot; on the hindwings it is continuous, preceded outwardly by a string of lunules, with two black eye-spots having a bluish pupil and a yellow iris.”",
+"Named for Juliana, a Roman feminine of the Julian name."
 ]
 },
 "n232-2": {
@@ -2007,7 +2260,10 @@
 "latin1835": "Vanessa aglatonice",
 "french1835": "Aglatonice",
 "family": "Nymphalidae",
-"confidence": "ocr"
+"confidence": "ocr",
+"facts": [
+"Named for Aglaonice, the Thessalian woman said to be the first female astronomer in Greece."
+]
 },
 "n234-1": {
 "latin": "Anartia amathea",
@@ -2015,9 +2271,11 @@
 "french1835": "Amathéa",
 "name": "Red Peacock",
 "family": "Nymphalidae",
+"range": "Lucas's specimen: Brésil, Guyane",
 "confidence": "ocr",
 "facts": [
-"Anartia amathea, the brown peacock, is a species of nymphalid butterfly, found primarily in South America. This butterfly is very similar to the banded peacock or Anartia fatima, which primarily exists north of the range of Anartia amathea."
+"Anartia amathea, the brown peacock, is a species of nymphalid butterfly, found primarily in South America. This butterfly is very similar to the banded peacock or Anartia fatima, which primarily exists north of the range of Anartia amathea.",
+"Named for Amathea, one of the Nereids."
 ]
 },
 "n234-2": {
@@ -2027,63 +2285,73 @@
 "name": "blue admiral",
 "family": "Nymphalidae",
 "wingspan": "60–70 mm",
+"range": "Lucas's specimen: Chine",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The wings are greenish black above, a little shot, and crossed in the middle and towards the tip by a pale arched blue band, divided on the hindwings by a line of black dots. Beneath, the male is dark black from the base to beyond the middle, then wood grey strongly waved with brown, with a sinuous, almost marginal line of ashen atoms and a dirty white dot on the disc of the hindwings. Found in China.”",
 "Kaniska canace, the blue admiral, is a nymphalid butterfly, the only species of the genus Kaniska. It is found in south and southeast Asia.",
-"Lucas called it Vanessa charonia; the accepted name today is Vanessa canace."
+"Lucas called it Vanessa charonia; the accepted name today is Vanessa canace.",
+"Named for Charon, the ferryman of the dead."
 ]
 },
 "n234-3": {
 "latin": "Junonia atlites",
 "latin1835": "Vanessa laomedia",
 "french1835": "Laomédia",
-"name": "Grey Pansy",
+"name": "Grey Pansy Butterfly",
 "family": "Nymphalidae",
+"range": "Lucas's specimen: Chine, Java",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “Above, the wings are ash-coloured, a little reddish in the male, with three blackish, waved transverse lines towards the rear, between which runs a transverse row of eye-spots, six on the forewings and five on the hindwings, all but the two middle ones having the inner side of the pupil tawny; there are also some blackish waves near the origin of the front edge of the forewings.”",
-"Junonia atlites, the grey pansy, is a species of nymphalid butterfly found in South Asia."
+"Junonia atlites, the grey pansy, is a species of nymphalid butterfly found in South Asia.",
+"Named for Laomedia, a Nereid."
 ]
 },
 "n244-1": {
-"latin": "Sea sophronia",
+"latin": "Vanessa sophronia",
 "latin1835": "Vanessa sophronia",
 "french1835": "Sophronie",
-"family": "Nymphalidae",
-"confidence": "ocr"
+"range": "Lucas's specimen: Brésil",
+"confidence": "ocr",
+"facts": [
+"Sophronia means prudent in Greek, and is the name of the Christian maiden in Tasso's Jerusalem Delivered."
+]
 },
 "n244-2": {
 "latin": "Vanessa cloantha",
 "latin1835": "Vanessa cloantha",
 "french1835": "Gloantha",
+"range": "Lucas's specimen: Cap de Bonne-Espérance",
 "confidence": "ocr",
 "facts": [
-"Lucas, 1835: “The wings are tawny above with a dark base and a curved, transverse hind row of six violet dots edged with black, much larger on the hindwings, whose middle shows a small black spot; the forewings have beneath the costa three short, parallel, slightly arched transverse bands of the same colour. Beneath, the wings are like the upperside but generally paler and a little pricked with blackish. Inhabits the Cape of Good…”"
+"Lucas, 1835: “The wings are tawny above with a dark base and a curved, transverse hind row of six violet dots edged with black, much larger on the hindwings, whose middle shows a small black spot; the forewings have beneath the costa three short, parallel, slightly arched transverse bands of the same colour. Beneath, the wings are like the upperside but generally paler and a little pricked with blackish. Inhabits the Cape of Good…”",
+"Named for Cloanthus, one of Aeneas's captains in the Aeneid."
 ]
 },
 "n244-3": {
-"latin": "Junonia chorimene",
+"latin": "Vanessa orthosia",
 "latin1835": "Vanessa orthosia",
 "french1835": "Orthosie",
-"name": "Golden Pansy",
-"family": "Nymphalidae",
+"range": "Lucas's specimen: Ile d'Amboine",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “This species differs from the one just described in that the origin of the costa of the forewings is brown instead of whitish; the eye at their inner angle is much larger and less round, flanked by two black dots inside the same iris; the upperside of the hindwings has no blue band but three lilac eyes, the front one larger and furnished with three white pupils.”",
-"Junonia chorimene, the golden pansy, is a butterfly in the family Nymphalidae. It is found in Senegal, the Gambia, Guinea-Bissau, Guinea, Mali, Sierra Leone, Ivory Coast, Burkina Faso, Ghana, Togo, Benin, Nigeria, the Democratic Republic of the Congo, Sudan, Ethiopia, Uganda, northern and western…"
+"Orthosia is an epithet of Artemis, the upright one."
 ]
 },
 "n246-1": {
 "latin": "Junonia orithya",
 "latin1835": "Vanessa orithya",
 "french1835": "Orithye",
-"name": "Eyed Pansy",
+"name": "Blue Pansy",
 "family": "Nymphalidae",
+"range": "Lucas's specimen: Chine, Java, Bengale",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The wings above are a deep velvet black in the male and brownish black in the female, with two black eyes having violet-blue pupils and a reddish-tawny iris. The forewings, whose costa is whitish from its origin to the middle, have near the base four small oblique lines alternately tawny and bluish, and towards the tip three white streaks, the innermost broader and shorter.”",
-"Junonia orithya is a nymphalid butterfly with many subspecies occurring from Africa, through South Asia, Southeast Asia, and Australia. In India, its common English name is the blue pansy, but in southern Africa it is known as the eyed pansy as the name blue pansy refers to Junonia oenone."
+"Junonia orithya is a nymphalid butterfly with many subspecies occurring from Africa, through South Asia, Southeast Asia, and Australia. In India, its common English name is the blue pansy, but in southern Africa it is known as the eyed pansy as the name blue pansy refers to Junonia oenone.",
+"Named by Linnaeus for Orithyia, an Amazon queen."
 ]
 },
 "n246-2": {
@@ -2092,9 +2360,11 @@
 "french1835": "Clélie",
 "name": "Dark Blue Pansy",
 "family": "Nymphalidae",
+"range": "Lucas's specimen: Côte occ. d'Afrique",
 "confidence": "ocr",
 "facts": [
-"Junonia oenone, the blue pansy or dark blue pansy, is a Nymphalid butterfly native to Africa. \"Blue pansy\" is also used in India to describe Junonia orithya."
+"Junonia oenone, the blue pansy or dark blue pansy, is a Nymphalid butterfly native to Africa. \"Blue pansy\" is also used in India to describe Junonia orithya.",
+"Named for Cloelia, the Roman girl who escaped Etruscan captivity by swimming the Tiber."
 ]
 },
 "n246-3": {
@@ -2103,10 +2373,12 @@
 "french1835": "OEnone",
 "name": "Dark Blue Pansy",
 "family": "Nymphalidae",
+"range": "Lucas's specimen: Cap de Bonne-Espérance",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The wings are yellow inclining to tawny above, with all the edges black. This colour spreads broadly at the base of the hindwings and sets off a patch of violet or lapis blue, of much the same shape and size as in the preceding species. The forewings have at the apex, where the black widens entirely, two transverse yellowish streaks, the inner one shorter.”",
-"Junonia oenone, the blue pansy or dark blue pansy, is a Nymphalid butterfly native to Africa. \"Blue pansy\" is also used in India to describe Junonia orithya."
+"Junonia oenone, the blue pansy or dark blue pansy, is a Nymphalid butterfly native to Africa. \"Blue pansy\" is also used in India to describe Junonia orithya.",
+"Named for Oenone, the nymph who was Paris's first love and who refused to heal him when he lay dying."
 ]
 },
 "n248-1": {
@@ -2115,10 +2387,12 @@
 "french1835": "Larinia",
 "name": "Mangrove Buckeye",
 "family": "Nymphalidae",
+"range": "Lucas's specimen: Brésil",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The upperside of each wing is dark brown with two black eyes, their pupil bluish and their iris yellowish grey. These eyes are immediately preceded outwardly by a tawny line, more or less deep, itself preceded by a double waved marginal line of the same grey as the iris. The forewings have towards the origin of the costa two small tawny streaks edged with black, and between the two eyes an oblique band, sometimes…”",
-"Junonia evarete, the tropical buckeye or South American tropical buckeye, is a South American butterfly of the nymphalid (Nymphalidae) family. It has characteristic eye spots on the wings, which have a wingspan between 4.5 and 6.5 cm."
+"Junonia evarete, the tropical buckeye or South American tropical buckeye, is a South American butterfly of the nymphalid (Nymphalidae) family. It has characteristic eye spots on the wings, which have a wingspan between 4.5 and 6.5 cm.",
+"Named for Larinum, an ancient town of Italy."
 ]
 },
 "n248-2": {
@@ -2126,9 +2400,11 @@
 "latin1835": "Libythea cuvierii",
 "french1835": "Cuvier (de)",
 "family": "Nymphalidae",
+"range": "Lucas's specimen: Amérique mér.",
 "confidence": "ocr",
 "facts": [
-"Lucas, 1835: “All the wings are blackish brown with a violet gleam running from the base to beyond the disc. The forewings have seven or eight white dots, one cut in two near the middle of the costa, the others in two lines parallel to the hind edge. The hindwings are unspotted on both surfaces, but their underside, entirely glazed with violet, shows two dark, waved transverse lines.”"
+"Lucas, 1835: “All the wings are blackish brown with a violet gleam running from the base to beyond the disc. The forewings have seven or eight white dots, one cut in two near the middle of the costa, the others in two lines parallel to the hind edge. The hindwings are unspotted on both surfaces, but their underside, entirely glazed with violet, shows two dark, waved transverse lines.”",
+"Named for Georges Cuvier, the great anatomist of the Paris museum where Lucas worked; he died in 1832."
 ]
 },
 "n248-3": {
@@ -2136,22 +2412,25 @@
 "latin1835": "Biblis thadana",
 "french1835": "Thadana",
 "family": "Nymphalidae",
+"range": "Lucas's specimen: Brésil",
 "confidence": "ocr",
 "facts": [
-"Lucas, 1835: “The wings are blackish brown on both surfaces, the outer edge of the forewings less deep. Parallel to that edge the hindwings carry a broad, curved, spotted band of vivid vermilion red, finely notched on its sides; beneath it appears again, but rosy white and a little narrower, accompanied by four red dots, three near the base and one towards the middle of the costa.”"
+"Lucas, 1835: “The wings are blackish brown on both surfaces, the outer edge of the forewings less deep. Parallel to that edge the hindwings carry a broad, curved, spotted band of vivid vermilion red, finely notched on its sides; beneath it appears again, but rosy white and a little narrower, accompanied by four red dots, three near the base and one towards the middle of the costa.”",
+"Named for Thadana; Cramer had earlier called this butterfly Hyperia."
 ]
 },
 "n250-1": {
-"latin": "Charaxes bernardus",
+"latin": "Charaxes castor",
 "latin1835": "Nymphalis pollux",
 "french1835": "Pollux",
-"name": "Tawny Rajah",
+"name": "Giant Charaxes",
 "family": "Nymphalidae",
+"range": "Lucas's specimen: Guinée",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The wings are brownish black above with a common, oblique tawny band across the disc. On the forewings the band is spotted, cleft in front and marked below the cleft with a line of three small black dots; on the hindwings it goes no further than the disc, and these wings have a reddish dot at the apex and a double row of unequal violet-blue dots along the outer edge.”",
-"Charaxes bernardus, the tawny rajah, is a butterfly that belongs to the rajahs and nawabs group, that is, the Charaxinae group of the brush-footed butterflies family. This species can be found in India, China, Indomalaya, and onwards to Indonesia.",
-"Lucas called it Nymphalis pollux; the accepted name today is Charaxes bernardus."
+"Charaxes castor, the giant emperor or giant charaxes, is a butterfly of the family Nymphalidae. It is found throughout the Afrotropical realm below the Sahel.",
+"Named for Pollux, the immortal twin of Castor; Cramer had already called the same butterfly Castor."
 ]
 },
 "n250-2": {
@@ -2160,10 +2439,12 @@
 "french1835": "Tiridate",
 "name": "Common Blue Charaxes",
 "family": "Nymphalidae",
+"range": "Lucas's specimen: Java, Amboine",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The wings are blue-black above with two transverse hind rows of light blue dots and a quite terminal row of earthy yellow lunules. Beneath, the ground of all four wings is a faintly shining greyish brown; towards the base are black, waved transverse strokes lightly edged with bluish, followed by a winding transverse series of yellowish dots.”",
-"Charaxes tiridates, the common blue charaxes, is a butterfly in the family Nymphalidae. It is found in Senegal, Guinea, Burkina Faso, Sierra Leone, Liberia, Ivory Coast, Ghana, Togo, Benin, Nigeria, Equatorial Guinea, Cameroon, Gabon, the Republic of the Congo, the Democratic Republic of the Congo,…"
+"Charaxes tiridates, the common blue charaxes, is a butterfly in the family Nymphalidae. It is found in Senegal, Guinea, Burkina Faso, Sierra Leone, Liberia, Ivory Coast, Ghana, Togo, Benin, Nigeria, Equatorial Guinea, Cameroon, Gabon, the Republic of the Congo, the Democratic Republic of the Congo,…",
+"Named for Tiridates, the name of several kings of Parthia and Armenia."
 ]
 },
 "n252-1": {
@@ -2171,10 +2452,12 @@
 "latin1835": "Nymphalis nisus",
 "french1835": "Nisus",
 "family": "Nymphalidae",
+"range": "Lucas's specimen: Ile d'Amboine",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The wings are blackish brown above with a tawny or yellowish band towards the tip of the forewings and a white band towards the tip of the hindwings. The band of the forewings descends from the costa to the inner angle and is made of tawny dots in the male and of large wedge-shaped yellowish spots in the female. The marginal band of the hindwings is preceded by a band of ashen blue carrying a curved row of eight…”",
-"Charaxes eurialus is a butterfly of the family Nymphalidae. It is found on Ambon Island, Seram and Saparua in Indonesia."
+"Charaxes eurialus is a butterfly of the family Nymphalidae. It is found on Ambon Island, Seram and Saparua in Indonesia.",
+"Named for Nisus, king of Megara, whose purple lock of hair held the fate of his city."
 ]
 },
 "n252-2": {
@@ -2182,10 +2465,12 @@
 "latin1835": "Nymphalis pyrrhus",
 "french1835": "Pyrrhus",
 "family": "Nymphalidae",
+"range": "Lucas's specimen: Ile d'Amboine",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The wings are brownish black above, with the front half of the hindwings and a large triangular space at the origin of the inner edge of the forewings a livid yellow. The forewings have nine round spots of the same yellow, two a little beyond the middle of the costa and seven ranged parallel to the hind edge; the hindwings have two rows of blue lunules, the marginal one ending at the anal angle in a tawny crescent.”",
-"Charaxes (Polyura) pyrrhus is a butterfly in the family Nymphalidae. It was described by Carl Linnaeus in his 1758 10th edition of Systema Naturae."
+"Charaxes (Polyura) pyrrhus is a butterfly in the family Nymphalidae. It was described by Carl Linnaeus in his 1758 10th edition of Systema Naturae.",
+"Named by Linnaeus for Pyrrhus, king of Epirus, whose costly victories gave us the phrase Pyrrhic victory."
 ]
 },
 "n262-1": {
@@ -2194,20 +2479,24 @@
 "french1835": "Clytemnestre",
 "name": "Silver-studded Leafwing",
 "family": "Nymphalidae",
+"range": "Lucas's specimen: Guyane, Brésil",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “In this species the tooth before the anal angle of the hindwings stands out more than the others, and in the female the end of the tail is shaped, so to speak, like a foot. The wings above are brownish black with a violet gleam, with a broad, sinuous band of pale ochre yellow descending from the middle of the costa to the inner angle of the forewings, which carry one or more dots of the same yellow at the apex.”",
-"Hypna is a butterfly genus of the family Nymphalidae. It is monotypic, containing only Hypna clytemnestra, the jazzy leafwing, marbled leafwing or silver-studded leafwing."
+"Hypna is a butterfly genus of the family Nymphalidae. It is monotypic, containing only Hypna clytemnestra, the jazzy leafwing, marbled leafwing or silver-studded leafwing.",
+"Named for Clytemnestra, who murdered her husband Agamemnon on his return from Troy."
 ]
 },
 "n262-2": {
 "latin": "Palla decius",
 "latin1835": "Nymphalis decius",
 "family": "Nymphalidae",
+"range": "Lucas's specimen: Guinée",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The wings are blackish brown above, crossed obliquely in the middle by a band of violet-tinged white, narrower on the forewings than the hindwings. The hindwings have the lower edge tawny from the anal angle to the tail inclusive, with five violet dots, the three outer ones edged with black. Beneath, all the wings are rusty brown with a few black, curved transverse lines edged with bluish at the base.”",
-"Palla decius, the white-banded palla, is a butterfly in the family Nymphalidae. It is found in Senegal, Guinea, Sierra Leone, Liberia, Ivory Coast, Ghana, Nigeria, Cameroon, the Republic of the Congo, the western part of the Democratic Republic of the Congo and northern Angola."
+"Palla decius, the white-banded palla, is a butterfly in the family Nymphalidae. It is found in Senegal, Guinea, Sierra Leone, Liberia, Ivory Coast, Ghana, Nigeria, Cameroon, the Republic of the Congo, the western part of the Democratic Republic of the Congo and northern Angola.",
+"Named for Decius Mus, the Roman consul who rode into the enemy line to die for his army."
 ]
 },
 "n264-1": {
@@ -2217,10 +2506,12 @@
 "name": "Common Pearl Charaxes",
 "family": "Nymphalidae",
 "wingspan": "65–70 mm",
+"range": "Lucas's specimen: Cafrerie",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “Above, the front half of the wings is white, passing to yellowish towards the costa of the forewings; the other half is rusty, with two transverse rows of large tawny dots and an intermediate row of blackish dots on the forewings, and the reverse arrangement on the hindwings. Beneath, all the wings are the yellow of a dead leaf, with a few brown, waved transverse lines pricked with bluish near the base.”",
-"Charaxes varanes, the pearl emperor, Karkloof emperor, or pearl charaxes, is a butterfly of the family Nymphalidae, found in Africa from Saudi Arabia to South Africa."
+"Charaxes varanes, the pearl emperor, Karkloof emperor, or pearl charaxes, is a butterfly of the family Nymphalidae, found in Africa from Saudi Arabia to South Africa.",
+"Named for Veranes, a Persian prince mentioned by Ammianus Marcellinus."
 ]
 },
 "n264-2": {
@@ -2231,7 +2522,8 @@
 "confidence": "ocr",
 "facts": [
 "Charaxes mycerina, the mycerina untailed charaxes, is a butterfly in the family Nymphalidae. It is found in Sierra Leone, Liberia, Ivory Coast, Ghana, Nigeria, Cameroon, the Central African Republic, the Republic of the Congo, Gabon, the Democratic Republic of the Congo and Equatorial Guinea.",
-"Lucas called it Nymphalis mycerina; the accepted name today is Charaxes mycerina."
+"Lucas called it Nymphalis mycerina; the accepted name today is Charaxes mycerina.",
+"Named for Mycerinus, the Greek form of Menkaure, builder of the third pyramid at Giza."
 ]
 },
 "n266-1": {
@@ -2243,7 +2535,8 @@
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The forewings are brownish black above with a longitudinal tawny band covering about the whole front third of the surface, then narrowing to end a little short of the hind edge; towards the tip of the front edge is an oval white spot set lengthwise. The hindwings are brownish black above with a dusky tawny edge. Beneath, all four wings are brown shaded with grey, with two darker transverse bands near the base.”",
-"Historis odius, the orion cecropian, is a species of crescents, checkerspots, anglewings, etc. in the butterfly family Nymphalidae."
+"Historis odius, the orion cecropian, is a species of crescents, checkerspots, anglewings, etc. in the butterfly family Nymphalidae.",
+"Named for Orion, the giant hunter placed among the stars."
 ]
 },
 "n268-1": {
@@ -2251,21 +2544,24 @@
 "latin1835": "Nymphalis rogerii",
 "french1835": "Roger",
 "family": "Nymphalidae",
+"range": "Lucas's specimen: Cuba",
 "confidence": "ocr",
 "facts": [
-"Lucas called it Nymphalis rogerii; the accepted name today is Siderone marthesia."
+"Lucas called it Nymphalis rogerii; the accepted name today is Siderone marthesia.",
+"Named for a M. Roger, the collector who supplied the Cuban specimen; Godart honoured many such correspondents."
 ]
 },
 "n268-2": {
-"latin": "Philaethria dido",
+"latin": "Siproeta stelenes",
 "latin1835": "Nymphalis steneles",
 "french1835": "Sténéles",
-"name": "Dido Longwing",
+"name": "Malachite",
 "family": "Nymphalidae",
-"wingspan": "110 mm",
+"range": "Lucas's specimen: Guyane",
 "confidence": "ocr",
 "facts": [
-"Philaethria dido, the scarce bamboo page or dido longwing, is a butterfly in the family Nymphalidae. It is found in Central America and tropical South America, both east and west of the Andes, from Brazil and Ecuador northwards to Mexico."
+"Siproeta stelenes (malachite) is a Neotropical brush-footed butterfly. The malachite has large wings that are black and brilliant green or yellow-green on the upperside and light brown and olive green on the underside.",
+"Named by Linnaeus for Sthenelus, charioteer of Diomedes at Troy."
 ]
 },
 "n270-1": {
@@ -2274,22 +2570,26 @@
 "french1835": "Iphicla",
 "name": "Pointed Sister",
 "family": "Nymphalidae",
+"range": "Lucas's specimen: Guyane, Brésil",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The wings are blackish brown above with a common, oblique white band across the disc, rounded at its front end and sharp or nearly so at the other. Opposite the apex the forewings carry an orange spot, more or less round in the male and an inverted triangle in the female, always separate from the white band; at the anal angle the hindwings have a small tawny patch bearing two black dots.”",
-"Adelpha iphiclus, the Iphiclus sister, is a butterfly of the family Nymphalidae. It was described by Carl Linnaeus in his 1758 10th edition of Systema Naturae."
+"Adelpha iphiclus, the Iphiclus sister, is a butterfly of the family Nymphalidae. It was described by Carl Linnaeus in his 1758 10th edition of Systema Naturae.",
+"Named for Iphiclus, the swift-footed son of Phylacus, an Argonaut."
 ]
 },
 "n270-2": {
 "latin": "Doxocopa laurentia",
 "latin1835": "Nymphalis laurentia",
 "french1835": "Laurence",
-"name": "Turquoise Emperor",
+"name": "Cherubina emperor",
 "family": "Nymphalidae",
 "wingspan": "75 mm",
+"range": "Lucas's specimen: Brésil",
 "confidence": "ocr",
 "facts": [
-"Doxocopa laurentia, the turquoise emperor or Cherubina emperor, is a species of butterfly of the family Nymphalidae, subfamily Apaturinae."
+"Doxocopa laurentia, the turquoise emperor or Cherubina emperor, is a species of butterfly of the family Nymphalidae, subfamily Apaturinae.",
+"Named for Laurentia, wife of the shepherd who raised Romulus and Remus."
 ]
 },
 "n270-3": {
@@ -2297,16 +2597,23 @@
 "latin1835": "Nymphalis gelania",
 "french1835": "Gelania",
 "family": "Nymphalidae",
+"range": "Lucas's specimen: Amérique équinoxiale",
 "confidence": "ocr",
 "facts": [
-"Lucas, 1835: “Above, the wings are blackish brown with a common, oblique white band across the disc, less divided on the hindwings than on the forewings. The forewings have towards the origin of the costa three transverse spots of rusty red framed in black and separated by bluish ash; the hindwings have at the anal angle a tawny patch marked with two black dots. Beneath, two rusty lines with a white line between them run parallel…”"
+"Lucas, 1835: “Above, the wings are blackish brown with a common, oblique white band across the disc, less divided on the hindwings than on the forewings. The forewings have towards the origin of the costa three transverse spots of rusty red framed in black and separated by bluish ash; the hindwings have at the anal angle a tawny patch marked with two black dots. Beneath, two rusty lines with a white line between them run parallel…”",
+"Lucas called it Nymphalis gelania; the accepted name today is Limenitis gelania.",
+"Named for Gelanor, an early king of Argos."
 ]
 },
 "n280-1": {
 "latin": "Tanaecia iapis",
 "latin1835": "Nymphalis iapis",
 "family": "Nymphalidae",
-"confidence": "ocr"
+"range": "Lucas's specimen: Java",
+"confidence": "ocr",
+"facts": [
+"Named for Iapis, the physician who healed Aeneas's wound in the Aeneid."
+]
 },
 "n280-2": {
 "latin": "Cymothoe sangaris",
@@ -2317,40 +2624,45 @@
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The wings are a vermilion red, a little shot, above, with an almost terminal row of black dots, faint on the forewings and joined on the hindwings by an angular black line. Beneath, all four wings are a light tan brown with black hieroglyphs at the base, a common oblique rusty line across the middle and dark chevrons topped with violet dots at the tip. The body is brown above and yellowish beneath.”",
-"Cymothoe sangaris, the blood-red glider, is a species of butterfly of the family Nymphalidae. It is found in Central Africa."
+"Cymothoe sangaris, the blood-red glider, is a species of butterfly of the family Nymphalidae. It is found in Central Africa.",
+"Named for the river Sangarius in Phrygia, now the Sakarya in Turkey."
 ]
 },
 "n280-3": {
-"latin": "Anaea anassa",
+"latin": "Nymphalis amasia",
 "latin1835": "Nymphalis amasia",
 "french1835": "Amasia",
-"family": "Nymphalidae",
+"range": "Lucas's specimen: Côte occ. d'Afrique",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The wings are black above, with a common discal band whose inner side is mostly white and whose outer side is slate blue, spreading in rays to the hind edge. This edge carries white dots, the inner ones oblong and set in an arched line, the outer ones on the notches. Beneath, all four wings are dark brown with two rows of marginal dots as above and a band of violet-tinged white.”",
-"Lucas called it Nymphalis amasia; the accepted name today is Anaea anassa."
+"Named for Amasia, the ancient city of Pontus, birthplace of the geographer Strabo."
 ]
 },
 "n282-1": {
 "latin": "Nymphalis callisto",
 "latin1835": "Nymphalis callisto",
 "french1835": "Gallisto",
+"range": "Lucas's specimen: Java, Amboine",
 "confidence": "ocr",
 "facts": [
-"Lucas, 1835: “The upperside of both sexes is a smoky black, crossed between the middle and the hind edge of the hindwings by a tawny band divided along its whole length by a curved row of seven very black oval spots, all, even the double and smaller anal one, carrying a blue dot in the middle. In the male this tawny band is narrower and surmounted by a large, faintly shining lilac patch. Daubenton called it the Palatine.”"
+"Lucas, 1835: “The upperside of both sexes is a smoky black, crossed between the middle and the hind edge of the hindwings by a tawny band divided along its whole length by a curved row of seven very black oval spots, all, even the double and smaller anal one, carrying a blue dot in the middle. In the male this tawny band is narrower and surmounted by a large, faintly shining lilac patch. Daubenton called it the Palatine.”",
+"Named for Callisto, the nymph turned into a bear and then into the Great Bear."
 ]
 },
 "n282-2": {
 "latin": "Hypolimnas bolina",
 "latin1835": "Nymphalis lasinassa",
 "french1835": "Lasinassa",
-"name": "Great Eggfly",
+"name": "Common Eggfly",
 "family": "Nymphalidae",
 "wingspan": "70–85 mm",
+"range": "Lucas's specimen: Guyane",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The male is brownish black beneath, and shows towards the middle of each wing a white patch surrounded by a violet gleam and cut by the veins: round on the hindwings, oblong and oblique on the forewings, which carry a similar but much smaller patch at the apex. Lucas lists more than a dozen names under which earlier authors had described this variable species.”",
-"Hypolimnas bolina, the great eggfly, common eggfly, varied eggfly, or in New Zealand the blue moon butterfly, is a species of nymphalid butterfly found from Madagascar to Asia and Australia."
+"Hypolimnas bolina, the great eggfly, common eggfly, varied eggfly, or in New Zealand the blue moon butterfly, is a species of nymphalid butterfly found from Madagascar to Asia and Australia.",
+"Named for Lasinassa; Fabricius's coinage, one of a dozen names this variable species has borne."
 ]
 },
 "n284-1": {
@@ -2359,10 +2671,12 @@
 "french1835": "Aliraéna",
 "name": "Blue-banded Eggfly",
 "family": "Nymphalidae",
+"range": "Lucas's specimen: Java, Amboine",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “Above, the wings are a shot black with a common, arched blue band across the disc, behind which run three strings of blue spots, the inner ones wedge-shaped, the outer lunulate and placed opposite the notches, which are edged with white on both surfaces. Beneath, the wings carry the same pattern, but the edge is brown, the band and spots bluish white, and the costa of the forewings is dotted and dusted with white…”",
-"Hypolimnas alimena, the blue-banded eggfly, is a species of butterfly in the family Nymphalidae. It is found in the Solomon Islands, Indonesia, New Guinea and Australia."
+"Hypolimnas alimena, the blue-banded eggfly, is a species of butterfly in the family Nymphalidae. It is found in the Solomon Islands, Indonesia, New Guinea and Australia.",
+"Named for Alcmene, mother of Heracles; Linnaeus spelt it Alimena."
 ]
 },
 "n284-2": {
@@ -2373,45 +2687,51 @@
 "family": "Nymphalidae",
 "confidence": "ocr",
 "facts": [
-"Hypolimnas salmacis, the blue diadem, is a butterfly in the family Nymphalidae. It is found in Sierra Leone, Liberia, Ivory Coast, Ghana, Togo, Benin, Nigeria, Cameroon, Gabon, the Republic of the Congo, Angola, Equatorial Guinea, São Tomé and Príncipe, the DRC, Uganda, Sudan, Ethiopia, Kenya and…"
+"Hypolimnas salmacis, the blue diadem, is a butterfly in the family Nymphalidae. It is found in Sierra Leone, Liberia, Ivory Coast, Ghana, Togo, Benin, Nigeria, Cameroon, Gabon, the Republic of the Congo, Angola, Equatorial Guinea, São Tomé and Príncipe, the DRC, Uganda, Sudan, Ethiopia, Kenya and…",
+"Named for Salmacis, the nymph who merged with Hermaphroditus in her pool."
 ]
 },
 "n286-1": {
 "latin": "Nymphalis condomanus",
 "latin1835": "Nymphalis condomanus",
 "french1835": "Condomanus",
+"range": "Lucas's specimen: Guyane",
 "confidence": "ocr",
 "facts": [
-"Lucas, 1835: “The four wings are black above; the forewings show two transverse bands of a deep colour inclining to reddish, the one at the base very broad, the one nearer the front narrower and rounded on its outer side. The hindwings have a single band of the same colour, narrow, a little sinuous on the inner side and rounded behind. Beneath, the forewings also show a narrow, slightly arched yellow band and a very narrow blue…”"
+"Lucas, 1835: “The four wings are black above; the forewings show two transverse bands of a deep colour inclining to reddish, the one at the base very broad, the one nearer the front narrower and rounded on its outer side. The hindwings have a single band of the same colour, narrow, a little sinuous on the inner side and rounded behind. Beneath, the forewings also show a narrow, slightly arched yellow band and a very narrow blue…”",
+"Named for Condomanus; Fabricius's coinage of uncertain origin."
 ]
 },
 "n286-2": {
 "latin": "Nymphalis hydarnis",
 "latin1835": "Nymphalis hydarnis",
 "french1835": "Hydarnis",
-"confidence": "ocr"
+"range": "Lucas's specimen: Brésil",
+"confidence": "ocr",
+"facts": [
+"Named for Hydarnes, a Persian general of Xerxes who commanded the Immortals at Thermopylae."
+]
 },
 "n286-3": {
-"latin": "Pseudaletis clymenus",
+"latin": "Nymphalis clymenus",
 "latin1835": "Nymphalis clymenus",
 "french1835": "Clyménus",
-"family": "Lycaenidae",
+"range": "Lucas's specimen: Brésil",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The wings are black above with a violet-blue gleam, changing in the male and absent in the female. In both sexes the forewings have at the base a longitudinal line, in the middle a transverse band and at the apex an oblique dash of a green that looks more or less golden according to the light; the hindwings have a band of golden or bluish green along the outer edge. Beneath, the forewings are carmine red from their…”",
-"Pseudaletis clymenus, the common fantasy, is a butterfly in the family Lycaenidae. The species was first described by Hamilton Herbert Druce in 1885."
+"Named for Clymenus, a name of several figures in myth, among them a king of Orchomenus."
 ]
 },
 "n286-4": {
-"latin": "Nymphalis antiopa",
+"latin": "Nymphalis anthiocus",
 "latin1835": "Nymphalis anthiocus",
 "french1835": "Anthiocus",
-"name": "Camberwell Beauty",
-"family": "Nymphalidae",
+"range": "Lucas's specimen: Guyane, Brésil",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The wings are velvet black above with a shining orange band across the disc, a little curved and scarcely rising beyond the centre of the forewings. Beneath, the forewings are a shining blackish brown with the rear half of the costa violet grey and the disc yellowish and furnished with black hairs lying flat; the hindwings are brown faintly shaded with grey, with an arched transverse line of a few blackish dots.…”",
-"Nymphalis antiopa, known as the mourning cloak in North America and the Camberwell beauty in Britain, is a large butterfly native to Eurasia and North America. The immature form of this species is sometimes known as the spiny elm caterpillar."
+"Named for Antiochus, the name of the Seleucid kings of Syria."
 ]
 },
 "n288-1": {
@@ -2421,10 +2741,12 @@
 "name": "One-spotted Prepona",
 "family": "Nymphalidae",
 "wingspan": "54–58 mm",
+"range": "Lucas's specimen: Guyane",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The wings are black above with a common, oblique band of shining greenish blue across the disc, arched and interrupted near the costa of the forewings and ending in a point on the hindwings. Beneath, the wings are brownish with three transverse bands of pearl grey, a black dot at the base of each wing and a waved line of the same colour descending from the front quarter of the costa to the inner angle.”",
-"Archaeoprepona demophon, the one-spotted prepona, banded king shoemaker, or demophon shoemaker is a butterfly belonging to the family Nymphalidae."
+"Archaeoprepona demophon, the one-spotted prepona, banded king shoemaker, or demophon shoemaker is a butterfly belonging to the family Nymphalidae.",
+"Named by Linnaeus for Demophon, son of Theseus and king of Athens."
 ]
 },
 "n288-2": {
@@ -2432,10 +2754,12 @@
 "latin1835": "Nymphalis demodice",
 "french1835": "Démodice",
 "family": "Nymphalidae",
+"range": "Lucas's specimen: Guyane, Brésil",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “Both sexes of Nymphalis Demophon closely resemble the female of Nymphalis Demodice on the upperside; but the male of the latter has the blue band surrounded by a broad violet gleam, ending in a point a little beyond the disc of the forewings instead of being interrupted and arched near their upper edge. Beneath, rather more than the front half of all four wings is greyish white.”",
-"Prepona laertes, the shaded-blue leafwing or Laertes prepona, is a butterfly of the family Nymphalidae. It is found in large parts of Central and South America."
+"Prepona laertes, the shaded-blue leafwing or Laertes prepona, is a butterfly of the family Nymphalidae. It is found in large parts of Central and South America.",
+"Named for Demodice, a figure of the tale of Phrixus and the golden ram."
 ]
 },
 "n298-1": {
@@ -2456,7 +2780,8 @@
 "family": "Nymphalidae",
 "confidence": "ocr",
 "facts": [
-"Lucas, 1835: “The wings are black above with a common band of shining violet blue across the disc, which reaches almost to the root of the wings while losing its brilliance. The forewings have towards the middle of the costa an oblique white spot and towards the tip white dots in one row in the male and two in the female; the hindwings, whose notches are also white, carry a series of red dots along the hind edge.”"
+"Lucas, 1835: “The wings are black above with a common band of shining violet blue across the disc, which reaches almost to the root of the wings while losing its brilliance. The forewings have towards the middle of the costa an oblique white spot and towards the tip white dots in one row in the male and two in the female; the hindwings, whose notches are also white, carry a series of red dots along the hind edge.”",
+"Named for Leontes, a king of Sicily in Shakespeare's Winter's Tale, or for the Greek name meaning lion-like."
 ]
 },
 "n302-1": {
@@ -2466,12 +2791,12 @@
 "name": "Menelaus Blue Morpho",
 "family": "Nymphalidae",
 "wingspan": "120–150 mm",
+"range": "Central and South America",
 "confidence": "probable",
 "facts": [
 "Another Trojan name from Linnaeus. The blue is structural: the scales are stacked like tiny Christmas trees and reflect only blue light.",
 "The undersides are brown with eyespots, so a flying morpho seems to flash on and off."
-],
-"range": "Central and South America"
+]
 },
 "n304-1": {
 "latin": "Morpho laertes",
@@ -2479,22 +2804,21 @@
 "french1835": "Laertes",
 "name": "White Morpho",
 "family": "Nymphalidae",
+"range": "Brazil",
 "confidence": "probable",
 "facts": [
 "A pale morpho whose white takes a faint pearly blue in the light. Named for Laertes, father of Odysseus."
-],
-"range": "Brazil"
+]
 },
 "n306-1": {
-"latin": "Dasyophthalma rusina",
+"latin": "Pavonia lycaon",
 "latin1835": "Pavonia lycaon",
 "french1835": "Lycaon",
-"family": "Nymphalidae",
+"range": "Lucas's specimen: Mexique",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The four wings above are velvet black, especially towards the base, with faint, slightly yellowish notches. The forewings carry a transverse band of fine blue that shines according to the light, much broader towards the base and divided in three by the veins; near the outer edge a longitudinal band of pale yellow crossed by black veins runs from the apex of the forewings to the anal angle of the hindwings.”",
-"Dasyophthalma rusina is a butterfly of the family Nymphalidae. It is found in Brazil, from Bahia to Santa Catarina.",
-"Lucas called it Pavonia lycaon; the accepted name today is Dasyophthalma rusina."
+"Named for Lycaon, the Arcadian king turned into a wolf by Zeus."
 ]
 },
 "n306-2": {
@@ -2504,32 +2828,44 @@
 "name": "coconut caterpillar",
 "family": "Nymphalidae",
 "wingspan": "70–105 mm",
+"range": "Lucas's specimen: Surinam, Brésil",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The wings are very entire and dark brown above. The forewings, whose front edge is strongly arched, are crossed from the middle of that edge by a curved, slightly sinuous tawny band reaching the inner angle and sometimes continuing, though shorter, to the corresponding angle of the hindwings; this band is more or less cleft at its origin. Beneath, all four wings are paler and finely pricked with grey, with a small…”",
-"Brassolis sophorae, commonly known as the coconut caterpillar, is a species of large butterfly in the family Nymphalidae. It is found in South America."
+"Brassolis sophorae, commonly known as the coconut caterpillar, is a species of large butterfly in the family Nymphalidae. It is found in South America.",
+"Named for the plant, Sophora, on which Linnaeus believed the caterpillar fed. It actually feeds on palms."
 ]
 },
 "n308-1": {
 "latin": "Eumenia toxea",
 "latin1835": "Eumenia toxea",
 "french1835": "Toxéa",
-"confidence": "ocr"
+"range": "Lucas's specimen: Amérique mér.",
+"confidence": "ocr",
+"facts": [
+"Named for Toxeus, a brother of Meleager killed at the Calydonian boar hunt."
+]
 },
 "n308-2": {
 "latin": "Eurybia nicaea",
 "latin1835": "Eurybia nicaeus",
-"confidence": "ocr"
+"range": "Lucas's specimen: Guyane, Brésil",
+"confidence": "ocr",
+"facts": [
+"Named for Nicaea, the city in Bithynia where the Christian creed was fixed in AD 325."
+]
 },
 "n308-3": {
 "latin": "Pierella lena",
 "latin1835": "Satyrus lena",
 "french1835": "Léna",
 "family": "Nymphalidae",
+"range": "Lucas's specimen: Guyane, Brésil",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “In this species the forewings are entire and a little transparent. Their upperside is dark brown, sometimes unspotted, sometimes carrying parallel to the hind edge a run of four or five dots, the second from the costa black in a grey ring, the others wholly bluish. The hindwings are a little toothed and end outwardly in a small blunt tail; their rear half is deep black with some twenty blue spots, most charged with…”",
-"Pierella lena, the Lena pierella, is a species of butterfly of the family Nymphalidae. It is found in Suriname, the Guianas, Peru, Bolivia and Brazil."
+"Pierella lena, the Lena pierella, is a species of butterfly of the family Nymphalidae. It is found in Suriname, the Guianas, Peru, Bolivia and Brazil.",
+"Named by Linnaeus in 1767; Lena is a plain girl's name, unusual among his classical choices."
 ]
 },
 "n310-1": {
@@ -2537,22 +2873,26 @@
 "latin1835": "Satyrus nereis",
 "french1835": "Néréis",
 "family": "Nymphalidae",
+"range": "Lucas's specimen: Guyane, Brésil",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The forewings are a little transparent, dark brown on both surfaces, with a linear white band descending obliquely from the end of the costa to the end of the inner edge. The upperside of the hindwings has about the front half and the outer edge dark brown, and all the rest tawny or Spanish-tobacco coloured, with a very white band edged with blackish; between this band and the hind edge are two very black eyes with…”",
-"Pierella nereis is a butterfly species from the subfamily Satyrinae in the family Nymphalidae. It was first described by Dru Drury in 1782 from Brazil."
+"Pierella nereis is a butterfly species from the subfamily Satyrinae in the family Nymphalidae. It was first described by Dru Drury in 1782 from Brazil.",
+"Named for the Nereids, the fifty sea nymphs, daughters of Nereus."
 ]
 },
 "n310-2": {
-"latin": "Urbanus doryssus",
+"latin": "Urbanus proteus",
 "latin1835": "Hesperia orion",
 "french1835": "Orion",
-"name": "White-tailed Longtail",
+"name": "Long-tailed Skipper",
 "family": "Hesperiidae",
+"range": "Lucas's specimen: Brésil, Surinam",
 "confidence": "ocr",
 "facts": [
 "Lucas, 1835: “The body is a dusky blackish with a tint of silky green at the upper root of the wings. The transverse white line of the forewings is made of four or five spots, touching or merely separated by veins, and ends a little before the inner angle; the hindwings have four more white, diaphanous but very small spots, one adjoining the hind edge of the streak near its middle and three in a little line near the costa.”",
-"Cecropterus doryssus, commonly known as the white-tailed longtail, is a species of dicot skipper in the butterfly family Hesperiidae. It is found in Central America, North America, and South America."
+"The long-tailed skipper is a spread-winged skipper butterfly found throughout tropical and subtropical South America, south to Argentina and north into the eastern United States and southern Ontario. It cannot live in areas with prolonged frost.",
+"Named for Orion, the giant hunter placed among the stars."
 ]
 },
 "n310-3": {
@@ -2560,9 +2900,11 @@
 "latin1835": "Hesperia versicolor",
 "french1835": "Versicolore",
 "family": "Hesperiidae",
+"range": "Lucas's specimen: Brésil, Surinam",
 "confidence": "ocr",
 "facts": [
-"Lucas called it Hesperia versicolor; the accepted name today is Mimoniades versicolor."
+"Lucas called it Hesperia versicolor; the accepted name today is Mimoniades versicolor.",
+"Versicolor simply means of changing colours in Latin."
 ]
 }
 }

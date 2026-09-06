@@ -19,6 +19,7 @@ book = load('content/book-plates.json', {})
 entries = load('content/lucas-entries.json', [])
 auto = load('content/species-auto.json', {})
 trans = load('content/translations.json', {})
+etym = load('content/etymology.json', {})
 hand = load('content/species.json', {})
 figmap = load('content/figure-map.json', {})
 
@@ -54,6 +55,7 @@ for sid, e in by_sid.items():
         'name': (a.get('common_names') or [None])[0],
         'family': tax.get('family'),
         'wingspan': a.get('wingspan'),
+        'range': ("Lucas's specimen: " + e['locality_1835']) if e.get('locality_1835') and e['locality_1835'] != '?' else None,
         'confidence': 'ocr',
         'facts': [],
     }
@@ -63,6 +65,8 @@ for sid, e in by_sid.items():
         info['facts'].append(first_sentences(a['wikipedia']['extract'], 2, 300))
     if tax.get('synonym_of_1835_name') and tax.get('accepted') and e.get('latin_1835'):
         info['facts'].append(f"Lucas called it {e['latin_1835']}; the accepted name today is {tax['accepted']}.")
+    ety = etym.get(e['specimen']) or etym.get((e.get('epithet') or '').lower())
+    if ety: info['facts'].append(ety)
     if e.get('shared'): info['facts'].append('A second figure of the same species on this plate.')
     info.update(hand.get(sid, {}))
     specimens[sid] = {k: v for k, v in info.items() if v not in (None, '', [])}

@@ -119,5 +119,149 @@
  "eumenia toxea": [
   "Eumenia toxea",
   "medium"
+ ],
+ "papilio hector": [
+  "Pachliopta hector",
+  "high"
+ ],
+ "papilio iphitas": [
+  "Eurytides iphitas",
+  "high"
+ ],
+ "papilio erecteus": [
+  "Papilio aegeus",
+  "high"
+ ],
+ "papilio cresphontes": [
+  "Papilio demolion",
+  "high"
+ ],
+ "papilio brutus": [
+  "Papilio dardanus",
+  "high"
+ ],
+ "papilio lysithous": [
+  "Mimoides lysithous",
+  "high"
+ ],
+ "papilio pompilius": [
+  "Graphium antiphates",
+  "high"
+ ],
+ "papilio asterias": [
+  "Papilio polyxenes",
+  "high"
+ ],
+ "papilio polixenus": [
+  "Graphium policenes",
+  "high"
+ ],
+ "pieris calypso": [
+  "Belenois calypso",
+  "medium"
+ ],
+ "pieris nigrina": [
+  "Delias nigrina",
+  "high"
+ ],
+ "pieris pyrrha": [
+  "Perrhybris pyrrha",
+  "high"
+ ],
+ "terias candida": [
+  "Eurema candida",
+  "high"
+ ],
+ "polyommatus marsyas": [
+  "Pseudolycaena marsyas",
+  "high"
+ ],
+ "danais midama": [
+  "Euploea midamus",
+  "high"
+ ],
+ "acraea euryta": [
+  "Acraea euryta",
+  "high"
+ ],
+ "nymphalis steneles": [
+  "Siproeta stelenes",
+  "high"
+ ],
+ "nymphalis pollux": [
+  "Charaxes castor",
+  "high"
+ ],
+ "nymphalis gelania": [
+  "Adelpha gelania",
+  "medium"
+ ],
+ "hesperia orion": [
+  "Urbanus proteus",
+  "high"
+ ],
+ "papilio polymetus": [
+  "?",
+  "unknown"
+ ],
+ "papilio evander": [
+  "?",
+  "unknown"
+ ],
+ "papilio dardanus": [
+  "?",
+  "unknown"
+ ],
+ "papilio dimas": [
+  "?",
+  "unknown"
+ ],
+ "papilio licoraeus": [
+  "?",
+  "unknown"
+ ],
+ "papilio agapenor": [
+  "?",
+  "unknown"
+ ],
+ "pieris phaloe": [
+  "?",
+  "unknown"
+ ],
+ "pieris coronea": [
+  "?",
+  "unknown"
+ ],
+ "pieris endeis": [
+  "?",
+  "unknown"
+ ],
+ "danais hegesippe": [
+  "?",
+  "unknown"
+ ],
+ "vanessa sophronia": [
+  "?",
+  "unknown"
+ ],
+ "vanessa orthosia": [
+  "?",
+  "unknown"
+ ],
+ "nymphalis amasia": [
+  "?",
+  "unknown"
+ ],
+ "nymphalis clymenus": [
+  "?",
+  "unknown"
+ ],
+ "nymphalis anthiocus": [
+  "?",
+  "unknown"
+ ],
+ "pavonia lycaon": [
+  "?",
+  "unknown"
  ]
 }

@@ -141,7 +141,9 @@ for i, e in enumerate(entries):
     sid = e.get('specimen')
     if not sid: continue
     ov = OVR.get((e.get('latin_1835') or '').lower())
-    if ov:
+    if ov and ov[0] == '?':
+        r = {'query': e.get('latin_1835'), 'candidates': [], 'method': 'none', 'gbif_confidence': 0, 'manual_unknown': True}
+    elif ov:
         g, ep = ov[0].split()[0], ov[0].split()[1]
         r = resolve(g, ep); r['method'] = 'manual' if r.get('accepted') else r['method']; r['manual_confidence'] = ov[1]
     else:
@@ -155,7 +157,8 @@ for i, e in enumerate(entries):
     if not common and r.get('accepted'): common = wikidata_common(r['accepted'])
     rec['common_names'] = common
     flags = []
-    if r['method'] == 'none': flags.append('ambiguous: several species share this epithet' if any(c.get('ambiguous') for c in r.get('candidates', [])) else 'no taxon match')
+    if r.get('manual_unknown'): flags.append('automated match rejected; identity not yet known')
+    elif r['method'] == 'none': flags.append('ambiguous: several species share this epithet' if any(c.get('ambiguous') for c in r.get('candidates', [])) else 'no taxon match')
     elif r['method'] in ('genus-search', 'family-search', 'butterfly-search'): flags.append(f"matched by {r['method']} ({r['gbif_confidence']}%), check")
     if e.get('match', 1) < 0.75: flags.append('weak index↔text match')
     if e.get('genus_inferred'): flags.append('genus inferred from neighbours')

@@ -22,10 +22,10 @@
    "gbif_key": 1937444,
    "rank": "SPECIES",
    "common_names": [
-    "Common Green Birdwing",
+    "New Guinea Birdwing",
+    "Priam's Birdwing",
     "Cape York Birdwing",
-    "Cooktown Birdwing",
-    "Northern Birdwing"
+    "Common Green Birdwing"
    ]
   },
   "wikipedia": {
@@ -35,10 +35,10 @@
   },
   "wingspan": null,
   "common_names": [
-   "Common Green Birdwing",
+   "New Guinea Birdwing",
+   "Priam's Birdwing",
    "Cape York Birdwing",
-   "Cooktown Birdwing",
-   "Northern Birdwing"
+   "Common Green Birdwing"
   ],
   "flags": [],
   "confidence": "high"
@@ -144,10 +144,10 @@
    "gbif_key": 1937988,
    "rank": "SPECIES",
    "common_names": [
-    "Ulysses Butterfly",
-    "Ulysses Swallowtail",
     "Blue Mountain Swallowtail",
-    "Blue Emperor Swallowtail"
+    "Ulysses Swallowtail",
+    "Mountain Blue",
+    "Mountain Swallowtail"
    ]
   },
   "wikipedia": {
@@ -157,10 +157,10 @@
   },
   "wingspan": "140 mm",
   "common_names": [
-   "Ulysses Butterfly",
-   "Ulysses Swallowtail",
    "Blue Mountain Swallowtail",
-   "Blue Emperor Swallowtail"
+   "Ulysses Swallowtail",
+   "Mountain Blue",
+   "Mountain Swallowtail"
   ],
   "flags": [],
   "confidence": "high"
@@ -207,62 +207,38 @@
   "latin_1835": "Papilio hector",
   "lucas_heading": "PAPILLON HECTOR, papilio hector.",
   "taxonomy": {
-   "query": "Papilio hector",
-   "candidates": [
-    {
-     "name": "Papilio hector de",
-     "status": "SYNONYM",
-     "family": "Papilionidae",
-     "score": 1.0
-    },
-    {
-     "name": "Papilio hectorides Esper, 1794",
-     "status": "ACCEPTED",
-     "family": "Papilionidae",
-     "score": 0.75
-    },
-    {
-     "name": "Papilio decora Linnaeus, 1764",
-     "status": "ACCEPTED",
-     "family": "Papilionidae",
-     "score": 0.73
-    },
-    {
-     "name": "Papilio castor Westwood, 1842",
-     "status": "ACCEPTED",
-     "family": "Papilionidae",
-     "score": 0.67
-    }
-   ],
-   "method": "genus-search",
+   "query": "Pachliopta hector",
+   "candidates": [],
+   "method": "manual",
    "gbif_confidence": 100,
-   "genus_resolved": "Papilio",
-   "genus_family": "Papilionidae",
-   "accepted": "Papilio polytes",
-   "accepted_authorship": "Linnaeus, 1758",
+   "matchType": "EXACT",
+   "ocr_variant": null,
+   "synonym_of_1835_name": false,
+   "matched_1835_as": "Pachliopta hector (Linnaeus, 1758)",
+   "accepted": "Pachliopta hector",
+   "accepted_authorship": "(Linnaeus, 1758) ",
    "family": "Papilionidae",
-   "genus": "Papilio",
-   "gbif_key": 1938088,
+   "genus": "Pachliopta",
+   "gbif_key": 1939215,
    "rank": "SPECIES",
    "common_names": [
-    "Common Mormon",
-    "Common Mormon Swallowtail"
-   ]
+    "Crimson Rose",
+    "Crimson Rose Swallowtail"
+   ],
+   "manual_confidence": "high"
   },
   "wikipedia": {
-   "title": "Papilio polytes",
-   "extract": "Papilio polytes, the common Mormon, is a common species of swallowtail butterfly widely distributed across Asia.",
-   "url": "https://en.wikipedia.org/wiki/Papilio_polytes"
+   "title": "Pachliopta hector",
+   "extract": "Pachliopta hector, the crimson rose, is a large swallowtail butterfly belonging to the genus Pachliopta (roses) of the red-bodied swallowtails.",
+   "url": "https://en.wikipedia.org/wiki/Pachliopta_hector"
   },
   "wingspan": null,
   "common_names": [
-   "Common Mormon",
-   "Common Mormon Swallowtail"
+   "Crimson Rose",
+   "Crimson Rose Swallowtail"
   ],
-  "flags": [
-   "matched by genus-search (100%), check"
-  ],
-  "confidence": "medium"
+  "flags": [],
+  "confidence": "high"
  },
  "n32-1": {
   "specimen": "n32-1",
@@ -287,8 +263,8 @@
    "gbif_key": 5141212,
    "rank": "SPECIES",
    "common_names": [
-    "Blue Triangle",
-    "Common Bluebottle"
+    "Common Bluebottle",
+    "Blue Triangle"
    ]
   },
   "wikipedia": {
@@ -298,8 +274,8 @@
   },
   "wingspan": null,
   "common_names": [
-   "Blue Triangle",
-   "Common Bluebottle"
+   "Common Bluebottle",
+   "Blue Triangle"
   ],
   "flags": [],
   "confidence": "high"
@@ -332,8 +308,8 @@
    "gbif_key": 5141197,
    "rank": "SPECIES",
    "common_names": [
-    "Veined Jay",
-    "Striped Jay"
+    "Striped Jay",
+    "Veined Jay"
    ]
   },
   "wikipedia": {
@@ -343,8 +319,8 @@
   },
   "wingspan": null,
   "common_names": [
-   "Veined Jay",
-   "Striped Jay"
+   "Striped Jay",
+   "Veined Jay"
   ],
   "flags": [
    "matched by family-search (100%), check"
@@ -361,31 +337,18 @@
   "taxonomy": {
    "query": "Papilio polymetus",
    "candidates": [],
-   "method": "match",
-   "gbif_confidence": 95,
-   "matchType": "FUZZY",
-   "ocr_variant": null,
-   "synonym_of_1835_name": true,
-   "matched_1835_as": "Papilio polymenus Fabricius, 1793",
-   "accepted": "Emesis mandana",
-   "accepted_authorship": "(Cramer, 1780) ",
-   "family": "Lycaenidae",
-   "genus": "Emesis",
-   "gbif_key": 1935888,
-   "rank": "SPECIES",
-   "common_names": [
-    "Great Emesis"
-   ]
+   "method": "none",
+   "gbif_confidence": 0,
+   "manual_unknown": true
   },
   "wikipedia": null,
   "wingspan": null,
-  "common_names": [
-   "Great Emesis"
-  ],
+  "common_names": [],
   "flags": [
+   "automated match rejected; identity not yet known",
    "no Wikipedia page"
   ],
-  "confidence": "medium"
+  "confidence": "low"
  },
  "n34-2": {
   "specimen": "n34-2",
@@ -411,8 +374,8 @@
    "rank": "SPECIES",
    "common_names": [
     "Common Clubtail",
-    "Yellow Marked Clubtail",
-    "Yellow Marked Club-Tail"
+    "Yellow Marked Club-Tail",
+    "Yellow Marked Clubtail"
    ]
   },
   "wikipedia": {
@@ -423,8 +386,8 @@
   "wingspan": "100–120 mm",
   "common_names": [
    "Common Clubtail",
-   "Yellow Marked Clubtail",
-   "Yellow Marked Club-Tail"
+   "Yellow Marked Club-Tail",
+   "Yellow Marked Clubtail"
   ],
   "flags": [],
   "confidence": "high"
@@ -438,55 +401,19 @@
   "lucas_heading": "PAPILLON ÉV ANDRE,",
   "taxonomy": {
    "query": "Papilio evander",
-   "candidates": [
-    {
-     "name": "Papilio melander Stoll, 1780",
-     "status": "ACCEPTED",
-     "family": "Papilionidae",
-     "score": 0.8
-    },
-    {
-     "name": "Papilio delalandei Godart, 1824",
-     "status": "ACCEPTED",
-     "family": "Papilionidae",
-     "score": 0.62
-    },
-    {
-     "name": "Papilio scamander Boisduval, 1836",
-     "status": "ACCEPTED",
-     "family": "Papilionidae",
-     "score": 0.62
-    },
-    {
-     "name": "Papilio androgeus Cramer, 1775",
-     "status": "ACCEPTED",
-     "family": "Papilionidae",
-     "score": 0.57
-    }
-   ],
-   "method": "genus-search",
-   "gbif_confidence": 80,
-   "genus_resolved": "Papilio",
-   "genus_family": "Papilionidae",
-   "accepted": "Papilio melander",
-   "accepted_authorship": "Stoll, 1780",
-   "family": "Papilionidae",
-   "genus": "Papilio",
-   "gbif_key": 9789810,
-   "rank": "SPECIES",
-   "common_names": []
+   "candidates": [],
+   "method": "none",
+   "gbif_confidence": 0,
+   "manual_unknown": true
   },
-  "wikipedia": {
-   "title": "Mylon maimon",
-   "extract": "Mylon maimon, the common mylon or black-veined mylon, is a butterfly of the family Hesperiidae. It is found from Argentina to Colombia and Bolivia, and north to Mexico. It is found at heights ranging from sea level to about 1,800 meters.",
-   "url": "https://en.wikipedia.org/wiki/Mylon_maimon"
-  },
+  "wikipedia": null,
   "wingspan": null,
   "common_names": [],
   "flags": [
-   "matched by genus-search (80%), check"
+   "automated match rejected; identity not yet known",
+   "no Wikipedia page"
   ],
-  "confidence": "medium"
+  "confidence": "low"
  },
  "n36-2": {
   "specimen": "n36-2",
@@ -534,34 +461,35 @@
   "latin_1835": "Papilio iphitas",
   "lucas_heading": "PAPILLON IPHITAS.",
   "taxonomy": {
-   "query": "Papilio iphitas",
+   "query": "Eurytides iphitas",
    "candidates": [],
-   "method": "match",
-   "gbif_confidence": 97,
-   "matchType": "FUZZY",
+   "method": "manual",
+   "gbif_confidence": 100,
+   "matchType": "EXACT",
    "ocr_variant": null,
-   "synonym_of_1835_name": true,
-   "matched_1835_as": "Papilio iphita Cramer, 1779",
-   "accepted": "Junonia iphita",
-   "accepted_authorship": "(Cramer, 1782) ",
-   "family": "Nymphalidae",
-   "genus": "Junonia",
-   "gbif_key": 5130444,
+   "synonym_of_1835_name": false,
+   "matched_1835_as": "Eurytides iphitas Hübner, 1821",
+   "accepted": "Eurytides iphitas",
+   "accepted_authorship": "Hübner, 1821",
+   "family": "Papilionidae",
+   "genus": "Eurytides",
+   "gbif_key": 1939341,
    "rank": "SPECIES",
    "common_names": [
-    "Chocolate Pansy",
-    "Chocolate Soldier"
-   ]
+    "Yellow Kite Swallowtail",
+    "Yellow Kite"
+   ],
+   "manual_confidence": "high"
   },
   "wikipedia": {
-   "title": "Junonia iphita",
-   "extract": "Junonia iphita, the chocolate pansy or chocolate soldier, is a butterfly found in Asia.",
-   "url": "https://en.wikipedia.org/wiki/Junonia_iphita"
+   "title": "Eurytides iphitas",
+   "extract": "Eurytides iphitas, commonly known as the yellow kite swallowtail, is a species of butterfly in the family Papilionidae. It is an endangered species that is endemic to Brazil.",
+   "url": "https://en.wikipedia.org/wiki/Eurytides_iphitas"
   },
   "wingspan": null,
   "common_names": [
-   "Chocolate Pansy",
-   "Chocolate Soldier"
+   "Yellow Kite Swallowtail",
+   "Yellow Kite"
   ],
   "flags": [],
   "confidence": "high"
@@ -616,34 +544,39 @@
   "latin_1835": "Papilio erecteus",
   "lucas_heading": "PAPILLON ERECTHÉE.",
   "taxonomy": {
-   "query": "Papilio erecteus",
+   "query": "Papilio aegeus",
    "candidates": [],
-   "method": "match",
-   "gbif_confidence": 93,
-   "matchType": "FUZZY",
+   "method": "manual",
+   "gbif_confidence": 100,
+   "matchType": "EXACT",
    "ocr_variant": null,
-   "synonym_of_1835_name": true,
-   "matched_1835_as": "Papilio electo Linnaeus, 1763",
-   "accepted": "Colias electo",
-   "accepted_authorship": "(Linnaeus, 1763) ",
-   "family": "Pieridae",
-   "genus": "Colias",
-   "gbif_key": 5137663,
+   "synonym_of_1835_name": false,
+   "matched_1835_as": "Papilio aegeus Donovan, 1805",
+   "accepted": "Papilio aegeus",
+   "accepted_authorship": "Donovan, 1805",
+   "family": "Papilionidae",
+   "genus": "Papilio",
+   "gbif_key": 1937712,
    "rank": "SPECIES",
    "common_names": [
-    "Lucerne Butterfly",
-    "African Clouded Yellow"
-   ]
+    "Orchard Swallowtail Butterfly",
+    "Orchard Swallowtail",
+    "Orchard Butterfly",
+    "Large Citrus Butterfly"
+   ],
+   "manual_confidence": "high"
   },
   "wikipedia": {
-   "title": "Colias electo",
-   "extract": "Colias electo, the African clouded yellow or lucerne butterfly, is a butterfly of the family Pieridae. It is found in eastern and southern Africa, as well as Arabia. The habitat consists of temperate and montane grasslands.",
-   "url": "https://en.wikipedia.org/wiki/Colias_electo"
+   "title": "Papilio aegeus",
+   "extract": "Papilio aegeus, the orchard swallowtail butterfly or large citrus butterfly is a species of butterfly from the family Papilionidae, that is found in eastern Australia and Papua New Guinea.",
+   "url": "https://en.wikipedia.org/wiki/Papilio_aegeus"
   },
-  "wingspan": "35–40 mm",
+  "wingspan": "140 mm",
   "common_names": [
-   "Lucerne Butterfly",
-   "African Clouded Yellow"
+   "Orchard Swallowtail Butterfly",
+   "Orchard Swallowtail",
+   "Orchard Butterfly",
+   "Large Citrus Butterfly"
   ],
   "flags": [],
   "confidence": "high"
@@ -674,7 +607,7 @@
     "Citrus Swallowtail",
     "Lime Swallowtail",
     "Checkered Swallowtail",
-    "Lemon Swallowtail"
+    "Small Citrus Butterfly"
    ]
   },
   "wikipedia": {
@@ -687,7 +620,7 @@
    "Citrus Swallowtail",
    "Lime Swallowtail",
    "Checkered Swallowtail",
-   "Lemon Swallowtail"
+   "Small Citrus Butterfly"
   ],
   "flags": [],
   "confidence": "high"
@@ -716,8 +649,8 @@
    "rank": "SPECIES",
    "common_names": [
     "Small Reunion Swallowtail",
-    "Papillon La Pature",
-    "Small Réunion Swallowtail"
+    "Small Réunion Swallowtail",
+    "Papillon La Pature"
    ]
   },
   "wikipedia": {
@@ -728,8 +661,8 @@
   "wingspan": null,
   "common_names": [
    "Small Reunion Swallowtail",
-   "Papillon La Pature",
-   "Small Réunion Swallowtail"
+   "Small Réunion Swallowtail",
+   "Papillon La Pature"
   ],
   "flags": [],
   "confidence": "high"
@@ -758,8 +691,8 @@
    "rank": "SPECIES",
    "common_names": [
     "Small Reunion Swallowtail",
-    "Papillon La Pature",
-    "Small Réunion Swallowtail"
+    "Small Réunion Swallowtail",
+    "Papillon La Pature"
    ]
   },
   "wikipedia": {
@@ -770,8 +703,8 @@
   "wingspan": null,
   "common_names": [
    "Small Reunion Swallowtail",
-   "Papillon La Pature",
-   "Small Réunion Swallowtail"
+   "Small Réunion Swallowtail",
+   "Papillon La Pature"
   ],
   "flags": [],
   "confidence": "high"
@@ -900,38 +833,33 @@
   "latin_1835": "Papilio cresphontes",
   "lucas_heading": "PAPILLON CRESPHONTE.",
   "taxonomy": {
-   "query": "Papilio cresphontes",
+   "query": "Papilio demolion",
    "candidates": [],
-   "method": "match",
+   "method": "manual",
    "gbif_confidence": 100,
    "matchType": "EXACT",
    "ocr_variant": null,
    "synonym_of_1835_name": false,
-   "matched_1835_as": "Papilio cresphontes Cramer, 1777",
-   "accepted": "Papilio cresphontes",
-   "accepted_authorship": "Cramer, 1777",
+   "matched_1835_as": "Papilio demolion Cramer, 1776",
+   "accepted": "Papilio demolion",
+   "accepted_authorship": "Cramer, 1776",
    "family": "Papilionidae",
    "genus": "Papilio",
-   "gbif_key": 1937846,
+   "gbif_key": 1938122,
    "rank": "SPECIES",
    "common_names": [
-    "Giant Swallowtail",
-    "Eastern Giant Swallowtail",
-    "Orange dog",
-    "giant swallowtail"
-   ]
+    "Banded Swallowtail"
+   ],
+   "manual_confidence": "high"
   },
   "wikipedia": {
-   "title": "Papilio cresphontes",
-   "extract": "The eastern giant swallowtail is the largest butterfly in North America. It is abundant through many parts of eastern North America; populations from western North America and down into Panama are now considered to belong to a different species, Papilio rumiko. Though it is often valued in gardens for its striking appearance, its larval stage can be a serious pest to citrus farms, which has earned its caterpillars the names orange dog or orange puppy. The eastern giant swallowtail caterpillars possess remarkable camouflage from predators by closely resembling bird droppings. They use this, along with their osmeteria, to defend against predators such as wasps, flies, and vertebrates.",
-   "url": "https://en.wikipedia.org/wiki/Papilio_cresphontes"
+   "title": "Papilio demolion",
+   "extract": "Papilio demolion, the banded swallowtail, is a species of swallowtail butterfly belonging to the family Papilionidae.",
+   "url": "https://en.wikipedia.org/wiki/Papilio_demolion"
   },
   "wingspan": null,
   "common_names": [
-   "Giant Swallowtail",
-   "Eastern Giant Swallowtail",
-   "Orange dog",
-   "giant swallowtail"
+   "Banded Swallowtail"
   ],
   "flags": [],
   "confidence": "high"
@@ -959,8 +887,8 @@
    "gbif_key": 1938114,
    "rank": "SPECIES",
    "common_names": [
-    "Red Helen",
-    "Red Helen Swallowtail"
+    "Red Helen Swallowtail",
+    "Red Helen"
    ]
   },
   "wikipedia": {
@@ -970,8 +898,8 @@
   },
   "wingspan": null,
   "common_names": [
-   "Red Helen",
-   "Red Helen Swallowtail"
+   "Red Helen Swallowtail",
+   "Red Helen"
   ],
   "flags": [],
   "confidence": "high"
@@ -984,51 +912,9 @@
   "latin_1835": "Papilio brutus",
   "lucas_heading": "PAPILLON BRUTUS. vapilio brutus. par. herbst.",
   "taxonomy": {
-   "query": "Papilio brutus",
-   "candidates": [],
-   "method": "match",
-   "gbif_confidence": 100,
-   "matchType": "EXACT",
-   "ocr_variant": null,
-   "synonym_of_1835_name": true,
-   "matched_1835_as": "Papilio brutus Cramer",
-   "accepted": "Charaxes brutus",
-   "accepted_authorship": "(Cramer) ",
-   "family": "Nymphalidae",
-   "genus": "Charaxes",
-   "gbif_key": 5128597,
-   "rank": "SPECIES",
-   "common_names": [
-    "White-barred Charaxes",
-    "White Barred Charaxes",
-    "White-barred Emperor"
-   ]
-  },
-  "wikipedia": {
-   "title": "Charaxes brutus",
-   "extract": "Charaxes brutus, the white-barred emperor or white-barred Charaxes, is a butterfly of the family Nymphalidae. It is found in Africa.",
-   "url": "https://en.wikipedia.org/wiki/Charaxes_brutus"
-  },
-  "wingspan": null,
-  "common_names": [
-   "White-barred Charaxes",
-   "White Barred Charaxes",
-   "White-barred Emperor"
-  ],
-  "flags": [],
-  "confidence": "high"
- },
- "n66-2": {
-  "specimen": "n66-2",
-  "plate": 13,
-  "page": 26,
-  "french_1835": "Dardanus",
-  "latin_1835": "Papilio dardanus",
-  "lucas_heading": "PAPILLON DARDANUS.",
-  "taxonomy": {
    "query": "Papilio dardanus",
    "candidates": [],
-   "method": "match",
+   "method": "manual",
    "gbif_confidence": 99,
    "matchType": "EXACT",
    "ocr_variant": null,
@@ -1043,7 +929,8 @@
    "common_names": [
     "Mocker Swallowtail",
     "Flying Handkerchief"
-   ]
+   ],
+   "manual_confidence": "high"
   },
   "wikipedia": {
    "title": "Papilio dardanus",
@@ -1057,6 +944,29 @@
   ],
   "flags": [],
   "confidence": "high"
+ },
+ "n66-2": {
+  "specimen": "n66-2",
+  "plate": 13,
+  "page": 26,
+  "french_1835": "Dardanus",
+  "latin_1835": "Papilio dardanus",
+  "lucas_heading": "PAPILLON DARDANUS.",
+  "taxonomy": {
+   "query": "Papilio dardanus",
+   "candidates": [],
+   "method": "none",
+   "gbif_confidence": 0,
+   "manual_unknown": true
+  },
+  "wikipedia": null,
+  "wingspan": null,
+  "common_names": [],
+  "flags": [
+   "automated match rejected; identity not yet known",
+   "no Wikipedia page"
+  ],
+  "confidence": "low"
  },
  "n66-3": {
   "specimen": "n66-3",
@@ -1142,33 +1052,18 @@
   "taxonomy": {
    "query": "Papilio dimas",
    "candidates": [],
-   "method": "match",
-   "gbif_confidence": 96,
-   "matchType": "FUZZY",
-   "ocr_variant": null,
-   "synonym_of_1835_name": true,
-   "matched_1835_as": "Papilio dymus Herbst, 1804",
-   "accepted": "Glaucopsyche alexis",
-   "accepted_authorship": "(Poda, 1761) ",
-   "family": "Lycaenidae",
-   "genus": "Glaucopsyche",
-   "gbif_key": 1924097,
-   "rank": "SPECIES",
-   "common_names": [
-    "Green-underside Blue"
-   ]
+   "method": "none",
+   "gbif_confidence": 0,
+   "manual_unknown": true
   },
-  "wikipedia": {
-   "title": "Glaucopsyche alexis",
-   "extract": "Glaucopsyche alexis, the green-underside blue, is a butterfly of the family Lycaenidae. It is found in the Palearctic.",
-   "url": "https://en.wikipedia.org/wiki/Glaucopsyche_alexis"
-  },
+  "wikipedia": null,
   "wingspan": null,
-  "common_names": [
-   "Green-underside Blue"
+  "common_names": [],
+  "flags": [
+   "automated match rejected; identity not yet known",
+   "no Wikipedia page"
   ],
-  "flags": [],
-  "confidence": "high"
+  "confidence": "low"
  },
  "n68-3": {
   "specimen": "n68-3",
@@ -1266,26 +1161,27 @@
   "latin_1835": "Papilio lysithous",
   "lucas_heading": "PAPILLON LYSITHOUS.",
   "taxonomy": {
-   "query": "Papilio lysithous",
+   "query": "Mimoides lysithous",
    "candidates": [],
-   "method": "match",
-   "gbif_confidence": 93,
-   "matchType": "FUZZY",
-   "ocr_variant": "lysithcus",
+   "method": "manual",
+   "gbif_confidence": 100,
+   "matchType": "EXACT",
+   "ocr_variant": null,
    "synonym_of_1835_name": false,
-   "matched_1835_as": "Papilio libythea Fabricius, 1775",
-   "accepted": "Papilio libythea",
-   "accepted_authorship": "Fabricius, 1775",
+   "matched_1835_as": "Mimoides lysithous (Hübner, 1821)",
+   "accepted": "Mimoides lysithous",
+   "accepted_authorship": "(Hübner, 1821) ",
    "family": "Papilionidae",
-   "genus": "Papilio",
-   "gbif_key": 10614125,
+   "genus": "Mimoides",
+   "gbif_key": 1937540,
    "rank": "SPECIES",
-   "common_names": []
+   "common_names": [],
+   "manual_confidence": "high"
   },
   "wikipedia": {
-   "title": "Eurema brigitta",
-   "extract": "Eurema brigitta, the small grass yellow or broad-bordered grass yellow, is a small butterfly of the family Pieridae, that is, the yellows and whites. It is found in India, other parts of Asia, Australia and Africa.",
-   "url": "https://en.wikipedia.org/wiki/Eurema_brigitta"
+   "title": "Mimoides lysithous",
+   "extract": "Mimoides lysithous  is a species of butterfly in the family Papilionidae. It is found in the Neotropical realm.",
+   "url": "https://en.wikipedia.org/wiki/Mimoides_lysithous"
   },
   "wingspan": null,
   "common_names": [],
@@ -1355,8 +1251,8 @@
    "common_names": [
     "Polydamas Swallowtail",
     "Gold Rim Swallowtail",
-    "Tailless Swallowtail",
-    "Gold-rim Swallowtail"
+    "Gold-rim Swallowtail",
+    "Tailless Swallowtail"
    ]
   },
   "wikipedia": {
@@ -1368,8 +1264,8 @@
   "common_names": [
    "Polydamas Swallowtail",
    "Gold Rim Swallowtail",
-   "Tailless Swallowtail",
-   "Gold-rim Swallowtail"
+   "Gold-rim Swallowtail",
+   "Tailless Swallowtail"
   ],
   "flags": [],
   "confidence": "high"
@@ -1384,35 +1280,18 @@
   "taxonomy": {
    "query": "Papilio licoraeus",
    "candidates": [],
-   "method": "match",
-   "gbif_confidence": 95,
-   "matchType": "FUZZY",
-   "ocr_variant": null,
-   "synonym_of_1835_name": true,
-   "matched_1835_as": "Papilio lycortas Felder & Felder, 1861",
-   "accepted": "Papilio menatius",
-   "accepted_authorship": "Hübner, 1819",
-   "family": "Papilionidae",
-   "genus": "Papilio",
-   "gbif_key": 1937836,
-   "rank": "SPECIES",
-   "common_names": [
-    "Victorine Swallowtail",
-    "Menatius Swallowtail"
-   ]
+   "method": "none",
+   "gbif_confidence": 0,
+   "manual_unknown": true
   },
-  "wikipedia": {
-   "title": "Papilio menatius",
-   "extract": "Papilio menatius is a butterfly of the family Papilionidae.",
-   "url": "https://en.wikipedia.org/wiki/Papilio_menatius"
-  },
-  "wingspan": "95–110 mm",
-  "common_names": [
-   "Victorine Swallowtail",
-   "Menatius Swallowtail"
+  "wikipedia": null,
+  "wingspan": null,
+  "common_names": [],
+  "flags": [
+   "automated match rejected; identity not yet known",
+   "no Wikipedia page"
   ],
-  "flags": [],
-  "confidence": "high"
+  "confidence": "low"
  },
  "n82-2": {
   "specimen": "n82-2",
@@ -1480,9 +1359,9 @@
    "rank": "SPECIES",
    "common_names": [
     "Chinese Swallowtail",
-    "Chinese swallowtail",
-    "Japanese Swallowtail",
-    "Asian Swallowtail"
+    "Xuthus Swallowtail",
+    "Asian Swallowtail",
+    "Asian Yellow Swallowtail"
    ]
   },
   "wikipedia": {
@@ -1493,9 +1372,9 @@
   "wingspan": null,
   "common_names": [
    "Chinese Swallowtail",
-   "Chinese swallowtail",
-   "Japanese Swallowtail",
-   "Asian Swallowtail"
+   "Xuthus Swallowtail",
+   "Asian Swallowtail",
+   "Asian Yellow Swallowtail"
   ],
   "flags": [],
   "confidence": "high"
@@ -1548,32 +1427,39 @@
   "latin_1835": "Papilio asterias",
   "lucas_heading": "PAPILLON ASTËRIAS. papilio asterias. god. fab. drury. clerk.",
   "taxonomy": {
-   "query": "Papilio asterias",
+   "query": "Papilio polyxenes",
    "candidates": [],
-   "method": "match",
-   "gbif_confidence": 97,
-   "matchType": "FUZZY",
+   "method": "manual",
+   "gbif_confidence": 100,
+   "matchType": "EXACT",
    "ocr_variant": null,
-   "synonym_of_1835_name": true,
-   "matched_1835_as": "Papilio asterie Linnaeus, 1758",
-   "accepted": "Junonia almana",
-   "accepted_authorship": "(Linnaeus, 1758) ",
-   "family": "Nymphalidae",
-   "genus": "Junonia",
-   "gbif_key": 5130471,
+   "synonym_of_1835_name": false,
+   "matched_1835_as": "Papilio polyxenes Fabricius, 1775",
+   "accepted": "Papilio polyxenes",
+   "accepted_authorship": "Fabricius, 1775",
+   "family": "Papilionidae",
+   "genus": "Papilio",
+   "gbif_key": 1937816,
    "rank": "SPECIES",
    "common_names": [
-    "Peacock Pansy"
-   ]
+    "Black Swallowtail",
+    "Eastern Black Swallowtail",
+    "American Swallowtail",
+    "American Black Swallowtail"
+   ],
+   "manual_confidence": "high"
   },
   "wikipedia": {
-   "title": "Junonia almana",
-   "extract": "Junonia almana, the peacock pansy, is a species of nymphalid butterfly found in Cambodia and South Asia. It exists in two distinct adult forms, which differ chiefly in the patterns on the underside of the wings; the dry-season form has few markings, while the wet-season form has additional eyespots and lines. It is listed as Least Concern in the IUCN Red List.",
-   "url": "https://en.wikipedia.org/wiki/Junonia_almana"
+   "title": "Papilio polyxenes",
+   "extract": "Papilio polyxenes, the (eastern) black swallowtail, American swallowtail or parsnip swallowtail, is a butterfly found throughout much of North America. An extremely similar-appearing species, Papilio joanae, occurs in the Ozark Mountains region, but it appears to be closely related to Papilio machaon, rather than P. polyxenes. The species is named after the figure in Greek mythology, Polyxena, who was the youngest daughter of King Priam of Troy. Its caterpillar is often called the \"parsleyworm\" because the caterpillar feeds on parsley.",
+   "url": "https://en.wikipedia.org/wiki/Papilio_polyxenes"
   },
-  "wingspan": "54–62 mm",
+  "wingspan": null,
   "common_names": [
-   "Peacock Pansy"
+   "Black Swallowtail",
+   "Eastern Black Swallowtail",
+   "American Swallowtail",
+   "American Black Swallowtail"
   ],
   "flags": [],
   "confidence": "high"
@@ -1659,56 +1545,19 @@
   "lucas_heading": "PAPILLON AGAPENOR.",
   "taxonomy": {
    "query": "Papilio agapenor",
-   "candidates": [
-    {
-     "name": "Papilio alphenor Cramer, 1776",
-     "status": "ACCEPTED",
-     "family": "Papilionidae",
-     "score": 0.75
-    },
-    {
-     "name": "Papilio alcmenor Felder & Felder, 1864",
-     "status": "ACCEPTED",
-     "family": "Papilionidae",
-     "score": 0.62
-    },
-    {
-     "name": "Papilio alexanor Esper, 1800",
-     "status": "ACCEPTED",
-     "family": "Papilionidae",
-     "score": 0.62
-    },
-    {
-     "name": "Papilio protenor Cramer, 1775",
-     "status": "ACCEPTED",
-     "family": "Papilionidae",
-     "score": 0.62
-    }
-   ],
-   "method": "genus-search",
-   "gbif_confidence": 75,
-   "genus_resolved": "Papilio",
-   "genus_family": "Papilionidae",
-   "accepted": "Papilio alphenor",
-   "accepted_authorship": "Cramer, 1776",
-   "family": "Papilionidae",
-   "genus": "Papilio",
-   "gbif_key": 1938129,
-   "rank": "SPECIES",
-   "common_names": [
-    "Philippine Mormon"
-   ]
+   "candidates": [],
+   "method": "none",
+   "gbif_confidence": 0,
+   "manual_unknown": true
   },
   "wikipedia": null,
   "wingspan": null,
-  "common_names": [
-   "Philippine Mormon"
-  ],
+  "common_names": [],
   "flags": [
-   "matched by genus-search (75%), check",
+   "automated match rejected; identity not yet known",
    "no Wikipedia page"
   ],
-  "confidence": "medium"
+  "confidence": "low"
  },
  "n98-1": {
   "specimen": "n98-1",
@@ -1718,29 +1567,36 @@
   "latin_1835": "Papilio pompilius",
   "lucas_heading": "PAPILLON POMPILIUS. papilio pompilius. fab. god.",
   "taxonomy": {
-   "query": "Papilio pompilius",
+   "query": "Graphium antiphates",
    "candidates": [],
-   "method": "match",
-   "gbif_confidence": 95,
-   "matchType": "FUZZY",
+   "method": "manual",
+   "gbif_confidence": 100,
+   "matchType": "EXACT",
    "ocr_variant": null,
-   "synonym_of_1835_name": true,
-   "matched_1835_as": "Papilio pomponius Hopffer, 1865",
-   "accepted": "Mimoides lysithous",
-   "accepted_authorship": "(Hübner, 1821) ",
+   "synonym_of_1835_name": false,
+   "matched_1835_as": "Graphium antiphates (Cramer, 1775)",
+   "accepted": "Graphium antiphates",
+   "accepted_authorship": "(Cramer, 1775) ",
    "family": "Papilionidae",
-   "genus": "Mimoides",
-   "gbif_key": 1937540,
+   "genus": "Graphium",
+   "gbif_key": 5141179,
    "rank": "SPECIES",
-   "common_names": []
+   "common_names": [
+    "Five-bar Swordtail",
+    "Fivebar Swordtail"
+   ],
+   "manual_confidence": "high"
   },
   "wikipedia": {
-   "title": "Mimoides lysithous",
-   "extract": "Mimoides lysithous  is a species of butterfly in the family Papilionidae. It is found in the Neotropical realm.",
-   "url": "https://en.wikipedia.org/wiki/Mimoides_lysithous"
+   "title": "Graphium antiphates",
+   "extract": "Graphium antiphates, The Five-bar swordtail is a species of papilionid butterfly found in South and Southeast Asia. The species was first described by Pieter Cramer in 1775.",
+   "url": "https://en.wikipedia.org/wiki/Graphium_antiphates"
   },
   "wingspan": null,
-  "common_names": [],
+  "common_names": [
+   "Five-bar Swordtail",
+   "Fivebar Swordtail"
+  ],
   "flags": [],
   "confidence": "high"
  },
@@ -1752,66 +1608,38 @@
   "latin_1835": "Papilio polixenus",
   "lucas_heading": "PAPILLON POLIXENUS. vapilio polixenus. god.",
   "taxonomy": {
-   "query": "Papilio polixenus",
-   "candidates": [
-    {
-     "name": "Papilio polyxenes Fabricius, 1775",
-     "status": "ACCEPTED",
-     "family": "Papilionidae",
-     "score": 0.75
-    },
-    {
-     "name": "Papilio polibetes Stoll, 1781",
-     "status": "ACCEPTED",
-     "family": "Papilionidae",
-     "score": 0.62
-    },
-    {
-     "name": "Papilio paulina Cramer, 1777",
-     "status": "ACCEPTED",
-     "family": "Papilionidae",
-     "score": 0.62
-    },
-    {
-     "name": "Papilio carolinensis Jumalon, 1967",
-     "status": "ACCEPTED",
-     "family": "Papilionidae",
-     "score": 0.59
-    }
-   ],
-   "method": "genus-search",
-   "gbif_confidence": 75,
-   "genus_resolved": "Papilio",
-   "genus_family": "Papilionidae",
-   "accepted": "Papilio polyxenes",
-   "accepted_authorship": "Fabricius, 1775",
+   "query": "Graphium policenes",
+   "candidates": [],
+   "method": "manual",
+   "gbif_confidence": 100,
+   "matchType": "EXACT",
+   "ocr_variant": null,
+   "synonym_of_1835_name": false,
+   "matched_1835_as": "Graphium policenes (Cramer, 1775)",
+   "accepted": "Graphium policenes",
+   "accepted_authorship": "(Cramer, 1775) ",
    "family": "Papilionidae",
-   "genus": "Papilio",
-   "gbif_key": 1937816,
+   "genus": "Graphium",
+   "gbif_key": 5141216,
    "rank": "SPECIES",
    "common_names": [
-    "Black Swallowtail",
-    "American Swallowtail",
-    "Eastern Black Swallowtail",
-    "Parsnip Swallowtail"
-   ]
+    "Small Striped Swordtail",
+    "Common Swordtail"
+   ],
+   "manual_confidence": "high"
   },
   "wikipedia": {
-   "title": "Papilio polyxenes",
-   "extract": "Papilio polyxenes, the (eastern) black swallowtail, American swallowtail or parsnip swallowtail, is a butterfly found throughout much of North America. An extremely similar-appearing species, Papilio joanae, occurs in the Ozark Mountains region, but it appears to be closely related to Papilio machaon, rather than P. polyxenes. The species is named after the figure in Greek mythology, Polyxena, who was the youngest daughter of King Priam of Troy. Its caterpillar is often called the \"parsleyworm\" because the caterpillar feeds on parsley.",
-   "url": "https://en.wikipedia.org/wiki/Papilio_polyxenes"
+   "title": "Graphium policenes",
+   "extract": "Graphium policenes, the common swordtail or small striped swordtail, is a species of butterfly in the family Papilionidae (swallowtails). It is found in tropical Africa.",
+   "url": "https://en.wikipedia.org/wiki/Graphium_policenes"
   },
   "wingspan": null,
   "common_names": [
-   "Black Swallowtail",
-   "American Swallowtail",
-   "Eastern Black Swallowtail",
-   "Parsnip Swallowtail"
+   "Small Striped Swordtail",
+   "Common Swordtail"
   ],
-  "flags": [
-   "matched by genus-search (75%), check"
-  ],
-  "confidence": "medium"
+  "flags": [],
+  "confidence": "high"
  },
  "n100-1": {
   "specimen": "n100-1",
@@ -1912,8 +1740,8 @@
    "gbif_key": 1937808,
    "rank": "SPECIES",
    "common_names": [
-    "Volta Swallowtail",
-    "Zenobia Swallowtail"
+    "Zenobia Swallowtail",
+    "Volta Swallowtail"
    ]
   },
   "wikipedia": {
@@ -1923,8 +1751,8 @@
   },
   "wingspan": null,
   "common_names": [
-   "Volta Swallowtail",
-   "Zenobia Swallowtail"
+   "Zenobia Swallowtail",
+   "Volta Swallowtail"
   ],
   "flags": [],
   "confidence": "high"
@@ -2245,33 +2073,18 @@
   "taxonomy": {
    "query": "Pieris phaloe",
    "candidates": [],
-   "method": "match",
-   "gbif_confidence": 95,
-   "matchType": "FUZZY",
-   "ocr_variant": null,
-   "synonym_of_1835_name": true,
-   "matched_1835_as": "Pieris pharis Boisduval, 1836",
-   "accepted": "Nepheronia pharis",
-   "accepted_authorship": "(Boisduval, 1836) ",
-   "family": "Pieridae",
-   "genus": "Nepheronia",
-   "gbif_key": 1919662,
-   "rank": "SPECIES",
-   "common_names": [
-    "Round-winged Vagrant"
-   ]
+   "method": "none",
+   "gbif_confidence": 0,
+   "manual_unknown": true
   },
-  "wikipedia": {
-   "title": "Nepheronia pharis",
-   "extract": "Nepheronia pharis, the round-winged vagrant, is a butterfly in the family Pieridae. It is found in Sierra Leone, Guinea, Liberia, Ivory Coast, Ghana, Togo, Benin, Nigeria, Cameroon, Equatorial Guinea, the Republic of the Congo, Angola, the Central African Republic, the Democratic Republic of the Congo, Uganda, Kenya and Tanzania. The habitat consists of undisturbed primary lowland forests and riverine forests.",
-   "url": "https://en.wikipedia.org/wiki/Nepheronia_pharis"
-  },
+  "wikipedia": null,
   "wingspan": null,
-  "common_names": [
-   "Round-winged Vagrant"
+  "common_names": [],
+  "flags": [
+   "automated match rejected; identity not yet known",
+   "no Wikipedia page"
   ],
-  "flags": [],
-  "confidence": "high"
+  "confidence": "low"
  },
  "n116-2": {
   "specimen": "n116-2",
@@ -2296,8 +2109,8 @@
    "gbif_key": 5137949,
    "rank": "SPECIES",
    "common_names": [
-    "Yellow Albatross",
     "Ceylon Lesser Albatross",
+    "Yellow Albatross",
     "Christmas Island White",
     "Common Albatross"
    ],
@@ -2310,8 +2123,8 @@
   },
   "wingspan": null,
   "common_names": [
-   "Yellow Albatross",
    "Ceylon Lesser Albatross",
+   "Yellow Albatross",
    "Christmas Island White",
    "Common Albatross"
   ],
@@ -2326,37 +2139,38 @@
   "latin_1835": "Pieris calypso",
   "lucas_heading": "PIÉRIDE CALYPSO, pieris cai.ypso. god.",
   "taxonomy": {
-   "query": "Pieris calypso",
+   "query": "Belenois calypso",
    "candidates": [],
-   "method": "match",
-   "gbif_confidence": 95,
-   "matchType": "FUZZY",
-   "ocr_variant": "calypsc",
-   "synonym_of_1835_name": true,
-   "matched_1835_as": "Pieris callidice (Hübner, 1800)",
-   "accepted": "Pontia callidice",
-   "accepted_authorship": "(Hübner, 1800) ",
+   "method": "manual",
+   "gbif_confidence": 100,
+   "matchType": "EXACT",
+   "ocr_variant": null,
+   "synonym_of_1835_name": false,
+   "matched_1835_as": "Belenois calypso (Drury, 1773)",
+   "accepted": "Belenois calypso",
+   "accepted_authorship": "(Drury, 1773) ",
    "family": "Pieridae",
-   "genus": "Pontia",
-   "gbif_key": 1920237,
+   "genus": "Belenois",
+   "gbif_key": 1919210,
    "rank": "SPECIES",
    "common_names": [
-    "Peak White",
-    "Lofty Bath White"
-   ]
+    "Calypso White",
+    "Calypso Caper White"
+   ],
+   "manual_confidence": "medium"
   },
   "wikipedia": {
-   "title": "Pontia callidice",
-   "extract": "Pontia callidice, the lofty Bath white or peak white, is a small butterfly of the yellows and whites family (Pieridae), which occurs in the Palearctic realm.",
-   "url": "https://en.wikipedia.org/wiki/Pontia_callidice"
+   "title": "Belenois calypso",
+   "extract": "Belenois calypso, the Calypso white or Calypso caper white, is a butterfly in the family Pieridae. It is found in Senegal, the Gambia, Guinea-Bissau, Guinea, Sierra Leone, Liberia, Ivory Coast, Burkina Faso, Ghana, Togo, Benin, Nigeria, Cameroon, the Republic of the Congo, the Central African Republic, the Democratic Republic of the Congo, Angola, Uganda, Kenya and Tanzania. The habitat consists of forests. The species occasionally migrates.",
+   "url": "https://en.wikipedia.org/wiki/Belenois_calypso"
   },
   "wingspan": null,
   "common_names": [
-   "Peak White",
-   "Lofty Bath White"
+   "Calypso White",
+   "Calypso Caper White"
   ],
   "flags": [],
-  "confidence": "high"
+  "confidence": "medium"
  },
  "n118-1": {
   "specimen": "n118-1",
@@ -2445,27 +2259,18 @@
   "taxonomy": {
    "query": "Pieris coronea",
    "candidates": [],
-   "method": "match",
-   "gbif_confidence": 95,
-   "matchType": "FUZZY",
-   "ocr_variant": "ccronea",
-   "synonym_of_1835_name": false,
-   "matched_1835_as": "Pieris cronissa (Godart, 1824) Godart, 1824",
-   "accepted": "Pieris cronissa",
-   "accepted_authorship": "(Godart, 1824) Godart, 1824",
-   "family": "Pieridae",
-   "genus": "Pieris",
-   "gbif_key": 9547330,
-   "rank": "SPECIES",
-   "common_names": []
+   "method": "none",
+   "gbif_confidence": 0,
+   "manual_unknown": true
   },
   "wikipedia": null,
   "wingspan": null,
   "common_names": [],
   "flags": [
+   "automated match rejected; identity not yet known",
    "no Wikipedia page"
   ],
-  "confidence": "medium"
+  "confidence": "low"
  },
  "n128-1": {
   "specimen": "n128-1",
@@ -2792,53 +2597,36 @@
   "latin_1835": "Pieris nigrina",
   "lucas_heading": "PIÉRIDE NIGRINA. pieris nigrina. god.",
   "taxonomy": {
-   "query": "Pieris nigrina",
-   "candidates": [
-    {
-     "name": "Pieris narina (Ge, Jiang, Wang, Song, Zhang & Hu, 2023) Verity, 1908",
-     "status": "ACCEPTED",
-     "family": "Pieridae",
-     "score": 0.73
-    },
-    {
-     "name": "Pieris naganum (Moore, 1884)",
-     "status": "ACCEPTED",
-     "family": "Pieridae",
-     "score": 0.55
-    },
-    {
-     "name": "Pieris canidia (Linnaeus, 1768)",
-     "status": "DOUBTFUL",
-     "family": "Pieridae",
-     "score": 0.5
-    },
-    {
-     "name": "Pieris canidia (Sparrman, 1768)",
-     "status": "ACCEPTED",
-     "family": "Pieridae",
-     "score": 0.5
-    }
-   ],
-   "method": "genus-search",
-   "gbif_confidence": 72,
-   "genus_resolved": "Pieris",
-   "genus_family": "Pieridae",
-   "accepted": "Pieris narina",
-   "accepted_authorship": "(Ge, Jiang, Wang, Song, Zhang & Hu, 2023) Verity, 1908",
+   "query": "Delias nigrina",
+   "candidates": [],
+   "method": "manual",
+   "gbif_confidence": 100,
+   "matchType": "EXACT",
+   "ocr_variant": null,
+   "synonym_of_1835_name": false,
+   "matched_1835_as": "Delias nigrina (Fabricius, 1775)",
+   "accepted": "Delias nigrina",
+   "accepted_authorship": "(Fabricius, 1775) ",
    "family": "Pieridae",
-   "genus": "Pieris",
-   "gbif_key": 5805158,
+   "genus": "Delias",
+   "gbif_key": 1919432,
    "rank": "SPECIES",
-   "common_names": []
+   "common_names": [
+    "Black Jezebel"
+   ],
+   "manual_confidence": "high"
   },
-  "wikipedia": null,
+  "wikipedia": {
+   "title": "Delias nigrina",
+   "extract": "Delias nigrina, the black Jezebel or common Jezebel, is a butterfly in the family Pieridae. It is found along the eastern seaboard of Australia, from Queensland, through New South Wales to Victoria.",
+   "url": "https://en.wikipedia.org/wiki/Delias_nigrina"
+  },
   "wingspan": null,
-  "common_names": [],
-  "flags": [
-   "matched by genus-search (72%), check",
-   "no Wikipedia page"
+  "common_names": [
+   "Black Jezebel"
   ],
-  "confidence": "medium"
+  "flags": [],
+  "confidence": "high"
  },
  "n132-3": {
   "specimen": "n132-3",
@@ -2907,9 +2695,9 @@
    "gbif_key": 1919626,
    "rank": "SPECIES",
    "common_names": [
-    "wood white butterfly",
+    "Spotted Jezebel",
     "Red-spotted Jezebel",
-    "Spotted Jezebel"
+    "wood white butterfly"
    ]
   },
   "wikipedia": {
@@ -2919,9 +2707,9 @@
   },
   "wingspan": null,
   "common_names": [
-   "wood white butterfly",
+   "Spotted Jezebel",
    "Red-spotted Jezebel",
-   "Spotted Jezebel"
+   "wood white butterfly"
   ],
   "flags": [
    "matched by family-search (100%), check"
@@ -2936,18 +2724,36 @@
   "latin_1835": "Pieris pyrrha",
   "lucas_heading": "PIÉRIDE PYRRHA. pieris pyrrha. god.",
   "taxonomy": {
-   "query": "Pieris pyrrha",
+   "query": "Perrhybris pyrrha",
    "candidates": [
     {
      "name": "Papilio pyrrha Cramer, 1775",
      "status": "SYNONYM",
      "family": "Pieridae",
      "score": 1.0
+    },
+    {
+     "name": "Perrhybris lypera (Kollar, 1850)",
+     "status": "ACCEPTED",
+     "family": "Pieridae",
+     "score": 0.4
+    },
+    {
+     "name": "Perrhybris lorena (Hewitson, 1852)",
+     "status": "ACCEPTED",
+     "family": "Pieridae",
+     "score": 0.2
+    },
+    {
+     "name": "Perrhybris pamela (Stoll, 1780)",
+     "status": "ACCEPTED",
+     "family": "Pieridae",
+     "score": 0.2
     }
    ],
-   "method": "family-search",
+   "method": "manual",
    "gbif_confidence": 100,
-   "genus_resolved": "Pieris",
+   "genus_resolved": "Perrhybris",
    "genus_family": "Pieridae",
    "accepted": "Perrhybris pamela",
    "accepted_authorship": "(Stoll, 1780) ",
@@ -2957,7 +2763,8 @@
    "rank": "SPECIES",
    "common_names": [
     "Chiapas White"
-   ]
+   ],
+   "manual_confidence": "high"
   },
   "wikipedia": {
    "title": "Perrhybris pamela",
@@ -2968,10 +2775,8 @@
   "common_names": [
    "Chiapas White"
   ],
-  "flags": [
-   "matched by family-search (100%), check"
-  ],
-  "confidence": "medium"
+  "flags": [],
+  "confidence": "high"
  },
  "n134-3": {
   "specimen": "n134-3",
@@ -3118,9 +2923,9 @@
    "rank": "SPECIES",
    "common_names": [
     "Common Wanderer?",
-    "Malayan wanderer",
+    "Common Wanderer",
     "Wanderer?",
-    "Common Wanderer"
+    "Malayan wanderer"
    ]
   },
   "wikipedia": {
@@ -3131,9 +2936,9 @@
   "wingspan": null,
   "common_names": [
    "Common Wanderer?",
-   "Malayan wanderer",
+   "Common Wanderer",
    "Wanderer?",
-   "Common Wanderer"
+   "Malayan wanderer"
   ],
   "flags": [
    "matched by family-search (100%), check"
@@ -3149,49 +2954,19 @@
   "lucas_heading": "PIÉRIDE ENDEIS.",
   "taxonomy": {
    "query": "Pieris endeis",
-   "candidates": [
-    {
-     "name": "Chlosyne endeis (Godman & Salvin, 1894)",
-     "status": "ACCEPTED",
-     "family": "Nymphalidae",
-     "score": 1.0
-    },
-    {
-     "name": "Synchloe endeis Godman & Salvin, 1894",
-     "status": "SYNONYM",
-     "family": "Nymphalidae",
-     "score": 1.0
-    }
-   ],
-   "method": "butterfly-search",
-   "gbif_confidence": 100,
-   "genus_resolved": "Pieris",
-   "genus_family": "Pieridae",
-   "accepted": "Chlosyne endeis",
-   "accepted_authorship": "(Godman & Salvin, 1894) ",
-   "family": "Nymphalidae",
-   "genus": "Chlosyne",
-   "gbif_key": 1914435,
-   "rank": "SPECIES",
-   "common_names": [
-    "Banded Patch",
-    "Banded Checkerspot"
-   ]
+   "candidates": [],
+   "method": "none",
+   "gbif_confidence": 0,
+   "manual_unknown": true
   },
-  "wikipedia": {
-   "title": "Chlosyne endeis",
-   "extract": "Chlosyne endeis, known generally as the banded checkerspot or banded patch, is a species of crescents, checkerspots, anglewings, etc. in the butterfly family Nymphalidae. It is found in North America.",
-   "url": "https://en.wikipedia.org/wiki/Chlosyne_endeis"
-  },
+  "wikipedia": null,
   "wingspan": null,
-  "common_names": [
-   "Banded Patch",
-   "Banded Checkerspot"
-  ],
+  "common_names": [],
   "flags": [
-   "matched by butterfly-search (100%), check"
+   "automated match rejected; identity not yet known",
+   "no Wikipedia page"
   ],
-  "confidence": "medium"
+  "confidence": "low"
  },
  "n146-1": {
   "specimen": "n146-1",
@@ -3525,8 +3300,8 @@
    "gbif_key": 1920357,
    "rank": "SPECIES",
    "common_names": [
-    "Large Salmon Arab",
-    "Large Salmon Arab Tip"
+    "Large Salmon Arab Tip",
+    "Large Salmon Arab"
    ]
   },
   "wikipedia": {
@@ -3536,8 +3311,8 @@
   },
   "wingspan": null,
   "common_names": [
-   "Large Salmon Arab",
-   "Large Salmon Arab Tip"
+   "Large Salmon Arab Tip",
+   "Large Salmon Arab"
   ],
   "flags": [
    "matched by family-search (100%), check"
@@ -3611,10 +3386,10 @@
    "gbif_key": 1920362,
    "rank": "SPECIES",
    "common_names": [
-    "Crimson Tip",
-    "Banded Scarlet Tip",
+    "Red Tip",
     "Scarlet Tip",
-    "Red Tip"
+    "Banded Scarlet Tip",
+    "Crimson Tip"
    ]
   },
   "wikipedia": {
@@ -3624,10 +3399,10 @@
   },
   "wingspan": null,
   "common_names": [
-   "Crimson Tip",
-   "Banded Scarlet Tip",
+   "Red Tip",
    "Scarlet Tip",
-   "Red Tip"
+   "Banded Scarlet Tip",
+   "Crimson Tip"
   ],
   "flags": [
    "matched by family-search (100%), check"
@@ -3658,8 +3433,8 @@
    "rank": "SPECIES",
    "common_names": [
     "Round-winged Orange Tip",
-    "Round Winged Orange Tip",
-    "Smoky Orange Tip"
+    "Smoky Orange Tip",
+    "Round Winged Orange Tip"
    ],
    "manual_confidence": "high"
   },
@@ -3671,8 +3446,8 @@
   "wingspan": null,
   "common_names": [
    "Round-winged Orange Tip",
-   "Round Winged Orange Tip",
-   "Smoky Orange Tip"
+   "Smoky Orange Tip",
+   "Round Winged Orange Tip"
   ],
   "flags": [],
   "confidence": "high"
@@ -3803,8 +3578,8 @@
    "gbif_key": 1920363,
    "rank": "SPECIES",
    "common_names": [
-    "Purple Tip",
     "Bushveld Purple Tip",
+    "Purple Tip",
     "Violet Tip",
     "Common Purple Tip"
    ]
@@ -3816,8 +3591,8 @@
   },
   "wingspan": null,
   "common_names": [
-   "Purple Tip",
    "Bushveld Purple Tip",
+   "Purple Tip",
    "Violet Tip",
    "Common Purple Tip"
   ],
@@ -3902,10 +3677,10 @@
    "gbif_key": 5137849,
    "rank": "SPECIES",
    "common_names": [
+    "Grass Yellow",
     "Common Grass Yellow",
     "Large Grass-yellow",
-    "Grass Yellow",
-    "Pale Grass Yellow"
+    "Large Grass Yellow"
    ]
   },
   "wikipedia": {
@@ -3915,10 +3690,10 @@
   },
   "wingspan": null,
   "common_names": [
+   "Grass Yellow",
    "Common Grass Yellow",
    "Large Grass-yellow",
-   "Grass Yellow",
-   "Pale Grass Yellow"
+   "Large Grass Yellow"
   ],
   "flags": [],
   "confidence": "high"
@@ -3931,41 +3706,30 @@
   "latin_1835": "Terias candida",
   "lucas_heading": "TERIAS CANDIDE, terias candida. swain.",
   "taxonomy": {
-   "query": "Terias candida",
+   "query": "Eurema candida",
    "candidates": [],
-   "method": "match",
-   "gbif_confidence": 95,
-   "matchType": "FUZZY",
+   "method": "manual",
+   "gbif_confidence": 100,
+   "matchType": "EXACT",
    "ocr_variant": null,
-   "synonym_of_1835_name": true,
-   "matched_1835_as": "Terias candace C. & R.Felder, 1865",
-   "accepted": "Eurema brigitta",
-   "accepted_authorship": "(Stoll, 1780) ",
+   "synonym_of_1835_name": false,
+   "matched_1835_as": "Eurema candida (Stoll, 1782)",
+   "accepted": "Eurema candida",
+   "accepted_authorship": "(Stoll, 1782) ",
    "family": "Pieridae",
    "genus": "Eurema",
-   "gbif_key": 5137828,
+   "gbif_key": 5137845,
    "rank": "SPECIES",
-   "common_names": [
-    "Small Grass Yellow",
-    "Broad-bordered Grass Yellow",
-    "Broadbordered Grass Yellow",
-    "No Brand Grass Yellow"
-   ]
+   "common_names": [],
+   "manual_confidence": "high"
   },
-  "wikipedia": {
-   "title": "Eurema brigitta",
-   "extract": "Eurema brigitta, the small grass yellow or broad-bordered grass yellow, is a small butterfly of the family Pieridae, that is, the yellows and whites. It is found in India, other parts of Asia, Australia and Africa.",
-   "url": "https://en.wikipedia.org/wiki/Eurema_brigitta"
-  },
+  "wikipedia": null,
   "wingspan": null,
-  "common_names": [
-   "Small Grass Yellow",
-   "Broad-bordered Grass Yellow",
-   "Broadbordered Grass Yellow",
-   "No Brand Grass Yellow"
+  "common_names": [],
+  "flags": [
+   "no Wikipedia page"
   ],
-  "flags": [],
-  "confidence": "high"
+  "confidence": "medium"
  },
  "n162-4": {
   "specimen": "n162-4",
@@ -4050,8 +3814,8 @@
    "common_names": [
     "Banded Yellow",
     "False Barred Yellow",
-    "Small Banded Yellow",
-    "Baton Yellow"
+    "Straight-barred Grass Yellow",
+    "Small Banded Yellow"
    ]
   },
   "wikipedia": null,
@@ -4059,8 +3823,8 @@
   "common_names": [
    "Banded Yellow",
    "False Barred Yellow",
-   "Small Banded Yellow",
-   "Baton Yellow"
+   "Straight-barred Grass Yellow",
+   "Small Banded Yellow"
   ],
   "flags": [
    "matched by family-search (100%), check",
@@ -4096,8 +3860,8 @@
    "gbif_key": 5137850,
    "rank": "SPECIES",
    "common_names": [
-    "small grass yellow",
-    "Small Grass-yellow"
+    "Small Grass-yellow",
+    "small grass yellow"
    ]
   },
   "wikipedia": {
@@ -4107,8 +3871,8 @@
   },
   "wingspan": null,
   "common_names": [
-   "small grass yellow",
-   "Small Grass-yellow"
+   "Small Grass-yellow",
+   "small grass yellow"
   ],
   "flags": [
    "matched by family-search (100%), check"
@@ -4162,8 +3926,8 @@
    "rank": "SPECIES",
    "common_names": [
     "Topaz Arab",
-    "Small Salmon Arab",
-    "Topaz Tip"
+    "Topaz Tip",
+    "Small Salmon Arab"
    ]
   },
   "wikipedia": {
@@ -4174,8 +3938,8 @@
   "wingspan": null,
   "common_names": [
    "Topaz Arab",
-   "Small Salmon Arab",
-   "Topaz Tip"
+   "Topaz Tip",
+   "Small Salmon Arab"
   ],
   "flags": [
    "matched by genus-search (100%), check"
@@ -4206,8 +3970,8 @@
    "rank": "SPECIES",
    "common_names": [
     "Clouded Sulphur",
-    "Common Sulphur",
     "clouded sulphur",
+    "Common Sulphur",
     "Clouded sulfur"
    ]
   },
@@ -4219,8 +3983,8 @@
   "wingspan": null,
   "common_names": [
    "Clouded Sulphur",
-   "Common Sulphur",
    "clouded sulphur",
+   "Common Sulphur",
    "Clouded sulfur"
   ],
   "flags": [],
@@ -4299,10 +4063,10 @@
    "gbif_key": 1919344,
    "rank": "SPECIES",
    "common_names": [
+    "Yellow Migrant",
     "Orange Migrant",
     "Orange Immigrant",
-    "Orange Emigrant",
-    "Yellow Migrant"
+    "Orange Emigrant"
    ]
   },
   "wikipedia": {
@@ -4312,10 +4076,10 @@
   },
   "wingspan": null,
   "common_names": [
+   "Yellow Migrant",
    "Orange Migrant",
    "Orange Immigrant",
-   "Orange Emigrant",
-   "Yellow Migrant"
+   "Orange Emigrant"
   ],
   "flags": [
    "matched by family-search (100%), check"
@@ -4403,8 +4167,8 @@
    "rank": "SPECIES",
    "common_names": [
     "Apricot Sulphur",
-    "Dark Apricot Sulphur",
-    "Argante Giant Sulphur"
+    "Argante Giant Sulphur",
+    "Dark Apricot Sulphur"
    ]
   },
   "wikipedia": {
@@ -4415,8 +4179,8 @@
   "wingspan": "54–67 mm",
   "common_names": [
    "Apricot Sulphur",
-   "Dark Apricot Sulphur",
-   "Argante Giant Sulphur"
+   "Argante Giant Sulphur",
+   "Dark Apricot Sulphur"
   ],
   "flags": [
    "matched by family-search (100%), check"
@@ -4782,29 +4546,40 @@
   "latin_1835": "Polyommatus marsyas",
   "lucas_heading": "POLYOMMATE MARSYAS. polyommatus marsyas. god,",
   "taxonomy": {
-   "query": "Polyommatus marsyas",
+   "query": "Pseudolycaena marsyas",
    "candidates": [],
-   "method": "match",
-   "gbif_confidence": 95,
-   "matchType": "FUZZY",
+   "method": "manual",
+   "gbif_confidence": 100,
+   "matchType": "EXACT",
    "ocr_variant": null,
    "synonym_of_1835_name": false,
-   "matched_1835_as": "Polyommatus marcida",
-   "accepted": "Polyommatus marcida",
-   "accepted_authorship": "",
+   "matched_1835_as": "Pseudolycaena marsyas (Linnaeus, 1758)",
+   "accepted": "Pseudolycaena marsyas",
+   "accepted_authorship": "(Linnaeus, 1758) ",
    "family": "Lycaenidae",
-   "genus": "Polyommatus",
-   "gbif_key": 9897325,
+   "genus": "Pseudolycaena",
+   "gbif_key": 1922637,
    "rank": "SPECIES",
-   "common_names": []
+   "common_names": [
+    "Marsyas Hairstreak",
+    "Cambridge Blue",
+    "Giant Hairstreak"
+   ],
+   "manual_confidence": "high"
   },
-  "wikipedia": null,
-  "wingspan": null,
-  "common_names": [],
-  "flags": [
-   "no Wikipedia page"
+  "wikipedia": {
+   "title": "Pseudolycaena marsyas",
+   "extract": "Pseudolycaena marsyas, the Cambridge blue, giant hairstreak or Marsyas hairstreak, is a species of butterfly in the family Lycaenidae.",
+   "url": "https://en.wikipedia.org/wiki/Pseudolycaena_marsyas"
+  },
+  "wingspan": "40–50 mm",
+  "common_names": [
+   "Marsyas Hairstreak",
+   "Cambridge Blue",
+   "Giant Hairstreak"
   ],
-  "confidence": "medium"
+  "flags": [],
+  "confidence": "high"
  },
  "n182-2": {
   "specimen": "n182-2",
@@ -4915,9 +4690,9 @@
    "gbif_key": 4709111,
    "rank": "SPECIES",
    "common_names": [
-    "Dull Oakblue",
     "Dull Oak-blue",
-    "Centaur Oakblue"
+    "Centaur Oakblue",
+    "Dull Oakblue"
    ]
   },
   "wikipedia": {
@@ -4927,9 +4702,9 @@
   },
   "wingspan": null,
   "common_names": [
-   "Dull Oakblue",
    "Dull Oak-blue",
-   "Centaur Oakblue"
+   "Centaur Oakblue",
+   "Dull Oakblue"
   ],
   "flags": [],
   "confidence": "high"
@@ -4989,45 +4764,38 @@
   "latin_1835": "Danais midama",
   "lucas_heading": "DANAIDE MIDAMA. danais midama. god.",
   "taxonomy": {
-   "query": "Danais midama",
-   "candidates": [
-    {
-     "name": "Cyclosia midama (Herrich-Schäffer, 1853)",
-     "status": "ACCEPTED",
-     "family": "Zygaenidae",
-     "score": 1.0
-    },
-    {
-     "name": "Epyrgis midama Herrich-Schäffer, 1853",
-     "status": "SYNONYM",
-     "family": "Zygaenidae",
-     "score": 1.0
-    }
-   ],
-   "method": "butterfly-search",
+   "query": "Euploea midamus",
+   "candidates": [],
+   "method": "manual",
    "gbif_confidence": 100,
-   "genus_resolved": "Danais",
-   "genus_family": "Nymphalidae",
-   "accepted": "Cyclosia midama",
-   "accepted_authorship": "(Herrich-Schäffer, 1853) ",
-   "family": "Zygaenidae",
-   "genus": "Cyclosia",
-   "gbif_key": 5108296,
+   "matchType": "EXACT",
+   "ocr_variant": null,
+   "synonym_of_1835_name": false,
+   "matched_1835_as": "Euploea midamus (Linnaeus, 1758)",
+   "accepted": "Euploea midamus",
+   "accepted_authorship": "(Linnaeus, 1758) ",
+   "family": "Nymphalidae",
+   "genus": "Euploea",
+   "gbif_key": 5137166,
    "rank": "SPECIES",
    "common_names": [
-    "Blue-spotted Jewel Moth"
-   ]
+    "Blue-spotted Crow Butterfly",
+    "blue spotted crow"
+   ],
+   "manual_confidence": "high"
   },
-  "wikipedia": null,
+  "wikipedia": {
+   "title": "Euploea midamus",
+   "extract": "Euploea midamus, the blue spotted crow, is a butterfly found in India and South-East Asia that belongs to the crows and tigers, that is, the danaid group of the brush-footed butterflies family",
+   "url": "https://en.wikipedia.org/wiki/Euploea_midamus"
+  },
   "wingspan": null,
   "common_names": [
-   "Blue-spotted Jewel Moth"
+   "Blue-spotted Crow Butterfly",
+   "blue spotted crow"
   ],
-  "flags": [
-   "matched by butterfly-search (100%), check",
-   "no Wikipedia page"
-  ],
-  "confidence": "medium"
+  "flags": [],
+  "confidence": "high"
  },
  "n194-1": {
   "specimen": "n194-1",
@@ -5123,40 +4891,19 @@
   "lucas_heading": "DANAIDE HÉGÉSIPPE. danais hegesippe. god.",
   "taxonomy": {
    "query": "Danais hegesippe",
-   "candidates": [
-    {
-     "name": "Hegesippe hegesippe (Mabille & Boullet, 1908)",
-     "status": "ACCEPTED",
-     "family": "Hesperiidae",
-     "score": 1.0
-    },
-    {
-     "name": "Sarbia hegesippe Mabille & Boullet, 1908",
-     "status": "SYNONYM",
-     "family": "Hesperiidae",
-     "score": 1.0
-    }
-   ],
-   "method": "butterfly-search",
-   "gbif_confidence": 100,
-   "genus_resolved": "Danais",
-   "genus_family": "Nymphalidae",
-   "accepted": "Hegesippe hegesippe",
-   "accepted_authorship": "(Mabille & Boullet, 1908) ",
-   "family": "Hesperiidae",
-   "genus": "Hegesippe",
-   "gbif_key": 1942323,
-   "rank": "SPECIES",
-   "common_names": []
+   "candidates": [],
+   "method": "none",
+   "gbif_confidence": 0,
+   "manual_unknown": true
   },
   "wikipedia": null,
   "wingspan": null,
   "common_names": [],
   "flags": [
-   "matched by butterfly-search (100%), check",
+   "automated match rejected; identity not yet known",
    "no Wikipedia page"
   ],
-  "confidence": "medium"
+  "confidence": "low"
  },
  "n196-2": {
   "specimen": "n196-2",
@@ -5230,8 +4977,8 @@
    "gbif_key": 1893263,
    "rank": "SPECIES",
    "common_names": [
-    "Linnaeus Tree Nymph",
-    "Linnaeus' idea"
+    "Linnaeus' idea",
+    "Linnaeus Tree Nymph"
    ]
   },
   "wikipedia": {
@@ -5241,8 +4988,8 @@
   },
   "wingspan": null,
   "common_names": [
-   "Linnaeus Tree Nymph",
-   "Linnaeus' idea"
+   "Linnaeus' idea",
+   "Linnaeus Tree Nymph"
   ],
   "flags": [],
   "confidence": "high"
@@ -5308,9 +5055,9 @@
    "gbif_key": 1900303,
    "rank": "SPECIES",
    "common_names": [
-    "Postman Butterfly",
+    "postman",
     "Heliconius melpomene xenoclea",
-    "postman"
+    "Postman Butterfly"
    ]
   },
   "wikipedia": {
@@ -5320,9 +5067,9 @@
   },
   "wingspan": null,
   "common_names": [
-   "Postman Butterfly",
+   "postman",
    "Heliconius melpomene xenoclea",
-   "postman"
+   "Postman Butterfly"
   ],
   "flags": [],
   "confidence": "high"
@@ -5382,8 +5129,8 @@
    "gbif_key": 1900233,
    "rank": "SPECIES",
    "common_names": [
-    "Zebra Long Wing",
     "Zebra Heliconian",
+    "Zebra Long Wing",
     "Zebra Longwing"
    ]
   },
@@ -5394,8 +5141,8 @@
   },
   "wingspan": null,
   "common_names": [
-   "Zebra Long Wing",
    "Zebra Heliconian",
+   "Zebra Long Wing",
    "Zebra Longwing"
   ],
   "flags": [],
@@ -5559,7 +5306,7 @@
      "score": 0.55
     }
    ],
-   "method": "genus-search",
+   "method": "manual",
    "gbif_confidence": 100,
    "genus_resolved": "Acraea",
    "genus_family": "Nymphalidae",
@@ -5569,7 +5316,8 @@
    "genus": "Acraea",
    "gbif_key": 9010684,
    "rank": "SPECIES",
-   "common_names": []
+   "common_names": [],
+   "manual_confidence": "high"
   },
   "wikipedia": {
    "title": "Bematistes alcinoe",
@@ -5578,10 +5326,8 @@
   },
   "wingspan": null,
   "common_names": [],
-  "flags": [
-   "matched by genus-search (100%), check"
-  ],
-  "confidence": "medium"
+  "flags": [],
+  "confidence": "high"
  },
  "n212-3": {
   "specimen": "n212-3",
@@ -5686,10 +5432,10 @@
    "gbif_key": 5128034,
    "rank": "SPECIES",
    "common_names": [
-    "Flame",
     "Julia",
+    "Flambeau",
     "Julia Heliconian",
-    "Flambeau"
+    "Flame"
    ],
    "manual_confidence": "high"
   },
@@ -5700,10 +5446,10 @@
   },
   "wingspan": null,
   "common_names": [
-   "Flame",
    "Julia",
+   "Flambeau",
    "Julia Heliconian",
-   "Flambeau"
+   "Flame"
   ],
   "flags": [],
   "confidence": "high"
@@ -5731,9 +5477,9 @@
    "gbif_key": 5925238,
    "rank": "SPECIES",
    "common_names": [
+    "Juno Longwing",
     "Juno Silverspot",
-    "Juno Heliconian",
-    "Juno Longwing"
+    "Juno Heliconian"
    ],
    "manual_confidence": "high"
   },
@@ -5744,9 +5490,9 @@
   },
   "wingspan": null,
   "common_names": [
+   "Juno Longwing",
    "Juno Silverspot",
-   "Juno Heliconian",
-   "Juno Longwing"
+   "Juno Heliconian"
   ],
   "flags": [],
   "confidence": "high"
@@ -5883,8 +5629,8 @@
    "gbif_key": 1892509,
    "rank": "SPECIES",
    "common_names": [
-    "Dido Longwing",
-    "Scarce Bamboo Page"
+    "Scarce Bamboo Page",
+    "Dido Longwing"
    ],
    "manual_confidence": "high"
   },
@@ -5895,8 +5641,8 @@
   },
   "wingspan": "110 mm",
   "common_names": [
-   "Dido Longwing",
-   "Scarce Bamboo Page"
+   "Scarce Bamboo Page",
+   "Dido Longwing"
   ],
   "flags": [],
   "confidence": "high"
@@ -5988,8 +5734,8 @@
    "gbif_key": 1904728,
    "rank": "SPECIES",
    "common_names": [
-    "Orange Lacewing",
-    "Plain Lacewing Butterfly"
+    "Plain Lacewing Butterfly",
+    "Orange Lacewing"
    ]
   },
   "wikipedia": {
@@ -5999,8 +5745,8 @@
   },
   "wingspan": null,
   "common_names": [
-   "Orange Lacewing",
-   "Plain Lacewing Butterfly"
+   "Plain Lacewing Butterfly",
+   "Orange Lacewing"
   ],
   "flags": [],
   "confidence": "high"
@@ -6251,8 +5997,8 @@
    "rank": "SPECIES",
    "common_names": [
     "Red Peacock",
-    "Scarlet Peacock",
     "Red Peacock Butterfly",
+    "Scarlet Peacock",
     "Brown Peacock Butterfly"
    ]
   },
@@ -6264,8 +6010,8 @@
   "wingspan": null,
   "common_names": [
    "Red Peacock",
-   "Scarlet Peacock",
    "Red Peacock Butterfly",
+   "Scarlet Peacock",
    "Brown Peacock Butterfly"
   ],
   "flags": [
@@ -6337,8 +6083,8 @@
    "gbif_key": 5130369,
    "rank": "SPECIES",
    "common_names": [
-    "Grey Pansy",
-    "Grey Pansy Butterfly"
+    "Grey Pansy Butterfly",
+    "Grey Pansy"
    ]
   },
   "wikipedia": {
@@ -6348,8 +6094,8 @@
   },
   "wingspan": null,
   "common_names": [
-   "Grey Pansy",
-   "Grey Pansy Butterfly"
+   "Grey Pansy Butterfly",
+   "Grey Pansy"
   ],
   "flags": [
    "matched by family-search (100%), check"
@@ -6365,40 +6111,19 @@
   "lucas_heading": "VANESSE SOPHRONIE.",
   "taxonomy": {
    "query": "Vanessa sophronia",
-   "candidates": [
-    {
-     "name": "Sea sophronia (Godart, 1823)",
-     "status": "ACCEPTED",
-     "family": "Nymphalidae",
-     "score": 1.0
-    },
-    {
-     "name": "Cydbelis sophronia Godart, 1823",
-     "status": "SYNONYM",
-     "family": "Nymphalidae",
-     "score": 1.0
-    }
-   ],
-   "method": "family-search",
-   "gbif_confidence": 100,
-   "genus_resolved": "Vanessa",
-   "genus_family": "Nymphalidae",
-   "accepted": "Sea sophronia",
-   "accepted_authorship": "(Godart, 1823) ",
-   "family": "Nymphalidae",
-   "genus": "Sea",
-   "gbif_key": 1892932,
-   "rank": "SPECIES",
-   "common_names": []
+   "candidates": [],
+   "method": "none",
+   "gbif_confidence": 0,
+   "manual_unknown": true
   },
   "wikipedia": null,
   "wingspan": null,
   "common_names": [],
   "flags": [
-   "matched by family-search (100%), check",
+   "automated match rejected; identity not yet known",
    "no Wikipedia page"
   ],
-  "confidence": "medium"
+  "confidence": "low"
  },
  "n244-2": {
   "specimen": "n244-2",
@@ -6458,41 +6183,19 @@
   "lucas_heading": "VANESSE ORTHOSIE. vanessa orthosia. god.",
   "taxonomy": {
    "query": "Vanessa orthosia",
-   "candidates": [
-    {
-     "name": "Precis orthosia Klug, 1845",
-     "status": "SYNONYM",
-     "family": "Nymphalidae",
-     "score": 1.0
-    }
-   ],
-   "method": "family-search",
-   "gbif_confidence": 100,
-   "genus_resolved": "Vanessa",
-   "genus_family": "Nymphalidae",
-   "accepted": "Junonia chorimene",
-   "accepted_authorship": "(Guérin-Méneville, 1844) ",
-   "family": "Nymphalidae",
-   "genus": "Junonia",
-   "gbif_key": 5130335,
-   "rank": "SPECIES",
-   "common_names": [
-    "Golden Pansy"
-   ]
+   "candidates": [],
+   "method": "none",
+   "gbif_confidence": 0,
+   "manual_unknown": true
   },
-  "wikipedia": {
-   "title": "Junonia chorimene",
-   "extract": "Junonia chorimene, the golden pansy, is a butterfly in the family Nymphalidae. It is found in Senegal, the Gambia, Guinea-Bissau, Guinea, Mali, Sierra Leone, Ivory Coast, Burkina Faso, Ghana, Togo, Benin, Nigeria, the Democratic Republic of the Congo, Sudan, Ethiopia, Uganda, northern and western Kenya, northern Tanzania, south-western Arabia and Yemen. The habitat consists of riverine vegetation.",
-   "url": "https://en.wikipedia.org/wiki/Junonia_chorimene"
-  },
+  "wikipedia": null,
   "wingspan": null,
-  "common_names": [
-   "Golden Pansy"
-  ],
+  "common_names": [],
   "flags": [
-   "matched by family-search (100%), check"
+   "automated match rejected; identity not yet known",
+   "no Wikipedia page"
   ],
-  "confidence": "medium"
+  "confidence": "low"
  },
  "n246-1": {
   "specimen": "n246-1",
@@ -6528,8 +6231,8 @@
    "gbif_key": 5130464,
    "rank": "SPECIES",
    "common_names": [
-    "Eyed Pansy",
     "Blue Pansy",
+    "Eyed Pansy",
     "Ox-eyed Pansy",
     "Blue Argus"
    ]
@@ -6541,8 +6244,8 @@
   },
   "wingspan": null,
   "common_names": [
-   "Eyed Pansy",
    "Blue Pansy",
+   "Eyed Pansy",
    "Ox-eyed Pansy",
    "Blue Argus"
   ],
@@ -6657,9 +6360,9 @@
    "rank": "SPECIES",
    "common_names": [
     "Mangrove Buckeye",
+    "West Indian Buckeye",
     "Tropical Buckeye",
-    "Black Mangrove Buckeye",
-    "West Indian Buckeye"
+    "Black Mangrove Buckeye"
    ],
    "manual_confidence": "high"
   },
@@ -6671,9 +6374,9 @@
   "wingspan": null,
   "common_names": [
    "Mangrove Buckeye",
+   "West Indian Buckeye",
    "Tropical Buckeye",
-   "Black Mangrove Buckeye",
-   "West Indian Buckeye"
+   "Black Mangrove Buckeye"
   ],
   "flags": [],
   "confidence": "high"
@@ -6768,32 +6471,35 @@
   "latin_1835": "Nymphalis pollux",
   "lucas_heading": "NYMPHALE POLLUX. nymphalis pollux. god.",
   "taxonomy": {
-   "query": "Nymphalis pollux",
+   "query": "Charaxes castor",
    "candidates": [],
-   "method": "match",
-   "gbif_confidence": 95,
-   "matchType": "FUZZY",
+   "method": "manual",
+   "gbif_confidence": 100,
+   "matchType": "EXACT",
    "ocr_variant": null,
-   "synonym_of_1835_name": true,
-   "matched_1835_as": "Nymphalis polyxo Godart, 1824",
-   "accepted": "Charaxes bernardus",
-   "accepted_authorship": "(Fabricius, 1793) ",
+   "synonym_of_1835_name": false,
+   "matched_1835_as": "Charaxes castor (Cramer)",
+   "accepted": "Charaxes castor",
+   "accepted_authorship": "(Cramer) ",
    "family": "Nymphalidae",
    "genus": "Charaxes",
-   "gbif_key": 5128644,
+   "gbif_key": 5128984,
    "rank": "SPECIES",
    "common_names": [
-    "Tawny Rajah"
-   ]
+    "Giant Charaxes",
+    "Giant Emperor"
+   ],
+   "manual_confidence": "high"
   },
   "wikipedia": {
-   "title": "Charaxes bernardus",
-   "extract": "Charaxes bernardus, the tawny rajah, is a butterfly that belongs to the rajahs and nawabs group, that is, the Charaxinae group of the brush-footed butterflies family. This species can be found in India, China, Indomalaya, and onwards to Indonesia.",
-   "url": "https://en.wikipedia.org/wiki/Charaxes_bernardus"
+   "title": "Charaxes castor",
+   "extract": "Charaxes castor, the giant emperor or giant charaxes, is a butterfly of the family Nymphalidae. It is found throughout the Afrotropical realm below the Sahel.",
+   "url": "https://en.wikipedia.org/wiki/Charaxes_castor"
   },
   "wingspan": null,
   "common_names": [
-   "Tawny Rajah"
+   "Giant Charaxes",
+   "Giant Emperor"
   ],
   "flags": [],
   "confidence": "high"
@@ -7047,9 +6753,9 @@
    "rank": "SPECIES",
    "common_names": [
     "Common Pearl Charaxes",
+    "Pearl Emperor",
     "White Pearl Emperor",
-    "Pearl Charaxes",
-    "Pearl Emperor"
+    "Pearl Charaxes"
    ],
    "manual_confidence": "high"
   },
@@ -7061,9 +6767,9 @@
   "wingspan": "65–70 mm",
   "common_names": [
    "Common Pearl Charaxes",
+   "Pearl Emperor",
    "White Pearl Emperor",
-   "Pearl Charaxes",
-   "Pearl Emperor"
+   "Pearl Charaxes"
   ],
   "flags": [],
   "confidence": "high"
@@ -7197,44 +6903,38 @@
   "latin_1835": "Nymphalis steneles",
   "lucas_heading": "NYMPHALE STÉNÊLÈS. nymphalis steneles. god.",
   "taxonomy": {
-   "query": "Nymphalis steneles",
-   "candidates": [
-    {
-     "name": "Philaethria steneles Fabricius, 1793",
-     "status": "SYNONYM",
-     "family": "Nymphalidae",
-     "score": 1.0
-    }
-   ],
-   "method": "family-search",
+   "query": "Siproeta stelenes",
+   "candidates": [],
+   "method": "manual",
    "gbif_confidence": 100,
-   "genus_resolved": "Nymphalis",
-   "genus_family": "Nymphalidae",
-   "accepted": "Philaethria dido",
-   "accepted_authorship": "(Linnaeus, 1763) ",
+   "matchType": "EXACT",
+   "ocr_variant": null,
+   "synonym_of_1835_name": false,
+   "matched_1835_as": "Siproeta stelenes Linnaeus, 1758",
+   "accepted": "Siproeta stelenes",
+   "accepted_authorship": "Linnaeus, 1758",
    "family": "Nymphalidae",
-   "genus": "Philaethria",
-   "gbif_key": 1892509,
+   "genus": "Siproeta",
+   "gbif_key": 4299213,
    "rank": "SPECIES",
    "common_names": [
-    "Dido Longwing",
-    "Scarce Bamboo Page"
-   ]
+    "Malachite",
+    "Malachite Butterfly"
+   ],
+   "manual_confidence": "high"
   },
   "wikipedia": {
-   "title": "Philaethria dido",
-   "extract": "Philaethria dido, the scarce bamboo page or dido longwing, is a butterfly in the family Nymphalidae. It is found in Central America and tropical South America, both east and west of the Andes, from Brazil and Ecuador northwards to Mexico. Strays can sometimes be found in the lower Rio Grande Valley in southern Texas.",
-   "url": "https://en.wikipedia.org/wiki/Philaethria_dido"
+   "title": "Siproeta stelenes",
+   "extract": "Siproeta stelenes (malachite) is a Neotropical brush-footed butterfly. The malachite has large wings that are black and brilliant green or yellow-green on the upperside and light brown and olive green on the underside. It is named for the mineral malachite, which is similar in color to the bright green on the butterfly's wings. Typically, the wingspread is between 8.5 and 10 cm. The malachite is found throughout Central and northern South America, where it is one of the most common butterfly species. Its distribution extends as far north as southern Texas and the tip of Florida, to Cuba as subspecies S. s. insularis, and S. s. biplagiata, and south to Brazil.",
+   "url": "https://en.wikipedia.org/wiki/Siproeta_stelenes"
   },
-  "wingspan": "110 mm",
+  "wingspan": null,
   "common_names": [
-   "Dido Longwing",
-   "Scarce Bamboo Page"
+   "Malachite",
+   "Malachite Butterfly"
   ],
-  "flags": [
-   "matched by family-search (100%), check"
-  ],
-  "confidence": "medium"
+  "flags": [],
+  "confidence": "high"
  },
  "n270-1": {
   "specimen": "n270-1",
@@ -7298,8 +6998,8 @@
    "gbif_key": 1892736,
    "rank": "SPECIES",
    "common_names": [
-    "Turquoise Emperor",
-    "Cherubina emperor"
+    "Cherubina emperor",
+    "Turquoise Emperor"
    ],
    "manual_confidence": "high"
   },
@@ -7310,8 +7010,8 @@
   },
   "wingspan": "75 mm",
   "common_names": [
-   "Turquoise Emperor",
-   "Cherubina emperor"
+   "Cherubina emperor",
+   "Turquoise Emperor"
   ],
   "flags": [],
   "confidence": "high"
@@ -7324,38 +7024,27 @@
   "latin_1835": "Nymphalis gelania",
   "lucas_heading": "NYMPHALIS GELANIA. GOD.",
   "taxonomy": {
-   "query": "Nymphalis gelania",
-   "candidates": [
-    {
-     "name": "Limenitis gelania (Godart, 1823)",
-     "status": "ACCEPTED",
-     "family": "Nymphalidae",
-     "score": 1.0
-    },
-    {
-     "name": "Adelpha gelania Godart, 1823",
-     "status": "SYNONYM",
-     "family": "Nymphalidae",
-     "score": 1.0
-    }
-   ],
-   "method": "family-search",
+   "query": "Adelpha gelania",
+   "candidates": [],
+   "method": "manual",
    "gbif_confidence": 100,
-   "genus_resolved": "Nymphalis",
-   "genus_family": "Nymphalidae",
+   "matchType": "EXACT",
+   "ocr_variant": null,
+   "synonym_of_1835_name": true,
+   "matched_1835_as": "Adelpha gelania Godart, 1823",
    "accepted": "Limenitis gelania",
    "accepted_authorship": "(Godart, 1823) ",
    "family": "Nymphalidae",
    "genus": "Limenitis",
    "gbif_key": 5132221,
    "rank": "SPECIES",
-   "common_names": []
+   "common_names": [],
+   "manual_confidence": "medium"
   },
   "wikipedia": null,
   "wingspan": null,
   "common_names": [],
   "flags": [
-   "matched by family-search (100%), check",
    "no Wikipedia page"
   ],
   "confidence": "medium"
@@ -7453,27 +7142,18 @@
   "taxonomy": {
    "query": "Nymphalis amasia",
    "candidates": [],
-   "method": "match",
-   "gbif_confidence": 95,
-   "matchType": "FUZZY",
-   "ocr_variant": null,
-   "synonym_of_1835_name": true,
-   "matched_1835_as": "Nymphalis anassa Felder, 1862",
-   "accepted": "Anaea anassa",
-   "accepted_authorship": "(Felder, 1862) ",
-   "family": "Nymphalidae",
-   "genus": "Anaea",
-   "gbif_key": 1907285,
-   "rank": "SPECIES",
-   "common_names": []
+   "method": "none",
+   "gbif_confidence": 0,
+   "manual_unknown": true
   },
   "wikipedia": null,
   "wingspan": null,
   "common_names": [],
   "flags": [
+   "automated match rejected; identity not yet known",
    "no Wikipedia page"
   ],
-  "confidence": "medium"
+  "confidence": "low"
  },
  "n282-1": {
   "specimen": "n282-1",
@@ -7551,10 +7231,10 @@
    "gbif_key": 1910629,
    "rank": "SPECIES",
    "common_names": [
-    "Great Eggfly",
-    "Blue Moon",
     "Common Eggfly",
-    "Blue Moon Butterfly"
+    "Great Eggfly",
+    "Blue Moon Butterfly",
+    "Blue Moon"
    ],
    "manual_confidence": "high"
   },
@@ -7565,10 +7245,10 @@
   },
   "wingspan": "70–85 mm",
   "common_names": [
-   "Great Eggfly",
-   "Blue Moon",
    "Common Eggfly",
-   "Blue Moon Butterfly"
+   "Great Eggfly",
+   "Blue Moon Butterfly",
+   "Blue Moon"
   ],
   "flags": [],
   "confidence": "high"
@@ -7760,37 +7440,19 @@
   "lucas_heading": "NYMPHALE CLYMÉNUS. nymphalis. clymemus. god.",
   "taxonomy": {
    "query": "Nymphalis clymenus",
-   "candidates": [
-    {
-     "name": "Pseudaletis clymenus Druce",
-     "status": "ACCEPTED",
-     "family": "Lycaenidae",
-     "score": 1.0
-    }
-   ],
-   "method": "butterfly-search",
-   "gbif_confidence": 100,
-   "genus_resolved": "Nymphalis",
-   "genus_family": "Nymphalidae",
-   "accepted": "Pseudaletis clymenus",
-   "accepted_authorship": "Druce",
-   "family": "Lycaenidae",
-   "genus": "Pseudaletis",
-   "gbif_key": 1924216,
-   "rank": "SPECIES",
-   "common_names": []
+   "candidates": [],
+   "method": "none",
+   "gbif_confidence": 0,
+   "manual_unknown": true
   },
-  "wikipedia": {
-   "title": "Pseudaletis clymenus",
-   "extract": "Pseudaletis clymenus, the common fantasy, is a butterfly in the family Lycaenidae. The species was first described by Hamilton Herbert Druce in 1885. It is found in western and eastern Nigeria, Cameroon, the Central African Republic and the Democratic Republic of the Congo. The habitat consists of forests.",
-   "url": "https://en.wikipedia.org/wiki/Pseudaletis_clymenus"
-  },
+  "wikipedia": null,
   "wingspan": null,
   "common_names": [],
   "flags": [
-   "matched by butterfly-search (100%), check"
+   "automated match rejected; identity not yet known",
+   "no Wikipedia page"
   ],
-  "confidence": "medium"
+  "confidence": "low"
  },
  "n286-4": {
   "specimen": "n286-4",
@@ -7802,39 +7464,18 @@
   "taxonomy": {
    "query": "Nymphalis anthiocus",
    "candidates": [],
-   "method": "match",
-   "gbif_confidence": 96,
-   "matchType": "FUZZY",
-   "ocr_variant": null,
-   "synonym_of_1835_name": false,
-   "matched_1835_as": "Nymphalis antiopa (Linnaeus, 1758)",
-   "accepted": "Nymphalis antiopa",
-   "accepted_authorship": "(Linnaeus, 1758) ",
-   "family": "Nymphalidae",
-   "genus": "Nymphalis",
-   "gbif_key": 5130682,
-   "rank": "SPECIES",
-   "common_names": [
-    "Camberwell Beauty",
-    "Mourningcloak",
-    "Mourning Cloak",
-    "mourning cloak"
-   ]
+   "method": "none",
+   "gbif_confidence": 0,
+   "manual_unknown": true
   },
-  "wikipedia": {
-   "title": "Nymphalis antiopa",
-   "extract": "Nymphalis antiopa, known as the mourning cloak in North America and the Camberwell beauty in Britain, is a large butterfly native to Eurasia and North America. The immature form of this species is sometimes known as the spiny elm caterpillar. Other older names for this species include grand surprise and white petticoat. A powerful flier, this species is sometimes found in areas far from its usual range during migration.",
-   "url": "https://en.wikipedia.org/wiki/Nymphalis_antiopa"
-  },
+  "wikipedia": null,
   "wingspan": null,
-  "common_names": [
-   "Camberwell Beauty",
-   "Mourningcloak",
-   "Mourning Cloak",
-   "mourning cloak"
+  "common_names": [],
+  "flags": [
+   "automated match rejected; identity not yet known",
+   "no Wikipedia page"
   ],
-  "flags": [],
-  "confidence": "high"
+  "confidence": "low"
  },
  "n288-1": {
   "specimen": "n288-1",
@@ -8088,29 +7729,18 @@
   "taxonomy": {
    "query": "Pavonia lycaon",
    "candidates": [],
-   "method": "match",
-   "gbif_confidence": 100,
-   "matchType": "EXACT",
-   "ocr_variant": null,
-   "synonym_of_1835_name": true,
-   "matched_1835_as": "Pavonia lycaon Lucas, 1835",
-   "accepted": "Dasyophthalma rusina",
-   "accepted_authorship": "Latreille & Godart, 1824",
-   "family": "Nymphalidae",
-   "genus": "Dasyophthalma",
-   "gbif_key": 1899922,
-   "rank": "SPECIES",
-   "common_names": []
+   "method": "none",
+   "gbif_confidence": 0,
+   "manual_unknown": true
   },
-  "wikipedia": {
-   "title": "Dasyophthalma rusina",
-   "extract": "Dasyophthalma rusina is a butterfly of the family Nymphalidae. It is found in Brazil, from Bahia to Santa Catarina. The habitat consists of high altitude areas.",
-   "url": "https://en.wikipedia.org/wiki/Dasyophthalma_rusina"
-  },
+  "wikipedia": null,
   "wingspan": null,
   "common_names": [],
-  "flags": [],
-  "confidence": "high"
+  "flags": [
+   "automated match rejected; identity not yet known",
+   "no Wikipedia page"
+  ],
+  "confidence": "low"
  },
  "n306-2": {
   "specimen": "n306-2",
@@ -8312,42 +7942,42 @@
   "latin_1835": "Hesperia orion",
   "lucas_heading": "HESPÉRIE ORION. hesperia orion. latr.",
   "taxonomy": {
-   "query": "Hesperia orion",
-   "candidates": [
-    {
-     "name": "Papilio orion Drury, 1782",
-     "status": "SYNONYM",
-     "family": "Hesperiidae",
-     "score": 1.0
-    }
-   ],
-   "method": "family-search",
+   "query": "Urbanus proteus",
+   "candidates": [],
+   "method": "manual",
    "gbif_confidence": 100,
-   "genus_resolved": "Hesperia",
-   "genus_family": "Hesperiidae",
-   "accepted": "Urbanus doryssus",
-   "accepted_authorship": "(Swainson, 1831) ",
+   "matchType": "EXACT",
+   "ocr_variant": null,
+   "synonym_of_1835_name": false,
+   "matched_1835_as": "Urbanus proteus (Linnaeus, 1758)",
+   "accepted": "Urbanus proteus",
+   "accepted_authorship": "(Linnaeus, 1758) ",
    "family": "Hesperiidae",
    "genus": "Urbanus",
-   "gbif_key": 1944329,
+   "gbif_key": 1944314,
    "rank": "SPECIES",
    "common_names": [
-    "White-tailed Longtail"
-   ]
+    "Long-tailed Skipper",
+    "bean leafroller",
+    "Long Tailed Skipper",
+    "Long-tailed skipper"
+   ],
+   "manual_confidence": "high"
   },
   "wikipedia": {
-   "title": "Cecropterus doryssus",
-   "extract": "Cecropterus doryssus, commonly known as the white-tailed longtail, is a species of dicot skipper in the butterfly family Hesperiidae. It is found in Central America, North America, and South America.",
-   "url": "https://en.wikipedia.org/wiki/Cecropterus_doryssus"
+   "title": "Long-tailed skipper",
+   "extract": "The long-tailed skipper is a spread-winged skipper butterfly found throughout tropical and subtropical South America, south to Argentina and north into the eastern United States and southern Ontario. It cannot live in areas with prolonged frost. It is a showy butterfly, with wings of light brown tinted with iridescent blue, and two long tails extending from the hindwings. The robust body is light blue dorsally. It has a large head, prominent eyes, and a wingspan between 4.5 and 6 centimeters.",
+   "url": "https://en.wikipedia.org/wiki/Long-tailed_skipper"
   },
   "wingspan": null,
   "common_names": [
-   "White-tailed Longtail"
+   "Long-tailed Skipper",
+   "bean leafroller",
+   "Long Tailed Skipper",
+   "Long-tailed skipper"
   ],
-  "flags": [
-   "matched by family-search (100%), check"
-  ],
-  "confidence": "medium"
+  "flags": [],
+  "confidence": "high"
  },
  "n310-3": {
   "specimen": "n310-3",
