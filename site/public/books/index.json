@@ -89,7 +89,8 @@
         "grain": "/covers/british-moths/grain.jpg",
         "ornament": "/covers/british-moths/moth.png"
       },
-      "spineFont": "Libre Baskerville"
+      "spineFont": "Libre Baskerville",
+      "spineSubtitle": "In Four Volumes"
     }
   ]
 }
