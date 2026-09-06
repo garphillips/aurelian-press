@@ -13,6 +13,7 @@ import { preloadCovers } from './bindings';
 document.body.classList.add('js');
 const canvas = document.getElementById('gl') as HTMLCanvasElement;
 const scene = new Scene(canvas);
+(window as any).__scene = scene;   // for inspection in the browser
 const books = await loadBooks();
 await Promise.all([document.fonts.load('20px "IM Fell English"'), document.fonts.load('20px "EB Garamond"')]).catch(() => {});
 

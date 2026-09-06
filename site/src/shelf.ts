@@ -39,7 +39,11 @@ class ShelfBook {
     const pageTop = mat(pages(w, d, 3)), pageFore = mat(pages(h, d, 4));
     const blockW = w - BOARD - SQUARE, blockH = h - 2 * SQUARE, blockD = d - 2 * BOARD;
     const leafCanvas = firstLeaf(cfg, blockW, blockH, () => { leaf.map!.needsUpdate = true; onTextureReady(); });
-    const leaf = new THREE.MeshStandardMaterial({ map: tex(leafCanvas), roughness: 0.95 }); this.disposables.push(leaf);
+    // the leaf and paste-down are lit by ambient + sun + room, which sum to well over 1; their base is scaled so
+    // their cream renders as the site's paper (measured: 0xb0 lands the leaf at the paper's 223/255)
+    const PAGE_BASE = 0xb0b0b0;
+    const leaf = new THREE.MeshStandardMaterial({ map: tex(leafCanvas), roughness: 0.95, color: PAGE_BASE }); this.disposables.push(leaf);
+    inside.color.set(PAGE_BASE);
     const cream = new THREE.MeshStandardMaterial({ color: 0xe6dcc2, roughness: 0.95 }); this.disposables.push(cream);
 
     const add = (geo: THREE.BoxGeometry, mats: THREE.Material[], parent: THREE.Object3D, x: number, y: number, z: number) => {
