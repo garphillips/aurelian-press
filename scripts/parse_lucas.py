@@ -152,7 +152,7 @@ for e in index:
 
 # ---------------------------------------------------------------- 4. assign to cut specimens
 plates = json.load(open(os.path.join(ROOT, 'content/book-plates.json')))['plates']
-order_to_key = {p['order']: p['plateKey'] for p in plates}
+order_to_key = {p.get('plate', p['order']): p['plateKey'] for p in plates}   # printed plate number -> scan (binding is out of sequence in two places)
 counts = {}
 for f in glob.glob(os.path.join(ROOT, 'site/public/plates/*/manifest.json')):
     m = json.load(open(f)); counts[m['plateKey']] = len(m['specimens'])

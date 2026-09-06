@@ -154,9 +154,11 @@
 "order": 14,
 "specimens": [
 "n66-1",
-"n66-2"
+"n66-2",
+"n66-3"
 ],
 "rotate": [
+"none",
 "none",
 "none"
 ]

@@ -1,0 +1,123 @@
+{
+ "_note": "Manual modern identifications for Lucas (1835) names that GBIF could not resolve unambiguously. Keyed by latin_1835 (lowercase). Verified against the plate and Lucas's own synonymy where possible; entries marked '?' in confidence are educated and should be checked.",
+ "papilio ascanius": [
+  "Parides ascanius",
+  "high"
+ ],
+ "pieris ada": [
+  "Appias ada",
+  "high"
+ ],
+ "pieris paulina": [
+  "Appias paulina",
+  "high"
+ ],
+ "pieris judith": [
+  "Delias judith",
+  "medium"
+ ],
+ "pieris epicharis": [
+  "Delias eucharis",
+  "medium"
+ ],
+ "pieris harpalice": [
+  "Delias harpalyce",
+  "high"
+ ],
+ "pieris teutonia": [
+  "Belenois java",
+  "high"
+ ],
+ "leucophasia nina": [
+  "Leptosia nina",
+  "high"
+ ],
+ "anthocharis pirene": [
+  "Ixias pyrene",
+  "high"
+ ],
+ "anthocharis eupompe": [
+  "Colotis eupompe",
+  "high"
+ ],
+ "anthocharis evippe": [
+  "Colotis evippe",
+  "high"
+ ],
+ "anthocharis achine": [
+  "Colotis achine",
+  "medium"
+ ],
+ "colias caesonia": [
+  "Zerene cesonia",
+  "high"
+ ],
+ "callidryas trite": [
+  "Phoebis trite",
+  "high"
+ ],
+ "cethosia julia": [
+  "Dryas iulia",
+  "high"
+ ],
+ "cethosia juno": [
+  "Dione juno",
+  "high"
+ ],
+ "cethosia dido": [
+  "Philaethria dido",
+  "high"
+ ],
+ "vanessa clelia": [
+  "Junonia oenone",
+  "medium"
+ ],
+ "vanessa oenone": [
+  "Junonia oenone",
+  "high"
+ ],
+ "vanessa larinia": [
+  "Junonia evarete",
+  "high"
+ ],
+ "nymphalis pyrrhus": [
+  "Polyura pyrrhus",
+  "high"
+ ],
+ "nymphalis laurentia": [
+  "Doxocopa laurentia",
+  "high"
+ ],
+ "nymphalis demophon": [
+  "Prepona demophon",
+  "high"
+ ],
+ "nymphalis veranes": [
+  "Charaxes varanes",
+  "high"
+ ],
+ "nymphalis iphicla": [
+  "Adelpha iphiclus",
+  "high"
+ ],
+ "nymphalis lasinassa": [
+  "Hypolimnas bolina",
+  "high"
+ ],
+ "nymphalis salmasis": [
+  "Hypolimnas salmacis",
+  "high"
+ ],
+ "satyrus lena": [
+  "Pierella lena",
+  "high"
+ ],
+ "satyrus nereis": [
+  "Pierella nereis",
+  "high"
+ ],
+ "eumenia toxea": [
+  "Eumenia toxea",
+  "medium"
+ ]
+}

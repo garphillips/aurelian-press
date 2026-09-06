@@ -1,0 +1,1145 @@
+{
+ "_note": "Handwritten plate captions read from the scans: species in figure order top-to-bottom (cutter index order after re-cut). genus/epithet as Lucas wrote them; locality as written.",
+ "n18": [
+  [
+   "Ornithoptera",
+   "Rhadamantus",
+   "Iles Philippines"
+  ],
+  [
+   "Papilio",
+   "Polycaon",
+   "Guyane, Brésil"
+  ]
+ ],
+ "n22": [
+  [
+   "Papilio",
+   "Agavus",
+   "Brésil"
+  ],
+  [
+   "Papilio",
+   "Hector",
+   "Bengale, Coromandel, Ile d'Amboine"
+  ]
+ ],
+ "n56": [
+  [
+   "Papilio",
+   "Cresphontes",
+   "Java"
+  ],
+  [
+   "Papilio",
+   "Helenus",
+   "Chine"
+  ]
+ ],
+ "n66": [
+  [
+   "Papilio",
+   "Brutus",
+   "Côte occ. Afrique, Cap de Bonne-Espérance"
+  ],
+  [
+   "Papilio",
+   "Dardanus",
+   "Brésil"
+  ],
+  [
+   "Papilio",
+   "Aeneas",
+   "Guyane"
+  ]
+ ],
+ "n146": [
+  [
+   "Leucophasia",
+   "Nina",
+   "Indes Or."
+  ],
+  [
+   "Anthocharis",
+   "Leucippe",
+   "Java, Ile d'Amboine"
+  ],
+  [
+   "Anthocharis",
+   "Glaucippe",
+   "Java"
+  ]
+ ],
+ "n32": [
+  [
+   "Papilio",
+   "Sarpedon",
+   "Java"
+  ],
+  [
+   "Papilio",
+   "Bathycles",
+   "Java, Ile d'Amboine"
+  ]
+ ],
+ "n34": [
+  [
+   "Papilio",
+   "Polymetus",
+   "Brésil"
+  ],
+  [
+   "Papilio",
+   "Coon",
+   "Java, Coromandel"
+  ]
+ ],
+ "n36": [
+  [
+   "Papilio",
+   "Evander",
+   "Brésil"
+  ],
+  [
+   "Papilio",
+   "Vertumnus",
+   "Brésil"
+  ]
+ ],
+ "n38": [
+  [
+   "Papilio",
+   "Iphitas",
+   "Amérique mérid."
+  ],
+  [
+   "Papilio",
+   "Philenor",
+   "Amérique sept.",
+   "side view on a plant; not a dorsal spread"
+  ]
+ ],
+ "n40": [
+  [
+   "Papilio",
+   "Erecteus",
+   "Nlle Hollande"
+  ],
+  [
+   "Papilio",
+   "Demoleus",
+   "Cap de Bonne Espérance"
+  ]
+ ],
+ "n50": [
+  [
+   "Papilio",
+   "Phorbanta",
+   "Ile de France, Bourbon"
+  ],
+  [
+   "Papilio",
+   "Disparilis",
+   "Ile de France"
+  ]
+ ],
+ "n54": [
+  [
+   "Papilio",
+   "Polymnestor",
+   "Indes Orientales"
+  ],
+  [
+   "Papilio",
+   "Peranthus",
+   "Java, Cochinchine"
+  ]
+ ],
+ "n68": [
+  [
+   "Papilio",
+   "Sesostris",
+   "Guyane"
+  ],
+  [
+   "Papilio",
+   "Dimas",
+   "Brésil"
+  ],
+  [
+   "Papilio",
+   "Nephalion",
+   "Brésil"
+  ]
+ ],
+ "n70": [
+  [
+   "Papilio",
+   "Ascanius",
+   "Brésil"
+  ],
+  [
+   "Papilio",
+   "Lysithous",
+   "Brésil"
+  ]
+ ],
+ "n80": [
+  [
+   "Papilio",
+   "Belus",
+   "Guyane, Brésil"
+  ],
+  [
+   "Papilio",
+   "Polydamas",
+   "Guyane, Brésil"
+  ]
+ ],
+ "n82": [
+  [
+   "Papilio",
+   "Licoraeus",
+   "Amérique sept."
+  ],
+  [
+   "Papilio",
+   "Turnus",
+   "Amérique sept."
+  ]
+ ],
+ "n84": [
+  [
+   "Papilio",
+   "Xuthus",
+   "Chine"
+  ],
+  [
+   "Papilio",
+   "Troilus",
+   "Amérique sept."
+  ]
+ ],
+ "n86": [
+  [
+   "Papilio",
+   "Asterias",
+   "Amérique sept."
+  ],
+  [
+   "Papilio",
+   "Delalandii",
+   "Californie"
+  ]
+ ],
+ "n96": [
+  [
+   "Papilio",
+   "Protesilaus",
+   "Brésil"
+  ],
+  [
+   "Papilio",
+   "Agapenor",
+   "Afrique"
+  ]
+ ],
+ "n98": [
+  [
+   "Papilio",
+   "Pompilius",
+   "Java"
+  ],
+  [
+   "Papilio",
+   "Polixenus",
+   "Amérique sept."
+  ]
+ ],
+ "n100": [
+  [
+   "Papilio",
+   "Macareus",
+   "Java"
+  ],
+  [
+   "Papilio",
+   "Dissimilis",
+   "Chine"
+  ]
+ ],
+ "n102": [
+  [
+   "Papilio",
+   "Zenobius",
+   "Côte occ. d'Afrique"
+  ],
+  [
+   "Papilio",
+   "Cynortas",
+   "Cafrerie"
+  ]
+ ],
+ "n112": [
+  [
+   "Pieris",
+   "Celestina",
+   "Nlle Guinée"
+  ],
+  [
+   "Pieris",
+   "Lycimnia",
+   "Amérique mér."
+  ],
+  [
+   "Pieris",
+   "Thyria",
+   "Java"
+  ]
+ ],
+ "n114": [
+  [
+   "Pieris",
+   "Ada",
+   "Port Praslin"
+  ],
+  [
+   "Pieris",
+   "Limnoria",
+   "Brésil"
+  ],
+  [
+   "Pieris",
+   "Poppea",
+   "Guinée"
+  ]
+ ],
+ "n116": [
+  [
+   "Pieris",
+   "Phaloe",
+   "Brésil"
+  ],
+  [
+   "Pieris",
+   "Paulina",
+   "Coromandel, Java"
+  ],
+  [
+   "Pieris",
+   "Calypso",
+   "Côte d'Angole"
+  ]
+ ],
+ "n118": [
+  [
+   "Pieris",
+   "Teutonia",
+   "Timor"
+  ],
+  [
+   "Pieris",
+   "Eriphia",
+   "?"
+  ],
+  [
+   "Pieris",
+   "Coronea",
+   "Java, Bornéo, Indes Or."
+  ]
+ ],
+ "n128": [
+  [
+   "Pieris",
+   "Pitys",
+   "Java"
+  ],
+  [
+   "Pieris",
+   "Judith",
+   "Java"
+  ],
+  [
+   "Pieris",
+   "Belisama",
+   "Java, Amboine"
+  ]
+ ],
+ "n130": [
+  [
+   "Pieris",
+   "Philyra",
+   "Ile d'Amboine"
+  ],
+  [
+   "Pieris",
+   "Isse",
+   "Ile d'Amboine"
+  ],
+  [
+   "Pieris",
+   "Epicharis",
+   "Coromandel"
+  ]
+ ],
+ "n132": [
+  [
+   "Pieris",
+   "Hyparete",
+   "Chine, Java"
+  ],
+  [
+   "Pieris",
+   "Nigrina",
+   "Nlle Hollande"
+  ],
+  [
+   "Pieris",
+   "Harpalice",
+   "Nlle Hollande"
+  ]
+ ],
+ "n134": [
+  [
+   "Pieris",
+   "Aganippe",
+   "Nlle Hollande"
+  ],
+  [
+   "Pieris",
+   "Pyrrha",
+   "Guyane, Brésil"
+  ],
+  [
+   "Pieris",
+   "Argia",
+   "Côte de Guinée"
+  ]
+ ],
+ "n144": [
+  [
+   "Pieris",
+   "Virginia",
+   "?"
+  ],
+  [
+   "Pieris",
+   "Valeria",
+   "Java"
+  ],
+  [
+   "Pieris",
+   "Endeis",
+   "Brésil"
+  ]
+ ],
+ "n148": [
+  [
+   "Anthocharis",
+   "Marianne",
+   "Bengale, Coromandel"
+  ],
+  [
+   "Anthocharis",
+   "Pirene",
+   "Bengale, Coromandel, Chine"
+  ],
+  [
+   "Anthocharis",
+   "Oenippe",
+   "Chine, Bengale, Java"
+  ]
+ ],
+ "n150": [
+  [
+   "Anthocharis",
+   "Venilia",
+   "Java"
+  ],
+  [
+   "Anthocharis",
+   "Fausta",
+   "Syrie"
+  ],
+  [
+   "Anthocharis",
+   "Eupompe",
+   "Nubie"
+  ],
+  [
+   "Anthocharis",
+   "Danae",
+   "Indes Or."
+  ]
+ ],
+ "n160": [
+  [
+   "Anthocharis",
+   "Evippe",
+   "Côte d'Angole"
+  ],
+  [
+   "Anthocharis",
+   "Achine",
+   "?"
+  ],
+  [
+   "Anthocharis",
+   "Evarne",
+   "?"
+  ],
+  [
+   "Anthocharis",
+   "Ione",
+   "?"
+  ]
+ ],
+ "n162": [
+  [
+   "Terias",
+   "Proterpia",
+   "Jamaïque"
+  ],
+  [
+   "Terias",
+   "Hecabe",
+   "Indes Or."
+  ],
+  [
+   "Terias",
+   "Candida",
+   "Ile d'Amboine"
+  ],
+  [
+   "Terias",
+   "Nicippe",
+   "Virginie"
+  ]
+ ],
+ "n164": [
+  [
+   "Terias",
+   "Elathea",
+   "Brésil"
+  ],
+  [
+   "Terias",
+   "Smilax",
+   "Indes Or."
+  ],
+  [
+   "Idmais",
+   "Amata",
+   "Côte de Coromandel"
+  ],
+  [
+   "Colias",
+   "Philodice",
+   "Amérique sept."
+  ],
+  [
+   "Colias",
+   "Caesonia",
+   "Amérique sept."
+  ]
+ ],
+ "n174": [
+  [
+   "Callidryas",
+   "Scylla",
+   "Chine, Bengale, Java"
+  ],
+  [
+   "Callidryas",
+   "Evadne",
+   "?"
+  ],
+  [
+   "Callidryas",
+   "Argante",
+   "Guyane, Brésil"
+  ]
+ ],
+ "n176": [
+  [
+   "Callidryas",
+   "Trite",
+   "Guyane, Brésil"
+  ],
+  [
+   "Callidryas",
+   "Philea",
+   "Guyane, Brésil"
+  ]
+ ],
+ "n178": [
+  [
+   "Callidryas",
+   "Leachiana",
+   "Brésil"
+  ],
+  [
+   "Callidryas",
+   "Clorinde",
+   "Brésil"
+  ]
+ ],
+ "n180": [
+  [
+   "Erycina",
+   "Gnidus",
+   "Surinam"
+  ],
+  [
+   "Erycina",
+   "Lysippus",
+   "Guyane, Brésil"
+  ],
+  [
+   "Erycina",
+   "Phareus",
+   "Guyane, Brésil"
+  ],
+  [
+   "Myrina",
+   "Jafra",
+   "Java"
+  ]
+ ],
+ "n182": [
+  [
+   "Polyommatus",
+   "Marsyas",
+   "Brésil"
+  ],
+  [
+   "Polyommatus",
+   "Narbal",
+   "Guyane, Brésil"
+  ],
+  [
+   "Polyommatus",
+   "Longinus",
+   "Bengale"
+  ],
+  [
+   "Polyommatus",
+   "Helus",
+   "Indes Or."
+  ]
+ ],
+ "n184": [
+  [
+   "Danais",
+   "Eunice",
+   "Java"
+  ],
+  [
+   "Danais",
+   "Midama",
+   "Chine, Bengale, Java"
+  ]
+ ],
+ "n194": [
+  [
+   "Danais",
+   "Niavia",
+   "Guinée"
+  ],
+  [
+   "Danais",
+   "Plexippe",
+   "Indes Or."
+  ]
+ ],
+ "n196": [
+  [
+   "Danais",
+   "Hegesippe",
+   "Ile de Sumatra"
+  ],
+  [
+   "Danais",
+   "Cleone",
+   "Ile de Java, d'Amboine"
+  ]
+ ],
+ "n200": [
+  [
+   "Heliconia",
+   "Sara",
+   "Guyane, Brésil"
+  ],
+  [
+   "Heliconia",
+   "Melpomene",
+   "Guyane"
+  ],
+  [
+   "Heliconia",
+   "Phillis",
+   "Guyane"
+  ]
+ ],
+ "n202": [
+  [
+   "Heliconia",
+   "Charitonia",
+   "Amérique"
+  ],
+  [
+   "Heliconia",
+   "Ilione",
+   "Brésil"
+  ],
+  [
+   "Heliconia",
+   "Narcea",
+   "Antilles",
+   "cutter box clips the pale forewing tips"
+  ]
+ ],
+ "n212": [
+  [
+   "Acraea",
+   "Zidora",
+   "Sierra Léone"
+  ],
+  [
+   "Acraea",
+   "Euryta",
+   "Sierra Léone"
+  ],
+  [
+   "Acraea",
+   "Thalia",
+   "Guyane, Brésil"
+  ]
+ ],
+ "n214": [
+  [
+   "Acraea",
+   "Vibilia",
+   "Brésil"
+  ],
+  [
+   "Cethosia",
+   "Julia",
+   "Guyane, Brésil"
+  ],
+  [
+   "Cethosia",
+   "Juno",
+   "Guyane, Brésil"
+  ]
+ ],
+ "n216": [
+  [
+   "Heliconia",
+   "Eva",
+   "Surinam"
+  ],
+  [
+   "Heliconia",
+   "Humboldtii",
+   "Amazones"
+  ]
+ ],
+ "_plate_notes": {
+  "n216": "printed P.53 in error, corrected by hand to 51 on the scan"
+ },
+ "n226": [
+  [
+   "Cethosia",
+   "Dido",
+   "Guyane, Brésil"
+  ],
+  [
+   "Cethosia",
+   "Lamarckii",
+   "Nlle Hollande"
+  ],
+  [
+   "Cethosia",
+   "Leschenault",
+   "Java"
+  ]
+ ],
+ "n228": [
+  [
+   "Cethosia",
+   "Penthesilea",
+   "Java"
+  ],
+  [
+   "Cethosia",
+   "Cydippe",
+   "Chine"
+  ]
+ ],
+ "n230": [
+  [
+   "Argynnis",
+   "Idalia",
+   "Jamaïque, Amérique sept."
+  ],
+  [
+   "Argynnis",
+   "Niphe",
+   "Chine"
+  ]
+ ],
+ "n232": [
+  [
+   "Vanessa",
+   "Juliana",
+   "Ile d'Amboine",
+   "cutter box clips the forewing tips"
+  ],
+  [
+   "Vanessa",
+   "Aglatonice",
+   "?"
+  ]
+ ],
+ "n234": [
+  [
+   "Vanessa",
+   "Amathea",
+   "Brésil, Guyane"
+  ],
+  [
+   "Vanessa",
+   "Charonia",
+   "Chine"
+  ],
+  [
+   "Vanessa",
+   "Laomedia",
+   "Chine, Java"
+  ]
+ ],
+ "n244": [
+  [
+   "Vanessa",
+   "Sophronia",
+   "Brésil"
+  ],
+  [
+   "Vanessa",
+   "Cloantha",
+   "Cap de Bonne-Espérance"
+  ],
+  [
+   "Vanessa",
+   "Orthosia",
+   "Ile d'Amboine"
+  ]
+ ],
+ "n246": [
+  [
+   "Vanessa",
+   "Orithya",
+   "Chine, Java, Bengale"
+  ],
+  [
+   "Vanessa",
+   "Clelia",
+   "Côte occ. d'Afrique"
+  ],
+  [
+   "Vanessa",
+   "Oenone",
+   "Cap de Bonne-Espérance"
+  ]
+ ],
+ "n248": [
+  [
+   "Vanessa",
+   "Larinia",
+   "Brésil"
+  ],
+  [
+   "Libythea",
+   "Cuvierii",
+   "Amérique mér."
+  ],
+  [
+   "Biblis",
+   "Thadana",
+   "Brésil"
+  ]
+ ],
+ "n250": [
+  [
+   "Nymphalis",
+   "Pollux",
+   "Guinée"
+  ],
+  [
+   "Nymphalis",
+   "Tiridates",
+   "Java, Amboine"
+  ]
+ ],
+ "n252": [
+  [
+   "Nymphalis",
+   "Nisus",
+   "Ile d'Amboine"
+  ],
+  [
+   "Nymphalis",
+   "Pyrrhus",
+   "Ile d'Amboine",
+   "cutter box clips the forewing tips"
+  ]
+ ],
+ "n262": [
+  [
+   "Nymphalis",
+   "Clytemnestra",
+   "Guyane, Brésil"
+  ],
+  [
+   "Nymphalis",
+   "Decius",
+   "Guinée"
+  ]
+ ],
+ "n264": [
+  [
+   "Nymphalis",
+   "Veranes",
+   "Cafrerie"
+  ],
+  [
+   "Nymphalis",
+   "Mycerina",
+   "?"
+  ]
+ ],
+ "n268": [
+  [
+   "Nymphalis",
+   "Rogerii",
+   "Cuba"
+  ],
+  [
+   "Nymphalis",
+   "Steneles",
+   "Guyane"
+  ]
+ ],
+ "n270": [
+  [
+   "Nymphalis",
+   "Iphicla",
+   "Guyane, Brésil"
+  ],
+  [
+   "Nymphalis",
+   "Laurentia",
+   "Brésil"
+  ],
+  [
+   "Nymphalis",
+   "Gelania",
+   "Amérique équinoxiale"
+  ]
+ ],
+ "n280": [
+  [
+   "Nymphalis",
+   "Iapis",
+   "Java"
+  ],
+  [
+   "Nymphalis",
+   "Sangaris",
+   "?"
+  ],
+  [
+   "Nymphalis",
+   "Amasia",
+   "Côte occ. d'Afrique"
+  ]
+ ],
+ "n282": [
+  [
+   "Nymphalis",
+   "Callisto",
+   "Java, Amboine",
+   "cutter box clips the forewing tips badly"
+  ],
+  [
+   "Nymphalis",
+   "Lasinassa",
+   "Guyane"
+  ]
+ ],
+ "n284": [
+  [
+   "Nymphalis",
+   "Alimena",
+   "Java, Amboine"
+  ],
+  [
+   "Nymphalis",
+   "Salmasis",
+   "?"
+  ]
+ ],
+ "n286": [
+  [
+   "Nymphalis",
+   "Condomanus",
+   "Guyane"
+  ],
+  [
+   "Nymphalis",
+   "Hydarnis",
+   "Brésil"
+  ],
+  [
+   "Nymphalis",
+   "Clymenus",
+   "Brésil"
+  ],
+  [
+   "Nymphalis",
+   "Anthiocus",
+   "Guyane, Brésil"
+  ]
+ ],
+ "n288": [
+  [
+   "Nymphalis",
+   "Demophon",
+   "Guyane"
+  ],
+  [
+   "Nymphalis",
+   "Demodice",
+   "Guyane, Brésil"
+  ]
+ ],
+ "n306": [
+  [
+   "Pavonia",
+   "Lycaon",
+   "Mexique"
+  ],
+  [
+   "Brassolis",
+   "Sophorae",
+   "Surinam, Brésil"
+  ]
+ ],
+ "n308": [
+  [
+   "Eumenia",
+   "Toxea",
+   "Amérique mér."
+  ],
+  [
+   "Eurybia",
+   "Nicaeus",
+   "Guyane, Brésil"
+  ],
+  [
+   "Satyrus",
+   "Lena",
+   "Guyane, Brésil"
+  ]
+ ],
+ "n310": [
+  [
+   "Satyrus",
+   "Nereis",
+   "Guyane, Brésil"
+  ],
+  [
+   "Hesperia",
+   "Orion",
+   "Brésil, Surinam"
+  ],
+  [
+   "Hesperia",
+   "Versicolor",
+   "Brésil, Surinam"
+  ]
+ ],
+ "n16": [
+  [
+   "Ornithoptera",
+   "Priamus",
+   "",
+   "single plate: from the printed index"
+  ]
+ ],
+ "n20": [
+  [
+   "Papilio",
+   "Ulysses",
+   "",
+   "single plate: from the printed index"
+  ]
+ ],
+ "n52": [
+  [
+   "Papilio",
+   "Deiphobus",
+   "",
+   "single plate: from the printed index"
+  ]
+ ],
+ "n198": [
+  [
+   "Idea",
+   "Agelia",
+   "",
+   "single plate: from the printed index"
+  ]
+ ],
+ "n266": [
+  [
+   "Nymphalis",
+   "Orion",
+   "",
+   "single plate: from the printed index"
+  ]
+ ],
+ "n298": [
+  [
+   "Morpho",
+   "Inachis",
+   "",
+   "single plate: from the printed index"
+  ]
+ ],
+ "n300": [
+  [
+   "Morpho",
+   "Leonte",
+   "",
+   "single plate: from the printed index"
+  ]
+ ],
+ "n302": [
+  [
+   "Morpho",
+   "Menelaus",
+   "",
+   "single plate: from the printed index"
+  ]
+ ],
+ "n304": [
+  [
+   "Morpho",
+   "Laertes",
+   "",
+   "single plate: from the printed index"
+  ]
+ ]
+}
