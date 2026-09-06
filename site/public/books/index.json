@@ -18,26 +18,8 @@
         "w": 1.55,
         "d": 0.42
       },
-      "cloth": "#2d4633",
-      "gilt": "#d6b466",
-      "spine": [
-        [
-          "HISTOIRE",
-          "NATURELLE"
-        ],
-        [
-          "DES",
-          "LÉPIDOPTÈRES",
-          "EXOTIQUES"
-        ],
-        [
-          "LUCAS"
-        ],
-        [
-          "PARIS",
-          "1835"
-        ]
-      ],
+      "cloth": "#181311",
+      "gilt": "#d2b166",
       "masthead": "Histoire naturelle des lépidoptères exotiques · Paris, 1835",
       "credit": "Plates drawn and engraved by Pauquet for <i>Histoire naturelle des lépidoptères exotiques</i>, Paris, 1835–36. Scans: <a href=\"https://www.biodiversitylibrary.org/item/213697\" target=\"_blank\" rel=\"noopener\">Biodiversity Heritage Library</a>, public domain.",
       "unreadNote": "The handwritten caption for this figure has not been transcribed yet. Its species and facts will follow.",
@@ -45,6 +27,11 @@
         "image": "/covers/lucas/author.jpg",
         "caption": "Hippolyte Lucas",
         "dates": "1814–1899"
+      },
+      "spineTitle": "Histoire naturelle des Lépidoptères exotiques",
+      "cover": {
+        "front": "/covers/lucas/front.jpg",
+        "grain": "/covers/lucas/grain.jpg"
       }
     },
     {
@@ -83,26 +70,8 @@
         "w": 1.72,
         "d": 0.64
       },
-      "cloth": "#6e2622",
-      "gilt": "#d9b768",
-      "spine": [
-        [
-          "A HISTORY",
-          "OF",
-          "BRITISH",
-          "MOTHS"
-        ],
-        [
-          "MORRIS"
-        ],
-        [
-          "IN FOUR",
-          "VOLUMES"
-        ],
-        [
-          "NIMMO"
-        ]
-      ],
+      "cloth": "#131814",
+      "gilt": "#cfae62",
       "masthead": "A History of British Moths · F. O. Morris · London, 1903",
       "credit": "Plates from F. O. Morris, <i>A History of British Moths</i>, new edition in four volumes, London: John C. Nimmo, 1903. Scans: <a href=\"https://archive.org/details/historyofbritish01morr_1\" target=\"_blank\" rel=\"noopener\">Internet Archive</a>, public domain.",
       "unreadNote": "Morris’s text for this figure was not recovered from the scan yet. Its species and facts will follow.",
@@ -110,6 +79,12 @@
         "image": "/covers/british-moths/author.jpg",
         "caption": "Francis Orpen Morris",
         "dates": "1810–1893"
+      },
+      "spineTitle": "A History of British Moths",
+      "cover": {
+        "front": "/covers/british-moths/front.jpg",
+        "frontMr": "/covers/british-moths/front-mr.png",
+        "grain": "/covers/british-moths/grain.jpg"
       }
     }
   ]

@@ -14,6 +14,17 @@ export const SQUARE = 0.05;       // the boards overhang the page block by this 
 
 const FELL = '"IM Fell English", "EB Garamond", Georgia, serif';
 
+/** Cover photographs are fetched before the shelf is built so every face can be drawn at once. */
+const images = new Map<string, HTMLImageElement>();
+export function preloadCovers(cfgs: BookConfig[]): Promise<void> {
+  const urls = cfgs.flatMap(c => [c.cover?.front, c.cover?.frontMr, c.cover?.grain]).filter((u): u is string => !!u);
+  return Promise.all(urls.map(u => new Promise<void>((res) => {
+    if (images.has(u)) return res();
+    const img = new Image(); img.onload = () => { images.set(u, img); res(); }; img.onerror = () => res(); img.src = u;
+  }))).then(() => {});
+}
+const image = (u?: string) => (u ? images.get(u) : undefined);
+
 function rng(seed: number) {
   let a = seed >>> 0;
   return () => { a |= 0; a = (a + 0x6D2B79F5) | 0; let t = Math.imul(a ^ (a >>> 15), 1 | a); t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t; return ((t ^ (t >>> 14)) >>> 0) / 4294967296; };
@@ -68,14 +79,54 @@ function giltRule(g: CanvasRenderingContext2D, x0: number, x1: number, y: number
 /** A roughness/metalness canvas base: cloth is rough and not metallic. */
 function mrBase(g: CanvasRenderingContext2D) { g.fillStyle = 'rgb(0,225,0)'; g.fillRect(0, 0, g.canvas.width, g.canvas.height); }
 
-/** The spine: raised bands and gilt panels reading top to bottom. */
+/** Base of a spine or edge: the binding's own grain tiled, else procedural cloth. */
+function binding(g: CanvasRenderingContext2D, cfg: BookConfig, seed: number) {
+  const grain = image(cfg.cover?.grain);
+  if (grain) {
+    const pat = g.createPattern(grain, 'repeat')!;
+    const t = new DOMMatrix().scale((0.32 * PX) / grain.width);   // a tile is about a third of a world unit
+    pat.setTransform(t); g.fillStyle = pat; g.fillRect(0, 0, g.canvas.width, g.canvas.height);
+    const e = g.createLinearGradient(0, 0, 0, g.canvas.height); e.addColorStop(0, 'rgba(0,0,0,0.25)'); e.addColorStop(0.06, 'rgba(0,0,0,0)'); e.addColorStop(0.94, 'rgba(0,0,0,0)'); e.addColorStop(1, 'rgba(0,0,0,0.3)');
+    g.fillStyle = e; g.fillRect(0, 0, g.canvas.width, g.canvas.height);
+  } else cloth(g, cfg.cloth, seed);
+}
+
+/** Split a long title into two balanced lines at a space. */
+function balance(title: string): string[] {
+  if (title.length <= 28) return [title];
+  const words = title.split(' '); let best = [title], diff = Infinity;
+  for (let i = 1; i < words.length; i++) {
+    const a = words.slice(0, i).join(' '), b = words.slice(i).join(' ');
+    const d = Math.abs(a.length - b.length); if (d < diff) { diff = d; best = [a, b]; }
+  }
+  return best;
+}
+
+/** The spine: the title in gilt running along its length, the year at the foot. */
 export function spine(cfg: BookConfig, mr: boolean): HTMLCanvasElement {
   const { d, h } = cfg.format, W = d * PX, H = h * PX, c = canvas(W, H), g = c.getContext('2d')!;
-  if (mr) mrBase(g); else cloth(g, cfg.cloth, cfg.volume ?? 1);
-  const panels = cfg.spine, bandY = [0.1, 0.42, 0.62, 0.8, 0.92];   // fractions of height where the raised bands fall
-  const bands = bandY.map(f => f * H);
-  // raised bands: a light and a dark line
-  for (const y of bands) {
+  if (mr) mrBase(g); else binding(g, cfg, cfg.volume ?? 1);
+  if (cfg.spine && !cfg.spineTitle) return spinePanels(cfg, g, W, H, mr);
+  const pad = W * 0.16, head = H * 0.07, foot = H * 0.9;
+  giltRule(g, pad, W - pad, head, 3, cfg.gilt, mr); giltRule(g, pad, W - pad, head + 9, 1.5, cfg.gilt, mr);
+  giltRule(g, pad, W - pad, foot, 3, cfg.gilt, mr); giltRule(g, pad, W - pad, foot - 9, 1.5, cfg.gilt, mr);
+  // title, reading top to bottom, one or two lines across the width of the spine
+  const lines = balance(cfg.spineTitle ?? cfg.title), n = lines.length;
+  const length = foot - head - H * 0.08, across = W - pad * 1.2;
+  let size = Math.min(across / n * 0.62, W * 0.42);
+  g.save(); g.translate(W / 2, (head + foot) / 2 - H * 0.02); g.rotate(Math.PI / 2);
+  const lh = across / n;
+  lines.forEach((t, i) => giltText(g, t, 0, (i - (n - 1) / 2) * lh * 0.9, size, cfg.gilt, mr, length));
+  g.restore();
+  // year, horizontal at the foot
+  giltText(g, cfg.year.split('–')[0], W / 2, foot + (H - foot) / 2, Math.min(W * 0.26, (H - foot) * 0.5), cfg.gilt, mr, W - pad);
+  return c;
+}
+
+/** Older spine style: raised bands and stacked gilt panels. */
+function spinePanels(cfg: BookConfig, g: CanvasRenderingContext2D, W: number, H: number, mr: boolean): HTMLCanvasElement {
+  const panels = cfg.spine!, bandY = [0.1, 0.42, 0.62, 0.8, 0.92];
+  for (const y of bandY.map(f => f * H)) {
     if (mr) { g.fillStyle = 'rgb(0,200,0)'; g.fillRect(0, y - 4, W, 8); continue; }
     g.fillStyle = 'rgba(255,255,255,0.14)'; g.fillRect(0, y - 5, W, 4);
     g.fillStyle = 'rgba(0,0,0,0.28)'; g.fillRect(0, y + 2, W, 4);
@@ -89,14 +140,21 @@ export function spine(cfg: BookConfig, mr: boolean): HTMLCanvasElement {
     const lh = size * 1.22, y0 = mid - (lines.length - 1) * lh / 2;
     lines.forEach((t, i) => giltText(g, t, W / 2, y0 + i * lh, size, cfg.gilt, mr, W - pad * 2));
   });
-  // small gilt ornament in the last panel above the imprint
-  if (!mr) { g.fillStyle = cfg.gilt; g.beginPath(); const y = 0.795 * H; g.moveTo(W / 2, y - 7); g.lineTo(W / 2 + 7, y); g.lineTo(W / 2, y + 7); g.lineTo(W / 2 - 7, y); g.closePath(); g.fill(); }
-  return c;
+  return g.canvas;
 }
 
 /** A board: cloth with a blind-tooled border; a gilt title cartouche on books that are not part of a set. */
 export function board(cfg: BookConfig, front: boolean, mr: boolean): HTMLCanvasElement {
   const { w, h } = cfg.format, W = w * PX, H = h * PX, c = canvas(W, H), g = c.getContext('2d')!;
+  const photo = image(cfg.cover?.front);
+  if (photo) {
+    // the photograph is the board; its left edge is the spine side. The back board is its mirror.
+    const src = mr ? image(cfg.cover?.frontMr) : photo;
+    if (!src) { mrBase(g); return c; }
+    g.save(); if (!front) { g.translate(W, 0); g.scale(-1, 1); }
+    g.drawImage(src, 0, 0, W, H); g.restore();
+    return c;
+  }
   if (mr) mrBase(g); else cloth(g, cfg.cloth, (cfg.volume ?? 1) * 7 + (front ? 1 : 2));
   const m = W * 0.06;
   // blind rules: pressed into the cloth, so darker with a light edge
@@ -125,6 +183,11 @@ export function board(cfg: BookConfig, front: boolean, mr: boolean): HTMLCanvasE
     giltText(g, ['', 'I', 'II', 'III', 'IV'][cfg.volume] ?? '', W / 2, H * 0.5, W * 0.16, cfg.gilt, mr, W * 0.5);
   }
   return c;
+}
+
+/** The narrow edges of a board: the binding's grain. */
+export function edge(cfg: BookConfig): HTMLCanvasElement {
+  const c = canvas(0.6 * PX, 0.6 * PX), g = c.getContext('2d')!; binding(g, cfg, 9); return c;
 }
 
 /** Page block edges: cream with fine leaf lines, a little foxing. */

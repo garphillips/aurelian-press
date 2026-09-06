@@ -3,7 +3,7 @@ import { RoomEnvironment } from 'three/examples/jsm/environments/RoomEnvironment
 import type { Scene } from './scene';
 import { FOV } from './scene';
 import type { BookConfig } from './books';
-import { BOARD, SQUARE, board, spine, pages, firstLeaf, pasteDown, plank, faceMaterial, tex } from './bindings';
+import { BOARD, SQUARE, board, edge, spine, pages, firstLeaf, pasteDown, plank, faceMaterial, tex } from './bindings';
 import { reduceMotion } from './specimen';
 
 const GAP = 0.14;            // between books
@@ -30,7 +30,7 @@ class ShelfBook {
   constructor(public cfg: BookConfig, onTextureReady: () => void) {
     const { h, w, d } = cfg.format;
     const mat = (c: HTMLCanvasElement, mr?: HTMLCanvasElement) => { const m = faceMaterial(c, mr); this.disposables.push(m); return m; };
-    const clothEdge = mat(board(cfg, false, false));
+    const clothEdge = mat(edge(cfg));
     const spineMat = mat(spine(cfg, false), spine(cfg, true));
     const frontMat = mat(board(cfg, true, false), board(cfg, true, true));
     const backMat = mat(board(cfg, false, false), board(cfg, false, true));

@@ -3,6 +3,7 @@ import { Scene, FOV } from './scene';
 import { loadBooks, bookForPath, type BookConfig } from './books';
 import { startBook, type BookSession } from './book';
 import { Shelf } from './shelf';
+import { preloadCovers } from './bindings';
 
 /**
  * Front door. "/" is the shelf; each book has a route ("/lucas/") that opens straight
@@ -62,6 +63,7 @@ function runShelf() {
 async function showShelf(closing?: BookConfig) {
   document.title = SITE;
   mastSub.textContent = 'Antique books of butterflies and moths, brought to life';
+  await preloadCovers(books);
   shelf = new Shelf(scene, books, (b) => openBook(b, true));
   scene.camera.fov = FOV; scene.camera.updateProjectionMatrix();
   if (closing) {
