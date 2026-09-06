@@ -39,7 +39,10 @@ Spines are designed, not scanned: title, author, volume, in gilt on the cloth co
 4. **Cover assets (half a day).** Pull the two title pages, grade them, build spine textures.
 5. **Polish (half a day).** Empty slots, mobile column, keyboard focus, colophon link.
 
-## Decisions to make with Gareth
-- Whether volumes 2–4 of Morris are separate books on the shelf or one book that opens to a volume choice.
-- Cloth colours and spine typography, or lean on the real bindings if we can find photographs of the copies.
-- Whether the shelf should show progress ("193 of 193 named") or stay purely a bookshelf.
+## Decisions (Gareth, 6 Sept 2026)
+- **Morris is four distinct books** on the shelf, vols 1–4 side by side, each opening into its own volume. The shelf config therefore needs a `series` field so the four spines read as a set (same cloth, same gilt, "Vol. I" to "Vol. IV").
+- **Morris cover: use the real binding.** The 1903 Nimmo edition has a beautiful cover and it should be reproduced. Asset step: photograph or source a good image of the actual boards and spine (Gareth to supply or we hunt for a bookseller/library photo), then build the box textures from it.
+- **Lucas cover: designed, with Gareth's hand.** No suitable original binding to copy (French 1830s part-works were issued in paper wrappers and bound to taste). Gareth will bring creative direction for a fitting cover; the plan is to design it together — starting points: a quarter-leather board with a paper label, the title page as the paste-down, a single engraved butterfly stamped on the front.
+
+## Still open
+- Whether the shelf shows progress ("193 of 193 named") or stays purely a bookshelf.
