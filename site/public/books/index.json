@@ -32,7 +32,8 @@
       "cover": {
         "front": "/covers/lucas/front.jpg",
         "grain": "/covers/lucas/grain.jpg"
-      }
+      },
+      "spineFont": "Playfair Display"
     },
     {
       "id": "british-moths",
@@ -85,7 +86,8 @@
         "front": "/covers/british-moths/front.jpg",
         "frontMr": "/covers/british-moths/front-mr.png",
         "grain": "/covers/british-moths/grain.jpg"
-      }
+      },
+      "spineFont": "Libre Baskerville"
     }
   ]
 }

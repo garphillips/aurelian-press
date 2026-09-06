@@ -18,10 +18,11 @@ const FELL = '"IM Fell English", "EB Garamond", Georgia, serif';
 const images = new Map<string, HTMLImageElement>();
 export function preloadCovers(cfgs: BookConfig[]): Promise<void> {
   const urls = cfgs.flatMap(c => [c.cover?.front, c.cover?.frontMr, c.cover?.grain]).filter((u): u is string => !!u);
-  return Promise.all(urls.map(u => new Promise<void>((res) => {
+  const fonts = cfgs.map(c => c.spineFont).filter((f): f is string => !!f).map(f => document.fonts.load(`20px "${f}"`).catch(() => []));
+  return Promise.all<unknown>([...fonts, ...urls.map(u => new Promise<void>((res) => {
     if (images.has(u)) return res();
     const img = new Image(); img.onload = () => { images.set(u, img); res(); }; img.onerror = () => res(); img.src = u;
-  }))).then(() => {});
+  }))]).then(() => {});
 }
 const image = (u?: string) => (u ? images.get(u) : undefined);
 
@@ -62,10 +63,10 @@ export function cloth(g: CanvasRenderingContext2D, colour: string, seed = 3) {
 }
 
 /** Gilt lettering with a hint of emboss: dark offset beneath, bright face on top. */
-function giltText(g: CanvasRenderingContext2D, text: string, x: number, y: number, size: number, gilt: string, mr: boolean, maxW: number) {
-  g.font = `${size}px ${FELL}`; g.textAlign = 'center'; g.textBaseline = 'middle';
+function giltText(g: CanvasRenderingContext2D, text: string, x: number, y: number, size: number, gilt: string, mr: boolean, maxW: number, font = FELL) {
+  g.font = `${size}px ${font}`; g.textAlign = 'center'; g.textBaseline = 'middle';
   let w = g.measureText(text).width;
-  if (w > maxW) { size *= maxW / w; g.font = `${size}px ${FELL}`; }
+  if (w > maxW) { size *= maxW / w; g.font = `${size}px ${font}`; }
   if (mr) { g.fillStyle = 'rgb(0,70,230)'; g.fillText(text, x, y); return size; }
   g.fillStyle = 'rgba(0,0,0,0.45)'; g.fillText(text, x + size * 0.03, y + size * 0.04);
   g.fillStyle = gilt; g.fillText(text, x, y);
@@ -112,14 +113,16 @@ export function spine(cfg: BookConfig, mr: boolean): HTMLCanvasElement {
   giltRule(g, pad, W - pad, foot, 3, cfg.gilt, mr); giltRule(g, pad, W - pad, foot - 9, 1.5, cfg.gilt, mr);
   // title, reading top to bottom, one or two lines across the width of the spine
   const lines = balance(cfg.spineTitle ?? cfg.title), n = lines.length;
+  const font = cfg.spineFont ? `"${cfg.spineFont}", ${FELL}` : FELL;
   const length = foot - head - H * 0.08, across = W - pad * 1.2;
-  let size = Math.min(across / n * 0.62, W * 0.42);
+  // a single line sits at about a quarter of the spine's width; two lines share it
+  const size = n === 1 ? W * 0.17 : Math.min(across / n * 0.6, W * 0.3);
   g.save(); g.translate(W / 2, (head + foot) / 2 - H * 0.02); g.rotate(Math.PI / 2);
   const lh = across / n;
-  lines.forEach((t, i) => giltText(g, t, 0, (i - (n - 1) / 2) * lh * 0.9, size, cfg.gilt, mr, length));
+  lines.forEach((t, i) => giltText(g, t, 0, (i - (n - 1) / 2) * lh * 0.9, size, cfg.gilt, mr, length, font));
   g.restore();
   // year, horizontal at the foot
-  giltText(g, cfg.year.split('–')[0], W / 2, foot + (H - foot) / 2, Math.min(W * 0.26, (H - foot) * 0.5), cfg.gilt, mr, W - pad);
+  giltText(g, cfg.year.split('–')[0], W / 2, foot + (H - foot) / 2, Math.min(W * 0.17, (H - foot) * 0.5), cfg.gilt, mr, W - pad, font);
   return c;
 }
 

@@ -13,6 +13,7 @@ export interface BookConfig {
   format: { h: number; w: number; d: number };   // world units: height, width (spine to fore-edge), thickness
   cloth: string; gilt: string;   // binding colour (spine, edges) and the gilt
   spineTitle?: string;           // gilt along the spine; the year goes at the foot
+  spineFont?: string;            // each book's spine in its own face
   spine?: string[][];            // older style: gilt panels, each a stack of lines
   cover?: { front: string; frontMr?: string; grain?: string };   // photographs of the real binding
   portrait?: { image: string; caption: string; dates?: string };   // the author, as a frontispiece under the cover
