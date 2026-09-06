@@ -63,18 +63,21 @@ export function cloth(g: CanvasRenderingContext2D, colour: string, seed = 3) {
 }
 
 /** Gilt lettering with a hint of emboss: dark offset beneath, bright face on top. */
+/** Pale lettering is stamped pigment, not leaf: matte. Gold is metallic. */
+function isPale(hex: string) { const [r, g, b] = hexToRgb(hex); return (r + g + b) / 3 > 200 && Math.max(r, g, b) - Math.min(r, g, b) < 40; }
+const letteringMR = (gilt: string) => isPale(gilt) ? 'rgb(0,150,40)' : 'rgb(0,70,230)';
 function giltText(g: CanvasRenderingContext2D, text: string, x: number, y: number, size: number, gilt: string, mr: boolean, maxW: number, font = FELL) {
   g.font = `${size}px ${font}`; g.textAlign = 'center'; g.textBaseline = 'middle';
   let w = g.measureText(text).width;
   if (w > maxW) { size *= maxW / w; g.font = `${size}px ${font}`; }
-  if (mr) { g.fillStyle = 'rgb(0,70,230)'; g.fillText(text, x, y); return size; }
+  if (mr) { g.fillStyle = letteringMR(gilt); g.fillText(text, x, y); return size; }
   g.fillStyle = 'rgba(0,0,0,0.45)'; g.fillText(text, x + size * 0.03, y + size * 0.04);
   g.fillStyle = gilt; g.fillText(text, x, y);
-  g.fillStyle = 'rgba(255,245,210,0.35)'; g.fillText(text, x - size * 0.015, y - size * 0.02);
+  if (!isPale(gilt)) { g.fillStyle = 'rgba(255,245,210,0.35)'; g.fillText(text, x - size * 0.015, y - size * 0.02); }
   return size;
 }
 function giltRule(g: CanvasRenderingContext2D, x0: number, x1: number, y: number, thick: number, gilt: string, mr: boolean) {
-  g.fillStyle = mr ? 'rgb(0,70,230)' : gilt; g.fillRect(x0, y - thick / 2, x1 - x0, thick);
+  g.fillStyle = mr ? letteringMR(gilt) : gilt; g.fillRect(x0, y - thick / 2, x1 - x0, thick);
   if (!mr) { g.fillStyle = 'rgba(0,0,0,0.35)'; g.fillRect(x0, y + thick / 2, x1 - x0, Math.max(1, thick * 0.6)); }
 }
 /** A roughness/metalness canvas base: cloth is rough and not metallic. */
