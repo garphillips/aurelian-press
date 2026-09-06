@@ -33,7 +33,8 @@
         "front": "/covers/lucas/front.jpg",
         "grain": "/covers/lucas/grain.jpg"
       },
-      "spineFont": "Playfair Display"
+      "spineFont": "Playfair Display",
+      "spineItalic": true
     },
     {
       "id": "british-moths",
