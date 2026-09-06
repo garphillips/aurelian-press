@@ -1,0 +1,108 @@
+{
+  "books": [
+    {
+      "id": "lucas",
+      "route": "/lucas/",
+      "title": "Histoire naturelle des lépidoptères exotiques",
+      "shortTitle": "Lépidoptères exotiques",
+      "author": "H. Lucas",
+      "authorLong": "Hippolyte Lucas",
+      "place": "Paris",
+      "year": "1835–36",
+      "plates": 80,
+      "specimens": 193,
+      "noun": "butterflies",
+      "status": "ready",
+      "format": {
+        "h": 2.4,
+        "w": 1.55,
+        "d": 0.42
+      },
+      "cloth": "#2d4633",
+      "gilt": "#d6b466",
+      "spine": [
+        [
+          "HISTOIRE",
+          "NATURELLE"
+        ],
+        [
+          "DES",
+          "LÉPIDOPTÈRES",
+          "EXOTIQUES"
+        ],
+        [
+          "LUCAS"
+        ],
+        [
+          "PARIS",
+          "1835"
+        ]
+      ],
+      "firstPage": "/covers/lucas/first.jpg",
+      "masthead": "Histoire naturelle des lépidoptères exotiques · Paris, 1835",
+      "credit": "Plates drawn and engraved by Pauquet for <i>Histoire naturelle des lépidoptères exotiques</i>, Paris, 1835–36. Scans: <a href=\"https://www.biodiversitylibrary.org/item/213697\" target=\"_blank\" rel=\"noopener\">Biodiversity Heritage Library</a>, public domain.",
+      "unreadNote": "The handwritten caption for this figure has not been transcribed yet. Its species and facts will follow."
+    },
+    {
+      "id": "british-moths",
+      "route": "/british-moths/",
+      "title": "A History of British Moths",
+      "shortTitle": "British Moths",
+      "author": "F. O. Morris",
+      "authorLong": "Francis Orpen Morris",
+      "place": "London",
+      "year": "1903",
+      "plates": 30,
+      "specimens": 331,
+      "noun": "moths",
+      "status": "ready",
+      "volumes": [
+        {
+          "n": 1,
+          "status": "ready"
+        },
+        {
+          "n": 2,
+          "status": "coming"
+        },
+        {
+          "n": 3,
+          "status": "coming"
+        },
+        {
+          "n": 4,
+          "status": "coming"
+        }
+      ],
+      "format": {
+        "h": 2.55,
+        "w": 1.72,
+        "d": 0.64
+      },
+      "cloth": "#6e2622",
+      "gilt": "#d9b768",
+      "spine": [
+        [
+          "A HISTORY",
+          "OF",
+          "BRITISH",
+          "MOTHS"
+        ],
+        [
+          "MORRIS"
+        ],
+        [
+          "IN FOUR",
+          "VOLUMES"
+        ],
+        [
+          "NIMMO"
+        ]
+      ],
+      "firstPage": "/covers/british-moths/first.jpg",
+      "masthead": "A History of British Moths · F. O. Morris · London, 1903",
+      "credit": "Plates from F. O. Morris, <i>A History of British Moths</i>, new edition in four volumes, London: John C. Nimmo, 1903. Scans: <a href=\"https://archive.org/details/historyofbritish01morr_1\" target=\"_blank\" rel=\"noopener\">Internet Archive</a>, public domain.",
+      "unreadNote": "Morris’s text for this figure was not recovered from the scan yet. Its species and facts will follow."
+    }
+  ]
+}

@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>The Lepidoptera Plates</title>
-  <meta name="description" content="The eighty plates of Histoire naturelle des lépidoptères exotiques (Paris, 1835–36), brought to life. Scroll through the book; the specimens breathe, startle and can be pinned for their facts.">
+  <meta name="description" content="A shelf of antique natural-history books brought to life: Lucas’s Histoire naturelle des lépidoptères exotiques (Paris, 1835) and Morris’s A History of British Moths (London, 1903). Open a book, scroll through its plates; the specimens breathe, startle and can be pinned for their facts.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
@@ -14,11 +14,25 @@
   <div id="spacer" aria-hidden="true"></div>
   <canvas id="gl" aria-label="Animated plates from the book"></canvas>
   <div id="vignette" aria-hidden="true"></div>
+  <div id="curtain" class="up" aria-hidden="true"></div>
 
   <header class="ui" id="masthead">
-    <h1>The <em>Lepidoptera</em> Plates</h1>
-    <p>Histoire naturelle des lépidoptères exotiques · Paris, 1835</p>
+    <h1><a href="/" id="toShelf">The <em>Lepidoptera</em> Plates</a></h1>
+    <p id="mastSub">Antique books of butterflies and moths, brought to life</p>
+    <a href="/" class="back" id="toShelf2" aria-label="Back to the shelf">← the shelf</a>
+    <nav id="volumes" aria-label="Volumes"></nav>
   </header>
+
+  <ol class="ui" id="labels" aria-label="Books on the shelf"></ol>
+  <div class="ui" id="more" aria-hidden="true">more books<br>to come</div>
+
+  <nav id="fallback" aria-label="The books">
+    <h2>The books</h2>
+    <ul>
+      <li><a href="/lucas/">H. Lucas, <i>Histoire naturelle des lépidoptères exotiques</i>, Paris 1835–36 · 80 plates, 193 butterflies</a></li>
+      <li><a href="/british-moths/">F. O. Morris, <i>A History of British Moths</i>, London 1903, in four volumes · vol. I so far: 30 plates, 331 moths</a></li>
+    </ul>
+  </nav>
 
   <div class="ui" id="plate">
     <span>Plate</span><b id="plateNum">I</b>
@@ -44,10 +58,7 @@
     <p class="src" id="cSrc"></p>
   </aside>
 
-  <footer class="ui" id="credit">
-    Plates drawn and engraved by Pauquet for <i>Histoire naturelle des lépidoptères exotiques</i>, Paris, 1835–36.
-    Scans: <a href="https://www.biodiversitylibrary.org/item/213697" target="_blank" rel="noopener">Biodiversity Heritage Library</a>, public domain.
-  </footer>
+  <footer class="ui" id="credit"></footer>
 
   <details id="tune" class="ui" hidden>
     <summary>Tune the motion</summary>

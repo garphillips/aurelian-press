@@ -10,15 +10,18 @@ export class Indicator {
   private markerLabel = document.getElementById('markerLabel')!;
   private current = -1;
 
-  constructor(private count: number, private labels: (i: number) => string, private onSelect: (i: number) => void) {
-    const ol = document.getElementById('ticks')!;
+  constructor(private count: number, private labels: (i: number) => string, private onSelect: (i: number) => void,
+              private numeral: (i: number) => string = (i) => roman(i + 1), volumeStart: (i: number) => boolean = (i) => i === 0) {
+    const ol = document.getElementById('ticks')!; ol.innerHTML = '';
+    let sinceStart = 0;
     for (let i = 0; i < count; i++) {
       const li = document.createElement('li');
       li.style.top = `${this.pct(i)}%`;
       li.tabIndex = 0;
       li.setAttribute('role', 'button');
-      li.setAttribute('aria-label', `Plate ${roman(i + 1)}`);
-      if ((i + 1) % 10 === 0 || i === 0) li.classList.add('ten');
+      li.setAttribute('aria-label', `Plate ${this.numeral(i)}`);
+      if (volumeStart(i)) { sinceStart = 0; li.classList.add('ten', 'vol'); } else sinceStart++;
+      if (sinceStart > 0 && (sinceStart + 1) % 10 === 0) li.classList.add('ten');
       const span = document.createElement('span'); span.textContent = this.labels(i); li.appendChild(span);
       li.addEventListener('click', () => onSelect(i));
       li.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onSelect(i); } });
@@ -32,7 +35,7 @@ export class Indicator {
     if (i === this.current) return;
     this.current = i;
     this.marker.style.top = `${this.pct(i)}%`;
-    this.markerLabel.textContent = roman(i + 1);
+    this.markerLabel.textContent = this.numeral(i);
     this.ticks.forEach((t, k) => t.classList.toggle('current', k === i));
   }
 

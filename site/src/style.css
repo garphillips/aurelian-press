@@ -16,6 +16,50 @@ body{overflow-x:hidden;}
 #masthead h1{margin:0;font-weight:400;font-size:22px;letter-spacing:.02em;}
 #masthead h1 em{font-style:italic;}
 #masthead p{margin:4px 0 0;font-size:13px;color:var(--ink-soft);font-variant:small-caps;letter-spacing:.14em;}
+#masthead a{color:inherit;text-decoration:none;pointer-events:auto;}
+#masthead .back{display:none;margin-top:10px;font-size:13px;font-style:italic;color:var(--ink-soft);letter-spacing:.03em;}
+#masthead .back:hover{color:var(--ink);}
+body.reading #masthead .back{display:inline-block;}
+#volumes{display:none;margin-top:14px;font-size:13px;font-variant:small-caps;letter-spacing:.14em;color:var(--ink-soft);pointer-events:auto;}
+body.reading #volumes:not(:empty){display:block;}
+#volumes span{margin-right:10px;}
+#volumes a{color:var(--ink-soft);text-decoration:none;margin-right:12px;padding-bottom:1px;border-bottom:1px solid transparent;}
+#volumes a.current{color:var(--ink);border-bottom-color:var(--rule);}
+#volumes a:hover{color:var(--ink);}
+#volumes a.coming{opacity:.45;cursor:default;}
+
+/* two modes: the shelf and a book being read */
+#plate,#ruler,#hint,#credit,#card{visibility:hidden;}
+body.reading #plate,body.reading #ruler,body.reading #hint,body.reading #credit{visibility:visible;}
+body.reading #card.show{visibility:visible;}
+#labels,#more{display:none;}
+body.shelf #labels,body.shelf #more{display:block;}
+
+/* the paper curtain between scenes */
+#curtain{position:fixed;inset:0;background:var(--paper);opacity:0;pointer-events:none;transition:opacity .55s ease;z-index:5;}
+#curtain.up{opacity:1;pointer-events:auto;}
+
+/* label cards under the books; JS moves each to sit beneath its book */
+#labels{list-style:none;margin:0;padding:0;inset:0;}
+#labels a{position:absolute;left:0;top:0;display:block;width:190px;padding:10px 12px 9px;text-align:center;text-decoration:none;color:var(--ink);
+  pointer-events:auto;opacity:0;transition:opacity .35s ease;
+  background:rgba(240,232,212,.92);border:1px solid var(--rule-faint);box-shadow:0 10px 30px rgba(60,40,15,.14), inset 0 0 0 3px rgba(240,232,212,.9), inset 0 0 0 4px rgba(90,75,50,.22);}
+#labels a.hover,#labels a:focus-visible{opacity:1;outline:none;}
+#labels a b{display:block;font-weight:400;font-size:16px;line-height:1.15;text-wrap:balance;}
+#labels a span{display:block;margin-top:3px;font-size:12px;color:var(--ink-soft);font-variant:small-caps;letter-spacing:.1em;}
+#labels a small{display:block;margin-top:4px;font-family:var(--body);font-size:12px;font-style:italic;color:var(--ink-soft);}
+#labels a.coming{color:var(--ink-soft);}
+#labels a.coming small{font-variant:small-caps;font-style:normal;letter-spacing:.12em;}
+#labels a.nudge{animation:nudge .5s ease;}
+@keyframes nudge{0%,100%{margin-left:0}25%{margin-left:-5px}75%{margin-left:5px}}
+#labels a.nudge{opacity:1;}   /* on touch screens a tap opens the book; only a refusal shows the label */
+#more{left:0;top:0;width:120px;text-align:center;font-size:13px;font-style:italic;line-height:1.4;color:var(--ink-soft);opacity:.75;transition:opacity .35s;}
+
+/* plain list for readers without WebGL or scripts; hidden once the scene runs */
+#fallback{position:relative;z-index:2;max-width:640px;margin:120px auto 40px;padding:0 24px;font-family:var(--body);}
+#fallback h2{font-family:var(--serif);font-weight:400;font-size:22px;}
+#fallback a{color:inherit;}
+body.js #fallback{display:none;}
 
 #plate{top:32px;right:72px;text-align:right;font-size:15px;font-variant:small-caps;letter-spacing:.16em;color:var(--ink-soft);}
 #plate b{display:block;font-size:30px;font-weight:400;letter-spacing:.05em;color:var(--ink);font-variant:normal;}
@@ -29,6 +73,8 @@ body{overflow-x:hidden;}
   transform:translateY(-.5px);transition:width .2s, opacity .2s;}
 #ticks li::before{content:"";position:absolute;right:-8px;top:-5px;height:11px;width:28px;}   /* fat hit area */
 #ticks li.ten{width:13px;opacity:.9;}
+#ticks li.vol{width:18px;opacity:1;}
+#ticks li.vol span{opacity:1;color:var(--ink);}
 #ticks li:hover,#ticks li:focus-visible{width:16px;opacity:1;outline:none;}
 #ticks li span{position:absolute;right:26px;top:-9px;font-size:12px;letter-spacing:.06em;color:var(--ink-soft);white-space:nowrap;
   opacity:0;transition:opacity .2s;font-variant:small-caps;}
@@ -46,7 +92,7 @@ body.pinned #ruler{opacity:.18;pointer-events:none;}
 #hint.gone{opacity:0;}
 #credit{bottom:20px;left:24px;max-width:360px;font-family:var(--body);font-size:12px;line-height:1.35;color:var(--ink-soft);pointer-events:auto;}
 #credit a{color:inherit;}
-@media (max-width:760px){ #credit{display:none;} #masthead h1{font-size:18px;} #masthead p{display:none;} }
+@media (max-width:760px){ #credit{display:none;} #masthead h1{font-size:18px;} #masthead p{display:none;} #volumes{margin-top:8px;} }
 
 #card{position:fixed;width:min(340px, calc(100vw - 48px));padding:22px 26px 20px;pointer-events:auto;
   background:rgba(240,232,212,.94);border:1px solid var(--rule-faint);
@@ -80,4 +126,4 @@ body.pinned #ruler{opacity:.18;pointer-events:none;}
 #tune button{font-family:var(--serif);font-variant:small-caps;letter-spacing:.1em;font-size:13px;background:none;border:1px solid rgba(90,75,50,.4);color:var(--ink);padding:4px 10px;cursor:pointer;}
 #tune button[aria-pressed="true"]{background:rgba(90,75,50,.15);}
 
-@media (prefers-reduced-motion: reduce){ #marker{transition:none;} #card{transition:none;} }
+@media (prefers-reduced-motion: reduce){ #marker{transition:none;} #card{transition:none;} #curtain{transition:none;} #labels a{transition:none;} }

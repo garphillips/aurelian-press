@@ -1,5 +1,5 @@
 """
-Build the site's content file for the Lucas book:  site/public/content/plates.json
+Build the site's content file for the Lucas book:  site/public/books/lucas/content/plates.json
 
 Sources, in increasing priority:
   content/lucas-entries.json      parsed 1835 index + body text (French), one record per species, assigned to a
@@ -80,7 +80,7 @@ for sid, e in by_sid.items():
 content = {'book': {'title': book.get('title'), 'publisher': book.get('publisher'), 'years': book.get('years'), 'engraver': book.get('engraver'),
                     'bhlItem': book.get('bhlItem'), 'flickrAlbum': book.get('flickrAlbum')},
            'plates': plates, 'specimens': specimens}
-os.makedirs(f'{ROOT}/site/public/content', exist_ok=True)
-json.dump(content, open(f'{ROOT}/site/public/content/plates.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
+os.makedirs(f'{ROOT}/site/public/books/lucas/content', exist_ok=True)
+json.dump(content, open(f'{ROOT}/site/public/books/lucas/content/plates.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
 print(f"plates.json: {len(plates)} plates, {len(specimens)} specimens, {sum(1 for s in specimens.values() if s.get('latin'))} with Latin, "
       f"{sum(1 for s in specimens.values() if s.get('family'))} enriched, {sum(1 for s in specimens.values() if any(f.startswith('Lucas, 1835') for f in s.get('facts', [])))} with a Lucas excerpt")

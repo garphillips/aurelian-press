@@ -16,11 +16,11 @@ export class Plate {
   specimens: Specimen[] = [];
   readonly scale: number;
 
-  constructor(public m: PlateManifest, public index: number) {
+  constructor(public m: PlateManifest, public index: number, public root: string) {
     const [pw, ph] = m.canvas;
     this.scale = PLATE_H / ph;
     this.group.position.y = -index * PITCH;
-    const base = `/plates/${m.plateKey}`;
+    const base = `${root}/plates/${m.plateKey}`;
     for (const sm of m.specimens) {
       if (!sm.parts.body && !sm.parts['wing-L']) continue;
       const sp = new Specimen(sm, base, this.scale);
@@ -38,8 +38,9 @@ export class Plate {
 }
 
 const cache = new Map<string, Promise<PlateManifest>>();
-export function loadManifest(plateKey: string): Promise<PlateManifest> {
-  let p = cache.get(plateKey);
-  if (!p) { p = fetch(`/plates/${plateKey}/manifest.json`).then(r => r.json()); cache.set(plateKey, p); }
+export function loadManifest(root: string, plateKey: string): Promise<PlateManifest> {
+  const key = `${root}/${plateKey}`;
+  let p = cache.get(key);
+  if (!p) { p = fetch(`${root}/plates/${plateKey}/manifest.json`).then(r => r.json()); cache.set(key, p); }
   return p;
 }

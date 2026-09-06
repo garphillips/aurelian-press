@@ -1,192 +1,121 @@
 import * as THREE from 'three';
-import { Scene, CAM_DIST, FOV } from './scene';
-import { Plate, PITCH, loadManifest } from './plate';
-import { Specimen, tune } from './specimen';
-import { Indicator } from './indicator';
-import { Card } from './card';
-import { loadContent, plateLabel, roman } from './content';
-import { inkUniform } from './shaders';
-import type { PlateIndexEntry } from './types';
+import { Scene, FOV } from './scene';
+import { loadBooks, bookForPath, type BookConfig } from './books';
+import { startBook, type BookSession } from './book';
+import { Shelf } from './shelf';
 
+/**
+ * Front door. "/" is the shelf; each book has a route ("/lucas/") that opens straight
+ * into the reading experience. Opening a book from the shelf lifts it, opens the cover and
+ * fades through paper into the plates; closing reverses the move.
+ */
+document.body.classList.add('js');
 const canvas = document.getElementById('gl') as HTMLCanvasElement;
 const scene = new Scene(canvas);
+const books = await loadBooks();
+await Promise.all([document.fonts.load('20px "IM Fell English"'), document.fonts.load('20px "EB Garamond"')]).catch(() => {});
 
-const index: PlateIndexEntry[] = await fetch('/plates/index.json').then(r => r.json());
-const N = index.length;
-document.getElementById('spacer')!.style.height = `${N * 100}vh`;
-document.getElementById('plateCount')!.textContent = `of ${N}`;
+const mastSub = document.getElementById('mastSub')!;
+const curtainEl = document.getElementById('curtain')!;
+const SITE = 'The Lepidoptera Plates';
 
-const content = await loadContent();
-const indicator = new Indicator(N, i => plateLabel(index[i].plateKey, index[i].specimens), i => scrollToPlate(i));
-
-/* ------------------------------------------------------------------ */
-/*  Plates: only the few around the viewport exist at any time         */
-/* ------------------------------------------------------------------ */
-const mounted = new Map<number, Plate>();
-const KEEP = 2;
-async function ensurePlates(centre: number) {
-  for (const [i, p] of mounted) if (Math.abs(i - centre) > KEEP) { p.dispose(); mounted.delete(i); }
-  for (let i = Math.max(0, centre - KEEP); i <= Math.min(N - 1, centre + KEEP); i++) {
-    if (mounted.has(i)) continue;
-    const m = await loadManifest(index[i].plateKey);
-    if (mounted.has(i)) continue;
-    const plate = new Plate(m, i);
-    mounted.set(i, plate); scene.scene.add(plate.group);
-  }
+/** Paper-coloured curtain between the two scenes. Resolves once the fade is done. */
+function curtain(up: boolean): Promise<void> {
+  return new Promise((res) => {
+    if (curtainEl.classList.contains('up') === up) return res();
+    curtainEl.classList.toggle('up', up);
+    setTimeout(res, matchMedia('(prefers-reduced-motion: reduce)').matches ? 30 : 560);
+  });
 }
 
-/* ------------------------------------------------------------------ */
-/*  Scroll & routing                                                    */
-/* ------------------------------------------------------------------ */
-let camY = 0, camX = 0, targetPlate = 0;
-let pinned: Specimen | null = null, pinnedPlate: Plate | null = null;
-const hint = document.getElementById('hint')!;
-function plateFromScroll() { return scrollY / innerHeight; }
-function scrollToPlate(i: number, smooth = true) {
-  unpin();
-  scrollTo({ top: i * innerHeight, behavior: smooth ? 'smooth' : 'auto' });
-}
-// deep link: #n16 or #plate-3
-const hash = location.hash.replace('#', '');
-if (hash) {
-  const byKey = index.findIndex(p => p.plateKey === hash);
-  const byNum = hash.startsWith('plate-') ? parseInt(hash.slice(6)) - 1 : -1;
-  const i = byKey >= 0 ? byKey : byNum;
-  if (i >= 0 && i < N) { scrollToPlate(i, false); camY = -i * PITCH; }
-}
-addEventListener('keydown', (e) => {
-  if (e.key === 'Escape') unpin();
-  if (e.key === 'ArrowDown' || e.key === 'PageDown' || e.key === 'j') { e.preventDefault(); scrollToPlate(Math.min(N - 1, Math.round(plateFromScroll()) + 1)); }
-  if (e.key === 'ArrowUp' || e.key === 'PageUp' || e.key === 'k') { e.preventDefault(); scrollToPlate(Math.max(0, Math.round(plateFromScroll()) - 1)); }
-});
-let lastScroll = scrollY;
-addEventListener('scroll', () => {
-  if (Math.abs(scrollY - lastScroll) > 80 && pinned) unpin();
-  lastScroll = scrollY; hint.classList.add('gone');
-}, { passive: true });
-
-/* ------------------------------------------------------------------ */
-/*  Pointer, pinning                                                    */
-/* ------------------------------------------------------------------ */
-const raycaster = new THREE.Raycaster();
-const pointer = new THREE.Vector2(-10, -10), pointerWorld = new THREE.Vector3();
-const plane0 = new THREE.Plane(new THREE.Vector3(0, 0, 1), 0);
-let hasPointer = false, pointerSpeed = 0, lastPX = 0, lastPY = 0;
-const card = new Card(() => unpin());
-
-addEventListener('pointermove', (e) => {
-  hasPointer = true;
-  pointer.set((e.clientX / innerWidth) * 2 - 1, -(e.clientY / innerHeight) * 2 + 1);
-  pointerSpeed = Math.min(1, Math.hypot(e.clientX - lastPX, e.clientY - lastPY) / 40);
-  lastPX = e.clientX; lastPY = e.clientY;
-});
+// pointer, shared by the shelf loop for parallax
+const pointer = new THREE.Vector2(0, 0); let hasPointer = false;
+addEventListener('pointermove', (e) => { hasPointer = true; pointer.set((e.clientX / innerWidth) * 2 - 1, -(e.clientY / innerHeight) * 2 + 1); });
 addEventListener('pointerleave', () => { hasPointer = false; });
 
-function pin(sp: Specimen, plate: Plate) {
-  if (pinned) pinned.pinned = false;
-  pinned = sp; pinnedPlate = plate; sp.pinned = true;
-  card.show(sp, plate.m.plateKey);
-  document.body.classList.add('pinned');
-  hint.classList.add('gone');
-  history.replaceState(null, '', `#${plate.m.plateKey}`);
+let session: BookSession | null = null; let current: BookConfig | null = null;
+let shelf: Shelf | null = null;
+let shelfRaf = 0; let busy = false;
+
+/* ---------------- the shelf ---------------- */
+function runShelf() {
+  const clock = new THREE.Clock();
+  const camTarget = new THREE.Vector3(), look = new THREE.Vector3();
+  const frame = () => {
+    if (!shelf) return;
+    const dt = Math.min(clock.getDelta(), 0.05);
+    const hovering = shelf.update(dt, hasPointer);
+    const px = hasPointer ? pointer.x : 0, py = hasPointer ? pointer.y : 0;
+    const settle = 1 - shelf.openT;
+    shelf.cameraTarget(camTarget, shelf.openT); camTarget.x += px * 0.35 * settle; camTarget.y += py * 0.22 * settle;
+    scene.camera.position.lerp(camTarget, 1 - Math.pow(0.02, dt));
+    look.copy(shelf.focus); look.x += px * 0.1 * settle; look.y += py * 0.06 * settle;
+    scene.camera.lookAt(look);
+    scene.follow(shelf.focus);
+    canvas.style.cursor = hovering ? 'pointer' : 'default';
+    scene.render();
+    shelfRaf = requestAnimationFrame(frame);
+  };
+  frame();
 }
-function unpin() {
-  if (!pinned) return;
-  pinned.pinned = false; pinned = null; pinnedPlate = null; card?.hide();
-  document.body.classList.remove('pinned');
+
+async function showShelf(closing?: BookConfig) {
+  document.title = SITE;
+  mastSub.textContent = 'Antique books of butterflies and moths, brought to life';
+  shelf = new Shelf(scene, books, (b) => openBook(b, true));
+  scene.camera.fov = FOV; scene.camera.updateProjectionMatrix();
+  if (closing) {
+    // the book is still open before the viewer; settle the camera there, then close it
+    shelf.setOpen(closing, 1); shelf.openT = 1;
+    shelf.cameraTarget(scene.camera.position, 1); scene.camera.lookAt(shelf.focus);
+    runShelf();
+    await curtain(false);
+    await shelf.animateOpen(closing, -1, 1.5);
+  } else {
+    shelf.cameraTarget(scene.camera.position, 0); scene.camera.lookAt(shelf.focus);
+    runShelf();
+    await curtain(false);
+  }
 }
-canvas.addEventListener('click', (e) => {
-  pointer.set((e.clientX / innerWidth) * 2 - 1, -(e.clientY / innerHeight) * 2 + 1);
-  raycaster.setFromCamera(pointer, scene.camera);
-  const hits: THREE.Mesh[] = [];
-  for (const p of mounted.values()) for (const s of p.specimens) hits.push(s.hit);
-  const hit = raycaster.intersectObjects(hits)[0];
-  if (hit) {
-    const sp = hit.object.userData.specimen as Specimen;
-    const plate = [...mounted.values()].find(p => p.specimens.includes(sp))!;
-    if (pinned === sp) unpin(); else pin(sp, plate);
-  } else unpin();
+function hideShelf() { cancelAnimationFrame(shelfRaf); shelf?.dispose(); shelf = null; }
+
+/* ---------------- transitions ---------------- */
+async function openBook(b: BookConfig, push: boolean) {
+  if (busy || session) return; busy = true;
+  if (push) history.pushState(null, '', b.route);
+  document.title = `${b.shortTitle} · ${SITE}`;
+  if (shelf) { await shelf.animateOpen(b, 1, 1.7); }
+  await curtain(true);
+  hideShelf();
+  session = await startBook(scene, b, () => closeBook(b, true)); current = b;
+  busy = false;
+  await curtain(false);
+}
+async function closeBook(b: BookConfig, push: boolean) {
+  if (busy || !session) return; busy = true;
+  await curtain(true);
+  session.stop(); session = null; current = null;
+  if (push) history.pushState(null, '', '/');
+  await showShelf(b);
+  busy = false;
+}
+
+/* ---------------- routing ---------------- */
+function routed(): BookConfig | undefined { return bookForPath(books, location.pathname); }
+addEventListener('popstate', () => {
+  const b = routed();
+  if (b && b.status === 'ready' && !session) openBook(b, false);
+  else if (!b && current) closeBook(current, false);
 });
 
-/* ------------------------------------------------------------------ */
-/*  Dev tuning panel (?tune)                                            */
-/* ------------------------------------------------------------------ */
-if (new URLSearchParams(location.search).has('tune')) {
-  const panel = document.getElementById('tune')!; panel.hidden = false;
-  for (const [id, key] of [['tAmp', 'amp'], ['tFreq', 'freq'], ['tLag', 'lag'], ['tRest', 'rest'], ['tBreath', 'breath']] as const) {
-    const el = document.getElementById(id) as HTMLInputElement; const out = el.nextElementSibling as HTMLElement;
-    const upd = () => { (tune as any)[key] = parseFloat(el.value); out.textContent = el.value; }; el.addEventListener('input', upd); upd();
+{
+  const b = routed();
+  if (b && b.status === 'ready') {
+    document.title = `${b.shortTitle} · ${SITE}`;
+    session = await startBook(scene, b, () => closeBook(b, true)); current = b;
+    await curtain(false);
+  } else {
+    if (location.pathname !== '/') history.replaceState(null, '', '/');
+    await showShelf();
   }
 }
-let inkTarget = 0;
-document.getElementById('bColour')?.addEventListener('click', () => setInk(0));
-document.getElementById('bInk')?.addEventListener('click', () => setInk(1));
-function setInk(v: number) {
-  inkTarget = v;
-  document.getElementById('bColour')?.setAttribute('aria-pressed', String(v === 0));
-  document.getElementById('bInk')?.setAttribute('aria-pressed', String(v === 1));
-}
-addEventListener('keydown', (e) => { if (e.key === 'i') setInk(inkTarget ? 0 : 1); });
-
-/* ------------------------------------------------------------------ */
-/*  Frame loop                                                          */
-/* ------------------------------------------------------------------ */
-const clock = new THREE.Clock();
-const focus = new THREE.Vector3(), camTarget = new THREE.Vector3(), tmp = new THREE.Vector3(), tmp2 = new THREE.Vector3();
-const plateNum = document.getElementById('plateNum')!;
-let lastEnsure = -1;
-
-function frame() {
-  const dt = Math.min(clock.getDelta(), 0.05), t = clock.elapsedTime;
-
-  // which plate is nearest, mount neighbours
-  const progress = plateFromScroll();
-  const nearest = Math.max(0, Math.min(N - 1, Math.round(progress)));
-  if (nearest !== lastEnsure) { lastEnsure = nearest; ensurePlates(nearest); indicator.set(nearest); plateNum.textContent = roman(nearest + 1); }
-
-  // camera follows scroll; when pinned it eases onto the specimen
-  let wantY = -progress * PITCH, wantX = 0, wantFov = FOV;
-  if (pinned) {
-    pinned.centre(tmp2);
-    wantY = tmp2.y; wantX = tmp2.x + (innerWidth > 640 ? pinned.span * 0.36 : 0);
-    // frame the specimen plus room for the card: about 2.7 spans of view width, never wider than the page
-    wantFov = Math.max(14, Math.min(FOV, THREE.MathUtils.radToDeg(2 * Math.atan((pinned.span * 2.7) / (2 * CAM_DIST) / scene.camera.aspect))));
-  }
-  camY += (wantY - camY) * (1 - Math.pow(0.001, dt));
-  camX += (wantX - camX) * (1 - Math.pow(0.001, dt));
-  scene.camera.fov += (wantFov - scene.camera.fov) * (1 - Math.pow(0.01, dt)); scene.camera.updateProjectionMatrix();
-
-  const px = hasPointer ? pointer.x : 0, py = hasPointer ? pointer.y : 0;
-  camTarget.set(px * 0.18 + camX, camY + py * 0.12, CAM_DIST);
-  scene.camera.position.lerp(camTarget, 1 - Math.pow(0.02, dt));
-  scene.camera.lookAt(px * 0.05 + camX, camY + py * 0.03, 0);
-  focus.set(camX, camY, 0); scene.follow(focus);
-
-  // pointer in world
-  raycaster.setFromCamera(pointer, scene.camera);
-  raycaster.ray.intersectPlane(plane0, pointerWorld);
-  let hovering = false;
-  for (const p of mounted.values()) for (const s of p.specimens) {
-    s.update(dt, t, hasPointer ? pointerWorld : null, pointerSpeed, tmp);
-    if (hasPointer && !hovering && s.hovered(pointerWorld, tmp)) hovering = true;
-  }
-  pointerSpeed *= Math.pow(0.001, dt);
-  canvas.style.cursor = hovering ? 'pointer' : 'default';
-
-  inkUniform.value += (inkTarget - inkUniform.value) * (1 - Math.pow(0.02, dt));
-
-  if (pinned) {
-    pinned.centre(tmp).add(tmp2.set(pinned.span * 0.55, pinned.span * 0.3, 0)).project(scene.camera);
-    card.placeAt((tmp.x * 0.5 + 0.5) * innerWidth + 28, (-tmp.y * 0.5 + 0.5) * innerHeight);
-  }
-
-  scene.render();
-  requestAnimationFrame(frame);
-}
-ensurePlates(Math.round(plateFromScroll()));
-frame();
-
-// keep the URL hash in step with the page for sharing
-setInterval(() => { if (!pinned) { const k = index[Math.round(plateFromScroll())]?.plateKey; if (k && location.hash !== `#${k}`) history.replaceState(null, '', `#${k}`); } }, 800);
-void targetPlate; void content;
-(window as any).__dbg = { get pinned() { return pinned; }, mounted, scene, get camY() { return camY; } };

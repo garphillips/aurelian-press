@@ -20,11 +20,11 @@ export interface PlateIndexEntry { plateKey: string; order: number; specimens: s
 
 export interface SpeciesInfo {
   name?: string; latin?: string; family?: string; wingspan?: string; range?: string; flies?: string;
-  facts?: string[]; caption?: string; confidence?: 'confirmed' | 'probable' | 'unread';
+  facts?: string[]; caption?: string; confidence?: 'confirmed' | 'probable' | 'unread'; figure?: number;
 }
 
 export interface Content {
-  book: { title: string; publisher: string; years: string; engraver: string; bhlItem: string; flickrAlbum: string };
-  plates: Record<string, { order: number; numeral: string; flickrUrl: string; bhlUrl: string }>;
+  book: { title: string; author?: string; publisher: string; years: string; engraver?: string; bhlItem: string; flickrAlbum?: string; licence?: string };
+  plates: Record<string, { order: number; numeral?: string; plate?: string; volume?: number; flickrUrl: string; bhlUrl: string }>;
   specimens: Record<string, SpeciesInfo>;
 }

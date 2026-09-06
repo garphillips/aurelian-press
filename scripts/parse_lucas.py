@@ -4,7 +4,7 @@ into one record per species: French name, Latin name as Lucas wrote it, page, pl
 description (French). Then assign each record to a cut specimen (plateKey-figure) by plate and
 page order.
 
-Inputs : assets-src/text/lucas_ocr.txt, content/book-plates.json, site/public/plates/*/manifest.json
+Inputs : assets-src/text/lucas_ocr.txt, content/book-plates.json, site/public/books/lucas/plates/*/manifest.json
 Output : content/lucas-entries.json  (+ a printed summary of gaps to check)
 """
 import json, re, glob, os, difflib, unicodedata
@@ -154,7 +154,7 @@ for e in index:
 plates = json.load(open(os.path.join(ROOT, 'content/book-plates.json')))['plates']
 order_to_key = {p.get('plate', p['order']): p['plateKey'] for p in plates}   # printed plate number -> scan (binding is out of sequence in two places)
 counts = {}
-for f in glob.glob(os.path.join(ROOT, 'site/public/plates/*/manifest.json')):
+for f in glob.glob(os.path.join(ROOT, 'site/public/books/lucas/plates/*/manifest.json')):
     m = json.load(open(f)); counts[m['plateKey']] = len(m['specimens'])
 
 by_plate = defaultdict(list)

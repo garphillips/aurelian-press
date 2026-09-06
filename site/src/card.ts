@@ -11,15 +11,15 @@ export class Card {
   private facts = document.getElementById('cFacts')!;
   private src = document.getElementById('cSrc')!;
 
-  constructor(onClose: () => void) {
+  constructor(onClose: () => void, private unreadNote = 'The caption for this figure has not been read yet. Its species and facts will follow.') {
     this.el.querySelector('.close')!.addEventListener('click', (e) => { e.stopPropagation(); onClose(); });
   }
 
-  show(sp: Specimen, plateKey: string) {
-    const c = getContent();
+  show(sp: Specimen, plateKey: string, root: string) {
+    const c = getContent(root);
     const plate = c?.plates[plateKey];
-    const info = speciesFor(sp.m.id);
-    const fig = parseInt(sp.m.id.split('-')[1]);
+    const info = speciesFor(root, sp.m.id);
+    const fig = info.figure ?? parseInt(sp.m.id.split('-')[1]);
     const numeral = roman(plate?.order ?? 0);
     this.num.textContent = `Plate ${numeral} · figure ${fig}`;
     this.name.textContent = info.name ?? info.latin ?? `Figure ${fig}`;
@@ -35,7 +35,7 @@ export class Card {
     for (const f of info.facts ?? []) { const li = document.createElement('li'); li.textContent = f; this.facts.appendChild(li); }
     if (!info.name && !info.latin) {
       const li = document.createElement('li');
-      li.textContent = 'The handwritten caption for this figure has not been transcribed yet. Its species and facts will follow.';
+      li.textContent = this.unreadNote;
       this.facts.appendChild(li);
     } else if (info.confidence === 'probable') {
       const li = document.createElement('li'); li.style.fontStyle = 'italic';
@@ -43,7 +43,7 @@ export class Card {
       this.facts.appendChild(li);
     }
     this.src.innerHTML = plate
-      ? `From <i>${c!.book.title}</i>, ${c!.book.years}. <a href="${plate.bhlUrl}" target="_blank" rel="noopener">Original plate</a> · <a href="${plate.flickrUrl}" target="_blank" rel="noopener">Flickr</a>`
+      ? `From <i>${c!.book.title}</i>, ${c!.book.years}. <a href="${plate.bhlUrl}" target="_blank" rel="noopener">Original plate</a> · <a href="${plate.flickrUrl}" target="_blank" rel="noopener">${plate.flickrUrl.includes('flickr') ? 'Flickr' : 'Scan'}</a>`
       : '';
     this.el.classList.add('show');
   }

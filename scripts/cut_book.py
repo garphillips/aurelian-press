@@ -19,7 +19,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BOOK = json.load(open(f'{ROOT}/content/book-plates.json'))
 OVR_PATH = f'{ROOT}/content/plate-overrides.json'
 OVERRIDES = json.load(open(OVR_PATH)) if os.path.exists(OVR_PATH) else {}
-OUT_ROOT = f'{ROOT}/site/public/plates'
+OUT_ROOT = f'{ROOT}/site/public/books/lucas/plates'
 REVIEW = f'{ROOT}/assets-src/review'
 os.makedirs(REVIEW, exist_ok=True)
 

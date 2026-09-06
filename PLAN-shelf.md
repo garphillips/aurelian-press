@@ -9,14 +9,14 @@ The site opens on a bookshelf, not on a plate. Two (later more) books stand on a
 | Book | Spine | Route | Status |
 |---|---|---|---|
 | Lucas, *Histoire naturelle des lépidoptères exotiques*, Paris 1835–36 | tall octavo, dark green cloth, gilt title | `/lucas/` | content-complete |
-| Morris, *A History of British Moths*, London 1903, vol. 1 | quarto, red cloth, gilt moth on spine | `/british-moths/` | vol. 1 cut and named; vols 2–4 to follow as further volumes on the same shelf |
+| Morris, *A History of British Moths*, London 1903 (four volumes, read as one book) | quarto, red cloth, gilt spine | `/british-moths/` | vol. 1 cut and named; vols 2–4 to follow inside the same book |
 | (empty slots) | a gap or two, and a card that reads "more books to come" | | |
 
 Each book carries a small label card on the shelf edge: title, author, year, plate count, "80 plates · 193 butterflies".
 
 ## How it works
 
-**One app, several books.** Merge the two Vite sites into one codebase with a `books/` config: each book is a folder of content (`plates.json`, `plates/`, `content/`) plus a `book.json` (title, author, year, spine design, cover image, plate count, motion defaults). The shelf reads `books/index.json`; the plate experience is the existing code parameterised by book. Routes: `/` shelf, `/lucas/`, `/lucas/#n146` deep links unchanged, `/british-moths/`. The fork's site becomes a second book folder; nothing about the rigs or cards changes.
+**One app, several books.** Built 6 Sept 2026: one Vite app in `site/`; `site/public/books/index.json` is the shelf config (title, author, year, binding, spine panels, plate count, volumes); each book is a folder `site/public/books/<id>/` with `plates/` and `content/plates.json` (Lucas), or `<id>/<n>/` per volume (Morris; `british-moths/1` is a symlink to the fork's `site/public`). The plate experience is `src/book.ts`, parameterised by book; `src/shelf.ts` and `src/bindings.ts` are the shelf; `src/main.ts` routes. Routes: `/` shelf, `/lucas/` (deep links `#n146` unchanged), `/british-moths/`. `vite.config.ts` sets `build.target: esnext` for the top-level awaits. The fork's own `site/` is now only the pipeline's output location.
 
 **Rendering the books.** Same Three.js scene as the plates, so the transition is continuous:
 - A book is a box with five textured faces (front board, back board, spine, top and fore-edge as page-block textures). Boards get a cloth normal map; spine text is rendered to a canvas texture in IM Fell English and stamped gold with a slight emboss.
@@ -40,7 +40,7 @@ Spines are designed, not scanned: title, author, volume, in gilt on the cloth co
 5. **Polish (half a day).** Empty slots, mobile column, keyboard focus, colophon link.
 
 ## Decisions (Gareth, 6 Sept 2026)
-- **Morris is four distinct books** on the shelf, vols 1–4 side by side, each opening into its own volume. The shelf config therefore needs a `series` field so the four spines read as a set (same cloth, same gilt, "Vol. I" to "Vol. IV").
+- **Morris is one book on the shelf.** (Revised the same day after seeing four separate volumes built: they read as clutter.) The four volumes are navigated *inside* the book: every volume that exists runs on in the same scroll, the ruler marks each volume's first plate, the plate counter reads "vol. I · of 30", and a volume switcher under the masthead lists I–IV with the unpublished volumes dimmed as "to follow". Data: `books/british-moths/<n>/` per volume, each with its own `plates/` and `content/`, so the fork pipeline can drop volumes 2–4 in without touching the site. Deep links inside a multi-volume book are `#v1-n7`.
 - **Morris cover: use the real binding.** The 1903 Nimmo edition has a beautiful cover and it should be reproduced. Asset step: photograph or source a good image of the actual boards and spine (Gareth to supply or we hunt for a bookseller/library photo), then build the box textures from it.
 - **Lucas cover: designed, with Gareth's hand.** No suitable original binding to copy (French 1830s part-works were issued in paper wrappers and bound to taste). Gareth will bring creative direction for a fitting cover; the plan is to design it together — starting points: a quarter-leather board with a paper label, the title page as the paste-down, a single engraved butterfly stamped on the front.
 
