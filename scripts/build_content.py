@@ -68,7 +68,13 @@ for sid, e in by_sid.items():
     ety = etym.get(e['specimen']) or etym.get((e.get('epithet') or '').lower())
     if ety: info['facts'].append(ety)
     if e.get('shared'): info['facts'].append('A second figure of the same species on this plate.')
-    info.update(hand.get(sid, {}))
+    h = dict(hand.get(sid, {}))
+    if h.get('facts'):
+        # hand-written facts lead; keep Lucas's excerpt and the name note, drop the Wikipedia stand-in
+        auto_keep = [f for f in info['facts'] if f.startswith('Lucas, 1835') or f in (etym.get(e['specimen']), etym.get((e.get('epithet') or '').lower()))]
+        h['facts'] = h['facts'] + auto_keep
+        h.setdefault('confidence', 'written')
+    info.update(h)
     specimens[sid] = {k: v for k, v in info.items() if v not in (None, '', [])}
 
 content = {'book': {'title': book.get('title'), 'publisher': book.get('publisher'), 'years': book.get('years'), 'engraver': book.get('engraver'),

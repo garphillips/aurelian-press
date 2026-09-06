@@ -423,7 +423,9 @@
 "The first birdwing ever described, named by Linnaeus in 1758 after Priam, king of Troy. He gave the great swallowtails the names of Trojan heroes.",
 "The male’s green is structural colour, not pigment: microscopic ridges on the scales scatter light. The engraver could only approximate it with paint.",
 "Females are larger, brown and cream, and were long thought to be a different species.",
-"Caterpillars feed on poisonous Dutchman’s pipe vines and carry the toxin into adulthood, so birds learn to leave the adults alone."
+"Caterpillars feed on poisonous Dutchman’s pipe vines and carry the toxin into adulthood, so birds learn to leave the adults alone.",
+"Lucas, 1835: “This butterfly, remarkable for the beauty of its colours and for its size, is without doubt one of the finest of its genus, and it was to this species that Linnaeus gave the epithet of Augustus. The forewings are oval, entire, of a matt velvet black above, with two bands of golden green, curved and narrow, one running along the costa and the other along the whole of the opposite edge.”",
+"Named by Linnaeus for Priam, king of Troy. In his 1758 system the largest swallowtails were the Trojans, the Equites Trojani, and their names still ring of the Iliad."
 ],
 "caption": "g. Ornithoptera Priamus ♂, île d’Amboine"
 },
@@ -435,10 +437,11 @@
 "family": "Papilionidae",
 "wingspan": "140 mm",
 "range": "Lucas's specimen: Iles Philippines",
-"confidence": "ocr",
+"confidence": "written",
 "facts": [
-"Troides rhadamantus, the tropical golden birdwing, is a birdwing butterfly that inhabits the Philippines. The species was first described by Hippolyte Lucas in 1835.",
-"Lucas called it Ornithoptera rhadamantus; the accepted name today is Troides rhadamantus.",
+"A birdwing of the Philippines, where it flies in forest clearings and along rivers; the male's hindwings are the colour of old gold, the female's are duller and larger.",
+"Like all birdwings its caterpillars feed on Aristolochia vines and take up their poisons, and every species of the genus is listed under the international trade convention CITES.",
+"Boisduval named it only in 1836, so Lucas was among the first to picture it, and he used Cramer's older name Amphrisius on the plate.",
 "Named for Rhadamanthus, the Cretan lawgiver who became a judge of the dead. Boisduval gave the name in 1836; Lucas printed it the year the species was described."
 ]
 },
@@ -450,10 +453,10 @@
 "family": "Papilionidae",
 "wingspan": "134–140 mm",
 "range": "Lucas's specimen: Guyane, Brésil",
-"confidence": "ocr",
+"confidence": "written",
 "facts": [
-"Papilio androgeus, the Androgeus swallowtail, queen page, or queen swallowtail, is a Neotropical butterfly of the family Papilionidae. It is found from Mexico to Argentina with a small population in southern Florida.",
-"Lucas called it Papilio polycaon; the accepted name today is Papilio androgeus.",
+"A common swallowtail of the American tropics from Mexico to Argentina; the male is banded with yellow, the female is dark with blue on the hindwings and looks like a different insect.",
+"Its caterpillars feed on citrus and on the prickly ash, Zanthoxylum, and are among the orange-grove pests of Brazil.",
 "Named for Polycaon, a Spartan prince who became the first king of Messenia."
 ]
 },
@@ -461,13 +464,15 @@
 "latin": "Papilio ulysses",
 "latin1835": "Papilio ulysses",
 "french1835": "Ulysse",
-"name": "Blue Mountain Swallowtail",
+"name": "Ulysses Butterfly",
 "family": "Papilionidae",
 "wingspan": "140 mm",
-"confidence": "ocr",
+"confidence": "written",
 "facts": [
+"The electric blue is structural, thrown back by ridges on the scales, and it flashes on and off as the butterfly beats its wings over the rainforest canopy of New Guinea and northern Queensland.",
+"Males will dive at anything blue, including clothing, which is how collectors and photographers still lure them down from the trees.",
+"The caterpillars feed on trees of the citrus family, especially Melicope, and the adult has become the emblem of tourism in tropical Queensland.",
 "Lucas, 1835: “The forewings are velvet black above, with a patch of azure blue that turns violet or green according to the angle at which one examines it. This patch runs from the base of all four wings to beyond the middle, its hind edge scalloped, and near the front edge of the forewings there is a fairly large black dot, present in the female too.”",
-"Papilio ulysses, the Ulysses butterfly, is a large swallowtail butterfly, in the subgenus Achillides, of Australia, Indonesia, Papua New Guinea and the Solomon Islands. Its size varies depending on subspecies, but the wingspan is about 10.5 cm (4.1 in) in Queensland.",
 "Named by Linnaeus for Ulysses, the wanderer of the Odyssey. The name has never changed, which is rare for a butterfly described in 1758."
 ]
 },
@@ -477,10 +482,10 @@
 "french1835": "Agavus",
 "family": "Papilionidae",
 "range": "Lucas's specimen: Brésil",
-"confidence": "ocr",
+"confidence": "written",
 "facts": [
-"Parides agavus, the Agavus Cattleheart, is a species of butterfly in the family Papilionidae. It is found in Brazil, Paraguay, and north Argentina.",
-"Lucas called it Papilio agavus; the accepted name today is Parides agavus.",
+"One of the cattlehearts, Parides, named for the red heart-shaped spots many of them carry on the hindwing; this one flies in south-eastern Brazil, Paraguay and northern Argentina.",
+"Its caterpillars feed on Aristolochia, the pipevines, and the poisons they store make the adults distasteful to birds.",
 "Named for Agave, daughter of Cadmus, who in her frenzy tore her own son Pentheus apart."
 ]
 },
@@ -491,9 +496,11 @@
 "name": "Crimson Rose",
 "family": "Papilionidae",
 "range": "Lucas's specimen: Bengale, Coromandel, Ile d'Amboine",
-"confidence": "ocr",
+"confidence": "written",
 "facts": [
-"Pachliopta hector, the crimson rose, is a large swallowtail butterfly belonging to the genus Pachliopta (roses) of the red-bodied swallowtails.",
+"A swallowtail of India and Sri Lanka whose caterpillars feed on Aristolochia and make it poisonous; birds learn to leave it alone, and the harmless female of the Common Mormon copies its pattern almost exactly.",
+"It gathers in numbers to migrate across southern India, and dozens may roost together on a single bush at dusk.",
+"Lucas's engraving shows the black forewings and crimson-spotted hindwings that give the English name; his caption adds Amboina, where it does not in fact occur.",
 "Named for Hector, Troy's champion. A Trojan name from Linnaeus, given to a red-bodied swallowtail he placed among the Trojans."
 ]
 },
@@ -504,10 +511,11 @@
 "name": "Common Bluebottle",
 "family": "Papilionidae",
 "range": "Lucas's specimen: Java",
-"confidence": "ocr",
+"confidence": "written",
 "facts": [
-"Graphium sarpedon, the common bluebottle is a species of swallowtail butterfly that is found in East, South and Southeast Asia. There are approximately sixteen subspecies with differing geographical distributions.",
-"Lucas called it Papilio sarpedon; the accepted name today is Graphium sarpedon.",
+"One of the fastest and most widespread swallowtails of Asia and Australia, a rapid flier that rarely settles except to drink at wet sand or puddles, often in company.",
+"The caterpillars feed on camphor and cinnamon trees, so it thrives in cities where these are planted.",
+"The pale band across the wings is blue-green in life; the engraver has caught its translucence, which comes from the band having almost no scales.",
 "Named for Sarpedon, the Lycian king killed by Patroclus before the walls of Troy."
 ]
 },
@@ -515,12 +523,13 @@
 "latin": "Graphium bathycles",
 "latin1835": "Papilio bathycles",
 "french1835": "Bathycles",
-"name": "Striped Jay",
+"name": "Veined Jay",
 "family": "Papilionidae",
 "range": "Lucas's specimen: Java, Ile d'Amboine",
-"confidence": "ocr",
+"confidence": "written",
 "facts": [
-"Graphium bathycles, the veined jay, is a butterfly in the family Papilionidae, that is found in the Indomalayan realm.",
+"A swallowtail of the forests of South-east Asia from Burma to Borneo and Java, one of the jays, Graphium, that gather in dozens to drink at riverbanks.",
+"The dark veins that cross the pale patches, and give it its English name, are clear in Lucas's figure.",
 "Named for Bathycles of Magnesia, the sculptor who made the throne of Apollo at Amyclae."
 ]
 },
@@ -529,8 +538,10 @@
 "latin1835": "Papilio polymetus",
 "french1835": "Polymetus",
 "range": "Lucas's specimen: Brésil",
-"confidence": "ocr",
+"confidence": "written",
 "facts": [
+"Lucas's Polymetus, from Brazil, has not yet been matched to a modern species with confidence; the plate shows a black cattleheart-like swallowtail with white forewing patches and rose-red hindwing bands.",
+"Cramer described a Papilio Polymetus in 1782, and the figure is a fair copy of his; the name has since been treated as a form or synonym of one of the South American Parides.",
 "Named for Polymetus; Cramer's coinage, from the Greek for much counsel."
 ]
 },
@@ -542,10 +553,10 @@
 "family": "Papilionidae",
 "wingspan": "100–120 mm",
 "range": "Lucas's specimen: Java, Coromandel",
-"confidence": "ocr",
+"confidence": "written",
 "facts": [
-"Losaria coon, the common clubtail, is a butterfly belonging to the swallowtail family, Papilionidae. The butterfly belongs to the clubtails, genus Losaria.",
-"Lucas called it Papilio coon; the accepted name today is Losaria coon.",
+"The spatulate tails and the slow, drifting flight are the marks of this swallowtail from India to Java; it feeds on Aristolochia as a caterpillar and is left alone by birds as an adult.",
+"The pale hindwing patches vary from white to yellow between regions, and the old name Coon comes from a Trojan in the Iliad, not from any resemblance.",
 "Not a hero at all: Fabricius took the name from Coön, a Trojan warrior in the Iliad who wounded Agamemnon."
 ]
 },
@@ -554,8 +565,10 @@
 "latin1835": "Papilio evander",
 "french1835": "Evander",
 "range": "Lucas's specimen: Brésil",
-"confidence": "ocr",
+"confidence": "written",
 "facts": [
+"Lucas's Evander, from Brazil, awaits a confident modern identification; the plate shows a swallowtail of the cattleheart group with a red bar across the forewing and a red-spotted hindwing.",
+"Godart gave the name in 1819; the figure was probably drawn from a specimen in the Paris museum, where Lucas worked.",
 "Named for Evander, the Arcadian who settled on the Palatine before Rome was founded and welcomed Aeneas."
 ]
 },
@@ -566,10 +579,10 @@
 "name": "Vertumnus Cattleheart",
 "family": "Papilionidae",
 "range": "Lucas's specimen: Brésil",
-"confidence": "ocr",
+"confidence": "written",
 "facts": [
-"Parides vertumnus  is a species of butterfly in the family Papilionidae. It is found in the Neotropical realm.",
-"Lucas called it Papilio vertumnus; the accepted name today is Parides vertumnus.",
+"A cattleheart of the Amazon and Guianas, black with a pink or red flash on the hindwing; males carry a fold of pale scent scales along the inner edge of the hindwing, which the engraver has shown as a white streak.",
+"The caterpillars feed on pipevines, Aristolochia, and the whole group is poisonous to predators.",
 "Named for Vertumnus, the Roman god of the changing seasons and of gardens."
 ]
 },
@@ -577,12 +590,13 @@
 "latin": "Eurytides iphitas",
 "latin1835": "Papilio iphitas",
 "french1835": "Iphitas",
-"name": "Yellow Kite Swallowtail",
+"name": "Yellow Kite",
 "family": "Papilionidae",
 "range": "Lucas's specimen: Amérique mérid.",
-"confidence": "ocr",
+"confidence": "written",
 "facts": [
-"Eurytides iphitas, commonly known as the yellow kite swallowtail, is a species of butterfly in the family Papilionidae. It is an endangered species that is endemic to Brazil.",
+"A kite swallowtail of the Atlantic forest of Brazil, pale yellow with black bands and long tails; it has become rare as the coastal forest has been cleared and is now protected.",
+"Lucas took the name from Hübner, who described it in the 1820s; the figure is one of the earliest coloured pictures of the species.",
 "Named for Iphitus, whose bow Odysseus carried and used to slay the suitors."
 ]
 },
@@ -593,10 +607,11 @@
 "name": "Pipevine Swallowtail",
 "family": "Papilionidae",
 "range": "Lucas's specimen: Amérique sept.",
-"confidence": "ocr",
+"confidence": "written",
 "facts": [
-"Battus philenor, the pipevine swallowtail or blue swallowtail, is a swallowtail butterfly found in North America and Central America. This butterfly is black with iridescent-blue hindwings.",
-"Lucas called it Papilio philenor; the accepted name today is Battus philenor.",
+"The most important model for mimicry in North America: because its caterpillars feed on pipevines and make it poisonous, the dark female tiger swallowtail, the spicebush swallowtail, the black swallowtail and the red-spotted purple all copy its blue-black colours.",
+"The caterpillars are black with orange spines and feed openly in groups; the adults are the only butterflies in the eastern United States with iridescent blue-green hindwings.",
+"Pauquet drew this one from the side on a spray of its plant, the only such figure in the book; it is the one specimen that does not open its wings to the reader.",
 "The name means lover of husband in Greek; Linnaeus gave it in 1771 to the pipevine swallowtail of North America."
 ]
 },
@@ -604,14 +619,16 @@
 "latin": "Papilio aegeus",
 "latin1835": "Papilio erecteus",
 "french1835": "Erecthéa",
-"name": "Orchard Swallowtail Butterfly",
+"name": "Orchard Swallowtail",
 "family": "Papilionidae",
 "wingspan": "140 mm",
 "range": "Lucas's specimen: Nlle Hollande",
-"confidence": "ocr",
+"confidence": "written",
 "facts": [
+"The largest butterfly commonly seen in Australian gardens, where it lays on cultivated citrus; the male is black and white, the female carries red and blue on the hindwing.",
+"Donovan named it Erectheus in 1805, but Linnaeus had already described it as Aegeus, and that name stands.",
+"New Holland, on Lucas's caption, was still the usual name for Australia in Paris in 1835.",
 "Lucas, 1835: “All the wings are toothed, black, with whitish notches. The forewings carry a whitish, interrupted streak opposite the apex; the hindwings are crossed in the middle by a broad greyish-white band, sinuous on its outer side, ending at the anal angle in a blood-red lunule dusted with blue.”",
-"Papilio aegeus, the orchard swallowtail butterfly or large citrus butterfly is a species of butterfly from the family Papilionidae, that is found in eastern Australia and Papua New Guinea.",
 "Named for Erechtheus, the legendary king of Athens whose temple stands on the Acropolis."
 ]
 },
@@ -619,12 +636,14 @@
 "latin": "Papilio demoleus",
 "latin1835": "Papilio demoleus",
 "french1835": "Demoleus",
-"name": "Citrus Swallowtail",
+"name": "Lime Butterfly",
 "family": "Papilionidae",
 "range": "Lucas's specimen: Cap de Bonne Espérance",
-"confidence": "ocr",
+"confidence": "written",
 "facts": [
-"Papilio demoleus is a common and widespread swallowtail butterfly. The butterfly is also known as the lemon butterfly and chequered swallowtail.",
+"The only tailless Papilio of its group and one of the most widespread swallowtails in the world, from Africa through Asia to Australia; its caterpillars are a pest of lime and orange trees.",
+"It reached the Caribbean in 2004, probably with nursery citrus, and has since spread through the Greater Antilles.",
+"Lucas's specimen came from the Cape of Good Hope; the African population is now often treated as a separate species, Papilio demodocus.",
 "Named for Demoleus, a Greek slain by Aeneas in the Aeneid. Linnaeus placed the species among the Achivi, the Greek knights."
 ]
 },
@@ -632,12 +651,13 @@
 "latin": "Papilio phorbanta",
 "latin1835": "Papilio phorbanta",
 "french1835": "Phorbanla",
-"name": "Small Reunion Swallowtail",
+"name": "Small Réunion Swallowtail",
 "family": "Papilionidae",
 "range": "Lucas's specimen: Ile de France, Bourbon",
-"confidence": "ocr",
+"confidence": "written",
 "facts": [
-"Papilio phorbanta, also known as the small Réunion swallowtail, is a species of butterfly in the family Papilionidae. It is thought to be endemic to Réunion but may also be present on the Seychelles, but it might be extinct there.",
+"Found only on the island of Réunion, Lucas's Île Bourbon, where it is now rare and protected; its caterpillars feed on native citrus relatives and on cultivated orange trees.",
+"The two figures on this plate are the male and the female of one species: Boisduval's Disparilis, below, is the female, which is far more mottled than the male above.",
 "Named for Phorbas, a hero of several Greek tales, among them the boxer who challenged travellers to Delphi."
 ]
 },
@@ -645,26 +665,27 @@
 "latin": "Papilio phorbanta",
 "latin1835": "Papilio disparilis",
 "french1835": "Dispari lis",
-"name": "Small Reunion Swallowtail",
+"name": "Small Réunion Swallowtail (female)",
 "family": "Papilionidae",
 "range": "Lucas's specimen: Ile de France",
-"confidence": "ocr",
+"confidence": "written",
 "facts": [
-"Lucas, 1835: “The four wings are toothed, of a deep blackish brown above, with whitish notches. Towards the middle of the wing the male shows a large patch of fine blue-green, set transversely and divided in three by the veins, and near the apex of the same wings three more spots of the same colour.”",
-"Papilio phorbanta, also known as the small Réunion swallowtail, is a species of butterfly in the family Papilionidae. It is thought to be endemic to Réunion but may also be present on the Seychelles, but it might be extinct there.",
-"Lucas called it Papilio disparilis; the accepted name today is Papilio phorbanta."
+"This is the female of the butterfly above. Lucas followed Boisduval in treating it as a separate species, Disparilis, because the sexes look so different.",
+"Female swallowtails are often duller than males, but in this Réunion endemic the contrast is unusually strong, with brown and yellow mottling in place of the male's green-blue.",
+"Lucas, 1835: “The four wings are toothed, of a deep blackish brown above, with whitish notches. Towards the middle of the wing the male shows a large patch of fine blue-green, set transversely and divided in three by the veins, and near the apex of the same wings three more spots of the same colour.”"
 ]
 },
 "n52-1": {
 "latin": "Papilio deiphobus",
 "latin1835": "Papilio deiphobus",
 "french1835": "Déiphobe",
-"name": "Scarlet Mormon Swallowtail",
+"name": "Scarlet Mormon",
 "family": "Papilionidae",
 "wingspan": "130–160 mm",
-"confidence": "ocr",
+"confidence": "written",
 "facts": [
-"Papilio deiphobus is a species of swallowtail butterfly in the Papilioninae subfamily. It is found from the Mollucas to Sulawesi in Indonesia.",
+"A giant swallowtail of the Moluccas and Sulawesi, among the largest Papilio in the world; the female shown here carries the scarlet on the hindwing that gives the English name.",
+"The caterpillars feed on citrus and other rue-family trees, and the adults patrol forest edges with a slow, sailing flight.",
 "Named for Deiphobus, son of Priam, who took Helen as his wife after Paris fell."
 ]
 },
@@ -676,9 +697,10 @@
 "family": "Papilionidae",
 "wingspan": "120–150 mm",
 "range": "Lucas's specimen: Indes Orientales",
-"confidence": "ocr",
+"confidence": "written",
 "facts": [
-"Papilio agenor polymnestor, the Indian blue mormon, is a large swallowtail butterfly found in south India. It is the \"state butterfly\" of the Indian state of Maharashtra.",
+"The second largest butterfly of India and Sri Lanka, velvet black with a wash of pale blue on the hindwings; in 2015 it was declared the state butterfly of Maharashtra.",
+"It flies in the wet forests of the Western Ghats and is fond of Lantana and Ixora flowers; the caterpillars feed on citrus.",
 "Named for Polymnestor, the Thracian king of Euripides' Hecuba, who murdered Priam's youngest son for his gold."
 ]
 },
@@ -686,12 +708,13 @@
 "latin": "Papilio peranthus",
 "latin1835": "Papilio peranthus",
 "french1835": "Peranthus",
-"name": "Swift Peacock Swallowtail",
+"name": "Swift Peacock",
 "family": "Papilionidae",
 "range": "Lucas's specimen: Java, Cochinchine",
-"confidence": "ocr",
+"confidence": "written",
 "facts": [
-"Papilio peranthus, the Indonesian swallowtail is a butterfly of the family Papilionidae. It is found in Indonesia.",
+"A swallowtail of the Indonesian islands whose green-blue sheen on a black ground is one of the most brilliant among the peacock swallowtails.",
+"Lucas's Cochinchine is southern Vietnam; the species is in fact confined to Java, Bali and the islands eastward, so the locality was probably a dealer's guess.",
 "Named for Peranthus; Fabricius's coinage, apparently from the Greek for around the flowers."
 ]
 },
@@ -702,10 +725,12 @@
 "name": "Banded Swallowtail",
 "family": "Papilionidae",
 "range": "Lucas's specimen: Java",
-"confidence": "ocr",
+"confidence": "written",
 "facts": [
+"The one swallowtail that lays its eggs in a string: the female glues a chain of a dozen or more eggs to a leaf, and the caterpillars feed side by side in a row, an unusual habit in the family.",
+"Lucas called it Cresphontes, a name that properly belongs to the North American giant swallowtail; his own synonym, Cramer's Demolion, is the correct one, and his Java is right.",
+"The caterpillars feed on citrus relatives in the forests of Malaya, Sumatra and Java.",
 "Lucas, 1835: “This species, of middling size, is sulphur white on both surfaces. The tip of the forewings is edged above by a broad arched black band, much widened at the apex, where it carries a dot of the ground colour; the hindwings have very blunt teeth and a fairly long yellowish spatulate tail, with three black spots towards the middle of the surface.”",
-"Papilio demolion, the banded swallowtail, is a species of swallowtail butterfly belonging to the family Papilionidae.",
 "Named for Cresphontes, a descendant of Heracles who won Messenia by lot when the Peloponnese was divided."
 ]
 },
@@ -713,12 +738,13 @@
 "latin": "Papilio helenus",
 "latin1835": "Papilio helenus",
 "french1835": "Helenus",
-"name": "Red Helen Swallowtail",
+"name": "Red Helen",
 "family": "Papilionidae",
 "range": "Lucas's specimen: Chine",
-"confidence": "ocr",
+"confidence": "written",
 "facts": [
-"Papilio helenus, the red Helen, is a large swallowtail butterfly found in forests of southern India and parts of southeast Asia.",
+"A large black swallowtail of the Asian forests from India to Japan, with a great white patch on each hindwing and a row of red crescents beneath; it is a strong flier that visits flowers in the forest canopy.",
+"The caterpillars feed on wild citrus relatives, and the adults are commonly seen drinking at wet ground in the hills.",
 "Named for Helenus, the seer-prince of Troy and twin of Cassandra."
 ]
 },
@@ -726,12 +752,14 @@
 "latin": "Papilio dardanus",
 "latin1835": "Papilio brutus",
 "french1835": "Brutus",
-"name": "Mocker Swallowtail",
+"name": "Mocker Swallowtail (male)",
 "family": "Papilionidae",
 "range": "Lucas's specimen: Côte occ. Afrique, Cap de Bonne-Espérance",
-"confidence": "ocr",
+"confidence": "written",
 "facts": [
-"Papilio dardanus, the Saharan swallowtail, African swallowtail, mocker swallowtail or flying handkerchief, is a species of butterfly in the family Papilionidae. The species is broadly distributed throughout Sub-Saharan Africa.",
+"The male mocker swallowtail is the flying handkerchief of African forests, cream and black with tails; the females look nothing like him, and copy a dozen different poisonous butterflies instead.",
+"This female mimicry, controlled by a single genetic switch with many forms, made the species a classic case study in evolutionary genetics in the twentieth century.",
+"Lucas used Fabricius's name Brutus; Cramer's Merope, which Lucas cites, and Brown's Dardanus are the same butterfly, and Dardanus has priority.",
 "Named for Brutus, the Roman who drove out the Tarquin kings. Fabricius named it in 1793."
 ]
 },
@@ -740,8 +768,10 @@
 "latin1835": "Papilio dardanus",
 "french1835": "Dardanus",
 "range": "Lucas's specimen: Brésil",
-"confidence": "ocr",
+"confidence": "written",
 "facts": [
+"This Brazilian Dardanus of Fabricius is not the African mocker swallowtail that now bears the name, but one of the South American cattlehearts; which one has not yet been settled.",
+"The plate shows a black swallowtail with a red bar on the hindwing and pale spots at the forewing tip, and Lucas printed it between Brutus and Aeneas.",
 "Named for Dardanus, the mythical founder of the Trojan line, from whom the Dardanelles take their name."
 ]
 },
@@ -751,10 +781,10 @@
 "french1835": "Enée",
 "family": "Papilionidae",
 "range": "Lucas's specimen: Guyane",
-"confidence": "ocr",
+"confidence": "written",
 "facts": [
-"Parides aeneas is a species of butterfly in the family Papilionidae. It is found in the Neotropical realm.",
-"Lucas called it Papilio aeneas; the accepted name today is Parides aeneas.",
+"Parides aeneas is a cattleheart of the Amazon basin and the Guianas, black with a green or blue-green patch on the forewing and pink on the hindwing.",
+"Linnaeus named it in 1758 for Aeneas, placing it among his Trojans; the caterpillars feed on pipevines and the adults are poisonous.",
 "Named by Linnaeus for Aeneas, the Trojan prince who escaped the burning city to found the Roman line."
 ]
 },
@@ -762,15 +792,16 @@
 "latin": "Parides sesostris",
 "latin1835": "Papilio sesostris",
 "french1835": "Sésostris",
-"name": "Southern Cattle Heart",
+"name": "Emerald-patched Cattleheart",
 "family": "Papilionidae",
 "wingspan": "100–110 mm",
 "range": "Lucas's specimen: Guyane",
-"confidence": "ocr",
+"confidence": "written",
 "facts": [
+"The brilliant green patch on the forewing is structural colour and shifts with the angle of view; males carry it, females do not.",
+"It ranges from Mexico to the Amazon and is one of the most frequently seen cattlehearts at forest edges, where it feeds on pipevines as a caterpillar.",
+"Lucas's Guyane is French Guiana, whose specimens reached Paris in quantity through the colonial administration.",
 "Lucas, 1835: “The wings are deep black above and crossed towards the middle by a band of greenish yellow, narrowed and broken into round spots near the apex of the forewings; the hindwings carry a row of lunules of the same colour parallel to the hind edge. These wings are very bluntly toothed, edged with white at the notches, and end in a black tail a little spatulate.”",
-"Parides sesostris, the emerald-patched cattleheart or southern cattleheart, is a species of butterfly in the family Papilionidae.",
-"Lucas called it Papilio sesostris; the accepted name today is Parides sesostris.",
 "Named for Sesostris, the legendary Egyptian conqueror of Herodotus, who is usually identified with the pharaohs Senusret."
 ]
 },
@@ -779,8 +810,10 @@
 "latin1835": "Papilio dimas",
 "french1835": "Dimas",
 "range": "Lucas's specimen: Brésil",
-"confidence": "ocr",
+"confidence": "written",
 "facts": [
+"Lucas's Dimas, from Brazil, awaits a confident identification; the figure shows a small black swallowtail with a green forewing flash and a broad red hindwing band, of the cattleheart group.",
+"The name comes from Dymas, king of Phrygia in the Iliad.",
 "Named for Dymas, king of Phrygia and father of Hecuba."
 ]
 },
@@ -789,8 +822,9 @@
 "latin1835": "Papilio nephalion",
 "french1835": "Néphalion",
 "range": "Lucas's specimen: Brésil",
-"confidence": "ocr",
+"confidence": "written",
 "facts": [
+"Godart's Nephalion is a Brazilian swallowtail of the cattleheart group; the plate shows black wings with a white forewing band and a red hindwing patch. Its modern identity has not yet been fixed.",
 "Named for Nephalion, a son of Minos killed by Heracles at Paros."
 ]
 },
@@ -801,9 +835,10 @@
 "name": "Fluminense Swallowtail",
 "family": "Papilionidae",
 "range": "Lucas's specimen: Brésil",
-"confidence": "ocr",
+"confidence": "written",
 "facts": [
-"Parides ascanius, the Fluminense swallowtail, is a species of butterfly in the family Papilionidae. It is endemic to Brazil where it is confined to the municipalities of Atafona and Itaguaí.It is found in subcoastal swamps and thickets ('restinga').",
+"One of the rarest swallowtails in the world, confined to a few coastal marshes near Rio de Janeiro where its pipevine grows; it was among the first Brazilian insects legally protected, in 1973.",
+"The name Fluminense means of the river, and is the term for a native of the state of Rio de Janeiro.",
 "Named for Ascanius, son of Aeneas, who founded Alba Longa."
 ]
 },
@@ -813,9 +848,10 @@
 "french1835": "Lysithous",
 "family": "Papilionidae",
 "range": "Lucas's specimen: Brésil",
-"confidence": "ocr",
+"confidence": "written",
 "facts": [
-"Mimoides lysithous  is a species of butterfly in the family Papilionidae. It is found in the Neotropical realm.",
+"Mimoides lysithous is a harmless swallowtail of south-eastern Brazil that copies the poisonous cattlehearts so closely, in several different forms, that it was long confused with them.",
+"Lucas placed it beside Ascanius on the plate, and it is in fact a mimic of that very species in part of its range.",
 "Named for Lysithous; Fabricius's coinage, of uncertain origin."
 ]
 },
@@ -826,10 +862,10 @@
 "name": "Belus Swallowtail",
 "family": "Papilionidae",
 "range": "Lucas's specimen: Guyane, Brésil",
-"confidence": "ocr",
+"confidence": "written",
 "facts": [
-"Battus belus, the Belus swallowtail is a species of butterfly from the family Papilionidae that is found in Brazil, Colombia, Guatemala, Peru and Venezuela.",
-"Lucas called it Papilio belus; the accepted name today is Battus belus.",
+"A gold-rim swallowtail of the American tropics, black with a greenish sheen and a band of yellow spots; like its relatives it feeds on pipevines and is poisonous.",
+"Males of the genus Battus flutter their wings continuously while feeding at flowers, a habit that makes them easy to recognise in flight.",
 "Named for Belus, the legendary king of Egypt or Tyre and father of Dido in the Aeneid."
 ]
 },
@@ -840,10 +876,11 @@
 "name": "Polydamas Swallowtail",
 "family": "Papilionidae",
 "range": "Lucas's specimen: Guyane, Brésil",
-"confidence": "ocr",
+"confidence": "written",
 "facts": [
-"Battus polydamas, also known as the gold rim swallowtail, the Polydamas swallowtail or the tailless swallowtail, is a species of butterfly in the family Papilionidae. The species was first described by Carl Linnaeus in his 10th edition of Systema Naturae, published in 1758.",
-"Lucas called it Papilio polydamas; the accepted name today is Battus polydamas.",
+"The only tailless swallowtail in the eastern United States, where it reaches Florida and Texas; it ranges south to Argentina.",
+"The caterpillars feed on pipevines and are gregarious when young; the adults visit lantana and other flowers with a nervous, fluttering flight.",
+"Linnaeus named it in 1758; Lucas's figure shows the row of yellow spots along the wing margins and the pale spotting of the underside showing through.",
 "Named by Linnaeus for Polydamas, the Trojan counsellor and friend of Hector who urged caution the night before the Greeks broke out."
 ]
 },
@@ -852,8 +889,10 @@
 "latin1835": "Papilio licoraeus",
 "french1835": "Lycoræus",
 "range": "Lucas's specimen: Amérique sept.",
-"confidence": "ocr",
+"confidence": "written",
 "facts": [
+"Lucas's Licoraeus from North America has not been matched to a modern species; the plate shows a large brown swallowtail with yellow bands, blue and red hindwing spots and long tails, close to the tiger swallowtails.",
+"It may be a dark or aberrant tiger swallowtail; Lucas placed it beside Turnus, the tiger swallowtail, on the same plate.",
 "Named for Lycoreus, a son of Apollo and founder of Lycoreia on Parnassus."
 ]
 },
@@ -864,10 +903,11 @@
 "name": "Eastern Tiger Swallowtail",
 "family": "Papilionidae",
 "range": "Lucas's specimen: Amérique sept.",
-"confidence": "ocr",
+"confidence": "written",
 "facts": [
-"Papilio glaucus, the eastern tiger swallowtail, is a species of butterfly native to eastern North America. It is one of the most familiar butterflies in the eastern United States, ranging north to southern Ontario, Canada, and is common in many different habitats.",
-"Lucas called it Papilio turnus; the accepted name today is Papilio glaucus.",
+"The state butterfly of five American states and one of the most familiar insects of eastern North America, where it glides over gardens and woodland edges from spring to autumn.",
+"Females come in two colours: the yellow tiger shown here and a dark form that mimics the poisonous pipevine swallowtail, commoner where that species flies.",
+"Lucas used Turnus, Linnaeus's name of 1771; Linnaeus had already described the same insect as Glaucus in 1758, and that name is used today.",
 "Named for Turnus, king of the Rutuli and Aeneas's rival in the Aeneid. The species is now Papilio glaucus, the tiger swallowtail."
 ]
 },
@@ -875,12 +915,13 @@
 "latin": "Papilio xuthus",
 "latin1835": "Papilio xuthus",
 "french1835": "Xuthus",
-"name": "Chinese Swallowtail",
+"name": "Asian Swallowtail",
 "family": "Papilionidae",
 "range": "Lucas's specimen: Chine",
-"confidence": "ocr",
+"confidence": "written",
 "facts": [
-"Papilio xuthus, the Asian swallowtail, Chinese yellow swallowtail, Japanese swallowtail, Korean swallowtail or Xuthus swallowtail, is a yellow-colored, medium to large sized swallowtail butterfly found in northeast Asia, northern Myanmar, southern China, Taiwan, the Korean Peninsula, Japan, Siberia…",
+"The common swallowtail of Japan, China and Korea, where it lays on citrus in gardens; its caterpillars, green with a mock face, are a familiar sight on lemon trees.",
+"It has become a laboratory animal: Japanese researchers use it to study colour vision, which is among the richest known in insects, and the genetics of wing pattern.",
 "Named by Linnaeus for Xuthus, a son of Hellen and ancestor of the Ionians."
 ]
 },
@@ -891,9 +932,11 @@
 "name": "Spicebush Swallowtail",
 "family": "Papilionidae",
 "range": "Lucas's specimen: Amérique sept.",
-"confidence": "ocr",
+"confidence": "written",
 "facts": [
-"Papilio troilus, the spicebush swallowtail or green-clouded butterfly, is a common black swallowtail butterfly found in North America. It has two subspecies, Papilio troilus troilus and Papilio troilus ilioneus, the latter found mainly in the Florida peninsula.",
+"A swallowtail of eastern North America whose caterpillar is famous for its false eyespots: it rests in a rolled leaf of spicebush or sassafras and looks like a small green snake.",
+"The adult is another mimic of the poisonous pipevine swallowtail, dark with a wash of blue-green on the hindwing.",
+"Lucas's specimen came from the north-eastern United States, which supplied Paris with insects through the port of New York.",
 "Named by Linnaeus for Troilus, the young prince of Troy slain by Achilles."
 ]
 },
@@ -904,10 +947,12 @@
 "name": "Black Swallowtail",
 "family": "Papilionidae",
 "range": "Lucas's specimen: Amérique sept.",
-"confidence": "ocr",
+"confidence": "written",
 "facts": [
+"The parsley worm of American gardens: its caterpillars feed on carrot, parsley, dill and fennel, and gardeners know the green and black banded larvae better than the adult.",
+"It is the state butterfly of Oklahoma and New Jersey, and the female mimics the poisonous pipevine swallowtail.",
+"Lucas's Asterias is the name Fabricius gave the dark form; Linnaeus had named the species Polyxenes in 1775.",
 "Lucas, 1835: “This species of middling size is brownish black, with a yellow transverse band made up of triangular spots on the forewings and divided by black veins on the hindwings. The hind edge of the forewings is slightly toothed and preceded by a row of yellow dots; the hindwings have curved blunt teeth, a black tail of moderate length, and a tawny anal angle marked with a very black dot beneath a lunule of blue atoms.”",
-"Papilio polyxenes, the (eastern) black swallowtail, American swallowtail or parsnip swallowtail, is a butterfly found throughout much of North America. An extremely similar-appearing species, Papilio joanae, occurs in the Ozark Mountains region, but it appears to be closely related to Papilio…",
 "Asterias means starry; Fabricius's name for the black swallowtail, whose rows of yellow spots the engraver has picked out here."
 ]
 },
@@ -918,9 +963,10 @@
 "name": "Cream-lined Swallowtail",
 "family": "Papilionidae",
 "range": "Lucas's specimen: Californie",
-"confidence": "ocr",
+"confidence": "written",
 "facts": [
-"Papilio delalandei is a butterfly of the family Papilionidae. It is endemic to Madagascar.",
+"Godart named this swallowtail for Delalande, the Paris museum's collector at the Cape; Lucas's caption says California, which cannot be right, and the modern identity is the Madagascan cream-lined swallowtail, Papilio delalandei.",
+"The figure shows a black swallowtail with cream bands and blue and red hindwing spots, with the tails clubbed at the tip.",
 "Named for Pierre Antoine Delalande, the Paris museum's collector at the Cape of Good Hope, who died in 1823."
 ]
 },
@@ -930,10 +976,10 @@
 "french1835": "Protesilas",
 "family": "Papilionidae",
 "range": "Lucas's specimen: Brésil",
-"confidence": "ocr",
+"confidence": "written",
 "facts": [
-"Protesilaus protesilaus is a species of butterfly of the family Papilionidae. It is found in the Neotropical realm.",
-"Lucas called it Papilio protesilaus; the accepted name today is Protesilaus protesilaus.",
+"A kite swallowtail of South America with the longest tails in the family, white with black stripes and a red spot at the anal angle; it drinks in numbers at wet sand along Amazonian rivers.",
+"Linnaeus named it in 1758 for Protesilaus, the first Greek to die at Troy, and it now gives its name to a whole genus of kite swallowtails.",
 "Named by Linnaeus for Protesilaus, the first Greek to leap ashore at Troy and the first to die there."
 ]
 },
@@ -942,8 +988,10 @@
 "latin1835": "Papilio agapenor",
 "french1835": "Agapénor",
 "range": "Lucas's specimen: Afrique",
-"confidence": "ocr",
+"confidence": "written",
 "facts": [
+"Fabricius's Agapenor is an African swordtail with pale green bands; Lucas's caption gives Africa without more, and the modern identity has not been settled with confidence.",
+"Agapenor led the Arcadians at Troy; the name sits among the Greek heroes Linnaeus and his followers gave to the swallowtails.",
 "Named for Agapenor, leader of the Arcadians at Troy, whose ships were blown to Cyprus on the way home."
 ]
 },
@@ -954,10 +1002,11 @@
 "name": "Five-bar Swordtail",
 "family": "Papilionidae",
 "range": "Lucas's specimen: Java",
-"confidence": "ocr",
+"confidence": "written",
 "facts": [
+"A swordtail of India and South-east Asia, white with black bars across the forewing and long slender tails; it is a fast, low flier that settles to drink at wet earth and bird droppings.",
+"Lucas called it Pompilius and cited Cramer's Antiphates as a synonym; Antiphates, Cramer's older name, is the one in use, and Lucas's Java is correct.",
 "Lucas, 1835: “The wings are white above with a very faint greenish tint, gently strengthened at the base and apex of the forewings; along the costa run seven transverse black bands, the three foremost nearly equal, the next two short, the two hindmost longer and broader, ending in a point and meeting near the inner angle. The hindwings have their lower edge cut by black lunules, mostly on an ashen ground.”",
-"Graphium antiphates, The Five-bar swordtail is a species of papilionid butterfly found in South and Southeast Asia. The species was first described by Pieter Cramer in 1775.",
 "Named for Numa Pompilius, the second king of Rome and founder of its religious calendar."
 ]
 },
@@ -968,10 +1017,11 @@
 "name": "Small Striped Swordtail",
 "family": "Papilionidae",
 "range": "Lucas's specimen: Amérique sept.",
-"confidence": "ocr",
+"confidence": "written",
 "facts": [
+"A swordtail of the African savannas and forest edges, pale green-striped with long tails; Lucas's caption gives North America, which is a mistake, and his own synonym from Cramer, Policenes, gives the right identity.",
+"The caterpillars feed on the custard-apple family, Annonaceae, as do most swordtails.",
 "Lucas, 1835: “The wings are black above, with an interrupted band, four transverse streaks and a row of marginal spots of pale green. The band curves inward and crosses the middle of all four wings; the streak nearest the body continues on the hindwings to above the anal angle, where it ends in a dot of carmine red.”",
-"Graphium policenes, the common swordtail or small striped swordtail, is a species of butterfly in the family Papilionidae (swallowtails). It is found in tropical Africa.",
 "Named for Polyxena, Priam's daughter, sacrificed at the tomb of Achilles."
 ]
 },
@@ -982,10 +1032,10 @@
 "name": "Lesser Zebra",
 "family": "Papilionidae",
 "range": "Lucas's specimen: Java",
-"confidence": "ocr",
+"confidence": "written",
 "facts": [
-"Graphium macareus, the lesser zebra, is a relatively common and not threatened species of swallowtail butterfly found in Southeast Asia. It is also found in parts of India including Assam and Sikkim.",
-"Lucas called it Papilio macareus; the accepted name today is Graphium macareus.",
+"A swallowtail that has abandoned the family look: it copies the striped tigers and glasswings of the Danainae so well in colour and slow flight that in the field it is easily passed over as one of them.",
+"It flies in the forests of the Himalayan foothills, Burma, Malaya and the Indonesian islands; Lucas's Java is right.",
 "Named for Macareus, a name borne by several figures of Greek myth, among them a son of Aeolus."
 ]
 },
@@ -996,10 +1046,11 @@
 "name": "Common Mime",
 "family": "Papilionidae",
 "range": "Lucas's specimen: Chine",
-"confidence": "ocr",
+"confidence": "written",
 "facts": [
-"Papilio clytia, the common mime, is a swallowtail butterfly found in south and southeast Asia. The butterfly belongs to the subgenus Chilasa, the black-bodied swallowtails.",
-"Lucas called it Papilio dissimilis; the accepted name today is Chilasa clytia.",
+"A swallowtail with two costumes: one form copies the black crows, Euploea, the other, shown here, copies the blue tiger, Tirumala, both of them poisonous.",
+"Linnaeus described the two forms as separate species, Clytia and Dissimilis, in 1758; Lucas kept Dissimilis for this one, and it is now known to be the same insect.",
+"It flies from India through China to the Philippines, and its caterpillars feed on trees of the laurel family.",
 "Dissimilis means unlike in Latin: Linnaeus named the mime for looking nothing like its relatives."
 ]
 },
@@ -1007,13 +1058,14 @@
 "latin": "Papilio zenobia",
 "latin1835": "Papilio zenobius",
 "french1835": "Zénobius",
-"name": "Zenobia Swallowtail",
+"name": "Volta Swallowtail",
 "family": "Papilionidae",
 "range": "Lucas's specimen: Côte occ. d'Afrique",
-"confidence": "ocr",
+"confidence": "written",
 "facts": [
+"A large swallowtail of the West and Central African rainforest, brown-black with a broad cream band; the female is the larger and paler.",
+"Fabricius described it in 1775 from Sierra Leone as Zenobia, after the queen of Palmyra; Lucas's Zenobius is a masculine slip.",
 "Lucas, 1835: “This is a large species; all its wings are slightly toothed, brownish black above, and crossed in the middle by a fairly broad white band faintly tinged with yellow, a little fringed on the hindwings and cut by fine black veins. The small notches of the forewings are edged with faintly yellowish dots, those of the hindwings with oblong spots of the same colour.”",
-"Papilio zenobia, the Zenobia swallowtail or Volta swallowtail, is a species of swallowtail butterfly from the genus Papilio that is found in Guinea, Sierra Leone, Liberia, Ivory Coast, Ghana, Nigeria, Cameroon, Equatorial Guinea, the Republic of the Congo and Uganda. It was first described by Johan…",
 "Named for Zenobia, the third-century queen of Palmyra who defied Rome."
 ]
 },
@@ -1024,10 +1076,11 @@
 "name": "Mimetic Swallowtail",
 "family": "Papilionidae",
 "range": "Lucas's specimen: Cafrerie",
-"confidence": "ocr",
+"confidence": "written",
 "facts": [
+"So closely does this African swallowtail copy the unpalatable Amauris butterflies in its cream-banded brown pattern and slow flight that it is simply called the mimetic swallowtail.",
+"Lucas's Cafrerie is the old French name for the country of the Xhosa beyond the Cape frontier; the species in fact flies in the forests of West and Central Africa.",
 "Lucas, 1835: “This species closely resembles Zenobius, but is much smaller and much less dark in colour. All the wings are toothed and finely edged with white on both surfaces; the forewings are reddish brown, crossed in the middle by a broad band finely cut by reddish veins and strongly interrupted towards the front.”",
-"Papilio cynorta, the mimetic swallowtail or common white banded papilio, is a butterfly of the family Papilionidae. It is found in Africa, including Sierra Leone, Liberia, Ivory Coast, Ghana, Togo, southern Nigeria, Cameroon, Equatorial Guinea, the Democratic Republic of the Congo, Angola, the…",
 "Named for Cynortas, a mythical king of Sparta."
 ]
 },
@@ -2770,7 +2823,8 @@
 "family": "Nymphalidae",
 "confidence": "probable",
 "facts": [
-"One of the owl butterflies: the underside carries a huge eyespot that reads as an owl’s eye when the wings are closed."
+"One of the owl butterflies: the underside carries a huge eyespot that reads as an owl’s eye when the wings are closed.",
+"Named for Inachus, the river god and first king of Argos."
 ]
 },
 "n300-1": {
@@ -2795,7 +2849,9 @@
 "confidence": "probable",
 "facts": [
 "Another Trojan name from Linnaeus. The blue is structural: the scales are stacked like tiny Christmas trees and reflect only blue light.",
-"The undersides are brown with eyespots, so a flying morpho seems to flash on and off."
+"The undersides are brown with eyespots, so a flying morpho seems to flash on and off.",
+"Lucas, 1835: “The male of this species had been given by authors under the name Menelaus, the female under that of Nestor. The upperside of the male's wings is a brilliant azure blue with the whole outer outline black and the notches of the outer edge yellowish white; on the costa of the forewings are three small white spots. The female is a somewhat less vivid blue, with the hind margin broadly black and charged with a row of…”",
+"Named by Linnaeus for Menelaus, king of Sparta and husband of Helen. He named the female Nestor, after the old counsellor of the Greeks."
 ]
 },
 "n304-1": {
@@ -2807,7 +2863,9 @@
 "range": "Brazil",
 "confidence": "probable",
 "facts": [
-"A pale morpho whose white takes a faint pearly blue in the light. Named for Laertes, father of Odysseus."
+"A pale morpho whose white takes a faint pearly blue in the light. Named for Laertes, father of Odysseus.",
+"Lucas, 1835: “The four wings are slightly toothed and a pearly white on both surfaces. Along the hind edge the upperside carries a double string of black spots, larger in the female, where they are separated by a scalloped black line; in both sexes the front half of the costa of the forewings is covered by a black streak that widens into a hook behind the submarginal cell. Beneath, a transverse row of black eyes with a tawny iris…”",
+"Named for Laertes, father of Odysseus."
 ]
 },
 "n306-1": {

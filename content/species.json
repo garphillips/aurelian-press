@@ -1,19 +1,372 @@
 {
-  "n16-1": {
-    "name": "Priam’s Birdwing", "latin": "Ornithoptera priamus", "family": "Papilionidae",
-    "wingspan": "150–190 mm (male)", "range": "Moluccas to New Guinea and northern Australia", "confidence": "confirmed",
-    "caption": "g. Ornithoptera Priamus ♂, île d’Amboine",
-    "facts": [
-      "The first birdwing ever described, named by Linnaeus in 1758 after Priam, king of Troy. He gave the great swallowtails the names of Trojan heroes.",
-      "The male’s green is structural colour, not pigment: microscopic ridges on the scales scatter light. The engraver could only approximate it with paint.",
-      "Females are larger, brown and cream, and were long thought to be a different species.",
-      "Caterpillars feed on poisonous Dutchman’s pipe vines and carry the toxin into adulthood, so birds learn to leave the adults alone."
-    ]
-  },
-  "n298-1": { "latin": "Caligo beltrao", "name": "Beltrão’s Owl Butterfly", "family": "Nymphalidae", "confidence": "probable",
-    "facts": ["One of the owl butterflies: the underside carries a huge eyespot that reads as an owl’s eye when the wings are closed."] },
-  "n302-1": { "latin": "Morpho menelaus", "name": "Menelaus Blue Morpho", "family": "Nymphalidae", "wingspan": "120–150 mm", "range": "Central and South America", "confidence": "probable",
-    "facts": ["Another Trojan name from Linnaeus. The blue is structural: the scales are stacked like tiny Christmas trees and reflect only blue light.", "The undersides are brown with eyespots, so a flying morpho seems to flash on and off."] },
-  "n304-1": { "latin": "Morpho laertes", "name": "White Morpho", "family": "Nymphalidae", "range": "Brazil", "confidence": "probable",
-    "facts": ["A pale morpho whose white takes a faint pearly blue in the light. Named for Laertes, father of Odysseus."] }
+ "n16-1": {
+  "name": "Priam’s Birdwing",
+  "latin": "Ornithoptera priamus",
+  "family": "Papilionidae",
+  "wingspan": "150–190 mm (male)",
+  "range": "Moluccas to New Guinea and northern Australia",
+  "confidence": "confirmed",
+  "caption": "g. Ornithoptera Priamus ♂, île d’Amboine",
+  "facts": [
+   "The first birdwing ever described, named by Linnaeus in 1758 after Priam, king of Troy. He gave the great swallowtails the names of Trojan heroes.",
+   "The male’s green is structural colour, not pigment: microscopic ridges on the scales scatter light. The engraver could only approximate it with paint.",
+   "Females are larger, brown and cream, and were long thought to be a different species.",
+   "Caterpillars feed on poisonous Dutchman’s pipe vines and carry the toxin into adulthood, so birds learn to leave the adults alone."
+  ]
+ },
+ "n298-1": {
+  "latin": "Caligo beltrao",
+  "name": "Beltrão’s Owl Butterfly",
+  "family": "Nymphalidae",
+  "confidence": "probable",
+  "facts": [
+   "One of the owl butterflies: the underside carries a huge eyespot that reads as an owl’s eye when the wings are closed."
+  ]
+ },
+ "n302-1": {
+  "latin": "Morpho menelaus",
+  "name": "Menelaus Blue Morpho",
+  "family": "Nymphalidae",
+  "wingspan": "120–150 mm",
+  "range": "Central and South America",
+  "confidence": "probable",
+  "facts": [
+   "Another Trojan name from Linnaeus. The blue is structural: the scales are stacked like tiny Christmas trees and reflect only blue light.",
+   "The undersides are brown with eyespots, so a flying morpho seems to flash on and off."
+  ]
+ },
+ "n304-1": {
+  "latin": "Morpho laertes",
+  "name": "White Morpho",
+  "family": "Nymphalidae",
+  "range": "Brazil",
+  "confidence": "probable",
+  "facts": [
+   "A pale morpho whose white takes a faint pearly blue in the light. Named for Laertes, father of Odysseus."
+  ]
+ },
+ "n18-1": {
+  "name": "Golden Birdwing",
+  "facts": [
+   "A birdwing of the Philippines, where it flies in forest clearings and along rivers; the male's hindwings are the colour of old gold, the female's are duller and larger.",
+   "Like all birdwings its caterpillars feed on Aristolochia vines and take up their poisons, and every species of the genus is listed under the international trade convention CITES.",
+   "Boisduval named it only in 1836, so Lucas was among the first to picture it, and he used Cramer's older name Amphrisius on the plate."
+  ]
+ },
+ "n18-2": {
+  "name": "Androgeus Swallowtail",
+  "facts": [
+   "A common swallowtail of the American tropics from Mexico to Argentina; the male is banded with yellow, the female is dark with blue on the hindwings and looks like a different insect.",
+   "Its caterpillars feed on citrus and on the prickly ash, Zanthoxylum, and are among the orange-grove pests of Brazil."
+  ]
+ },
+ "n20-1": {
+  "name": "Ulysses Butterfly",
+  "facts": [
+   "The electric blue is structural, thrown back by ridges on the scales, and it flashes on and off as the butterfly beats its wings over the rainforest canopy of New Guinea and northern Queensland.",
+   "Males will dive at anything blue, including clothing, which is how collectors and photographers still lure them down from the trees.",
+   "The caterpillars feed on trees of the citrus family, especially Melicope, and the adult has become the emblem of tourism in tropical Queensland."
+  ]
+ },
+ "n22-1": {
+  "facts": [
+   "One of the cattlehearts, Parides, named for the red heart-shaped spots many of them carry on the hindwing; this one flies in south-eastern Brazil, Paraguay and northern Argentina.",
+   "Its caterpillars feed on Aristolochia, the pipevines, and the poisons they store make the adults distasteful to birds."
+  ]
+ },
+ "n22-2": {
+  "name": "Crimson Rose",
+  "facts": [
+   "A swallowtail of India and Sri Lanka whose caterpillars feed on Aristolochia and make it poisonous; birds learn to leave it alone, and the harmless female of the Common Mormon copies its pattern almost exactly.",
+   "It gathers in numbers to migrate across southern India, and dozens may roost together on a single bush at dusk.",
+   "Lucas's engraving shows the black forewings and crimson-spotted hindwings that give the English name; his caption adds Amboina, where it does not in fact occur."
+  ]
+ },
+ "n32-1": {
+  "name": "Common Bluebottle",
+  "facts": [
+   "One of the fastest and most widespread swallowtails of Asia and Australia, a rapid flier that rarely settles except to drink at wet sand or puddles, often in company.",
+   "The caterpillars feed on camphor and cinnamon trees, so it thrives in cities where these are planted.",
+   "The pale band across the wings is blue-green in life; the engraver has caught its translucence, which comes from the band having almost no scales."
+  ]
+ },
+ "n32-2": {
+  "name": "Veined Jay",
+  "facts": [
+   "A swallowtail of the forests of South-east Asia from Burma to Borneo and Java, one of the jays, Graphium, that gather in dozens to drink at riverbanks.",
+   "The dark veins that cross the pale patches, and give it its English name, are clear in Lucas's figure."
+  ]
+ },
+ "n34-2": {
+  "name": "Common Clubtail",
+  "facts": [
+   "The spatulate tails and the slow, drifting flight are the marks of this swallowtail from India to Java; it feeds on Aristolochia as a caterpillar and is left alone by birds as an adult.",
+   "The pale hindwing patches vary from white to yellow between regions, and the old name Coon comes from a Trojan in the Iliad, not from any resemblance."
+  ]
+ },
+ "n36-2": {
+  "name": "Vertumnus Cattleheart",
+  "facts": [
+   "A cattleheart of the Amazon and Guianas, black with a pink or red flash on the hindwing; males carry a fold of pale scent scales along the inner edge of the hindwing, which the engraver has shown as a white streak.",
+   "The caterpillars feed on pipevines, Aristolochia, and the whole group is poisonous to predators."
+  ]
+ },
+ "n38-1": {
+  "name": "Yellow Kite",
+  "facts": [
+   "A kite swallowtail of the Atlantic forest of Brazil, pale yellow with black bands and long tails; it has become rare as the coastal forest has been cleared and is now protected.",
+   "Lucas took the name from Hübner, who described it in the 1820s; the figure is one of the earliest coloured pictures of the species."
+  ]
+ },
+ "n38-2": {
+  "name": "Pipevine Swallowtail",
+  "facts": [
+   "The most important model for mimicry in North America: because its caterpillars feed on pipevines and make it poisonous, the dark female tiger swallowtail, the spicebush swallowtail, the black swallowtail and the red-spotted purple all copy its blue-black colours.",
+   "The caterpillars are black with orange spines and feed openly in groups; the adults are the only butterflies in the eastern United States with iridescent blue-green hindwings.",
+   "Pauquet drew this one from the side on a spray of its plant, the only such figure in the book; it is the one specimen that does not open its wings to the reader."
+  ]
+ },
+ "n40-1": {
+  "name": "Orchard Swallowtail",
+  "facts": [
+   "The largest butterfly commonly seen in Australian gardens, where it lays on cultivated citrus; the male is black and white, the female carries red and blue on the hindwing.",
+   "Donovan named it Erectheus in 1805, but Linnaeus had already described it as Aegeus, and that name stands.",
+   "New Holland, on Lucas's caption, was still the usual name for Australia in Paris in 1835."
+  ]
+ },
+ "n40-2": {
+  "name": "Lime Butterfly",
+  "facts": [
+   "The only tailless Papilio of its group and one of the most widespread swallowtails in the world, from Africa through Asia to Australia; its caterpillars are a pest of lime and orange trees.",
+   "It reached the Caribbean in 2004, probably with nursery citrus, and has since spread through the Greater Antilles.",
+   "Lucas's specimen came from the Cape of Good Hope; the African population is now often treated as a separate species, Papilio demodocus."
+  ]
+ },
+ "n50-1": {
+  "name": "Small Réunion Swallowtail",
+  "facts": [
+   "Found only on the island of Réunion, Lucas's Île Bourbon, where it is now rare and protected; its caterpillars feed on native citrus relatives and on cultivated orange trees.",
+   "The two figures on this plate are the male and the female of one species: Boisduval's Disparilis, below, is the female, which is far more mottled than the male above."
+  ]
+ },
+ "n50-2": {
+  "name": "Small Réunion Swallowtail (female)",
+  "facts": [
+   "This is the female of the butterfly above. Lucas followed Boisduval in treating it as a separate species, Disparilis, because the sexes look so different.",
+   "Female swallowtails are often duller than males, but in this Réunion endemic the contrast is unusually strong, with brown and yellow mottling in place of the male's green-blue."
+  ]
+ },
+ "n52-1": {
+  "name": "Scarlet Mormon",
+  "facts": [
+   "A giant swallowtail of the Moluccas and Sulawesi, among the largest Papilio in the world; the female shown here carries the scarlet on the hindwing that gives the English name.",
+   "The caterpillars feed on citrus and other rue-family trees, and the adults patrol forest edges with a slow, sailing flight."
+  ]
+ },
+ "n54-1": {
+  "name": "Blue Mormon",
+  "facts": [
+   "The second largest butterfly of India and Sri Lanka, velvet black with a wash of pale blue on the hindwings; in 2015 it was declared the state butterfly of Maharashtra.",
+   "It flies in the wet forests of the Western Ghats and is fond of Lantana and Ixora flowers; the caterpillars feed on citrus."
+  ]
+ },
+ "n54-2": {
+  "name": "Swift Peacock",
+  "facts": [
+   "A swallowtail of the Indonesian islands whose green-blue sheen on a black ground is one of the most brilliant among the peacock swallowtails.",
+   "Lucas's Cochinchine is southern Vietnam; the species is in fact confined to Java, Bali and the islands eastward, so the locality was probably a dealer's guess."
+  ]
+ },
+ "n56-1": {
+  "name": "Banded Swallowtail",
+  "facts": [
+   "The one swallowtail that lays its eggs in a string: the female glues a chain of a dozen or more eggs to a leaf, and the caterpillars feed side by side in a row, an unusual habit in the family.",
+   "Lucas called it Cresphontes, a name that properly belongs to the North American giant swallowtail; his own synonym, Cramer's Demolion, is the correct one, and his Java is right.",
+   "The caterpillars feed on citrus relatives in the forests of Malaya, Sumatra and Java."
+  ]
+ },
+ "n56-2": {
+  "name": "Red Helen",
+  "facts": [
+   "A large black swallowtail of the Asian forests from India to Japan, with a great white patch on each hindwing and a row of red crescents beneath; it is a strong flier that visits flowers in the forest canopy.",
+   "The caterpillars feed on wild citrus relatives, and the adults are commonly seen drinking at wet ground in the hills."
+  ]
+ },
+ "n66-1": {
+  "name": "Mocker Swallowtail (male)",
+  "facts": [
+   "The male mocker swallowtail is the flying handkerchief of African forests, cream and black with tails; the females look nothing like him, and copy a dozen different poisonous butterflies instead.",
+   "This female mimicry, controlled by a single genetic switch with many forms, made the species a classic case study in evolutionary genetics in the twentieth century.",
+   "Lucas used Fabricius's name Brutus; Cramer's Merope, which Lucas cites, and Brown's Dardanus are the same butterfly, and Dardanus has priority."
+  ]
+ },
+ "n66-3": {
+  "facts": [
+   "Parides aeneas is a cattleheart of the Amazon basin and the Guianas, black with a green or blue-green patch on the forewing and pink on the hindwing.",
+   "Linnaeus named it in 1758 for Aeneas, placing it among his Trojans; the caterpillars feed on pipevines and the adults are poisonous."
+  ]
+ },
+ "n68-1": {
+  "name": "Emerald-patched Cattleheart",
+  "facts": [
+   "The brilliant green patch on the forewing is structural colour and shifts with the angle of view; males carry it, females do not.",
+   "It ranges from Mexico to the Amazon and is one of the most frequently seen cattlehearts at forest edges, where it feeds on pipevines as a caterpillar.",
+   "Lucas's Guyane is French Guiana, whose specimens reached Paris in quantity through the colonial administration."
+  ]
+ },
+ "n70-1": {
+  "name": "Fluminense Swallowtail",
+  "facts": [
+   "One of the rarest swallowtails in the world, confined to a few coastal marshes near Rio de Janeiro where its pipevine grows; it was among the first Brazilian insects legally protected, in 1973.",
+   "The name Fluminense means of the river, and is the term for a native of the state of Rio de Janeiro."
+  ]
+ },
+ "n70-2": {
+  "facts": [
+   "Mimoides lysithous is a harmless swallowtail of south-eastern Brazil that copies the poisonous cattlehearts so closely, in several different forms, that it was long confused with them.",
+   "Lucas placed it beside Ascanius on the plate, and it is in fact a mimic of that very species in part of its range."
+  ]
+ },
+ "n80-1": {
+  "name": "Belus Swallowtail",
+  "facts": [
+   "A gold-rim swallowtail of the American tropics, black with a greenish sheen and a band of yellow spots; like its relatives it feeds on pipevines and is poisonous.",
+   "Males of the genus Battus flutter their wings continuously while feeding at flowers, a habit that makes them easy to recognise in flight."
+  ]
+ },
+ "n80-2": {
+  "name": "Polydamas Swallowtail",
+  "facts": [
+   "The only tailless swallowtail in the eastern United States, where it reaches Florida and Texas; it ranges south to Argentina.",
+   "The caterpillars feed on pipevines and are gregarious when young; the adults visit lantana and other flowers with a nervous, fluttering flight.",
+   "Linnaeus named it in 1758; Lucas's figure shows the row of yellow spots along the wing margins and the pale spotting of the underside showing through."
+  ]
+ },
+ "n82-2": {
+  "name": "Eastern Tiger Swallowtail",
+  "facts": [
+   "The state butterfly of five American states and one of the most familiar insects of eastern North America, where it glides over gardens and woodland edges from spring to autumn.",
+   "Females come in two colours: the yellow tiger shown here and a dark form that mimics the poisonous pipevine swallowtail, commoner where that species flies.",
+   "Lucas used Turnus, Linnaeus's name of 1771; Linnaeus had already described the same insect as Glaucus in 1758, and that name is used today."
+  ]
+ },
+ "n84-1": {
+  "name": "Asian Swallowtail",
+  "facts": [
+   "The common swallowtail of Japan, China and Korea, where it lays on citrus in gardens; its caterpillars, green with a mock face, are a familiar sight on lemon trees.",
+   "It has become a laboratory animal: Japanese researchers use it to study colour vision, which is among the richest known in insects, and the genetics of wing pattern."
+  ]
+ },
+ "n84-2": {
+  "name": "Spicebush Swallowtail",
+  "facts": [
+   "A swallowtail of eastern North America whose caterpillar is famous for its false eyespots: it rests in a rolled leaf of spicebush or sassafras and looks like a small green snake.",
+   "The adult is another mimic of the poisonous pipevine swallowtail, dark with a wash of blue-green on the hindwing.",
+   "Lucas's specimen came from the north-eastern United States, which supplied Paris with insects through the port of New York."
+  ]
+ },
+ "n86-1": {
+  "name": "Black Swallowtail",
+  "facts": [
+   "The parsley worm of American gardens: its caterpillars feed on carrot, parsley, dill and fennel, and gardeners know the green and black banded larvae better than the adult.",
+   "It is the state butterfly of Oklahoma and New Jersey, and the female mimics the poisonous pipevine swallowtail.",
+   "Lucas's Asterias is the name Fabricius gave the dark form; Linnaeus had named the species Polyxenes in 1775."
+  ]
+ },
+ "n96-1": {
+  "facts": [
+   "A kite swallowtail of South America with the longest tails in the family, white with black stripes and a red spot at the anal angle; it drinks in numbers at wet sand along Amazonian rivers.",
+   "Linnaeus named it in 1758 for Protesilaus, the first Greek to die at Troy, and it now gives its name to a whole genus of kite swallowtails."
+  ]
+ },
+ "n98-1": {
+  "name": "Five-bar Swordtail",
+  "facts": [
+   "A swordtail of India and South-east Asia, white with black bars across the forewing and long slender tails; it is a fast, low flier that settles to drink at wet earth and bird droppings.",
+   "Lucas called it Pompilius and cited Cramer's Antiphates as a synonym; Antiphates, Cramer's older name, is the one in use, and Lucas's Java is correct."
+  ]
+ },
+ "n98-2": {
+  "name": "Small Striped Swordtail",
+  "facts": [
+   "A swordtail of the African savannas and forest edges, pale green-striped with long tails; Lucas's caption gives North America, which is a mistake, and his own synonym from Cramer, Policenes, gives the right identity.",
+   "The caterpillars feed on the custard-apple family, Annonaceae, as do most swordtails."
+  ]
+ },
+ "n100-1": {
+  "name": "Lesser Zebra",
+  "facts": [
+   "A swallowtail that has abandoned the family look: it copies the striped tigers and glasswings of the Danainae so well in colour and slow flight that in the field it is easily passed over as one of them.",
+   "It flies in the forests of the Himalayan foothills, Burma, Malaya and the Indonesian islands; Lucas's Java is right."
+  ]
+ },
+ "n100-2": {
+  "name": "Common Mime",
+  "facts": [
+   "A swallowtail with two costumes: one form copies the black crows, Euploea, the other, shown here, copies the blue tiger, Tirumala, both of them poisonous.",
+   "Linnaeus described the two forms as separate species, Clytia and Dissimilis, in 1758; Lucas kept Dissimilis for this one, and it is now known to be the same insect.",
+   "It flies from India through China to the Philippines, and its caterpillars feed on trees of the laurel family."
+  ]
+ },
+ "n102-1": {
+  "name": "Volta Swallowtail",
+  "facts": [
+   "A large swallowtail of the West and Central African rainforest, brown-black with a broad cream band; the female is the larger and paler.",
+   "Fabricius described it in 1775 from Sierra Leone as Zenobia, after the queen of Palmyra; Lucas's Zenobius is a masculine slip."
+  ]
+ },
+ "n102-2": {
+  "name": "Mimetic Swallowtail",
+  "facts": [
+   "So closely does this African swallowtail copy the unpalatable Amauris butterflies in its cream-banded brown pattern and slow flight that it is simply called the mimetic swallowtail.",
+   "Lucas's Cafrerie is the old French name for the country of the Xhosa beyond the Cape frontier; the species in fact flies in the forests of West and Central Africa."
+  ]
+ },
+ "n34-1": {
+  "facts": [
+   "Lucas's Polymetus, from Brazil, has not yet been matched to a modern species with confidence; the plate shows a black cattleheart-like swallowtail with white forewing patches and rose-red hindwing bands.",
+   "Cramer described a Papilio Polymetus in 1782, and the figure is a fair copy of his; the name has since been treated as a form or synonym of one of the South American Parides."
+  ]
+ },
+ "n36-1": {
+  "facts": [
+   "Lucas's Evander, from Brazil, awaits a confident modern identification; the plate shows a swallowtail of the cattleheart group with a red bar across the forewing and a red-spotted hindwing.",
+   "Godart gave the name in 1819; the figure was probably drawn from a specimen in the Paris museum, where Lucas worked."
+  ]
+ },
+ "n66-2": {
+  "facts": [
+   "This Brazilian Dardanus of Fabricius is not the African mocker swallowtail that now bears the name, but one of the South American cattlehearts; which one has not yet been settled.",
+   "The plate shows a black swallowtail with a red bar on the hindwing and pale spots at the forewing tip, and Lucas printed it between Brutus and Aeneas."
+  ]
+ },
+ "n68-2": {
+  "facts": [
+   "Lucas's Dimas, from Brazil, awaits a confident identification; the figure shows a small black swallowtail with a green forewing flash and a broad red hindwing band, of the cattleheart group.",
+   "The name comes from Dymas, king of Phrygia in the Iliad."
+  ]
+ },
+ "n68-3": {
+  "facts": [
+   "Godart's Nephalion is a Brazilian swallowtail of the cattleheart group; the plate shows black wings with a white forewing band and a red hindwing patch. Its modern identity has not yet been fixed."
+  ]
+ },
+ "n82-1": {
+  "facts": [
+   "Lucas's Licoraeus from North America has not been matched to a modern species; the plate shows a large brown swallowtail with yellow bands, blue and red hindwing spots and long tails, close to the tiger swallowtails.",
+   "It may be a dark or aberrant tiger swallowtail; Lucas placed it beside Turnus, the tiger swallowtail, on the same plate."
+  ]
+ },
+ "n96-2": {
+  "facts": [
+   "Fabricius's Agapenor is an African swordtail with pale green bands; Lucas's caption gives Africa without more, and the modern identity has not been settled with confidence.",
+   "Agapenor led the Arcadians at Troy; the name sits among the Greek heroes Linnaeus and his followers gave to the swallowtails."
+  ]
+ },
+ "n86-2": {
+  "facts": [
+   "Godart named this swallowtail for Delalande, the Paris museum's collector at the Cape; Lucas's caption says California, which cannot be right, and the modern identity is the Madagascan cream-lined swallowtail, Papilio delalandei.",
+   "The figure shows a black swallowtail with cream bands and blue and red hindwing spots, with the tails clubbed at the tip."
+  ]
+ }
 }
