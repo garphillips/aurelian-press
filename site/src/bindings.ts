@@ -81,6 +81,54 @@ function giltRule(g: CanvasRenderingContext2D, x0: number, x1: number, y: number
   g.fillStyle = mr ? letteringMR(gilt) : gilt; g.fillRect(x0, y - thick / 2, x1 - x0, thick);
   if (!mr) { g.fillStyle = 'rgba(0,0,0,0.35)'; g.fillRect(x0, y + thick / 2, x1 - x0, Math.max(1, thick * 0.6)); }
 }
+/** The ink for tooling: gilt (or pale pigment) in colour; the matching roughness/metalness value on the mr pass. */
+function tool(g: CanvasRenderingContext2D, gilt: string, mr: boolean) { g.fillStyle = g.strokeStyle = mr ? letteringMR(gilt) : gilt; }
+
+/** A palmette: a fan of pointed leaves rising from a small cup, tooled in one colour. Points along -y. */
+function palmette(g: CanvasRenderingContext2D, cx: number, cy: number, h: number, flip = false) {
+  g.save(); g.translate(cx, cy); if (flip) g.scale(1, -1);
+  const leaves = 7;
+  for (let i = 0; i < leaves; i++) {
+    const t = (i - (leaves - 1) / 2) / ((leaves - 1) / 2);          // -1 .. 1
+    const ang = t * 1.05, len = h * (0.95 - 0.35 * Math.abs(t)), wdt = h * 0.11;
+    g.save(); g.rotate(ang);
+    g.beginPath(); g.moveTo(0, 0);
+    g.bezierCurveTo(wdt, -len * 0.35, wdt * 0.9, -len * 0.75, 0, -len);
+    g.bezierCurveTo(-wdt * 0.9, -len * 0.75, -wdt, -len * 0.35, 0, 0); g.fill();
+    g.restore();
+  }
+  // the cup the fan rises from, and a bead beneath
+  g.beginPath(); g.moveTo(-h * 0.22, h * 0.02); g.quadraticCurveTo(0, h * 0.3, h * 0.22, h * 0.02); g.quadraticCurveTo(0, h * 0.12, -h * 0.22, h * 0.02); g.fill();
+  g.beginPath(); g.arc(0, h * 0.3, h * 0.06, 0, 6.29); g.fill();
+  g.restore();
+}
+
+/** A C-scroll with a bead at each end, opening toward +x when sgn is 1. */
+function scroll(g: CanvasRenderingContext2D, x: number, y: number, h: number, sgn: number, dir: number) {
+  g.beginPath();
+  g.moveTo(x, y + dir * h * 0.05);
+  g.bezierCurveTo(x + sgn * h * 0.55, y - dir * h * 0.25, x + sgn * h * 0.95, y + dir * h * 0.15, x + sgn * h * 0.75, y + dir * h * 0.55);
+  g.bezierCurveTo(x + sgn * h * 0.6, y + dir * h * 0.85, x + sgn * h * 0.3, y + dir * h * 0.8, x + sgn * h * 0.32, y + dir * h * 0.6);
+  g.stroke();
+  for (const [px, py] of [[x, y + dir * h * 0.05], [x + sgn * h * 0.32, y + dir * h * 0.6]]) { g.beginPath(); g.arc(px, py, h * 0.05, 0, 6.29); g.fill(); }
+}
+
+/** A French tooled band: a palmette between C-scrolls, on a double dotted roll with a fine rule. */
+function frenchBand(g: CanvasRenderingContext2D, x0: number, x1: number, y: number, W: number, gilt: string, mr: boolean, atFoot: boolean) {
+  tool(g, gilt, mr);
+  const dir = atFoot ? -1 : 1, mid = (x0 + x1) / 2, h = W * 0.26;
+  g.lineWidth = Math.max(1.4, W * 0.011); g.lineCap = 'round';
+  palmette(g, mid, y + dir * h * 1.05, h, atFoot);
+  scroll(g, mid - h * 0.3, y + dir * h * 0.55, h * 0.75, -1, dir);
+  scroll(g, mid + h * 0.3, y + dir * h * 0.55, h * 0.75, 1, dir);
+  // double dotted roll, then a fine rule at the very edge of the band
+  for (const off of [0, dir * W * 0.05]) {
+    const dots = Math.max(6, Math.round((x1 - x0) / (W * 0.055)));
+    for (let i = 0; i <= dots; i++) { g.beginPath(); g.arc(x0 + (x1 - x0) * i / dots, y + off, W * 0.011, 0, 6.29); g.fill(); }
+  }
+  g.fillRect(x0, y - dir * W * 0.04 - 0.75, x1 - x0, 1.5);
+}
+
 /** A roughness/metalness canvas base: cloth is rough and not metallic. */
 function mrBase(g: CanvasRenderingContext2D) { g.fillStyle = 'rgb(0,225,0)'; g.fillRect(0, 0, g.canvas.width, g.canvas.height); }
 
@@ -127,8 +175,10 @@ export function spine(cfg: BookConfig, mr: boolean): HTMLCanvasElement {
       g.save(); g.globalAlpha = 0.5; g.drawImage(ornament, ox + 2, oy + 3, ow, oh); g.restore();   // a little depth beneath the stamp
       g.drawImage(ornament, ox, oy, ow, oh);
     }
-  } else if (cfg.spineAlign !== 'head') { giltRule(g, pad, W - pad, head, 3, cfg.gilt, mr); giltRule(g, pad, W - pad, head + 9, 1.5, cfg.gilt, mr); }
-  giltRule(g, pad, W - pad, foot, 3, cfg.gilt, mr); giltRule(g, pad, W - pad, foot - 9, 1.5, cfg.gilt, mr);
+  } else if (cfg.spineOrnament === 'french') frenchBand(g, pad, W - pad, head, W, cfg.gilt, mr, false);
+  else if (cfg.spineAlign !== 'head') { giltRule(g, pad, W - pad, head, 3, cfg.gilt, mr); giltRule(g, pad, W - pad, head + 9, 1.5, cfg.gilt, mr); }
+  if (cfg.spineOrnament === 'french') frenchBand(g, pad, W - pad, foot, W, cfg.gilt, mr, true);
+  else { giltRule(g, pad, W - pad, foot, 3, cfg.gilt, mr); giltRule(g, pad, W - pad, foot - 9, 1.5, cfg.gilt, mr); }
   // title, reading top to bottom, one or two lines across the width of the spine
   const lines = cfg.spineLines === 1 ? [cfg.spineTitle ?? cfg.title] : balance(cfg.spineTitle ?? cfg.title), n = lines.length;
   const font = cfg.spineFont ? `"${cfg.spineFont}", ${FELL}` : FELL, style = cfg.spineItalic ? 'italic' : '';

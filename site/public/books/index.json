@@ -120,7 +120,8 @@
         "grain": "/covers/lucas/grain.jpg"
       },
       "spineFont": "Playfair Display",
-      "spineItalic": true
+      "spineItalic": true,
+      "spineOrnament": "french"
     }
   ]
 }
