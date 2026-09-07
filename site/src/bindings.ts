@@ -116,7 +116,9 @@ export function spine(cfg: BookConfig, mr: boolean): HTMLCanvasElement {
   const ornament = image(cfg.cover?.ornament);
   if (ornament) {
     // the binding's gilt device at the head of the spine, in place of the top rule
-    const ow = W - pad * 1.6, oh = ow * ornament.height / ornament.width, ox = (W - ow) / 2, oy = head - 2;
+    let ow = W - pad * 1.6, oh = ow * ornament.height / ornament.width;
+    if (oh > W * 0.8) { oh = W * 0.8; ow = oh * ornament.width / ornament.height; }   // a tall device stays within the spine's width
+    const ox = (W - ow) / 2, oy = head - 2;
     if (mr) {
       const t = canvas(ow, oh), tg = t.getContext('2d')!;
       tg.drawImage(ornament, 0, 0, ow, oh); tg.globalCompositeOperation = 'source-in'; tg.fillStyle = MR_GILT; tg.fillRect(0, 0, ow, oh);

@@ -91,6 +91,34 @@
       },
       "spineFont": "Libre Baskerville",
       "spineSubtitle": "Vol. 1 to 4"
+    },
+    {
+      "id": "british-butterflies",
+      "route": "/british-butterflies/",
+      "title": "A History of British Butterflies",
+      "shortTitle": "British Butterflies",
+      "author": "F. O. Morris",
+      "authorLong": "Francis Orpen Morris",
+      "place": "London",
+      "year": "1890",
+      "noun": "butterflies",
+      "status": "coming",
+      "format": {
+        "h": 2.35,
+        "w": 1.6,
+        "d": 0.5
+      },
+      "cloth": "#1e3a6e",
+      "gilt": "#d9b768",
+      "spineTitle": "A History of British Butterflies",
+      "spineFont": "Cormorant Garamond",
+      "cover": {
+        "front": "/covers/british-butterflies/front.jpg",
+        "frontMr": "/covers/british-butterflies/front-mr.png",
+        "grain": "/covers/british-butterflies/grain.jpg",
+        "ornament": "/covers/british-butterflies/butterfly.png"
+      },
+      "masthead": "A History of British Butterflies · F. O. Morris · London, 1890"
     }
   ]
 }
