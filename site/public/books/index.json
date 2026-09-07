@@ -1,42 +1,6 @@
 {
   "books": [
     {
-      "id": "lucas",
-      "route": "/lucas/",
-      "title": "Histoire naturelle des lépidoptères exotiques",
-      "shortTitle": "Lépidoptères exotiques",
-      "author": "H. Lucas",
-      "authorLong": "Hippolyte Lucas",
-      "place": "Paris",
-      "year": "1835–36",
-      "plates": 80,
-      "specimens": 193,
-      "noun": "butterflies",
-      "status": "ready",
-      "format": {
-        "h": 2.4,
-        "w": 1.55,
-        "d": 0.42
-      },
-      "cloth": "#181311",
-      "gilt": "#efe6d2",
-      "masthead": "Histoire naturelle des lépidoptères exotiques · Paris, 1835",
-      "credit": "Plates drawn and engraved by Pauquet for <i>Histoire naturelle des lépidoptères exotiques</i>, Paris, 1835–36. Scans: <a href=\"https://www.biodiversitylibrary.org/item/213697\" target=\"_blank\" rel=\"noopener\">Biodiversity Heritage Library</a>, public domain.",
-      "unreadNote": "The handwritten caption for this figure has not been transcribed yet. Its species and facts will follow.",
-      "portrait": {
-        "image": "/covers/lucas/author.jpg",
-        "caption": "Hippolyte Lucas",
-        "dates": "1814–1899"
-      },
-      "spineTitle": "Histoire naturelle des Lépidoptères exotiques",
-      "cover": {
-        "front": "/covers/lucas/front.jpg",
-        "grain": "/covers/lucas/grain.jpg"
-      },
-      "spineFont": "Playfair Display",
-      "spineItalic": true
-    },
-    {
       "id": "british-moths",
       "route": "/british-moths/",
       "title": "A History of British Moths",
@@ -119,6 +83,42 @@
         "ornament": "/covers/british-butterflies/butterfly.png"
       },
       "masthead": "A History of British Butterflies · F. O. Morris · London, 1890"
+    },
+    {
+      "id": "lucas",
+      "route": "/lucas/",
+      "title": "Histoire naturelle des lépidoptères exotiques",
+      "shortTitle": "Lépidoptères exotiques",
+      "author": "H. Lucas",
+      "authorLong": "Hippolyte Lucas",
+      "place": "Paris",
+      "year": "1835–36",
+      "plates": 80,
+      "specimens": 193,
+      "noun": "butterflies",
+      "status": "ready",
+      "format": {
+        "h": 2.4,
+        "w": 1.55,
+        "d": 0.42
+      },
+      "cloth": "#181311",
+      "gilt": "#efe6d2",
+      "masthead": "Histoire naturelle des lépidoptères exotiques · Paris, 1835",
+      "credit": "Plates drawn and engraved by Pauquet for <i>Histoire naturelle des lépidoptères exotiques</i>, Paris, 1835–36. Scans: <a href=\"https://www.biodiversitylibrary.org/item/213697\" target=\"_blank\" rel=\"noopener\">Biodiversity Heritage Library</a>, public domain.",
+      "unreadNote": "The handwritten caption for this figure has not been transcribed yet. Its species and facts will follow.",
+      "portrait": {
+        "image": "/covers/lucas/author.jpg",
+        "caption": "Hippolyte Lucas",
+        "dates": "1814–1899"
+      },
+      "spineTitle": "Histoire naturelle des Lépidoptères exotiques",
+      "cover": {
+        "front": "/covers/lucas/front.jpg",
+        "grain": "/covers/lucas/grain.jpg"
+      },
+      "spineFont": "Playfair Display",
+      "spineItalic": true
     }
   ]
 }
