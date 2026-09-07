@@ -84,7 +84,14 @@
       "masthead": "A History of British Butterflies · F. O. Morris · London, 1890",
       "spineAlign": "head",
       "spineLines": 1,
-      "spineScale": 1.3
+      "spineScale": 1.3,
+      "portrait": {
+        "image": "/covers/british-butterflies/author.jpg",
+        "caption": "Francis Orpen Morris",
+        "dates": "1810–1893",
+        "note": "Coming this week"
+      },
+      "statusNote": "coming this week"
     },
     {
       "id": "lucas",

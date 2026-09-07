@@ -83,7 +83,17 @@ async function showShelf(closing?: BookConfig) {
 function hideShelf() { cancelAnimationFrame(shelfRaf); shelf?.dispose(); shelf = null; }
 
 /* ---------------- transitions ---------------- */
+/** A book that is not yet cut: lift it, open to the frontispiece, linger, and put it back. */
+async function previewBook(b: BookConfig) {
+  if (busy || session || !shelf) return; busy = true;
+  await shelf.animateOpen(b, 1, 1.7);
+  await new Promise(r => setTimeout(r, matchMedia('(prefers-reduced-motion: reduce)').matches ? 800 : 2600));
+  if (shelf) await shelf.animateOpen(b, -1, 1.5);
+  busy = false;
+}
+
 async function openBook(b: BookConfig, push: boolean) {
+  if (b.status !== 'ready') return previewBook(b);
   if (busy || session) return; busy = true;
   if (push) history.pushState(null, '', b.route);
   document.title = `${b.shortTitle} · ${SITE}`;

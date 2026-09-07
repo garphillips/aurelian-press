@@ -293,6 +293,7 @@ export function firstLeaf(cfg: BookConfig, faceW: number, faceH: number, onLoad:
     const size = W * 0.062; g.font = `${size}px ${FELL}`;
     g.fillText(p.caption, W / 2, y + ih + size * 2.0);
     if (p.dates) { g.font = `italic ${size * 0.72}px ${FELL}`; g.fillStyle = '#5a4a38'; g.fillText(p.dates, W / 2, y + ih + size * 3.0); }
+    if (p.note) { g.font = `${size * 0.62}px ${FELL}`; g.fillStyle = '#6a5a44'; g.fillText(p.note.toUpperCase().split('').join('\u2009'), W / 2, y + ih + size * 4.6); }
     onLoad();
   };
   return c;

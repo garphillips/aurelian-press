@@ -22,7 +22,8 @@ export interface BookConfig {
   spineOrnament?: 'rules' | 'french';   // head and foot bands: plain double rules, or a French fleuron over a dotted roll               // force the title onto one line (long titles otherwise break into two)   // title centred along the spine, or ranged from the head with no head rule
   spine?: string[][];            // older style: gilt panels, each a stack of lines
   cover?: { front: string; frontMr?: string; grain?: string; ornament?: string };   // photographs of the real binding; ornament = a gilt device for the head of the spine
-  portrait?: { image: string; caption: string; dates?: string };   // the author, as a frontispiece under the cover
+  portrait?: { image: string; caption: string; dates?: string; note?: string };   // the author, as a frontispiece under the cover; note sits beneath
+  statusNote?: string;              // label wording for a book that is not yet ready (default 'to follow')
   masthead?: string; credit?: string; unreadNote?: string;
 }
 

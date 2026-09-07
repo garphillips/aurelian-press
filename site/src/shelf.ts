@@ -142,7 +142,7 @@ export class Shelf {
     const a = document.createElement('a'); a.href = cfg.route;
     const ready = cfg.volumes?.filter(v => v.status === 'ready').length;
     const vols = cfg.volumes ? ` · vol. ${ready === 1 ? 'I' : 'I–' + ['', 'I', 'II', 'III', 'IV'][ready!]} of ${['', 'I', 'II', 'III', 'IV'][cfg.volumes.length]}` : '';
-    const count = cfg.plates ? `${cfg.plates} plates · ${cfg.specimens} ${cfg.noun}${vols}` : 'to follow';
+    const count = cfg.plates ? `${cfg.plates} plates · ${cfg.specimens} ${cfg.noun}${vols}` : (cfg.statusNote ?? 'to follow');
     a.innerHTML = `<b>${cfg.shortTitle}</b><span>${cfg.author} · ${cfg.place}, ${cfg.year}</span><small>${count}</small>`;
     if (cfg.status !== 'ready') a.classList.add('coming');
     a.addEventListener('click', (e) => { e.preventDefault(); if (!this.opening) this.tryOpen(b); });
@@ -154,7 +154,8 @@ export class Shelf {
   private labelHover: ShelfBook | null = null;
 
   private tryOpen(b: ShelfBook) {
-    if (b.cfg.status !== 'ready') { b.label.classList.add('nudge'); setTimeout(() => b.label.classList.remove('nudge'), 700); return; }
+    // a book not yet cut still opens to its frontispiece if it has one; otherwise the label just nudges
+    if (b.cfg.status !== 'ready' && !b.cfg.portrait) { b.label.classList.add('nudge'); setTimeout(() => b.label.classList.remove('nudge'), 700); return; }
     this.onOpen(b.cfg);
   }
 
