@@ -75,14 +75,16 @@
       "cloth": "#1e3a6e",
       "gilt": "#d9b768",
       "spineTitle": "A History of British Butterflies",
-      "spineFont": "Old Standard TT",
+      "spineFont": "Cinzel",
       "cover": {
         "front": "/covers/british-butterflies/front.jpg",
         "frontMr": "/covers/british-butterflies/front-mr.png",
         "grain": "/covers/british-butterflies/grain.jpg"
       },
       "masthead": "A History of British Butterflies · F. O. Morris · London, 1890",
-      "spineAlign": "head"
+      "spineAlign": "head",
+      "spineLines": 1,
+      "spineScale": 1.3
     },
     {
       "id": "lucas",

@@ -130,11 +130,11 @@ export function spine(cfg: BookConfig, mr: boolean): HTMLCanvasElement {
   } else if (cfg.spineAlign !== 'head') { giltRule(g, pad, W - pad, head, 3, cfg.gilt, mr); giltRule(g, pad, W - pad, head + 9, 1.5, cfg.gilt, mr); }
   giltRule(g, pad, W - pad, foot, 3, cfg.gilt, mr); giltRule(g, pad, W - pad, foot - 9, 1.5, cfg.gilt, mr);
   // title, reading top to bottom, one or two lines across the width of the spine
-  const lines = balance(cfg.spineTitle ?? cfg.title), n = lines.length;
+  const lines = cfg.spineLines === 1 ? [cfg.spineTitle ?? cfg.title] : balance(cfg.spineTitle ?? cfg.title), n = lines.length;
   const font = cfg.spineFont ? `"${cfg.spineFont}", ${FELL}` : FELL, style = cfg.spineItalic ? 'italic' : '';
   const length = foot - head - H * 0.08, across = W - pad * 1.2;
   // a single line sits at about a quarter of the spine's width; two lines share it
-  const size = n === 1 ? W * 0.13 : Math.min(across / n * 0.6, W * 0.3);
+  const size = (n === 1 ? W * 0.13 : Math.min(across / n * 0.6, W * 0.3)) * (cfg.spineScale ?? 1);
   g.save(); g.translate(W / 2, (head + foot) / 2 - H * 0.02); g.rotate(Math.PI / 2);
   const lh = across / n;
   // along the spine, x runs head to foot with 0 at the middle; a head-ranged title starts just in from the head
