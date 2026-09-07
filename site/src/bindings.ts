@@ -67,8 +67,8 @@ export function cloth(g: CanvasRenderingContext2D, colour: string, seed = 3) {
 function isPale(hex: string) { const [r, g, b] = hexToRgb(hex); return (r + g + b) / 3 > 200 && Math.max(r, g, b) - Math.min(r, g, b) < 40; }
 const MR_GILT = 'rgb(0,70,230)';
 const letteringMR = (gilt: string) => isPale(gilt) ? 'rgb(0,150,40)' : MR_GILT;
-function giltText(g: CanvasRenderingContext2D, text: string, x: number, y: number, size: number, gilt: string, mr: boolean, maxW: number, font = FELL, style = '') {
-  g.font = `${style} ${size}px ${font}`; g.textAlign = 'center'; g.textBaseline = 'middle';
+function giltText(g: CanvasRenderingContext2D, text: string, x: number, y: number, size: number, gilt: string, mr: boolean, maxW: number, font = FELL, style = '', align: CanvasTextAlign = 'center') {
+  g.font = `${style} ${size}px ${font}`; g.textAlign = align; g.textBaseline = 'middle';
   let w = g.measureText(text).width;
   if (w > maxW) { size *= maxW / w; g.font = `${style} ${size}px ${font}`; }
   if (mr) { g.fillStyle = letteringMR(gilt); g.fillText(text, x, y); return size; }
@@ -127,7 +127,7 @@ export function spine(cfg: BookConfig, mr: boolean): HTMLCanvasElement {
       g.save(); g.globalAlpha = 0.5; g.drawImage(ornament, ox + 2, oy + 3, ow, oh); g.restore();   // a little depth beneath the stamp
       g.drawImage(ornament, ox, oy, ow, oh);
     }
-  } else { giltRule(g, pad, W - pad, head, 3, cfg.gilt, mr); giltRule(g, pad, W - pad, head + 9, 1.5, cfg.gilt, mr); }
+  } else if (cfg.spineAlign !== 'head') { giltRule(g, pad, W - pad, head, 3, cfg.gilt, mr); giltRule(g, pad, W - pad, head + 9, 1.5, cfg.gilt, mr); }
   giltRule(g, pad, W - pad, foot, 3, cfg.gilt, mr); giltRule(g, pad, W - pad, foot - 9, 1.5, cfg.gilt, mr);
   // title, reading top to bottom, one or two lines across the width of the spine
   const lines = balance(cfg.spineTitle ?? cfg.title), n = lines.length;
@@ -137,7 +137,9 @@ export function spine(cfg: BookConfig, mr: boolean): HTMLCanvasElement {
   const size = n === 1 ? W * 0.13 : Math.min(across / n * 0.6, W * 0.3);
   g.save(); g.translate(W / 2, (head + foot) / 2 - H * 0.02); g.rotate(Math.PI / 2);
   const lh = across / n;
-  lines.forEach((t, i) => giltText(g, t, 0, (i - (n - 1) / 2) * lh * 0.9, size, cfg.gilt, mr, length, font, style));
+  // along the spine, x runs head to foot with 0 at the middle; a head-ranged title starts just in from the head
+  const fromHead = cfg.spineAlign === 'head', x0 = fromHead ? -(foot - head) / 2 + H * 0.02 + W * 0.12 : 0;
+  lines.forEach((t, i) => giltText(g, t, x0, (i - (n - 1) / 2) * lh * 0.9, size, cfg.gilt, mr, fromHead ? length - W * 0.12 : length, font, style, fromHead ? 'left' : 'center'));
   g.restore();
   // subtitle across the spine, just above the foot rule
   if (cfg.spineSubtitle) giltText(g, cfg.spineSubtitle, W / 2, foot - 9 - W * 0.13, W * 0.11, cfg.gilt, mr, W - pad * 1.4, font, style);

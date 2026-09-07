@@ -81,7 +81,8 @@
         "frontMr": "/covers/british-butterflies/front-mr.png",
         "grain": "/covers/british-butterflies/grain.jpg"
       },
-      "masthead": "A History of British Butterflies · F. O. Morris · London, 1890"
+      "masthead": "A History of British Butterflies · F. O. Morris · London, 1890",
+      "spineAlign": "head"
     },
     {
       "id": "lucas",
