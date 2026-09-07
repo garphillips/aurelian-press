@@ -75,12 +75,11 @@
       "cloth": "#1e3a6e",
       "gilt": "#d9b768",
       "spineTitle": "A History of British Butterflies",
-      "spineFont": "Cormorant Garamond",
+      "spineFont": "Old Standard TT",
       "cover": {
         "front": "/covers/british-butterflies/front.jpg",
         "frontMr": "/covers/british-butterflies/front-mr.png",
-        "grain": "/covers/british-butterflies/grain.jpg",
-        "ornament": "/covers/british-butterflies/butterfly.png"
+        "grain": "/covers/british-butterflies/grain.jpg"
       },
       "masthead": "A History of British Butterflies · F. O. Morris · London, 1890"
     },
