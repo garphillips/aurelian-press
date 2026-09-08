@@ -21,7 +21,7 @@ export class Card {
     const info = speciesFor(root, sp.m.id);
     const fig = info.figure ?? parseInt(sp.m.id.split('-')[1]);
     const numeral = roman(plate?.order ?? 0);
-    this.num.textContent = `Plate ${numeral} · figure ${fig}`;
+    this.num.textContent = info.role ? `Plate ${numeral} · ${info.role}` : `Plate ${numeral} · figure ${fig}`;   // books with one species per plate name the role instead
     this.name.textContent = info.name ?? info.latin ?? `Figure ${fig}`;
     this.latin.textContent = info.name ? (info.latin ?? '') : (info.caption ?? '');
     this.meta.innerHTML = '';

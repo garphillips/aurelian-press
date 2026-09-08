@@ -20,7 +20,7 @@ export interface PlateIndexEntry { plateKey: string; order: number; specimens: s
 
 export interface SpeciesInfo {
   name?: string; latin?: string; family?: string; wingspan?: string; range?: string; flies?: string;
-  facts?: string[]; caption?: string; confidence?: 'confirmed' | 'probable' | 'unread'; figure?: number;
+  facts?: string[]; caption?: string; confidence?: 'confirmed' | 'probable' | 'unread'; figure?: number; role?: string;
 }
 
 export interface Content {
