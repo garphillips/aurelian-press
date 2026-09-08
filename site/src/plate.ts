@@ -1,6 +1,7 @@
 import * as THREE from 'three';
 import type { PlateManifest } from './types';
 import { Specimen } from './specimen';
+import { speciesFor } from './content';
 
 /** World height of one printed page. Plates are stacked with PLATE_GAP between them. */
 export const PLATE_H = 3.0;
@@ -24,6 +25,7 @@ export class Plate {
     for (const sm of m.specimens) {
       if (!sm.parts.body && !sm.parts['wing-L']) continue;
       if (sm.role && hide.has(sm.role)) continue;
+      if (speciesFor(root, sm.id).hidden) continue;      // cut badly; left off the page until re-cut
       const sp = new Specimen(sm, base, this.scale);
       const [x0, y0, x1, y1] = sm.plateBox;
       sp.group.position.set(((x0 + x1) / 2 - pw / 2) * this.scale, -((y0 + y1) / 2 - ph / 2) * this.scale, 0);
