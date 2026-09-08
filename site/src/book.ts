@@ -1,7 +1,7 @@
 import * as THREE from 'three';
 import { Scene, CAM_DIST, FOV } from './scene';
 import { Plate, PITCH, loadManifest } from './plate';
-import { Specimen, tune } from './specimen';
+import { Specimen, tune, reduceMotion } from './specimen';
 import { Indicator } from './indicator';
 import { Card } from './card';
 import { loadContent, clearContent, plateLabel, roman } from './content';
@@ -84,9 +84,15 @@ export async function startBook(scene: Scene, book: BookConfig, onShelf: () => v
   let pinned: Specimen | null = null;
   const hint = document.getElementById('hint')!;
   const plateFromScroll = () => scrollY / innerHeight;
+  // a navigation jump is a short, fixed-length scroll with the camera locked to it and no plate churn on the way;
+  // the browser's smooth scroll took as long as the distance and let the camera lag and zoom behind it
+  let jump: { from: number; to: number; t0: number; dur: number } | null = null;
   function scrollToPlate(i: number, smooth = true) {
     unpin();
-    scrollTo({ top: i * innerHeight, behavior: smooth ? 'smooth' : 'auto' });
+    scene.camera.fov = FOV; scene.camera.updateProjectionMatrix();          // no zoom back out; just go
+    const to = i * innerHeight;
+    if (!smooth || reduceMotion) { scrollTo({ top: to, behavior: 'auto' }); camY = -i * PITCH; return; }
+    jump = { from: scrollY, to, t0: performance.now(), dur: 320 + Math.min(280, Math.abs(to - scrollY) / innerHeight * 12) };
   }
   // deep link: #n16 (or #v2-n7 in a multi-volume book) or #plate-3
   const hash = location.hash.replace('#', '');
@@ -180,9 +186,15 @@ export async function startBook(scene: Scene, book: BookConfig, onShelf: () => v
   function frame() {
     const dt = Math.min(clock.getDelta(), 0.05), t = clock.elapsedTime;
 
+    if (jump) {
+      const u = Math.min(1, (performance.now() - jump.t0) / jump.dur), e = 1 - Math.pow(1 - u, 3);
+      scrollTo({ top: jump.from + (jump.to - jump.from) * e, behavior: 'auto' });
+      camY = -plateFromScroll() * PITCH;                                       // camera rides the scroll exactly
+      if (u >= 1) jump = null;
+    }
     const progress = plateFromScroll();
     const nearest = Math.max(0, Math.min(N - 1, Math.round(progress)));
-    if (nearest !== lastEnsure) {
+    if (nearest !== lastEnsure && !jump) {
       lastEnsure = nearest; ensurePlates(nearest); indicator.set(nearest);
       const e = index[nearest];
       plateNum.textContent = roman(nearest - e.volStart + 1);
@@ -197,7 +209,7 @@ export async function startBook(scene: Scene, book: BookConfig, onShelf: () => v
       wantY = tmp2.y; wantX = tmp2.x + (innerWidth > 640 ? pinned.span * 0.36 : 0);
       wantFov = Math.max(14, Math.min(FOV, THREE.MathUtils.radToDeg(2 * Math.atan((pinned.span * 2.7) / (2 * CAM_DIST) / scene.camera.aspect))));
     }
-    camY += (wantY - camY) * (1 - Math.pow(0.001, dt));
+    if (!jump) camY += (wantY - camY) * (1 - Math.pow(0.001, dt));
     camX += (wantX - camX) * (1 - Math.pow(0.001, dt));
     scene.camera.fov += (wantFov - scene.camera.fov) * (1 - Math.pow(0.01, dt)); scene.camera.updateProjectionMatrix();
 
