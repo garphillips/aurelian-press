@@ -31,6 +31,7 @@ export async function startBook(scene: Scene, book: BookConfig, onShelf: () => v
   /* ---------------- volumes: one scroll through every volume that exists ---------------- */
   interface Entry extends PlateIndexEntry { root: string; vol: number; volStart: number; volCount: number; hash: string }
   const volumes = volumesOf(book), multi = volumes.length > 1;
+  const hide = new Set(book.hideRoles ?? []);
   const index: Entry[] = [];
   for (const v of volumes) {
     if (v.status !== 'ready') continue;
@@ -73,7 +74,7 @@ export async function startBook(scene: Scene, book: BookConfig, onShelf: () => v
       if (mounted.has(i)) continue;
       const m = await loadManifest(index[i].root, index[i].plateKey);
       if (signal.aborted || mounted.has(i)) continue;
-      const plate = new Plate(m, i, index[i].root);
+      const plate = new Plate(m, i, index[i].root, hide);
       mounted.set(i, plate); scene.scene.add(plate.group);
     }
   }

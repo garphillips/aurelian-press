@@ -16,13 +16,14 @@ export class Plate {
   specimens: Specimen[] = [];
   readonly scale: number;
 
-  constructor(public m: PlateManifest, public index: number, public root: string) {
+  constructor(public m: PlateManifest, public index: number, public root: string, hide: Set<string> = new Set()) {
     const [pw, ph] = m.canvas;
     this.scale = PLATE_H / ph;
     this.group.position.y = -index * PITCH;
     const base = `${root}/plates/${m.plateKey}`;
     for (const sm of m.specimens) {
       if (!sm.parts.body && !sm.parts['wing-L']) continue;
+      if (sm.role && hide.has(sm.role)) continue;
       const sp = new Specimen(sm, base, this.scale);
       const [x0, y0, x1, y1] = sm.plateBox;
       sp.group.position.set(((x0 + x1) / 2 - pw / 2) * this.scale, -((y0 + y1) / 2 - ph / 2) * this.scale, 0);

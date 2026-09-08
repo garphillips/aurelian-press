@@ -91,9 +91,13 @@
         "dates": "1810–1893"
       },
       "plates": 72,
-      "specimens": 290,
+      "specimens": 186,
       "credit": "Plates from F. O. Morris, <i>A History of British Butterflies</i>, new edition, London: John C. Nimmo, 1890; engraved and printed by Benjamin Fawcett. Scans: <a href=\"https://archive.org/details/historyofbritish03morr\" target=\"_blank\" rel=\"noopener\">Internet Archive</a> (Smithsonian Libraries), public domain.",
-      "unreadNote": "Morris’s text for this plate was not recovered from the scan yet. Its species and facts will follow."
+      "unreadNote": "Morris’s text for this plate was not recovered from the scan yet. Its species and facts will follow.",
+      "hideRoles": [
+        "larva",
+        "pupa"
+      ]
     },
     {
       "id": "lucas",

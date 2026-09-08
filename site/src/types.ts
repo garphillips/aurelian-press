@@ -3,6 +3,7 @@ export interface PartRef { bbox: [number, number, number, number]; w: number; h:
 export interface SpecimenManifest {
   id: string;                       // e.g. "n16-1"
   rotate: 'none' | 'cw' | 'ccw';
+  role?: string;                    // imago, underside, larva, pupa (books that draw the life cycle)
   plateBox: [number, number, number, number];   // in plate pixels, as printed
   axis: number; bodyHalf: number; wingTop: number;
   bbox: [number, number, number, number];       // in upright specimen pixels
