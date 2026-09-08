@@ -19,7 +19,7 @@ await Promise.all([document.fonts.load('20px "IM Fell English"'), document.fonts
 
 const mastSub = document.getElementById('mastSub')!;
 const curtainEl = document.getElementById('curtain')!;
-const SITE = 'The Lepidoptera Plates';
+const SITE = 'The Aurelian Press';
 
 /** Paper-coloured curtain between the two scenes. Resolves once the fade is done. */
 function curtain(up: boolean): Promise<void> {
