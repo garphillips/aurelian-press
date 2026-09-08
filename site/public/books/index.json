@@ -66,7 +66,7 @@
       "place": "London",
       "year": "1890",
       "noun": "butterflies",
-      "status": "coming",
+      "status": "ready",
       "format": {
         "h": 2.35,
         "w": 1.6,
@@ -88,10 +88,12 @@
       "portrait": {
         "image": "/covers/british-butterflies/author.jpg",
         "caption": "Francis Orpen Morris",
-        "dates": "1810–1893",
-        "note": "Coming this week"
+        "dates": "1810–1893"
       },
-      "statusNote": "coming this week"
+      "plates": 72,
+      "specimens": 290,
+      "credit": "Plates from F. O. Morris, <i>A History of British Butterflies</i>, new edition, London: John C. Nimmo, 1890; engraved and printed by Benjamin Fawcett. Scans: <a href=\"https://archive.org/details/historyofbritish03morr\" target=\"_blank\" rel=\"noopener\">Internet Archive</a> (Smithsonian Libraries), public domain.",
+      "unreadNote": "Morris’s text for this plate was not recovered from the scan yet. Its species and facts will follow."
     },
     {
       "id": "lucas",
