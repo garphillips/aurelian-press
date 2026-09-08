@@ -1,6 +1,86 @@
 {
   "books": [
     {
+      "id": "lucas",
+      "route": "/lucas/",
+      "title": "Histoire naturelle des lépidoptères exotiques",
+      "shortTitle": "Lépidoptères exotiques",
+      "author": "H. Lucas",
+      "authorLong": "Hippolyte Lucas",
+      "place": "Paris",
+      "year": "1835–36",
+      "plates": 80,
+      "specimens": 193,
+      "noun": "butterflies",
+      "status": "ready",
+      "format": {
+        "h": 2.4,
+        "w": 1.55,
+        "d": 0.42
+      },
+      "cloth": "#181311",
+      "gilt": "#efe6d2",
+      "masthead": "Histoire naturelle des lépidoptères exotiques · Paris, 1835",
+      "credit": "Plates drawn and engraved by Pauquet for <i>Histoire naturelle des lépidoptères exotiques</i>, Paris, 1835–36. Scans: <a href=\"https://www.biodiversitylibrary.org/item/213697\" target=\"_blank\" rel=\"noopener\">Biodiversity Heritage Library</a>, public domain.",
+      "unreadNote": "The handwritten caption for this figure has not been transcribed yet. Its species and facts will follow.",
+      "portrait": {
+        "image": "/covers/lucas/author.jpg",
+        "caption": "Hippolyte Lucas",
+        "dates": "1814–1899"
+      },
+      "spineTitle": "Histoire naturelle des Lépidoptères exotiques",
+      "cover": {
+        "front": "/covers/lucas/front.jpg",
+        "grain": "/covers/lucas/grain.jpg"
+      },
+      "spineFont": "Playfair Display",
+      "spineItalic": true,
+      "spineOrnament": "french"
+    },
+    {
+      "id": "british-butterflies",
+      "route": "/british-butterflies/",
+      "title": "A History of British Butterflies",
+      "shortTitle": "British Butterflies",
+      "author": "F. O. Morris",
+      "authorLong": "Francis Orpen Morris",
+      "place": "London",
+      "year": "1890",
+      "noun": "butterflies",
+      "status": "ready",
+      "format": {
+        "h": 2.35,
+        "w": 1.6,
+        "d": 0.5
+      },
+      "cloth": "#1e3a6e",
+      "gilt": "#d9b768",
+      "spineTitle": "A History of British Butterflies",
+      "spineFont": "Cinzel",
+      "cover": {
+        "front": "/covers/british-butterflies/front.jpg",
+        "frontMr": "/covers/british-butterflies/front-mr.png",
+        "grain": "/covers/british-butterflies/grain.jpg"
+      },
+      "masthead": "A History of British Butterflies · F. O. Morris · London, 1890",
+      "spineAlign": "head",
+      "spineLines": 1,
+      "spineScale": 1.3,
+      "portrait": {
+        "image": "/covers/british-butterflies/author.jpg",
+        "caption": "Francis Orpen Morris",
+        "dates": "1810–1893"
+      },
+      "plates": 72,
+      "specimens": 186,
+      "credit": "Plates from F. O. Morris, <i>A History of British Butterflies</i>, new edition, London: John C. Nimmo, 1890; engraved and printed by Benjamin Fawcett. Scans: <a href=\"https://archive.org/details/historyofbritish03morr\" target=\"_blank\" rel=\"noopener\">Internet Archive</a> (Smithsonian Libraries), public domain.",
+      "unreadNote": "Morris’s text for this plate was not recovered from the scan yet. Its species and facts will follow.",
+      "hideRoles": [
+        "larva",
+        "pupa"
+      ]
+    },
+    {
       "id": "british-moths",
       "route": "/british-moths/",
       "title": "A History of British Moths",
@@ -55,86 +135,6 @@
       },
       "spineFont": "Libre Baskerville",
       "spineSubtitle": "Vol. 1 to 4"
-    },
-    {
-      "id": "british-butterflies",
-      "route": "/british-butterflies/",
-      "title": "A History of British Butterflies",
-      "shortTitle": "British Butterflies",
-      "author": "F. O. Morris",
-      "authorLong": "Francis Orpen Morris",
-      "place": "London",
-      "year": "1890",
-      "noun": "butterflies",
-      "status": "ready",
-      "format": {
-        "h": 2.35,
-        "w": 1.6,
-        "d": 0.5
-      },
-      "cloth": "#1e3a6e",
-      "gilt": "#d9b768",
-      "spineTitle": "A History of British Butterflies",
-      "spineFont": "Cinzel",
-      "cover": {
-        "front": "/covers/british-butterflies/front.jpg",
-        "frontMr": "/covers/british-butterflies/front-mr.png",
-        "grain": "/covers/british-butterflies/grain.jpg"
-      },
-      "masthead": "A History of British Butterflies · F. O. Morris · London, 1890",
-      "spineAlign": "head",
-      "spineLines": 1,
-      "spineScale": 1.3,
-      "portrait": {
-        "image": "/covers/british-butterflies/author.jpg",
-        "caption": "Francis Orpen Morris",
-        "dates": "1810–1893"
-      },
-      "plates": 72,
-      "specimens": 186,
-      "credit": "Plates from F. O. Morris, <i>A History of British Butterflies</i>, new edition, London: John C. Nimmo, 1890; engraved and printed by Benjamin Fawcett. Scans: <a href=\"https://archive.org/details/historyofbritish03morr\" target=\"_blank\" rel=\"noopener\">Internet Archive</a> (Smithsonian Libraries), public domain.",
-      "unreadNote": "Morris’s text for this plate was not recovered from the scan yet. Its species and facts will follow.",
-      "hideRoles": [
-        "larva",
-        "pupa"
-      ]
-    },
-    {
-      "id": "lucas",
-      "route": "/lucas/",
-      "title": "Histoire naturelle des lépidoptères exotiques",
-      "shortTitle": "Lépidoptères exotiques",
-      "author": "H. Lucas",
-      "authorLong": "Hippolyte Lucas",
-      "place": "Paris",
-      "year": "1835–36",
-      "plates": 80,
-      "specimens": 193,
-      "noun": "butterflies",
-      "status": "ready",
-      "format": {
-        "h": 2.4,
-        "w": 1.55,
-        "d": 0.42
-      },
-      "cloth": "#181311",
-      "gilt": "#efe6d2",
-      "masthead": "Histoire naturelle des lépidoptères exotiques · Paris, 1835",
-      "credit": "Plates drawn and engraved by Pauquet for <i>Histoire naturelle des lépidoptères exotiques</i>, Paris, 1835–36. Scans: <a href=\"https://www.biodiversitylibrary.org/item/213697\" target=\"_blank\" rel=\"noopener\">Biodiversity Heritage Library</a>, public domain.",
-      "unreadNote": "The handwritten caption for this figure has not been transcribed yet. Its species and facts will follow.",
-      "portrait": {
-        "image": "/covers/lucas/author.jpg",
-        "caption": "Hippolyte Lucas",
-        "dates": "1814–1899"
-      },
-      "spineTitle": "Histoire naturelle des Lépidoptères exotiques",
-      "cover": {
-        "front": "/covers/lucas/front.jpg",
-        "grain": "/covers/lucas/grain.jpg"
-      },
-      "spineFont": "Playfair Display",
-      "spineItalic": true,
-      "spineOrnament": "french"
     }
   ]
 }
