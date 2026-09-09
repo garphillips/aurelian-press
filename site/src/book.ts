@@ -4,7 +4,7 @@ import { Plate, PITCH, loadManifest } from './plate';
 import { Specimen, tune, reduceMotion } from './specimen';
 import { Indicator } from './indicator';
 import { Card } from './card';
-import { loadContent, clearContent, plateLabel, roman } from './content';
+import { loadContent, clearContent, getContent, plateLabel, roman } from './content';
 import { inkUniform } from './shaders';
 import { volumesOf, romanVol, type BookConfig } from './books';
 import type { PlateIndexEntry } from './types';
@@ -35,7 +35,12 @@ export async function startBook(scene: Scene, book: BookConfig, onShelf: () => v
   const index: Entry[] = [];
   for (const v of volumes) {
     if (v.status !== 'ready') continue;
-    const [list] = await Promise.all([fetch(`${v.root}/plates/index.json`).then(r => r.json()) as Promise<PlateIndexEntry[]>, loadContent(v.root)]);
+    const [all, c] = await Promise.all([fetch(`${v.root}/plates/index.json`).then(r => r.json()) as Promise<PlateIndexEntry[]>, loadContent(v.root)]);
+    // a plate with nothing left to show (every specimen hidden, or of a hidden role) is skipped; numerals stay printed
+    const LABEL: Record<string, string> = { larva: 'caterpillar', pupa: 'chrysalis' };      // the content carries the display word
+    const hiddenRoles = new Set([...hide, ...[...hide].map(r => LABEL[r] ?? r)]);
+    const visible = (id: string) => { const sp = c.specimens[id] ?? {}; return !sp.hidden && !(sp.role && hiddenRoles.has(sp.role)); };
+    const list = all.filter(e => e.specimens.some(visible));
     const volStart = index.length;
     for (const e of list) index.push({ ...e, root: v.root, vol: v.n, volStart, volCount: list.length, hash: multi ? `v${v.n}-${e.plateKey}` : e.plateKey });
   }
@@ -57,12 +62,14 @@ export async function startBook(scene: Scene, book: BookConfig, onShelf: () => v
     }
   }
 
+  // the printed plate number from the content, so skipped plates leave a gap rather than renumbering the rest
+  const numeral = (i: number) => roman(getContent(index[i].root)?.plates[index[i].plateKey]?.order ?? (i - index[i].volStart + 1));
   const indicator = new Indicator(N,
     i => multi && i === index[i].volStart
       ? `Vol. ${romanVol(index[i].vol)} · ${plateLabel(index[i].root, index[i].plateKey, index[i].specimens).replace(/^[IVXLC]+ · /, '')}`
       : plateLabel(index[i].root, index[i].plateKey, index[i].specimens),
     i => scrollToPlate(i),
-    i => roman(i - index[i].volStart + 1),
+    i => numeral(i),
     i => i === index[i].volStart);
 
   /* ---------------- plates: only the few around the viewport exist ---------------- */
@@ -197,7 +204,7 @@ export async function startBook(scene: Scene, book: BookConfig, onShelf: () => v
     if (nearest !== lastEnsure && !jump) {
       lastEnsure = nearest; ensurePlates(nearest); indicator.set(nearest);
       const e = index[nearest];
-      plateNum.textContent = roman(nearest - e.volStart + 1);
+      plateNum.textContent = numeral(nearest);
       plateCount.textContent = multi ? `vol. ${romanVol(e.vol)} · of ${e.volCount}` : `of ${e.volCount}`;
       if (multi) for (const [n, a] of volLinks) a.classList.toggle('current', n === e.vol);
     }
