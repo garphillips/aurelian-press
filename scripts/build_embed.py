@@ -5,12 +5,16 @@ the plate as engraved (ink only). Textures are inlined as data URIs; three.js co
     python3 scripts/build_embed.py lucas n132-3 imperial-jezebel
 Writes site/public/embed/<slug>.html (a full document, hosted at aurelianpress.co.uk/embed/<slug>.html) and
 <slug>.artifact.html beside it in the scratchpad when SCRATCH is set (the body only, for the Artifact tool).
-Options on the page: ?caption=0 hides the caption, ?bg=transparent drops the paper and keeps only the shadow.
+Options on the page: ?caption=0 hides the caption, ?bg=transparent drops the paper and keeps only the shadow,
+?bg=dark sets the specimen as a cut-out of its paper on a deep ink-brown ground, ?text=light gives a pale caption for a dark host. --dark / --transparent make one of
+those the page's default. Off the paper (dark or transparent) the print is drawn as a cut-out of its own paper, since
+the books' multiply shading needs paper beneath it.
 """
 import json, base64, os, sys, html as H
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 book, sid, slug = sys.argv[1], sys.argv[2], sys.argv[3]
+DEFAULT_BG = 'dark' if '--dark' in sys.argv else 'transparent' if '--transparent' in sys.argv else 'paper'   # what the page opens on unless ?bg= says otherwise
 key = sid.split('-')[0]
 base = f'{ROOT}/site/public/books/{book}'
 content = json.load(open(f'{base}/content/plates.json', encoding='utf-8'))
@@ -51,6 +55,9 @@ head = f'''<title>{H.escape(name)}</title>
   html,body{{margin:0;height:100%;background:var(--paper);color:var(--ink);font-family:var(--body);}}
   body{{overflow:hidden;}}
   html.transparent,body.transparent{{background:transparent;}}
+  html.dark,body.dark{{background:#17130f;}}
+  body.dark #caption, body.light-text #caption{{color:#e8dec4;}} body.dark #caption i, body.dark #caption small, body.light-text #caption i, body.light-text #caption small{{color:#b9ac92;}}
+  body.dark #vignette{{background:radial-gradient(ellipse at 50% 50%, rgba(0,0,0,0) 45%, rgba(0,0,0,.45) 100%);box-shadow:none;}}
   #gl{{position:fixed;inset:0;width:100%;height:100%;display:block;touch-action:none;}}
   #vignette{{position:fixed;inset:0;pointer-events:none;
     background:radial-gradient(ellipse at 50% 50%, rgba(0,0,0,0) 55%, rgba(70,48,22,.22) 100%);box-shadow:inset 0 0 90px rgba(60,40,15,.18);}}
@@ -78,9 +85,12 @@ script = r'''<script type="module">
 import * as THREE from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/0.160.0/three.module.min.js';
 const SPEC = __SPEC__;
 const q = new URLSearchParams(location.search);
-const TRANSPARENT = q.get('bg') === 'transparent';
+const bg = q.get('bg') || '__DEFAULT_BG__';
+const TRANSPARENT = bg === 'transparent', DARK = bg === 'dark', CUTOUT = TRANSPARENT || DARK;
 if (TRANSPARENT) { document.documentElement.classList.add('transparent'); document.body.classList.add('transparent'); }
+if (DARK) { document.documentElement.classList.add('dark'); document.body.classList.add('dark'); }
 if (q.get('caption') === '0') document.body.classList.add('nocaption');
+if (q.get('text') === 'light') document.body.classList.add('light-text');     // pale caption for a dark host page
 const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 /* paper */
@@ -110,7 +120,7 @@ const FOV = 22, CAM_DIST = 8.4;
 const camera = new THREE.PerspectiveCamera(FOV, 1, 0.1, 100); camera.position.set(0, 0, CAM_DIST);
 const paperTex = new THREE.CanvasTexture(drawPaper()); paperTex.colorSpace = THREE.SRGBColorSpace;
 paperTex.wrapS = paperTex.wrapT = THREE.MirroredRepeatWrapping; paperTex.repeat.set(4, 4); paperTex.anisotropy = renderer.capabilities.getMaxAnisotropy();
-const paper = new THREE.Mesh(new THREE.PlaneGeometry(40, 40), TRANSPARENT ? new THREE.ShadowMaterial({ opacity: 0.22 }) : new THREE.MeshLambertMaterial({ map: paperTex }));
+const paper = new THREE.Mesh(new THREE.PlaneGeometry(40, 40), TRANSPARENT ? new THREE.ShadowMaterial({ opacity: 0.22 }) : DARK ? new THREE.MeshLambertMaterial({ color: 0x17130f }) : new THREE.MeshLambertMaterial({ map: paperTex }));
 paper.receiveShadow = true; scene.add(paper);
 scene.add(new THREE.AmbientLight(0xfff6e6, 1.85));
 const sun = new THREE.DirectionalLight(0xfff1dc, 1.25); sun.castShadow = true; sun.shadow.mapSize.set(2048, 2048);
@@ -132,7 +142,8 @@ const INK_FRAG = `#include <map_fragment>
     vec3 sepia = vec3(l) * vec3(1.0, 0.96, 0.90);
     c = mix(c, sepia, uInk);
     vec3 lin = pow(max(c, vec3(0.0)), vec3(2.2));
-    diffuseColor.rgb = uMode < 0.5 ? min(lin, vec3(1.0)) : max(lin - 1.0, vec3(0.0)) * 0.85; }`;
+    vec3 paperLin = pow(vec3(0.910, 0.871, 0.769), vec3(2.2));
+    diffuseColor.rgb = uMode > 1.5 ? min(lin, vec3(1.08)) * paperLin : uMode < 0.5 ? min(lin, vec3(1.0)) : max(lin - 1.0, vec3(0.0)) * 0.85; }`;
 function inject(mat, wing, mode = 0){
   mat.onBeforeCompile = (shader) => {
     shader.uniforms.uInk = inkUniform; shader.uniforms.uMode = { value: mode };
@@ -152,12 +163,17 @@ const SPAN = 2.6, scale = SPAN / (x1 - x0);
 const uniforms = makeWingUniforms();
 function materials(part, wing){
   const map = loadTex(part.rgb), alpha = loadTex(part.alpha);
+  if (CUTOUT) {   // one pass: the print as a cut-out of its own paper, so the colours read as on the page
+    const mat = new THREE.MeshBasicMaterial({ map, alphaMap: alpha, transparent: true, depthWrite: false, side: THREE.DoubleSide }); mat.alphaTest = 0.5; inject(mat, wing, 2);
+    const dm = new THREE.MeshDepthMaterial({ depthPacking: THREE.RGBADepthPacking, side: THREE.DoubleSide }); if (wing) inject(dm, wing);
+    return { mat, add: null, dm };
+  }
   const mat = new THREE.MeshBasicMaterial({ map, alphaMap: alpha, blending: THREE.MultiplyBlending, transparent: true, depthWrite: false, side: THREE.DoubleSide }); mat.alphaTest = 0.5; inject(mat, wing, 0);
   const add = new THREE.MeshBasicMaterial({ map, alphaMap: alpha, blending: THREE.AdditiveBlending, transparent: true, depthWrite: false, side: THREE.DoubleSide }); add.alphaTest = 0.5; inject(add, wing, 1);
   const dm = new THREE.MeshDepthMaterial({ depthPacking: THREE.RGBADepthPacking, side: THREE.DoubleSide }); if (wing) inject(dm, wing);
   return { mat, add, dm };
 }
-function twin(mesh, add){ const t = new THREE.Mesh(mesh.geometry, add); t.position.copy(mesh.position); t.position.z += 0.0005; t.scale.copy(mesh.scale); t.renderOrder = mesh.renderOrder + 10; group.add(t); return t; }
+function twin(mesh, add){ if (!add) return null; const t = new THREE.Mesh(mesh.geometry, add); t.position.copy(mesh.position); t.position.z += 0.0005; t.scale.copy(mesh.scale); t.renderOrder = mesh.renderOrder + 10; group.add(t); return t; }
 for (const name of ['wing-L', 'wing-R']){
   const part = SPEC.parts[name]; if (!part) continue;
   const side = name.endsWith('R') ? 1 : -1;
@@ -211,7 +227,7 @@ function frame(){
   S.lift += ((S.energy * 0.3) - S.lift) * (1 - Math.pow(0.08, dt));
   uniforms.uAmp.value = S.amp; uniforms.uRest.value = tune.rest + 0.04 * Math.sin(t * 0.7 + S.phase * 0.01); uniforms.uLag.value = tune.lag; uniforms.uPhase.value = S.phase;
   group.position.z = S.lift;
-  if (body){ body.position.z = 0.012 + Math.max(0, -Math.sin(S.phase)) * 0.02 * S.amp; bodyTwin.position.z = body.position.z + 0.0005; }
+  if (body){ body.position.z = 0.012 + Math.max(0, -Math.sin(S.phase)) * 0.02 * S.amp; if (bodyTwin) bodyTwin.position.z = body.position.z + 0.0005; }
   inkUniform.value += (inkTarget - inkUniform.value) * (1 - Math.pow(0.02, dt));
   pointerSpeed *= Math.pow(0.001, dt);
   canvas.style.cursor = hovering ? 'pointer' : 'default';
@@ -220,7 +236,7 @@ function frame(){
 }
 frame();
 </script>
-'''.replace('__SPEC__', json.dumps(spec))
+'''.replace('__SPEC__', json.dumps(spec)).replace('__DEFAULT_BG__', DEFAULT_BG)
 
 os.makedirs(f'{ROOT}/site/public/embed', exist_ok=True)
 doc = ('<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width, initial-scale=1">\n'
