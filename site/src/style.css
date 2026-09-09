@@ -92,6 +92,9 @@ body.pinned #ruler{opacity:.18;pointer-events:none;}
 #hint.gone{opacity:0;}
 #credit{bottom:20px;left:24px;max-width:360px;font-family:var(--body);font-size:12px;line-height:1.35;color:var(--ink-soft);pointer-events:auto;}
 #credit a{color:inherit;}
+#byline{bottom:20px;right:24px;font-size:12px;font-style:italic;letter-spacing:.04em;color:var(--ink-soft);pointer-events:auto;text-decoration:none;opacity:.8;transition:opacity .3s,color .3s;}
+#byline:hover,#byline:focus-visible{color:var(--ink);opacity:1;outline:none;}
+@media (max-width:640px){ #byline{right:16px;bottom:16px;font-size:11px;} }
 @media (max-width:760px){ #credit{display:none;} #masthead h1{font-size:18px;} #masthead p{display:none;} #volumes{margin-top:8px;} }
 
 #card{position:fixed;width:min(340px, calc(100vw - 48px));padding:22px 26px 20px;pointer-events:auto;
