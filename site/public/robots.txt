@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://aurelianpress.co.uk/sitemap.xml
