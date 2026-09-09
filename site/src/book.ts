@@ -45,7 +45,13 @@ export async function startBook(scene: Scene, book: BookConfig, onShelf: () => v
     for (const e of list) index.push({ ...e, root: v.root, vol: v.n, volStart, volCount: list.length, hash: multi ? `v${v.n}-${e.plateKey}` : e.plateKey });
   }
   const N = index.length;
-  document.getElementById('spacer')!.style.height = `${N * 100}vh`;
+  // one snap point per plate: the browser settles a coasting scroll onto the nearest plate (CSS scroll-snap,
+  // proximity), with no interference in the wheel or touch. Off during a jump so the tween is not fought.
+  const spacer = document.getElementById('spacer')!;
+  spacer.style.height = ''; spacer.innerHTML = '';
+  for (let i = 0; i < N; i++) { const d = document.createElement('div'); d.className = 'snap'; spacer.appendChild(d); }
+  const snapping = (on: boolean) => document.documentElement.classList.toggle('snap', on);
+  snapping(true);
   const plateCount = document.getElementById('plateCount')!;
 
   // the volume switcher under the masthead; volumes still to come are shown but dimmed
@@ -99,6 +105,7 @@ export async function startBook(scene: Scene, book: BookConfig, onShelf: () => v
     scene.camera.fov = FOV; scene.camera.updateProjectionMatrix();          // no zoom back out; just go
     const to = i * innerHeight;
     if (!smooth || reduceMotion) { scrollTo({ top: to, behavior: 'auto' }); camY = -i * PITCH; return; }
+    snapping(false);
     jump = { from: scrollY, to, t0: performance.now(), dur: 320 + Math.min(280, Math.abs(to - scrollY) / innerHeight * 12) };
   }
   // deep link: #n16 (or #v2-n7 in a multi-volume book) or #plate-3
@@ -197,7 +204,7 @@ export async function startBook(scene: Scene, book: BookConfig, onShelf: () => v
       const u = Math.min(1, (performance.now() - jump.t0) / jump.dur), e = 1 - Math.pow(1 - u, 3);
       scrollTo({ top: jump.from + (jump.to - jump.from) * e, behavior: 'auto' });
       camY = -plateFromScroll() * PITCH;                                       // camera rides the scroll exactly
-      if (u >= 1) jump = null;
+      if (u >= 1) { jump = null; snapping(true); }
     }
     const progress = plateFromScroll();
     const nearest = Math.max(0, Math.min(N - 1, Math.round(progress)));
@@ -262,7 +269,7 @@ export async function startBook(scene: Scene, book: BookConfig, onShelf: () => v
       for (const p of mounted.values()) p.dispose(); mounted.clear();
       clearContent(); volNav.innerHTML = '';
       document.body.classList.remove('reading');
-      document.getElementById('spacer')!.style.height = '0px';
+      snapping(false); spacer.innerHTML = ''; spacer.style.height = '0px';
       scrollTo({ top: 0, behavior: 'auto' });
     },
   };
