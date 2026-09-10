@@ -11,6 +11,8 @@ import json, base64, os, sys, html as H
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 book, sid, slug = sys.argv[1], sys.argv[2], sys.argv[3]
+LATIN_OVERRIDE = sys.argv[sys.argv.index('--latin') + 1] if '--latin' in sys.argv else None   # when the OCR lost the book's binomial
+CREDIT = {'lucas': 'Lucas 1835', 'british-butterflies': 'Morris 1890', 'british-moths': 'Morris 1903'}.get(book, book)
 key = sid.split('-')[0]
 base = f'{ROOT}/site/public/books/{book}'
 content = json.load(open(f'{base}/content/plates.json', encoding='utf-8'))
@@ -33,7 +35,7 @@ for name, part in sp['parts'].items():
     parts[name] = p
 spec = dict(id=sid, bbox=sp['bbox'], axis=sp['axis'], bodyHalf=sp['bodyHalf'], parts=parts)
 name = info.get('name') or info.get('latin') or sid
-latin = info.get('latin') or ''
+latin = LATIN_OVERRIDE or info.get('latin') or ''
 numeral = roman(plate['order']); fig = sid.split('-')[1]
 
 head = f'''<title>The Aurelian Press</title>
@@ -85,7 +87,7 @@ head = f'''<title>The Aurelian Press</title>
   </div>
   <div class="card__media">
     <canvas id="gl" aria-label="A hand-coloured engraving of {H.escape(name)}, its wings moving"></canvas>
-    <p class="card__plate">{H.escape(name)} · <em>{H.escape(latin)}</em> · Lucas 1835, plate {numeral}, figure {fig}</p>
+    <p class="card__plate">{H.escape(name)} · <em>{H.escape(latin)}</em> · {CREDIT}, plate {numeral}, figure {fig}</p>
   </div>
   <div class="card__foot">
     <p class="t-eyebrow">Three.js · WebGL · a Python cutter</p>
