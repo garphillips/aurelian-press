@@ -1,0 +1,204 @@
+{
+"plateKey": "n73",
+"order": 14,
+"canvas": [
+1838,
+2768
+],
+"paper": [
+0.9686274528503418,
+0.9254902005195618,
+0.7490196228027344
+],
+"source": {
+"flickr": null,
+"bhl": "https://archive.org/details/historyofbritish03morr/page/n73",
+"ia": "https://archive.org/download/historyofbritish03morr/page/n73.jpg"
+},
+"specimens": [
+{
+"id": "n73-1",
+"rotate": "none",
+"plateBox": [
+759,
+359,
+1097,
+759
+],
+"axis": 928,
+"bodyHalf": 0,
+"wingTop": 359,
+"bbox": [
+759,
+359,
+1097,
+759
+],
+"parts": {
+"body": {
+"bbox": [
+752,
+352,
+1103,
+764
+],
+"w": 351,
+"h": 412
+},
+"wing-R": null,
+"wing-L": null
+},
+"role": "underside",
+"sym": 0.869,
+"aspect": 0.84,
+"cy": 0.2
+},
+{
+"id": "n73-2",
+"rotate": "none",
+"plateBox": [
+647,
+1191,
+1225,
+1537
+],
+"axis": 933,
+"bodyHalf": 20,
+"wingTop": 1209,
+"bbox": [
+647,
+1191,
+1225,
+1537
+],
+"parts": {
+"body": {
+"bbox": [
+840,
+1184,
+1031,
+1506
+],
+"w": 191,
+"h": 322
+},
+"wing-R": {
+"bbox": [
+953,
+1203,
+1231,
+1543
+],
+"w": 278,
+"h": 340
+},
+"wing-L": {
+"bbox": [
+640,
+1196,
+913,
+1539
+],
+"w": 273,
+"h": 343
+}
+},
+"role": "imago",
+"sym": 0.936,
+"aspect": 1.67,
+"cy": 0.49
+},
+{
+"id": "n73-3",
+"rotate": "none",
+"plateBox": [
+1235,
+1951,
+1421,
+2181
+],
+"axis": 1328,
+"bodyHalf": 0,
+"wingTop": 1951,
+"bbox": [
+1235,
+1951,
+1421,
+2181
+],
+"parts": {
+"body": {
+"bbox": [
+1228,
+1944,
+1427,
+2187
+],
+"w": 199,
+"h": 243
+},
+"wing-R": null,
+"wing-L": null
+},
+"role": "pupa",
+"sym": 0.51,
+"aspect": 0.81,
+"cy": 0.75
+},
+{
+"id": "n73-4",
+"rotate": "none",
+"plateBox": [
+367,
+2003,
+881,
+2113
+],
+"axis": 635,
+"bodyHalf": 18,
+"wingTop": 2008,
+"bbox": [
+367,
+2003,
+881,
+2113
+],
+"parts": {
+"body": {
+"bbox": [
+550,
+1996,
+713,
+2099
+],
+"w": 163,
+"h": 103
+},
+"wing-R": {
+"bbox": [
+653,
+2002,
+887,
+2119
+],
+"w": 234,
+"h": 117
+},
+"wing-L": {
+"bbox": [
+360,
+2002,
+617,
+2107
+],
+"w": 257,
+"h": 105
+}
+},
+"role": "imago",
+"sym": 0.958,
+"aspect": 4.67,
+"cy": 0.74
+}
+]
+}

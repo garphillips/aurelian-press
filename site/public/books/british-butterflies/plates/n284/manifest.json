@@ -1,0 +1,112 @@
+{
+"plateKey": "n284",
+"order": 65,
+"canvas": [
+1838,
+2768
+],
+"paper": [
+0.9960784316062927,
+0.929411768913269,
+0.7450980544090271
+],
+"source": {
+"flickr": null,
+"bhl": "https://archive.org/details/historyofbritish03morr/page/n284",
+"ia": "https://archive.org/download/historyofbritish03morr/page/n284.jpg"
+},
+"specimens": [
+{
+"id": "n284-1",
+"rotate": "none",
+"plateBox": [
+807,
+539,
+1037,
+811
+],
+"axis": 922,
+"bodyHalf": 0,
+"wingTop": 539,
+"bbox": [
+807,
+539,
+1037,
+811
+],
+"parts": {
+"body": {
+"bbox": [
+800,
+532,
+1043,
+816
+],
+"w": 243,
+"h": 284
+},
+"wing-R": null,
+"wing-L": null
+},
+"role": "underside",
+"sym": 0.878,
+"aspect": 0.85,
+"cy": 0.24
+},
+{
+"id": "n284-2",
+"rotate": "none",
+"plateBox": [
+755,
+1659,
+1129,
+1837
+],
+"axis": 942,
+"bodyHalf": 13,
+"wingTop": 1661,
+"bbox": [
+755,
+1659,
+1129,
+1837
+],
+"parts": {
+"body": {
+"bbox": [
+923,
+1662,
+960,
+1811
+],
+"w": 37,
+"h": 149
+},
+"wing-R": {
+"bbox": [
+955,
+1652,
+1135,
+1843
+],
+"w": 180,
+"h": 191
+},
+"wing-L": {
+"bbox": [
+748,
+1652,
+929,
+1843
+],
+"w": 181,
+"h": 191
+}
+},
+"role": "imago",
+"sym": 0.992,
+"aspect": 2.1,
+"cy": 0.63
+}
+]
+}

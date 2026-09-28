@@ -1,0 +1,204 @@
+{
+"plateKey": "n241",
+"order": 55,
+"canvas": [
+1838,
+2768
+],
+"paper": [
+0.9647058844566345,
+0.9137254953384399,
+0.7372549176216125
+],
+"source": {
+"flickr": null,
+"bhl": "https://archive.org/details/historyofbritish03morr/page/n241",
+"ia": "https://archive.org/download/historyofbritish03morr/page/n241.jpg"
+},
+"specimens": [
+{
+"id": "n241-1",
+"rotate": "none",
+"plateBox": [
+751,
+419,
+1006,
+713
+],
+"axis": 878,
+"bodyHalf": 0,
+"wingTop": 419,
+"bbox": [
+751,
+419,
+1006,
+713
+],
+"parts": {
+"body": {
+"bbox": [
+744,
+412,
+1011,
+719
+],
+"w": 267,
+"h": 307
+},
+"wing-R": null,
+"wing-L": null
+},
+"role": "underside",
+"sym": 0.927,
+"aspect": 0.87,
+"cy": 0.2
+},
+{
+"id": "n241-2",
+"rotate": "none",
+"plateBox": [
+723,
+1199,
+1109,
+1445
+],
+"axis": 916,
+"bodyHalf": 14,
+"wingTop": 1225,
+"bbox": [
+723,
+1199,
+1109,
+1445
+],
+"parts": {
+"body": {
+"bbox": [
+836,
+1192,
+991,
+1395
+],
+"w": 155,
+"h": 203
+},
+"wing-R": {
+"bbox": [
+930,
+1212,
+1115,
+1447
+],
+"w": 185,
+"h": 235
+},
+"wing-L": {
+"bbox": [
+716,
+1219,
+902,
+1451
+],
+"w": 186,
+"h": 232
+}
+},
+"role": "imago",
+"sym": 0.966,
+"aspect": 1.57,
+"cy": 0.48
+},
+{
+"id": "n241-3",
+"rotate": "none",
+"plateBox": [
+1191,
+1909,
+1289,
+2172
+],
+"axis": 1240,
+"bodyHalf": 0,
+"wingTop": 1909,
+"bbox": [
+1191,
+1909,
+1289,
+2172
+],
+"parts": {
+"body": {
+"bbox": [
+1184,
+1903,
+1295,
+2177
+],
+"w": 111,
+"h": 274
+},
+"wing-R": null,
+"wing-L": null
+},
+"role": "pupa",
+"sym": 0.816,
+"aspect": 0.37,
+"cy": 0.74
+},
+{
+"id": "n241-4",
+"rotate": "none",
+"plateBox": [
+523,
+2003,
+807,
+2085
+],
+"axis": 670,
+"bodyHalf": 10,
+"wingTop": 2009,
+"bbox": [
+523,
+2003,
+807,
+2085
+],
+"parts": {
+"body": {
+"bbox": [
+629,
+1996,
+706,
+2087
+],
+"w": 77,
+"h": 91
+},
+"wing-R": {
+"bbox": [
+680,
+2003,
+812,
+2087
+],
+"w": 132,
+"h": 84
+},
+"wing-L": {
+"bbox": [
+516,
+2003,
+660,
+2091
+],
+"w": 144,
+"h": 88
+}
+},
+"role": "imago",
+"sym": 0.93,
+"aspect": 3.46,
+"cy": 0.74
+}
+]
+}

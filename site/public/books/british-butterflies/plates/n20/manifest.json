@@ -1,0 +1,149 @@
+{
+"plateKey": "n20",
+"order": 2,
+"canvas": [
+1838,
+2768
+],
+"paper": [
+0.9921568632125854,
+0.9254902005195618,
+0.7333333492279053
+],
+"source": {
+"flickr": null,
+"bhl": "https://archive.org/details/historyofbritish03morr/page/n20",
+"ia": "https://archive.org/download/historyofbritish03morr/page/n20.jpg"
+},
+"specimens": [
+{
+"id": "n20-1",
+"rotate": "none",
+"plateBox": [
+443,
+570,
+1409,
+1249
+],
+"axis": 931,
+"bodyHalf": 34,
+"wingTop": 601,
+"bbox": [
+443,
+570,
+1409,
+1249
+],
+"parts": {
+"body": {
+"bbox": [
+891,
+564,
+1003,
+943
+],
+"w": 112,
+"h": 379
+},
+"wing-R": {
+"bbox": [
+965,
+588,
+1415,
+1255
+],
+"w": 450,
+"h": 667
+},
+"wing-L": {
+"bbox": [
+436,
+592,
+897,
+1255
+],
+"w": 461,
+"h": 663
+}
+},
+"role": "imago",
+"sym": 0.986,
+"aspect": 1.42,
+"cy": 0.33
+},
+{
+"id": "n20-2",
+"rotate": "none",
+"plateBox": [
+1151,
+1811,
+1561,
+2117
+],
+"axis": 1356,
+"bodyHalf": 0,
+"wingTop": 1811,
+"bbox": [
+1151,
+1811,
+1561,
+2117
+],
+"parts": {
+"body": {
+"bbox": [
+1144,
+1804,
+1567,
+2123
+],
+"w": 423,
+"h": 319
+},
+"wing-R": null,
+"wing-L": null
+},
+"role": "pupa",
+"sym": 0.542,
+"aspect": 1.34,
+"cy": 0.71
+},
+{
+"id": "n20-3",
+"rotate": "none",
+"plateBox": [
+340,
+1923,
+857,
+2093
+],
+"axis": 598,
+"bodyHalf": 0,
+"wingTop": 1923,
+"bbox": [
+340,
+1923,
+857,
+2093
+],
+"parts": {
+"body": {
+"bbox": [
+334,
+1916,
+863,
+2099
+],
+"w": 529,
+"h": 183
+},
+"wing-R": null,
+"wing-L": null
+},
+"role": "larva",
+"sym": 0.89,
+"aspect": 3.04,
+"cy": 0.73
+}
+]
+}

@@ -1,0 +1,241 @@
+{
+"plateKey": "n305",
+"order": 70,
+"canvas": [
+1838,
+2768
+],
+"paper": [
+0.9607843160629272,
+0.9098039269447327,
+0.7254902124404907
+],
+"source": {
+"flickr": null,
+"bhl": "https://archive.org/details/historyofbritish03morr/page/n305",
+"ia": "https://archive.org/download/historyofbritish03morr/page/n305.jpg"
+},
+"specimens": [
+{
+"id": "n305-1",
+"rotate": "none",
+"plateBox": [
+839,
+443,
+1057,
+737
+],
+"axis": 948,
+"bodyHalf": 0,
+"wingTop": 443,
+"bbox": [
+839,
+443,
+1057,
+737
+],
+"parts": {
+"body": {
+"bbox": [
+832,
+436,
+1063,
+743
+],
+"w": 231,
+"h": 307
+},
+"wing-R": null,
+"wing-L": null
+},
+"role": "underside",
+"sym": 0.904,
+"aspect": 0.74,
+"cy": 0.21
+},
+{
+"id": "n305-2",
+"rotate": "none",
+"plateBox": [
+359,
+1187,
+737,
+1405
+],
+"axis": 549,
+"bodyHalf": 13,
+"wingTop": 1221,
+"bbox": [
+359,
+1187,
+737,
+1405
+],
+"parts": {
+"body": {
+"bbox": [
+465,
+1180,
+631,
+1411
+],
+"w": 166,
+"h": 231
+},
+"wing-R": {
+"bbox": [
+562,
+1212,
+743,
+1403
+],
+"w": 181,
+"h": 191
+},
+"wing-L": {
+"bbox": [
+352,
+1184,
+536,
+1411
+],
+"w": 184,
+"h": 227
+}
+},
+"role": "imago",
+"sym": 0.939,
+"aspect": 1.73,
+"cy": 0.47
+},
+{
+"id": "n305-3",
+"rotate": "none",
+"plateBox": [
+1163,
+1223,
+1529,
+1421
+],
+"axis": 1346,
+"bodyHalf": 13,
+"wingTop": 1239,
+"bbox": [
+1163,
+1223,
+1529,
+1421
+],
+"parts": {
+"body": {
+"bbox": [
+1262,
+1216,
+1429,
+1427
+],
+"w": 167,
+"h": 211
+},
+"wing-R": {
+"bbox": [
+1359,
+1218,
+1535,
+1427
+],
+"w": 176,
+"h": 209
+},
+"wing-L": {
+"bbox": [
+1156,
+1218,
+1333,
+1427
+],
+"w": 177,
+"h": 209
+}
+},
+"role": "imago",
+"sym": 0.988,
+"aspect": 1.85,
+"cy": 0.48
+},
+{
+"id": "n305-4",
+"rotate": "none",
+"plateBox": [
+439,
+2003,
+745,
+2097
+],
+"axis": 592,
+"bodyHalf": 0,
+"wingTop": 2003,
+"bbox": [
+439,
+2003,
+745,
+2097
+],
+"parts": {
+"body": {
+"bbox": [
+432,
+1996,
+751,
+2103
+],
+"w": 319,
+"h": 107
+},
+"wing-R": null,
+"wing-L": null
+},
+"role": "larva",
+"sym": 0.907,
+"aspect": 3.26,
+"cy": 0.74
+},
+{
+"id": "n305-5",
+"rotate": "none",
+"plateBox": [
+1095,
+2019,
+1325,
+2097
+],
+"axis": 1210,
+"bodyHalf": 0,
+"wingTop": 2019,
+"bbox": [
+1095,
+2019,
+1325,
+2097
+],
+"parts": {
+"body": {
+"bbox": [
+1088,
+2012,
+1331,
+2103
+],
+"w": 243,
+"h": 91
+},
+"wing-R": null,
+"wing-L": null
+},
+"role": "larva",
+"sym": 0.891,
+"aspect": 2.95,
+"cy": 0.74
+}
+]
+}

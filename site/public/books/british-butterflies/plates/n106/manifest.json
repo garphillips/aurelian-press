@@ -1,0 +1,204 @@
+{
+"plateKey": "n106",
+"order": 22,
+"canvas": [
+1838,
+2768
+],
+"paper": [
+0.9960784316062927,
+0.9372549057006836,
+0.7529411911964417
+],
+"source": {
+"flickr": null,
+"bhl": "https://archive.org/details/historyofbritish03morr/page/n106",
+"ia": "https://archive.org/download/historyofbritish03morr/page/n106.jpg"
+},
+"specimens": [
+{
+"id": "n106-1",
+"rotate": "none",
+"plateBox": [
+647,
+371,
+1045,
+853
+],
+"axis": 846,
+"bodyHalf": 0,
+"wingTop": 371,
+"bbox": [
+647,
+371,
+1045,
+853
+],
+"parts": {
+"body": {
+"bbox": [
+640,
+364,
+1051,
+859
+],
+"w": 411,
+"h": 495
+},
+"wing-R": null,
+"wing-L": null
+},
+"role": "underside",
+"sym": 0.868,
+"aspect": 0.83,
+"cy": 0.22
+},
+{
+"id": "n106-2",
+"rotate": "none",
+"plateBox": [
+851,
+1199,
+1537,
+1601
+],
+"axis": 1195,
+"bodyHalf": 24,
+"wingTop": 1228,
+"bbox": [
+851,
+1199,
+1537,
+1601
+],
+"parts": {
+"body": {
+"bbox": [
+1100,
+1192,
+1299,
+1543
+],
+"w": 199,
+"h": 351
+},
+"wing-R": {
+"bbox": [
+1219,
+1220,
+1543,
+1607
+],
+"w": 324,
+"h": 387
+},
+"wing-L": {
+"bbox": [
+844,
+1208,
+1171,
+1599
+],
+"w": 327,
+"h": 391
+}
+},
+"role": "imago",
+"sym": 0.975,
+"aspect": 1.71,
+"cy": 0.51
+},
+{
+"id": "n106-3",
+"rotate": "none",
+"plateBox": [
+175,
+1251,
+757,
+1569
+],
+"axis": 467,
+"bodyHalf": 20,
+"wingTop": 1258,
+"bbox": [
+175,
+1251,
+757,
+1569
+],
+"parts": {
+"body": {
+"bbox": [
+373,
+1248,
+558,
+1519
+],
+"w": 185,
+"h": 271
+},
+"wing-R": {
+"bbox": [
+487,
+1248,
+763,
+1575
+],
+"w": 276,
+"h": 327
+},
+"wing-L": {
+"bbox": [
+168,
+1244,
+447,
+1575
+],
+"w": 279,
+"h": 331
+}
+},
+"role": "imago",
+"sym": 0.99,
+"aspect": 1.83,
+"cy": 0.51
+},
+{
+"id": "n106-4",
+"rotate": "none",
+"plateBox": [
+651,
+2011,
+1041,
+2117
+],
+"axis": 846,
+"bodyHalf": 0,
+"wingTop": 2011,
+"bbox": [
+651,
+2011,
+1041,
+2117
+],
+"parts": {
+"body": {
+"bbox": [
+644,
+2004,
+1047,
+2123
+],
+"w": 403,
+"h": 119
+},
+"wing-R": null,
+"wing-L": null
+},
+"role": "larva",
+"sym": 0.87,
+"aspect": 3.68,
+"cy": 0.75
+}
+]
+}

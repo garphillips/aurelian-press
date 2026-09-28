@@ -1,0 +1,112 @@
+{
+"plateKey": "n158",
+"order": 35,
+"canvas": [
+1838,
+2768
+],
+"paper": [
+0.9921568632125854,
+0.9372549057006836,
+0.7529411911964417
+],
+"source": {
+"flickr": null,
+"bhl": "https://archive.org/details/historyofbritish03morr/page/n158",
+"ia": "https://archive.org/download/historyofbritish03morr/page/n158.jpg"
+},
+"specimens": [
+{
+"id": "n158-1",
+"rotate": "none",
+"plateBox": [
+670,
+391,
+1113,
+913
+],
+"axis": 891,
+"bodyHalf": 0,
+"wingTop": 391,
+"bbox": [
+670,
+391,
+1113,
+913
+],
+"parts": {
+"body": {
+"bbox": [
+664,
+384,
+1119,
+919
+],
+"w": 455,
+"h": 535
+},
+"wing-R": null,
+"wing-L": null
+},
+"role": "underside",
+"sym": 0.812,
+"aspect": 0.85,
+"cy": 0.24
+},
+{
+"id": "n158-2",
+"rotate": "none",
+"plateBox": [
+511,
+1447,
+1313,
+1929
+],
+"axis": 912,
+"bodyHalf": 28,
+"wingTop": 1491,
+"bbox": [
+511,
+1447,
+1313,
+1929
+],
+"parts": {
+"body": {
+"bbox": [
+854,
+1440,
+1027,
+1893
+],
+"w": 173,
+"h": 453
+},
+"wing-R": {
+"bbox": [
+940,
+1480,
+1319,
+1935
+],
+"w": 379,
+"h": 455
+},
+"wing-L": {
+"bbox": [
+504,
+1476,
+884,
+1935
+],
+"w": 380,
+"h": 459
+}
+},
+"role": "imago",
+"sym": 0.976,
+"aspect": 1.66,
+"cy": 0.61
+}
+]
+}

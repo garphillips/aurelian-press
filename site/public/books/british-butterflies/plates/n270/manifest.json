@@ -1,0 +1,278 @@
+{
+"plateKey": "n270",
+"order": 62,
+"canvas": [
+1838,
+2768
+],
+"paper": [
+0.9921568632125854,
+0.929411768913269,
+0.7372549176216125
+],
+"source": {
+"flickr": null,
+"bhl": "https://archive.org/details/historyofbritish03morr/page/n270",
+"ia": "https://archive.org/download/historyofbritish03morr/page/n270.jpg"
+},
+"specimens": [
+{
+"id": "n270-1",
+"rotate": "none",
+"plateBox": [
+791,
+451,
+1043,
+725
+],
+"axis": 917,
+"bodyHalf": 0,
+"wingTop": 451,
+"bbox": [
+791,
+451,
+1043,
+725
+],
+"parts": {
+"body": {
+"bbox": [
+784,
+444,
+1048,
+731
+],
+"w": 264,
+"h": 287
+},
+"wing-R": null,
+"wing-L": null
+},
+"role": "underside",
+"sym": 0.854,
+"aspect": 0.92,
+"cy": 0.21
+},
+{
+"id": "n270-2",
+"rotate": "none",
+"plateBox": [
+1087,
+1195,
+1477,
+1393
+],
+"axis": 1284,
+"bodyHalf": 14,
+"wingTop": 1205,
+"bbox": [
+1087,
+1195,
+1477,
+1393
+],
+"parts": {
+"body": {
+"bbox": [
+1264,
+1212,
+1303,
+1375
+],
+"w": 39,
+"h": 163
+},
+"wing-R": {
+"bbox": [
+1298,
+1188,
+1483,
+1395
+],
+"w": 185,
+"h": 207
+},
+"wing-L": {
+"bbox": [
+1080,
+1200,
+1270,
+1399
+],
+"w": 190,
+"h": 199
+}
+},
+"role": "imago",
+"sym": 0.963,
+"aspect": 1.97,
+"cy": 0.47
+},
+{
+"id": "n270-3",
+"rotate": "none",
+"plateBox": [
+319,
+1207,
+725,
+1413
+],
+"axis": 528,
+"bodyHalf": 14,
+"wingTop": 1217,
+"bbox": [
+319,
+1207,
+725,
+1413
+],
+"parts": {
+"body": {
+"bbox": [
+508,
+1224,
+547,
+1379
+],
+"w": 39,
+"h": 155
+},
+"wing-R": {
+"bbox": [
+542,
+1200,
+731,
+1415
+],
+"w": 189,
+"h": 215
+},
+"wing-L": {
+"bbox": [
+312,
+1208,
+514,
+1419
+],
+"w": 202,
+"h": 211
+}
+},
+"role": "imago",
+"sym": 0.971,
+"aspect": 1.97,
+"cy": 0.47
+},
+{
+"id": "n270-4",
+"rotate": "none",
+"plateBox": [
+1207,
+1887,
+1265,
+2125
+],
+"axis": 1236,
+"bodyHalf": 0,
+"wingTop": 1887,
+"bbox": [
+1207,
+1887,
+1265,
+2125
+],
+"parts": {
+"body": {
+"bbox": [
+1200,
+1880,
+1270,
+2131
+],
+"w": 70,
+"h": 251
+},
+"wing-R": null,
+"wing-L": null
+},
+"role": "pupa",
+"sym": 0.113,
+"aspect": 0.24,
+"cy": 0.72
+},
+{
+"id": "n270-5",
+"rotate": "none",
+"plateBox": [
+1231,
+1911,
+1301,
+2065
+],
+"axis": 1266,
+"bodyHalf": 0,
+"wingTop": 1911,
+"bbox": [
+1231,
+1911,
+1301,
+2065
+],
+"parts": {
+"body": {
+"bbox": [
+1224,
+1904,
+1307,
+2071
+],
+"w": 83,
+"h": 167
+},
+"wing-R": null,
+"wing-L": null
+},
+"role": "pupa",
+"sym": 0.804,
+"aspect": 0.45,
+"cy": 0.72
+},
+{
+"id": "n270-6",
+"rotate": "none",
+"plateBox": [
+517,
+1971,
+789,
+2077
+],
+"axis": 653,
+"bodyHalf": 0,
+"wingTop": 1971,
+"bbox": [
+517,
+1971,
+789,
+2077
+],
+"parts": {
+"body": {
+"bbox": [
+511,
+1964,
+795,
+2083
+],
+"w": 284,
+"h": 119
+},
+"wing-R": null,
+"wing-L": null
+},
+"role": "larva",
+"sym": 0.844,
+"aspect": 2.57,
+"cy": 0.73
+}
+]
+}

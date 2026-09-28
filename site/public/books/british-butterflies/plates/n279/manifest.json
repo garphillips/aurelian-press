@@ -1,0 +1,241 @@
+{
+"plateKey": "n279",
+"order": 64,
+"canvas": [
+1838,
+2768
+],
+"paper": [
+0.9607843160629272,
+0.9098039269447327,
+0.7333333492279053
+],
+"source": {
+"flickr": null,
+"bhl": "https://archive.org/details/historyofbritish03morr/page/n279",
+"ia": "https://archive.org/download/historyofbritish03morr/page/n279.jpg"
+},
+"specimens": [
+{
+"id": "n279-1",
+"rotate": "none",
+"plateBox": [
+879,
+435,
+1189,
+797
+],
+"axis": 1034,
+"bodyHalf": 0,
+"wingTop": 435,
+"bbox": [
+879,
+435,
+1189,
+797
+],
+"parts": {
+"body": {
+"bbox": [
+872,
+428,
+1195,
+803
+],
+"w": 323,
+"h": 375
+},
+"wing-R": null,
+"wing-L": null
+},
+"role": "underside",
+"sym": 0.875,
+"aspect": 0.86,
+"cy": 0.22
+},
+{
+"id": "n279-2",
+"rotate": "none",
+"plateBox": [
+379,
+1195,
+893,
+1485
+],
+"axis": 633,
+"bodyHalf": 18,
+"wingTop": 1208,
+"bbox": [
+379,
+1195,
+893,
+1485
+],
+"parts": {
+"body": {
+"bbox": [
+609,
+1228,
+656,
+1447
+],
+"w": 47,
+"h": 219
+},
+"wing-R": {
+"bbox": [
+651,
+1200,
+899,
+1491
+],
+"w": 248,
+"h": 291
+},
+"wing-L": {
+"bbox": [
+372,
+1188,
+615,
+1487
+],
+"w": 243,
+"h": 299
+}
+},
+"role": "imago",
+"sym": 0.956,
+"aspect": 1.77,
+"cy": 0.48
+},
+{
+"id": "n279-3",
+"rotate": "none",
+"plateBox": [
+1143,
+1224,
+1633,
+1509
+],
+"axis": 1388,
+"bodyHalf": 17,
+"wingTop": 1237,
+"bbox": [
+1143,
+1224,
+1633,
+1509
+],
+"parts": {
+"body": {
+"bbox": [
+1331,
+1218,
+1410,
+1471
+],
+"w": 79,
+"h": 253
+},
+"wing-R": {
+"bbox": [
+1405,
+1228,
+1639,
+1515
+],
+"w": 234,
+"h": 287
+},
+"wing-L": {
+"bbox": [
+1136,
+1220,
+1371,
+1507
+],
+"w": 235,
+"h": 287
+}
+},
+"role": "imago",
+"sym": 0.975,
+"aspect": 1.72,
+"cy": 0.49
+},
+{
+"id": "n279-4",
+"rotate": "none",
+"plateBox": [
+603,
+1875,
+705,
+2228
+],
+"axis": 654,
+"bodyHalf": 0,
+"wingTop": 1875,
+"bbox": [
+603,
+1875,
+705,
+2228
+],
+"parts": {
+"body": {
+"bbox": [
+596,
+1868,
+711,
+2233
+],
+"w": 115,
+"h": 365
+},
+"wing-R": null,
+"wing-L": null
+},
+"role": "pupa",
+"sym": 0.747,
+"aspect": 0.29,
+"cy": 0.74
+},
+{
+"id": "n279-5",
+"rotate": "none",
+"plateBox": [
+1174,
+2055,
+1362,
+2137
+],
+"axis": 1268,
+"bodyHalf": 0,
+"wingTop": 2055,
+"bbox": [
+1174,
+2055,
+1362,
+2137
+],
+"parts": {
+"body": {
+"bbox": [
+1168,
+2048,
+1367,
+2143
+],
+"w": 199,
+"h": 95
+},
+"wing-R": null,
+"wing-L": null
+},
+"role": "pupa",
+"sym": 0.914,
+"aspect": 2.29,
+"cy": 0.76
+}
+]
+}

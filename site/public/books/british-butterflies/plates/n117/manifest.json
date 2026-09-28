@@ -1,0 +1,112 @@
+{
+"plateKey": "n117",
+"order": 25,
+"canvas": [
+1838,
+2768
+],
+"paper": [
+0.9686274528503418,
+0.9254902005195618,
+0.7490196228027344
+],
+"source": {
+"flickr": null,
+"bhl": "https://archive.org/details/historyofbritish03morr/page/n117",
+"ia": "https://archive.org/download/historyofbritish03morr/page/n117.jpg"
+},
+"specimens": [
+{
+"id": "n117-1",
+"rotate": "none",
+"plateBox": [
+767,
+451,
+1057,
+789
+],
+"axis": 912,
+"bodyHalf": 0,
+"wingTop": 451,
+"bbox": [
+767,
+451,
+1057,
+789
+],
+"parts": {
+"body": {
+"bbox": [
+760,
+444,
+1063,
+795
+],
+"w": 303,
+"h": 351
+},
+"wing-R": null,
+"wing-L": null
+},
+"role": "underside",
+"sym": 0.915,
+"aspect": 0.86,
+"cy": 0.22
+},
+{
+"id": "n117-2",
+"rotate": "none",
+"plateBox": [
+703,
+1583,
+1137,
+1841
+],
+"axis": 920,
+"bodyHalf": 15,
+"wingTop": 1589,
+"bbox": [
+703,
+1583,
+1137,
+1841
+],
+"parts": {
+"body": {
+"bbox": [
+899,
+1580,
+990,
+1815
+],
+"w": 91,
+"h": 235
+},
+"wing-R": {
+"bbox": [
+935,
+1576,
+1143,
+1839
+],
+"w": 208,
+"h": 263
+},
+"wing-L": {
+"bbox": [
+696,
+1580,
+905,
+1847
+],
+"w": 209,
+"h": 267
+}
+},
+"role": "imago",
+"sym": 0.978,
+"aspect": 1.68,
+"cy": 0.62
+}
+]
+}

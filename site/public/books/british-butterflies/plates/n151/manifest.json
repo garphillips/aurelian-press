@@ -1,0 +1,75 @@
+{
+"plateKey": "n151",
+"order": 33,
+"canvas": [
+1838,
+2768
+],
+"paper": [
+0.9647058844566345,
+0.9215686321258545,
+0.7490196228027344
+],
+"source": {
+"flickr": null,
+"bhl": "https://archive.org/details/historyofbritish03morr/page/n151",
+"ia": "https://archive.org/download/historyofbritish03morr/page/n151.jpg"
+},
+"specimens": [
+{
+"id": "n151-1",
+"rotate": "none",
+"plateBox": [
+689,
+1055,
+1285,
+1392
+],
+"axis": 984,
+"bodyHalf": 21,
+"wingTop": 1133,
+"bbox": [
+689,
+1055,
+1285,
+1392
+],
+"parts": {
+"body": {
+"bbox": [
+957,
+1048,
+1071,
+1387
+],
+"w": 114,
+"h": 339
+},
+"wing-R": {
+"bbox": [
+1005,
+1120,
+1291,
+1391
+],
+"w": 286,
+"h": 271
+},
+"wing-L": {
+"bbox": [
+683,
+1136,
+963,
+1397
+],
+"w": 280,
+"h": 261
+}
+},
+"role": "imago",
+"sym": 0.923,
+"aspect": 1.77,
+"cy": 0.44
+}
+]
+}

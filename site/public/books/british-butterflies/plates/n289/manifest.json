@@ -1,0 +1,241 @@
+{
+"plateKey": "n289",
+"order": 66,
+"canvas": [
+1838,
+2768
+],
+"paper": [
+0.9607843160629272,
+0.9098039269447327,
+0.7333333492279053
+],
+"source": {
+"flickr": null,
+"bhl": "https://archive.org/details/historyofbritish03morr/page/n289",
+"ia": "https://archive.org/download/historyofbritish03morr/page/n289.jpg"
+},
+"specimens": [
+{
+"id": "n289-1",
+"rotate": "none",
+"plateBox": [
+879,
+403,
+1113,
+677
+],
+"axis": 996,
+"bodyHalf": 0,
+"wingTop": 403,
+"bbox": [
+879,
+403,
+1113,
+677
+],
+"parts": {
+"body": {
+"bbox": [
+872,
+396,
+1119,
+683
+],
+"w": 247,
+"h": 287
+},
+"wing-R": null,
+"wing-L": null
+},
+"role": "underside",
+"sym": 0.886,
+"aspect": 0.85,
+"cy": 0.2
+},
+{
+"id": "n289-2",
+"rotate": "none",
+"plateBox": [
+1147,
+1127,
+1517,
+1337
+],
+"axis": 1334,
+"bodyHalf": 13,
+"wingTop": 1160,
+"bbox": [
+1147,
+1127,
+1517,
+1337
+],
+"parts": {
+"body": {
+"bbox": [
+1252,
+1120,
+1352,
+1335
+],
+"w": 100,
+"h": 215
+},
+"wing-R": {
+"bbox": [
+1347,
+1148,
+1523,
+1343
+],
+"w": 176,
+"h": 195
+},
+"wing-L": {
+"bbox": [
+1140,
+1148,
+1321,
+1343
+],
+"w": 181,
+"h": 195
+}
+},
+"role": "imago",
+"sym": 0.981,
+"aspect": 1.76,
+"cy": 0.45
+},
+{
+"id": "n289-3",
+"rotate": "none",
+"plateBox": [
+471,
+1151,
+797,
+1341
+],
+"axis": 634,
+"bodyHalf": 11,
+"wingTop": 1161,
+"bbox": [
+471,
+1151,
+797,
+1341
+],
+"parts": {
+"body": {
+"bbox": [
+562,
+1144,
+650,
+1335
+],
+"w": 88,
+"h": 191
+},
+"wing-R": {
+"bbox": [
+645,
+1152,
+803,
+1347
+],
+"w": 158,
+"h": 195
+},
+"wing-L": {
+"bbox": [
+464,
+1146,
+623,
+1347
+],
+"w": 159,
+"h": 201
+}
+},
+"role": "imago",
+"sym": 0.973,
+"aspect": 1.72,
+"cy": 0.45
+},
+{
+"id": "n289-4",
+"rotate": "none",
+"plateBox": [
+547,
+1927,
+861,
+2017
+],
+"axis": 704,
+"bodyHalf": 0,
+"wingTop": 1927,
+"bbox": [
+547,
+1927,
+861,
+2017
+],
+"parts": {
+"body": {
+"bbox": [
+540,
+1920,
+867,
+2023
+],
+"w": 327,
+"h": 103
+},
+"wing-R": null,
+"wing-L": null
+},
+"role": "larva",
+"sym": 0.622,
+"aspect": 3.49,
+"cy": 0.71
+},
+{
+"id": "n289-5",
+"rotate": "none",
+"plateBox": [
+1235,
+1951,
+1437,
+2013
+],
+"axis": 1336,
+"bodyHalf": 0,
+"wingTop": 1951,
+"bbox": [
+1235,
+1951,
+1437,
+2013
+],
+"parts": {
+"body": {
+"bbox": [
+1228,
+1944,
+1443,
+2019
+],
+"w": 215,
+"h": 75
+},
+"wing-R": null,
+"wing-L": null
+},
+"role": "larva",
+"sym": 0.931,
+"aspect": 3.26,
+"cy": 0.72
+}
+]
+}

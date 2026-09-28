@@ -1,0 +1,241 @@
+{
+"plateKey": "n67",
+"order": 13,
+"canvas": [
+1838,
+2768
+],
+"paper": [
+0.9725490212440491,
+0.9254902005195618,
+0.7490196228027344
+],
+"source": {
+"flickr": null,
+"bhl": "https://archive.org/details/historyofbritish03morr/page/n67",
+"ia": "https://archive.org/download/historyofbritish03morr/page/n67.jpg"
+},
+"specimens": [
+{
+"id": "n67-1",
+"rotate": "none",
+"plateBox": [
+807,
+275,
+1189,
+733
+],
+"axis": 998,
+"bodyHalf": 0,
+"wingTop": 275,
+"bbox": [
+807,
+275,
+1189,
+733
+],
+"parts": {
+"body": {
+"bbox": [
+800,
+268,
+1195,
+739
+],
+"w": 395,
+"h": 471
+},
+"wing-R": null,
+"wing-L": null
+},
+"role": "underside",
+"sym": 0.842,
+"aspect": 0.83,
+"cy": 0.18
+},
+{
+"id": "n67-2",
+"rotate": "none",
+"plateBox": [
+291,
+1135,
+965,
+1525
+],
+"axis": 632,
+"bodyHalf": 24,
+"wingTop": 1169,
+"bbox": [
+291,
+1135,
+965,
+1525
+],
+"parts": {
+"body": {
+"bbox": [
+500,
+1128,
+751,
+1467
+],
+"w": 251,
+"h": 339
+},
+"wing-R": {
+"bbox": [
+656,
+1156,
+971,
+1523
+],
+"w": 315,
+"h": 367
+},
+"wing-L": {
+"bbox": [
+284,
+1163,
+608,
+1531
+],
+"w": 324,
+"h": 368
+}
+},
+"role": "imago",
+"sym": 0.946,
+"aspect": 1.73,
+"cy": 0.48
+},
+{
+"id": "n67-3",
+"rotate": "none",
+"plateBox": [
+1075,
+1139,
+1681,
+1493
+],
+"axis": 1377,
+"bodyHalf": 21,
+"wingTop": 1149,
+"bbox": [
+1075,
+1139,
+1681,
+1493
+],
+"parts": {
+"body": {
+"bbox": [
+1245,
+1132,
+1507,
+1463
+],
+"w": 262,
+"h": 331
+},
+"wing-R": {
+"bbox": [
+1398,
+1136,
+1687,
+1495
+],
+"w": 289,
+"h": 359
+},
+"wing-L": {
+"bbox": [
+1068,
+1136,
+1356,
+1499
+],
+"w": 288,
+"h": 363
+}
+},
+"role": "imago",
+"sym": 0.976,
+"aspect": 1.71,
+"cy": 0.48
+},
+{
+"id": "n67-4",
+"rotate": "none",
+"plateBox": [
+1314,
+1915,
+1513,
+2177
+],
+"axis": 1413,
+"bodyHalf": 0,
+"wingTop": 1915,
+"bbox": [
+1314,
+1915,
+1513,
+2177
+],
+"parts": {
+"body": {
+"bbox": [
+1308,
+1908,
+1519,
+2183
+],
+"w": 211,
+"h": 275
+},
+"wing-R": null,
+"wing-L": null
+},
+"role": "pupa",
+"sym": 0.763,
+"aspect": 0.76,
+"cy": 0.74
+},
+{
+"id": "n67-5",
+"rotate": "none",
+"plateBox": [
+467,
+2027,
+975,
+2137
+],
+"axis": 721,
+"bodyHalf": 0,
+"wingTop": 2027,
+"bbox": [
+467,
+2027,
+975,
+2137
+],
+"parts": {
+"body": {
+"bbox": [
+460,
+2020,
+980,
+2143
+],
+"w": 520,
+"h": 123
+},
+"wing-R": null,
+"wing-L": null
+},
+"role": "larva",
+"sym": 0.903,
+"aspect": 4.62,
+"cy": 0.75
+}
+]
+}

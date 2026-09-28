@@ -1,0 +1,112 @@
+{
+"plateKey": "n102",
+"order": 21,
+"canvas": [
+1838,
+2768
+],
+"paper": [
+0.9921568632125854,
+0.9372549057006836,
+0.7529411911964417
+],
+"source": {
+"flickr": null,
+"bhl": "https://archive.org/details/historyofbritish03morr/page/n102",
+"ia": "https://archive.org/download/historyofbritish03morr/page/n102.jpg"
+},
+"specimens": [
+{
+"id": "n102-1",
+"rotate": "none",
+"plateBox": [
+803,
+511,
+1065,
+805
+],
+"axis": 934,
+"bodyHalf": 0,
+"wingTop": 511,
+"bbox": [
+803,
+511,
+1065,
+805
+],
+"parts": {
+"body": {
+"bbox": [
+796,
+504,
+1071,
+811
+],
+"w": 275,
+"h": 307
+},
+"wing-R": null,
+"wing-L": null
+},
+"role": "underside",
+"sym": 0.866,
+"aspect": 0.89,
+"cy": 0.24
+},
+{
+"id": "n102-2",
+"rotate": "none",
+"plateBox": [
+703,
+1559,
+1097,
+1797
+],
+"axis": 902,
+"bodyHalf": 14,
+"wingTop": 1585,
+"bbox": [
+703,
+1559,
+1097,
+1797
+],
+"parts": {
+"body": {
+"bbox": [
+820,
+1552,
+987,
+1757
+],
+"w": 167,
+"h": 205
+},
+"wing-R": {
+"bbox": [
+916,
+1576,
+1103,
+1803
+],
+"w": 187,
+"h": 227
+},
+"wing-L": {
+"bbox": [
+696,
+1572,
+888,
+1799
+],
+"w": 192,
+"h": 227
+}
+},
+"role": "imago",
+"sym": 0.97,
+"aspect": 1.66,
+"cy": 0.61
+}
+]
+}

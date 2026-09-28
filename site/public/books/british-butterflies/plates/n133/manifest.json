@@ -1,0 +1,186 @@
+{
+"plateKey": "n133",
+"order": 29,
+"canvas": [
+1838,
+2768
+],
+"paper": [
+0.95686274766922,
+0.9176470637321472,
+0.7411764860153198
+],
+"source": {
+"flickr": null,
+"bhl": "https://archive.org/details/historyofbritish03morr/page/n133",
+"ia": "https://archive.org/download/historyofbritish03morr/page/n133.jpg"
+},
+"specimens": [
+{
+"id": "n133-1",
+"rotate": "none",
+"plateBox": [
+647,
+275,
+1133,
+869
+],
+"axis": 890,
+"bodyHalf": 0,
+"wingTop": 275,
+"bbox": [
+647,
+275,
+1133,
+869
+],
+"parts": {
+"body": {
+"bbox": [
+640,
+268,
+1139,
+875
+],
+"w": 499,
+"h": 607
+},
+"wing-R": null,
+"wing-L": null
+},
+"role": "underside",
+"sym": 0.896,
+"aspect": 0.82,
+"cy": 0.21
+},
+{
+"id": "n133-2",
+"rotate": "none",
+"plateBox": [
+451,
+1123,
+1297,
+1649
+],
+"axis": 875,
+"bodyHalf": 30,
+"wingTop": 1173,
+"bbox": [
+451,
+1123,
+1297,
+1649
+],
+"parts": {
+"body": {
+"bbox": [
+720,
+1116,
+1031,
+1562
+],
+"w": 311,
+"h": 446
+},
+"wing-R": {
+"bbox": [
+905,
+1164,
+1303,
+1655
+],
+"w": 398,
+"h": 491
+},
+"wing-L": {
+"bbox": [
+444,
+1152,
+845,
+1651
+],
+"w": 401,
+"h": 499
+}
+},
+"role": "imago",
+"sym": 0.967,
+"aspect": 1.61,
+"cy": 0.5
+},
+{
+"id": "n133-3",
+"rotate": "none",
+"plateBox": [
+1191,
+1975,
+1377,
+2321
+],
+"axis": 1284,
+"bodyHalf": 0,
+"wingTop": 1975,
+"bbox": [
+1191,
+1975,
+1377,
+2321
+],
+"parts": {
+"body": {
+"bbox": [
+1184,
+1968,
+1383,
+2327
+],
+"w": 199,
+"h": 359
+},
+"wing-R": null,
+"wing-L": null
+},
+"role": "pupa",
+"sym": 0.778,
+"aspect": 0.54,
+"cy": 0.78
+},
+{
+"id": "n133-4",
+"rotate": "none",
+"plateBox": [
+331,
+2035,
+939,
+2261
+],
+"axis": 635,
+"bodyHalf": 0,
+"wingTop": 2035,
+"bbox": [
+331,
+2035,
+939,
+2261
+],
+"parts": {
+"body": {
+"bbox": [
+324,
+2028,
+944,
+2267
+],
+"w": 620,
+"h": 239
+},
+"wing-R": null,
+"wing-L": null
+},
+"role": "larva",
+"sym": 0.695,
+"aspect": 2.69,
+"cy": 0.78
+}
+]
+}

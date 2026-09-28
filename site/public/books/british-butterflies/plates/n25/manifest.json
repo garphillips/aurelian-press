@@ -1,0 +1,204 @@
+{
+"plateKey": "n25",
+"order": 3,
+"canvas": [
+1838,
+2768
+],
+"paper": [
+0.9647058844566345,
+0.9137254953384399,
+0.7333333492279053
+],
+"source": {
+"flickr": null,
+"bhl": "https://archive.org/details/historyofbritish03morr/page/n25",
+"ia": "https://archive.org/download/historyofbritish03morr/page/n25.jpg"
+},
+"specimens": [
+{
+"id": "n25-1",
+"rotate": "none",
+"plateBox": [
+535,
+343,
+1293,
+737
+],
+"axis": 914,
+"bodyHalf": 27,
+"wingTop": 381,
+"bbox": [
+535,
+343,
+1293,
+737
+],
+"parts": {
+"body": {
+"bbox": [
+836,
+336,
+946,
+718
+],
+"w": 110,
+"h": 382
+},
+"wing-R": {
+"bbox": [
+941,
+364,
+1299,
+743
+],
+"w": 358,
+"h": 379
+},
+"wing-L": {
+"bbox": [
+528,
+368,
+887,
+731
+],
+"w": 359,
+"h": 363
+}
+},
+"role": "imago",
+"sym": 0.924,
+"aspect": 1.92,
+"cy": 0.2
+},
+{
+"id": "n25-2",
+"rotate": "none",
+"plateBox": [
+543,
+1115,
+1289,
+1541
+],
+"axis": 918,
+"bodyHalf": 26,
+"wingTop": 1149,
+"bbox": [
+543,
+1115,
+1289,
+1541
+],
+"parts": {
+"body": {
+"bbox": [
+848,
+1108,
+987,
+1477
+],
+"w": 139,
+"h": 369
+},
+"wing-R": {
+"bbox": [
+944,
+1132,
+1295,
+1543
+],
+"w": 351,
+"h": 411
+},
+"wing-L": {
+"bbox": [
+536,
+1136,
+892,
+1547
+],
+"w": 356,
+"h": 411
+}
+},
+"role": "imago",
+"sym": 0.894,
+"aspect": 1.75,
+"cy": 0.48
+},
+{
+"id": "n25-3",
+"rotate": "none",
+"plateBox": [
+1175,
+1915,
+1513,
+2133
+],
+"axis": 1344,
+"bodyHalf": 0,
+"wingTop": 1915,
+"bbox": [
+1175,
+1915,
+1513,
+2133
+],
+"parts": {
+"body": {
+"bbox": [
+1168,
+1908,
+1519,
+2139
+],
+"w": 351,
+"h": 231
+},
+"wing-R": null,
+"wing-L": null
+},
+"role": "pupa",
+"sym": 0.708,
+"aspect": 1.55,
+"cy": 0.73
+},
+{
+"id": "n25-4",
+"rotate": "none",
+"plateBox": [
+299,
+1979,
+827,
+2101
+],
+"axis": 563,
+"bodyHalf": 0,
+"wingTop": 1979,
+"bbox": [
+299,
+1979,
+827,
+2101
+],
+"parts": {
+"body": {
+"bbox": [
+292,
+1972,
+832,
+2107
+],
+"w": 540,
+"h": 135
+},
+"wing-R": null,
+"wing-L": null
+},
+"role": "larva",
+"sym": 0.845,
+"aspect": 4.33,
+"cy": 0.74
+}
+]
+}

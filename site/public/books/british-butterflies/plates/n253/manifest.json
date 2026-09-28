@@ -1,0 +1,167 @@
+{
+"plateKey": "n253",
+"order": 58,
+"canvas": [
+1838,
+2768
+],
+"paper": [
+0.9647058844566345,
+0.9176470637321472,
+0.7411764860153198
+],
+"source": {
+"flickr": null,
+"bhl": "https://archive.org/details/historyofbritish03morr/page/n253",
+"ia": "https://archive.org/download/historyofbritish03morr/page/n253.jpg"
+},
+"specimens": [
+{
+"id": "n253-1",
+"rotate": "none",
+"plateBox": [
+763,
+363,
+1077,
+769
+],
+"axis": 920,
+"bodyHalf": 0,
+"wingTop": 363,
+"bbox": [
+763,
+363,
+1077,
+769
+],
+"parts": {
+"body": {
+"bbox": [
+756,
+356,
+1083,
+775
+],
+"w": 327,
+"h": 419
+},
+"wing-R": null,
+"wing-L": null
+},
+"role": "underside",
+"sym": 0.874,
+"aspect": 0.77,
+"cy": 0.2
+},
+{
+"id": "n253-2",
+"rotate": "none",
+"plateBox": [
+655,
+1099,
+1157,
+1397
+],
+"axis": 904,
+"bodyHalf": 18,
+"wingTop": 1112,
+"bbox": [
+655,
+1099,
+1157,
+1397
+],
+"parts": {
+"body": {
+"bbox": [
+880,
+1156,
+927,
+1367
+],
+"w": 47,
+"h": 211
+},
+"wing-R": {
+"bbox": [
+922,
+1092,
+1163,
+1391
+],
+"w": 241,
+"h": 299
+},
+"wing-L": {
+"bbox": [
+648,
+1104,
+886,
+1403
+],
+"w": 238,
+"h": 299
+}
+},
+"role": "imago",
+"sym": 0.952,
+"aspect": 1.68,
+"cy": 0.45
+},
+{
+"id": "n253-3",
+"rotate": "none",
+"plateBox": [
+659,
+1787,
+1225,
+2073
+],
+"axis": 944,
+"bodyHalf": 20,
+"wingTop": 1798,
+"bbox": [
+659,
+1787,
+1225,
+2073
+],
+"parts": {
+"body": {
+"bbox": [
+918,
+1820,
+969,
+2039
+],
+"w": 51,
+"h": 219
+},
+"wing-R": {
+"bbox": [
+964,
+1780,
+1231,
+2075
+],
+"w": 267,
+"h": 295
+},
+"wing-L": {
+"bbox": [
+652,
+1788,
+924,
+2079
+],
+"w": 272,
+"h": 291
+}
+},
+"role": "imago",
+"sym": 0.969,
+"aspect": 1.98,
+"cy": 0.7
+}
+]
+}

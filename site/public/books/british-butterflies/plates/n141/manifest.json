@@ -1,0 +1,112 @@
+{
+"plateKey": "n141",
+"order": 31,
+"canvas": [
+1838,
+2768
+],
+"paper": [
+0.9607843160629272,
+0.9176470637321472,
+0.7450980544090271
+],
+"source": {
+"flickr": null,
+"bhl": "https://archive.org/details/historyofbritish03morr/page/n141",
+"ia": "https://archive.org/download/historyofbritish03morr/page/n141.jpg"
+},
+"specimens": [
+{
+"id": "n141-1",
+"rotate": "none",
+"plateBox": [
+503,
+670,
+1393,
+1177
+],
+"axis": 948,
+"bodyHalf": 31,
+"wingTop": 692,
+"bbox": [
+503,
+670,
+1393,
+1177
+],
+"parts": {
+"body": {
+"bbox": [
+816,
+664,
+1079,
+1095
+],
+"w": 263,
+"h": 431
+},
+"wing-R": {
+"bbox": [
+979,
+680,
+1399,
+1183
+],
+"w": 420,
+"h": 503
+},
+"wing-L": {
+"bbox": [
+496,
+676,
+917,
+1183
+],
+"w": 421,
+"h": 507
+}
+},
+"role": "imago",
+"sym": 0.989,
+"aspect": 1.76,
+"cy": 0.33
+},
+{
+"id": "n141-2",
+"rotate": "none",
+"plateBox": [
+487,
+1735,
+1335,
+1989
+],
+"axis": 911,
+"bodyHalf": 0,
+"wingTop": 1735,
+"bbox": [
+487,
+1735,
+1335,
+1989
+],
+"parts": {
+"body": {
+"bbox": [
+480,
+1728,
+1340,
+1995
+],
+"w": 860,
+"h": 267
+},
+"wing-R": null,
+"wing-L": null
+},
+"role": "larva",
+"sym": 0.839,
+"aspect": 3.34,
+"cy": 0.67
+}
+]
+}

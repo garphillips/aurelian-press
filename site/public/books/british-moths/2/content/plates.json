@@ -1,0 +1,3899 @@
+{
+"book": {
+"title": "A History of British Moths",
+"author": "Francis Orpen Morris",
+"publisher": "London: John C. Nimmo",
+"years": "1903 (new edition; first 1859–70)",
+"bhlItem": "https://www.biodiversitylibrary.org/item/264211",
+"licence": "Public domain (author d. 1893)"
+},
+"plates": {
+"n9": {
+"order": 1,
+"plate": "XXXI",
+"volume": 2,
+"bhlUrl": "https://archive.org/details/historyofbritish02morr_1/page/n9",
+"flickrUrl": "https://archive.org/download/historyofbritish02morr_1/page/n9.jpg"
+},
+"n30": {
+"order": 2,
+"plate": "XXXII",
+"volume": 2,
+"bhlUrl": "https://archive.org/details/historyofbritish02morr_1/page/n30",
+"flickrUrl": "https://archive.org/download/historyofbritish02morr_1/page/n30.jpg"
+},
+"n40": {
+"order": 3,
+"plate": "XXXIII",
+"volume": 2,
+"bhlUrl": "https://archive.org/details/historyofbritish02morr_1/page/n40",
+"flickrUrl": "https://archive.org/download/historyofbritish02morr_1/page/n40.jpg"
+},
+"n50": {
+"order": 4,
+"plate": "XXXIV",
+"volume": 2,
+"bhlUrl": "https://archive.org/details/historyofbritish02morr_1/page/n50",
+"flickrUrl": "https://archive.org/download/historyofbritish02morr_1/page/n50.jpg"
+},
+"n60": {
+"order": 5,
+"plate": "XXXV",
+"volume": 2,
+"bhlUrl": "https://archive.org/details/historyofbritish02morr_1/page/n60",
+"flickrUrl": "https://archive.org/download/historyofbritish02morr_1/page/n60.jpg"
+},
+"n70": {
+"order": 6,
+"plate": "XXXVI",
+"volume": 2,
+"bhlUrl": "https://archive.org/details/historyofbritish02morr_1/page/n70",
+"flickrUrl": "https://archive.org/download/historyofbritish02morr_1/page/n70.jpg"
+},
+"n76": {
+"order": 7,
+"plate": "XXXVII",
+"volume": 2,
+"bhlUrl": "https://archive.org/details/historyofbritish02morr_1/page/n76",
+"flickrUrl": "https://archive.org/download/historyofbritish02morr_1/page/n76.jpg"
+},
+"n82": {
+"order": 8,
+"plate": "XXXVIII",
+"volume": 2,
+"bhlUrl": "https://archive.org/details/historyofbritish02morr_1/page/n82",
+"flickrUrl": "https://archive.org/download/historyofbritish02morr_1/page/n82.jpg"
+},
+"n88": {
+"order": 9,
+"plate": "XXXIX",
+"volume": 2,
+"bhlUrl": "https://archive.org/details/historyofbritish02morr_1/page/n88",
+"flickrUrl": "https://archive.org/download/historyofbritish02morr_1/page/n88.jpg"
+},
+"n94": {
+"order": 10,
+"plate": "XL",
+"volume": 2,
+"bhlUrl": "https://archive.org/details/historyofbritish02morr_1/page/n94",
+"flickrUrl": "https://archive.org/download/historyofbritish02morr_1/page/n94.jpg"
+},
+"n104": {
+"order": 11,
+"plate": "XLI",
+"volume": 2,
+"bhlUrl": "https://archive.org/details/historyofbritish02morr_1/page/n104",
+"flickrUrl": "https://archive.org/download/historyofbritish02morr_1/page/n104.jpg"
+},
+"n110": {
+"order": 12,
+"plate": "XLII",
+"volume": 2,
+"bhlUrl": "https://archive.org/details/historyofbritish02morr_1/page/n110",
+"flickrUrl": "https://archive.org/download/historyofbritish02morr_1/page/n110.jpg"
+},
+"n116": {
+"order": 13,
+"plate": "XLIII",
+"volume": 2,
+"bhlUrl": "https://archive.org/details/historyofbritish02morr_1/page/n116",
+"flickrUrl": "https://archive.org/download/historyofbritish02morr_1/page/n116.jpg"
+},
+"n122": {
+"order": 14,
+"plate": "XLIV",
+"volume": 2,
+"bhlUrl": "https://archive.org/details/historyofbritish02morr_1/page/n122",
+"flickrUrl": "https://archive.org/download/historyofbritish02morr_1/page/n122.jpg"
+},
+"n128": {
+"order": 15,
+"plate": "XLV",
+"volume": 2,
+"bhlUrl": "https://archive.org/details/historyofbritish02morr_1/page/n128",
+"flickrUrl": "https://archive.org/download/historyofbritish02morr_1/page/n128.jpg"
+},
+"n138": {
+"order": 16,
+"plate": "XLVI",
+"volume": 2,
+"bhlUrl": "https://archive.org/details/historyofbritish02morr_1/page/n138",
+"flickrUrl": "https://archive.org/download/historyofbritish02morr_1/page/n138.jpg"
+},
+"n144": {
+"order": 17,
+"plate": "XLVII",
+"volume": 2,
+"bhlUrl": "https://archive.org/details/historyofbritish02morr_1/page/n144",
+"flickrUrl": "https://archive.org/download/historyofbritish02morr_1/page/n144.jpg"
+},
+"n150": {
+"order": 18,
+"plate": "XLVIII",
+"volume": 2,
+"bhlUrl": "https://archive.org/details/historyofbritish02morr_1/page/n150",
+"flickrUrl": "https://archive.org/download/historyofbritish02morr_1/page/n150.jpg"
+},
+"n160": {
+"order": 19,
+"plate": "XLIX",
+"volume": 2,
+"bhlUrl": "https://archive.org/details/historyofbritish02morr_1/page/n160",
+"flickrUrl": "https://archive.org/download/historyofbritish02morr_1/page/n160.jpg"
+},
+"n166": {
+"order": 20,
+"plate": "L",
+"volume": 2,
+"bhlUrl": "https://archive.org/details/historyofbritish02morr_1/page/n166",
+"flickrUrl": "https://archive.org/download/historyofbritish02morr_1/page/n166.jpg"
+},
+"n172": {
+"order": 21,
+"plate": "LI",
+"volume": 2,
+"bhlUrl": "https://archive.org/details/historyofbritish02morr_1/page/n172",
+"flickrUrl": "https://archive.org/download/historyofbritish02morr_1/page/n172.jpg"
+},
+"n182": {
+"order": 22,
+"plate": "LII",
+"volume": 2,
+"bhlUrl": "https://archive.org/details/historyofbritish02morr_1/page/n182",
+"flickrUrl": "https://archive.org/download/historyofbritish02morr_1/page/n182.jpg"
+},
+"n188": {
+"order": 23,
+"plate": "LIII",
+"volume": 2,
+"bhlUrl": "https://archive.org/details/historyofbritish02morr_1/page/n188",
+"flickrUrl": "https://archive.org/download/historyofbritish02morr_1/page/n188.jpg"
+},
+"n194": {
+"order": 24,
+"plate": "LIV",
+"volume": 2,
+"bhlUrl": "https://archive.org/details/historyofbritish02morr_1/page/n194",
+"flickrUrl": "https://archive.org/download/historyofbritish02morr_1/page/n194.jpg"
+},
+"n204": {
+"order": 25,
+"plate": "LV",
+"volume": 2,
+"bhlUrl": "https://archive.org/details/historyofbritish02morr_1/page/n204",
+"flickrUrl": "https://archive.org/download/historyofbritish02morr_1/page/n204.jpg"
+},
+"n214": {
+"order": 26,
+"plate": "LVI",
+"volume": 2,
+"bhlUrl": "https://archive.org/details/historyofbritish02morr_1/page/n214",
+"flickrUrl": "https://archive.org/download/historyofbritish02morr_1/page/n214.jpg"
+},
+"n220": {
+"order": 27,
+"plate": "LVII",
+"volume": 2,
+"bhlUrl": "https://archive.org/details/historyofbritish02morr_1/page/n220",
+"flickrUrl": "https://archive.org/download/historyofbritish02morr_1/page/n220.jpg"
+},
+"n226": {
+"order": 28,
+"plate": "LVIII",
+"volume": 2,
+"bhlUrl": "https://archive.org/details/historyofbritish02morr_1/page/n226",
+"flickrUrl": "https://archive.org/download/historyofbritish02morr_1/page/n226.jpg"
+},
+"n236": {
+"order": 29,
+"plate": "LIX",
+"volume": 2,
+"bhlUrl": "https://archive.org/details/historyofbritish02morr_1/page/n236",
+"flickrUrl": "https://archive.org/download/historyofbritish02morr_1/page/n236.jpg"
+},
+"n246": {
+"order": 30,
+"plate": "LX",
+"volume": 2,
+"bhlUrl": "https://archive.org/details/historyofbritish02morr_1/page/n246",
+"flickrUrl": "https://archive.org/download/historyofbritish02morr_1/page/n246.jpg"
+}
+},
+"specimens": {
+"n9-1": {
+"figure": 2,
+"shared": false,
+"latin": "Small Seraphim",
+"latin1903": "Small Seraphim",
+"flies": "June, July, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Brighton, Croxteth, Cambridge, Halton, Ambleside, Keswick, Lewes, Manchester, St. Osyths, Lewisham, Kingsbury, Worthing, Lyndhurst, Stowmarket.”",
+"The caterpillar feeds on the sallow, the willow, &c."
+]
+},
+"n9-2": {
+"figure": 1,
+"confidence": "unmatched"
+},
+"n9-3": {
+"figure": 3,
+"shared": false,
+"latin": "Lobophora halterata",
+"latin1903": "Loboptiora Hexapteraria",
+"name": "Seraphim",
+"family": "Geometridae",
+"flies": "June",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Scarborough, Rotherham, Brighton, Sheffield, Swanscombe, Worcester, Cambridge, Bristol, Kingsbury, Lewes, Stowmarket, Newcastle-on- I vne. The perfect insect appears in June.”",
+"The caterpillar feeds on the sallow and the aspen.",
+"Lobophora halterata, the seraphim, is a moth of the family Geometridae. It was first described by Johann Siegfried Hufnagel in 1767."
+]
+},
+"n9-4": {
+"figure": 5,
+"shared": false,
+"latin": "Trichopteryx carpinata",
+"latin1903": "Lobophora Lobularia",
+"name": "Early Tooth-striped",
+"family": "Geometridae",
+"flies": "April",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Brighton, Kirkby near Liverpool, West Wickham, Dulwich, Durham, Manchester, Newcastle-on-Tyne, Cambridge, Lewes, Ipswich, Newnham, Exeter, Edinburgh, Gourock, Dunoon, Bristol. The perfect insect appears in April.”",
+"The caterpillar feeds on the sallow.",
+"Trichopteryx carpinata, the early tooth-striped, is a moth of the family Geometridae. The species was first described by Moritz Balthasar Borkhausen in 1794."
+]
+},
+"n9-5": {
+"figure": 4,
+"shared": false,
+"latin": "Acasis viretata",
+"latin1903": "Lobophora Viretaria",
+"name": "Yellow-barred Brindle",
+"family": "Geometridae",
+"flies": "May, June",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Brighton, Black Park, Worcester, Newcastle-on-Tyne, Lyndhurst, Lewes, Cambridge. The perfect insect appears in May and June.”",
+"The caterpillar feeds on the privet? The chrysalis is found beneath the earth.",
+"Acasis viretata, the yellow-barred brindle, is a moth of the family Geometridae. The species was first described by Jacob Hübner in 1799."
+]
+},
+"n9-6": {
+"figure": 6,
+"confidence": "unmatched"
+},
+"n9-7": {
+"figure": 7,
+"shared": false,
+"latin": "Thera juniperata",
+"latin1903": "Juniper Carpet",
+"name": "Juniper Carpet",
+"family": "Geometridae",
+"flies": "October",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Barnstaple, Worcester, Arran, Sanderstead, Mickleham, Glasgow, Box Hill. The perfect insect appears in October.”",
+"The caterpillar feeds on the juniper.",
+"The juniper carpet is a moth of the family Geometridae. The species was first described by Carl Linnaeus in his 1758 10th edition of Systema Naturae."
+],
+"hidden": true
+},
+"n9-8": {
+"figure": 8,
+"shared": false,
+"latin": "Brick Carpet",
+"latin1903": "Brick Carpet",
+"flies": "July, October",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Perry Wood near Faver- sham, Isle of Man, Darlingtou, Flesk, West Wickham, Golspie, Sutherland, Edinburgh, Glasgow, and Newcastle-upon-Tyne. The situations where it is found are fir plantations.”",
+"The caterpillar feeds on the juniper."
+]
+},
+"n9-9": {
+"figure": 9,
+"shared": false,
+"latin": "Lithostege griseata",
+"latin1903": "Grey Carpet",
+"name": "Grey Carpet",
+"family": "Geometridae",
+"wingspan": "28–31 mm",
+"flies": "June, September",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this abundant species are York, Brighton. West Wickham, Barnstaple, Arran, B/ack Park, Faver- sliam, Isle of Man.”",
+"The caterpillar feeds on the fir.",
+"Lithostege griseata, the grey carpet, is a moth of the family Geometridae. The species was first described by Michael Denis and Ignaz Schiffermüller in 1775."
+]
+},
+"n9-10": {
+"figure": 11,
+"shared": false,
+"latin": "Tpsipetes Ruberaria",
+"latin1903": "Tpsipetes Ruberaria",
+"flies": "May, June",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Wimbledon, Birkenhead, Barnstaple, and in the Fens of Cambridgeshire and Huntingdonshire. The situations where it is found are the fens.”",
+"The caterpillar feeds on the sallow and the willow."
+]
+},
+"n9-11": {
+"figure": 10,
+"shared": false,
+"latin": "Pennithera firmata",
+"latin1903": "Thera Firmaria",
+"name": "Pine Carpet",
+"family": "Geometridae",
+"flies": "July, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Scarborough, Brighton, Wavendon, Paisley, Lyndhurst, Fort Augustus, Edinburgh, Sutherland, Manchester, Inverness, Golspie, Pembury, Exeter, Isle of Man, Ipswich, Birkenhead. The perfect insect appears in July.”",
+"The caterpillar feeds on the fir.",
+"Thera firmata, the pine carpet, is a moth of the family Geometridae. It is found throughout Europe, Anatolia and countries bordering the Caucasus Mountains."
+]
+},
+"n9-12": {
+"figure": 12,
+"shared": false,
+"latin": "May Highflier",
+"latin1903": "May Highflier",
+"flies": "May",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this very plentiful species are York, Fairbrook, Faversham, Brighton, Kilmun, Scarborough, Carron, Stirling, Barnstaple, Darlington, Huddersfield, Birkenhead, Edinburgh, Lyndhurst, Brighton, Exeter, Ilalton, Manchester, Cambridge, Newcastle-upon-Tyne, Pembury, Lower Guiting, Stowmarket. The situations…”",
+"The caterpillar feeds on the alder and the geranium."
+]
+},
+"n9-13": {
+"figure": 13,
+"shared": false,
+"latin": "July Highflier",
+"latin1903": "July Highflier",
+"flies": "July, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this very common species are York, Xunburnliolme, Brighton, Humberstone, Faversham, Isle of Wight, Barnstaple, Arran, Falmouth, Bromsgrove, Charmouth. The situations where it is found are woods.”",
+"The caterpillar feeds on the sallow, the alder, the bilberry, &c."
+]
+},
+"n9-14": {
+"figure": 14,
+"shared": false,
+"latin": "Plemyria rubiginata",
+"latin1903": "Blue Bordered Carpet",
+"name": "Blue-bordered Carpet",
+"family": "Geometridae",
+"flies": "June, July, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Sheffield, Faversham, Scarborough, Brighton, Simonswood near Liverpool, Halton, Preston, Carlisle, Cambridge, Stowmarket, Lyndhurst, Kingsbury, Tenterden, Glasgow, Barnstaple, Newnham, Lower Guiting, Darlington, Edinburgh, Exeter, Manchester, Newcastle-on-Tyne. The situations…”",
+"The caterpillar feeds on the alder.",
+"Plemyria rubiginata, the blue-bordered carpet, is a moth of the family Geometridae found in Europe and across the Palearctic. The moth was first described by the Austrian lepidopterists Michael Denis and Ignaz Schiffermüller in 1775."
+]
+},
+"n9-15": {
+"figure": 15,
+"shared": false,
+"latin": "Purple Bar",
+"latin1903": "Purple Bar",
+"flies": "June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this abundant species are York, Brighton, Iiumberstone, Faversham, Exeter, Bristol, Isle of Man, Glasgow. The situations where it is found are woods.”",
+"The caterpillar feeds on the bedstraw ( Galium verum)."
+],
+"hidden": true
+},
+"n30-1": {
+"figure": 2,
+"shared": false,
+"latin": "Argent And Sable",
+"latin1903": "Argent And Sable",
+"flies": "May",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Huddersfield, Scarborough, Buttercrambe Moor near Stamford Bridge, Yorkshire; the Ban-Dan woods and Cobbler’s coppice near Bromsgrove, Lewes, Linwood near Market Basen, Ben Lomond, Dunoon, Arran, Tenterden, Stowmarket, Manchester, Lyndhurst, Newcastle-upon-Tyne, Newnbam, Witney,…”",
+"The caterpillar feeds on the birch, and is gregarious."
+],
+"hidden": true
+},
+"n30-2": {
+"figure": 1,
+"shared": false,
+"latin": "Mesoleuca albicillata",
+"latin1903": "Melantnia Albicillaria",
+"name": "Beautiful Carpet",
+"family": "Geometridae",
+"wingspan": "22–27 mm",
+"flies": "June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Rotherham, Scarborough, Blean Woods near Canterbury, Fairbrook, Faversham, Brighton, Hale near Liverpool, Manchester, Black . c 10 Park, Ambleside, Cambridge, Hal ton, Dorking, Killarney, Pembury, Plymouth, Chatmoss, Lewes, Lyndhurst, Preston, Newnbam, Newcastle-on-Tyne,…”",
+"The caterpillar feeds on the bramble and the raspberry.",
+"Mesoleuca albicillata, also known as the beautiful carpet, is a moth of the family Geometridae. It is found in the Palearctic."
+],
+"hidden": true
+},
+"n30-3": {
+"figure": 3,
+"shared": false,
+"latin": "Epirrhoe tristata",
+"latin1903": "Melanipfe Tristaria",
+"name": "Small Argent & Sable",
+"family": "Geometridae",
+"flies": "June",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Huddersfield, Edinburgh, Stowmarket, Newnham, Newcastle-on-Tyne, Sheffield, Galway, Kilmun, Torwood, Ben Nevis. The perfect insect appears in June and Juty.”",
+"The caterpillar feeds on the bedstraw ( Galium verum).",
+"Epirrhoe tristata, the small argent and sable, is a moth of the genus Epirrhoe in the family Geometridae. The species was first described by Carl Linnaeus in his 1758 10th edition of Systema Naturae."
+],
+"hidden": true
+},
+"n30-4": {
+"figure": 4,
+"confidence": "unmatched",
+"hidden": true
+},
+"n30-5": {
+"figure": 5,
+"shared": false,
+"latin": "Euphyia intermediata",
+"latin1903": "Sharp-Angled Carpet",
+"name": "Sharp-angled Carpet",
+"family": "Geometridae",
+"flies": "June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Brighton, Birkenhead, Barnstaple, West Looe, Preston, Exeter, Ipswich, Lewes, Pembury, Stowmarket, Manchester, Newcastle-on-Tyne. The situations where it is found are woods.”",
+"Euphyia intermediata, the sharp-angled carpet, is a moth of the family Geometridae. The species was first described by Achille Guenée in 1858."
+]
+},
+"n30-6": {
+"figure": 6,
+"shared": false,
+"latin": "Epirrhoe rivata",
+"latin1903": "Wood Carpet",
+"name": "Wood Carpet",
+"family": "Geometridae",
+"flies": "July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Brighton, Faversham, West Looe, Lewes, Worcester, Bristol, Preston, Ipswich, Barnstaple, Pembury, Manchester, Tenterden. The situations where it is found are chalky places.”",
+"The caterpillar feeds on the yellow bedstraw ( Galium verum).",
+"Epirrhoe rivata, the wood carpet, is a moth of the genus Epirrhoe in the family Geometridae. It is widespread in Europe, ranging to Armenia in the south."
+]
+},
+"n30-7": {
+"figure": 7,
+"shared": false,
+"latin": "Epirrhoe alternata",
+"latin1903": "Common Carpet",
+"name": "Common Carpet",
+"family": "Geometridae",
+"flies": "May, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Brighton, Falmouth. The situations where it is found are woods and hedges.”",
+"The common carpet or white-banded toothed carpet is a moth of the family Geometridae. The species was first described by Otto Friedrich Müller in 1764."
+]
+},
+"n30-8": {
+"figure": 8,
+"shared": false,
+"latin": "Xanthorhoe montanata",
+"latin1903": "Silver-Ground Carpet",
+"name": "Silver-Ground Carpet",
+"family": "Geometridae",
+"flies": "May, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this very common species are York, Brighton, Humberstone. The situations where it is found are hedge-sides, woods, etc.”",
+"The caterpillar feeds on the primrose (Primula vulgaris).",
+"The silver-ground carpet is a moth of the family Geometridae. The species was first described by Michael Denis and Ignaz Schiffermüller in 1775."
+],
+"hidden": true
+},
+"n30-9": {
+"figure": 9,
+"confidence": "unmatched"
+},
+"n30-10": {
+"figure": 10,
+"shared": false,
+"latin": "Xanthorhoe fluctuata",
+"latin1903": "Garden Carpet",
+"name": "Garden Carpet",
+"family": "Geometridae",
+"wingspan": "27–31 mm",
+"flies": "April, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Brighton, Humberstone, Falmouth, and near London. The situations where it is found are gardens, etc.”",
+"The garden carpet is a moth of the family Geometridae. It is an abundant and familiar species across its huge range which covers the whole Palearctic region from Ireland to Japan and including the Near East and North Africa."
+]
+},
+"n30-11": {
+"figure": 11,
+"shared": false,
+"latin": "Royal Mantle",
+"latin1903": "Royal Mantle",
+"flies": "June",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Exeter, West Looe, Cambridge. The perfect insect appears in June.”",
+"The caterpillar feeds on the white bedstraw ( Galium rerum )."
+]
+},
+"n30-12": {
+"figure": 12,
+"shared": false,
+"latin": "The Flame",
+"latin1903": "The Flame",
+"flies": "June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Brighton, Arundel, West Looe, Worcester, Bristol, Cambridge, Exeter, Manchester, Lewes, Newnham, Newcastle-on-Tyne, Pembury, Stow- market, Tenterden. 16 The situations where it is found are woods..”",
+"The caterpillar feeds on the bedstraw ( Galium verum )."
+]
+},
+"n30-13": {
+"figure": 14,
+"shared": false,
+"latin": "Anticlea derivata",
+"latin1903": "Anticlea Derivaria",
+"name": "Streamer",
+"family": "Geometridae",
+"flies": "April, May, June",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Nunburnholme, Huddersfield, Scarborough, Brighton, Bromsgrove, Barnstaple, Darlington, Edinburgh, Kingsbury, Birkenhead, Exeter, Lewes, Lyndhurst, Worthing, Bristol, Newnham, Stowmarket, Cambridge, Newcastle-on-Tyne, Lewisham, Lower Guiting. The situations where it is found are…”",
+"The caterpillar feeds on the rose and the honeysuckle.",
+"Anticlea derivata, the streamer, is a moth of the family Geometridae. The species was first described by Michael Denis and Ignaz Schiffermüller in 1775."
+]
+},
+"n30-14": {
+"figure": 13,
+"shared": false,
+"latin": "Shoulder Stripe",
+"latin1903": "Shoulder Stripe",
+"flies": "March, April",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this very common species are York, Nunburnholme, Brighton, Bromsgrove, Falmouth, Wa- vendon, Epping, Manchester. The perfect insect appears in March and April.”",
+"The caterpillar feeds on the rose."
+]
+},
+"n30-15": {
+"figure": 15,
+"shared": false,
+"latin": "Raspberry Carpet",
+"latin1903": "Raspberry Carpet",
+"flies": "May, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Cambridge, Epping, Chelmsford. The perfect insect appears in May and August.”",
+"The caterpillar feeds on the barberry."
+]
+},
+"n40-1": {
+"figure": 1,
+"shared": false,
+"latin": "Rufous Carpet",
+"latin1903": "Rufous Carpet",
+"flies": "June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Scarborough, Keswick, Darlington, Ben Nevis, Edinburgh, Arran, Luss, Inver, Manchester. The perfect insect appears in June and July.”"
+]
+},
+"n40-2": {
+"figure": 2,
+"shared": false,
+"latin": "Xanthorhoe designata",
+"latin1903": "Flame Carpet",
+"name": "Flame Carpet",
+"family": "Geometridae",
+"flies": "June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Scarborough, Brighton, Barnstaple, Birkenhead, West Looe, Bristol, Cambridge, Kilmun, Darlington, Exeter, Edinburgh, Itenfrew, Kingsbury, Lewes, Lyndhurst, Manchester, Newnham, Newcastle-on-Tyne, Pembury, Stowmarket, Tenterden. The situations where it is found are woods.”",
+"The caterpillar feeds on the cabbage.",
+"Xanthorhoe designata, the flame carpet, is a moth of the genus Xanthorhoe in the family Geometridae. The species was first described by Johann Siegfried Hufnagel in 1767."
+]
+},
+"n40-3": {
+"figure": 3,
+"shared": false,
+"latin": "Xanthorhoe spadicearia",
+"latin1903": "Red Twin-Spot",
+"name": "Red Twin-spot Carpet",
+"family": "Geometridae",
+"flies": "May, June, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Isle of Man, Hum- berstone, Falmouth, Stowmarket, Faversham, Birkenhead, Brighton, Halton, Tenterden, Barnstaple, Bristol, Lewes, Lyndhurst, Edinburgh, Cambridge, Manchester, Kingsbury, Glasgow, Exeter, Newnham, Worcester, Pembury. The situations where it is found are hedge-sides.”",
+"The caterpillar feeds on the chickweed ( Alsme media ).",
+"Xanthorhoe spadicearia, the red twin-spot carpet, is a moth of the genus Xanthorhoe in the family Geometridae. The species was first described by Michael Denis and Ignaz Schiffermüller in 1775."
+]
+},
+"n40-4": {
+"figure": 4,
+"shared": false,
+"latin": "Coremia Unidentar1A",
+"latin1903": "Coremia Unidentar1A",
+"flies": "May, June, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species, which is closely allied to the preceding one, if indeed it be distinct from it, are York, Tenterden, Glasgow, Worthing, Barnstaple, Bristol, Cambridge, Birkenhead, Halton, Kingsbury, Brighton, Exeter, Lewes, Pembury, Manchester, Lyndhurst, Newnham. The situations where it is found are…”",
+"The caterpillar feeds on the chickweed."
+]
+},
+"n40-5": {
+"figure": 5,
+"confidence": "unmatched"
+},
+"n40-6": {
+"figure": 6,
+"shared": false,
+"latin": "Camptogramma Bilinear! A",
+"latin1903": "Camptogramma Bilinear! A",
+"name": "Yellow Shell. Elm Moth. Elm",
+"flies": "June, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this extremely common species are York, Anstey, Brighton, Falmouth, Woodland near Broughton in Furness, Bromsgrove, Charmouth, Nunburnholme. The situations where it is found are woods, hedges, gardens, etc.”",
+"The caterpillar feeds on grass, etc.",
+"Irish moths represent about 1,400 different types of moths. The moths and butterflies together make up the taxonomic order Lepidoptera."
+]
+},
+"n40-7": {
+"figure": 7,
+"shared": false,
+"latin": "Narrow-Bordered Carpet",
+"latin1903": "Narrow-Bordered Carpet",
+"flies": "January, August, October",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Brighton, Birkenhead, Sidmouth, Hainault Forest, the Isle of Wight, Topsham, West Wickham, Dulwich, Exeter, Worthing, Barnstaple, Crosby in Lancashire, Regent’s Park London. The perfect insect appears in August and October, and on to January.”",
+"The caterpillar feeds on the spotted persicaria ? ( Persicaria ■ -polygonum."
+]
+},
+"n40-8": {
+"figure": 8,
+"shared": false,
+"latin": "Horisme tersata",
+"latin1903": "Phibalapteryx Tersaria,",
+"name": "Fern",
+"family": "Geometridae",
+"flies": "June",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Brighton, Perry Wood near Faversham, Charlton, Darenth Wood, Arundel, Sed- bergh, Barnstaple, Bristol, Cambridge, Ipswich, Lewes, Lyndhurst, Newnham, Stowmarket. 9*> The situations where it is found are woods and hedges.”",
+"The caterpillar feeds on the clematis ( Clematis vitalba ).",
+"Horisme tersata, commonly known as the fern moth or simply the fern, is a moth of the family Geometridae. The species was first described by Michael Denis and Ignaz Schiffermüller in 1775 and it can be found in the Palearctic realm."
+]
+},
+"n40-9": {
+"figure": 9,
+"shared": false,
+"latin": "Phibalarteryx Lapidaria",
+"latin1903": "Phibalarteryx Lapidaria",
+"flies": "June, August, September",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Rannock, Perthshire. The perfect insect appears in September.”"
+]
+},
+"n40-10": {
+"figure": 10,
+"confidence": "unmatched"
+},
+"n40-11": {
+"figure": 11,
+"shared": false,
+"name": "Piiibal Apteryx Pol Ygramm Aria",
+"flies": "April, June, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Bristol, Cambridge. The perfect insect appears in April and August.”",
+"The caterpillar feeds on the clematis ( Clematis vitalba The chrysalis is subterranean."
+]
+},
+"n40-12": {
+"figure": 12,
+"confidence": "unmatched"
+},
+"n40-13": {
+"figure": 13,
+"shared": false,
+"latin": "Common Tissue",
+"latin1903": "Common Tissue",
+"flies": "April, May, August, September",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Brighton, Ilfracombe, Barnstaple, Birkenhead, Bristol, Cambridge, Lower Guiting, Darlington, Edinburgh, Exeter, Hal ton, Lewes, Huddersfield, Kingsbury, Lyndliurst, Manchester, Newn- ham, Newcastle-on-Tyne, Tenterden, Worthing. The situations where it is found are gardens and…”",
+"The caterpillar feeds on the buckthorn (Rhamnus catharticus)."
+]
+},
+"n40-14": {
+"figure": 14,
+"shared": false,
+"latin": "Brown Scallop",
+"latin1903": "Brown Scallop",
+"flies": "June",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Brighton, Bristol, Cambridge, Sanderstead, Hal ton, Kingsbury, Worcester, Lewes, Newnham. The situations where it is found are chalky places.”",
+"The caterpillar feeds on the buckthorn ( Rhamnus catkarticus)."
+]
+},
+"n40-15": {
+"figure": 15,
+"shared": false,
+"latin": "Dark Umber",
+"latin1903": "Dark Umber",
+"flies": "May, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Brighton, Bristol, Cambridge, Sanderstead, Halton, Lewes, Newnham, Wa- vendon, Arundel, Stowmarket, Worcester. The situations where it is found are woods.”",
+"The caterpillar feeds on the buckthorn (."
+]
+},
+"n50-1": {
+"figure": 1,
+"shared": false,
+"latin": "Scaroe Tissue",
+"latin1903": "Scaroe Tissue",
+"flies": "April, May",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Worcester, Newnham, Bristol, Cambridge. .”",
+"The caterpillar feeds on the barberry."
+]
+},
+"n50-2": {
+"figure": 2,
+"shared": false,
+"name": "Scollop-Shell",
+"flies": "June",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Langwith near York, Brighton, Eastham near Birkenhead, Linwood near Market Rasen, Bristol, Arundel, Exeter, Halton, Lyndhurst, WestLooe, Manchester, Newnham, Worcester, Pembury, Plymouth, Northleach, Stowmarket, Tenterden, Preston, Worthing, and Oxford. The situations where it is found…”",
+"The caterpillar feeds on the sallow ( Salix caprcea)."
+]
+},
+"n50-3": {
+"figure": 3,
+"shared": false,
+"latin": "Chloroclysta siterata",
+"latin1903": "Red-And-Green Carpet",
+"name": "Red-green Carpet",
+"family": "Geometridae",
+"flies": "September, October",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Brighton, Eastham near Birkenhead, Plymouth, Horbury Park, Bristol, Halton, Darlington, Scarborough, Barnstaple, Edinburgh, Exeter, Stowmarket, Worcester, Lvndhurst, Manchester, Charmouth, Newcastle-on-Tyne, Dunoon, and Innellan. The situations where it is found are woods.”",
+"The caterpillar feeds on the lime, apple, rose, &c.",
+"Chloroclysta siterata, the red-green carpet, is a moth in the family Geometridae. The species was first described by Johann Siegfried Hufnagel in 1767."
+]
+},
+"n50-4": {
+"figure": 4,
+"shared": false,
+"latin": "Colostygia pectinataria",
+"latin1903": "Green Carpet",
+"name": "Green Carpet",
+"family": "Geometridae",
+"wingspan": "22–28 mm",
+"flies": "September, October",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Brighton, Eastham near Birkenhead, Scarborough, Falmouth, Barnstaple, Bristol, Stowmarket, Black Park, Cambridge, Darlington, Tenterden, Worcester, Edinburgh, Exeter, Hal ton, Carron, Worthing, Huddersfield, Kingsbury, Dunoon, Glasgow, Manchester, Lewes, Newcastle-on-Tyne. The…”",
+"The caterpillar feeds on the alder, oak, and birch.",
+"Colostygia pectinataria, the green carpet, is a Palearctic moth of the genus Colostygia in the family Geometridae. It was first described by August Wilhelm Knoch in 1781."
+]
+},
+"n50-5": {
+"figure": 5,
+"shared": false,
+"latin": "Euphyia biangulata",
+"latin1903": "Cloaked Carpet",
+"name": "Cloaked Carpet",
+"family": "Geometridae",
+"flies": "June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Brighton, Barnstaple, Exeter, Poynings, Pembury, Isle of Wight, Stowmarket, Lewes, Malvern, Tenterden, Darlington, Conway. The situations where it is found are woods.”",
+"Euphyia biangulata, the cloaked carpet, is a moth of the family Geometridae. It is found in most of Europe and the Middle East."
+]
+},
+"n50-6": {
+"figure": 6,
+"shared": false,
+"latin": "Electrophaes corylata",
+"latin1903": "Broken-Barred Carpet",
+"name": "Broken-barred Carpet",
+"family": "Geometridae",
+"flies": "June",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this common species are York, Brighton, Norbury Park, Arundel, Glasgow, Rannoch, Pitlochrie. The situations where it is found are woods.”",
+"The caterpillar feeds on the lime and the sloe.",
+"Electrophaes corylata, the broken-barred carpet, is a moth of the family Geometridae. The species was first described by Carl Peter Thunberg in 1792."
+]
+},
+"n50-7": {
+"figure": 7,
+"shared": false,
+"latin": "Cidaria Sag1Ttaria",
+"latin1903": "Cidaria Sag1Ttaria",
+"flies": "July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Peterborough, and the fens generally of Cambridgeshire and Huntingdonshire. The situations where it is found are the fens.”"
+]
+},
+"n50-8": {
+"figure": 8,
+"shared": false,
+"latin": "Dysstroma truncata",
+"latin1903": "Cidaria Russaria",
+"name": "Common Marbled Carpet",
+"family": "Geometridae",
+"flies": "May, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this very common species are York, Brighton, Anstey, Faversham, Exeter, Isle of Man, Arran, Dunoon. The situations where it is found are hedge sides, gardens, woods, etc.”",
+"The caterpillar feeds on various plants.",
+"The common marbled carpet is a moth of the family Geometridae. It is sometimes placed in the genus Chloroclysta."
+]
+},
+"n50-9": {
+"figure": 9,
+"shared": false,
+"latin": "Dysstroma citrata",
+"latin1903": "Cidaria Immanaria",
+"name": "dark marbled carpet",
+"family": "Geometridae",
+"flies": "July, September",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this very common species are York, Barnstaple, Isle of Man. The situations where it is found are wooded places, woods, gardens, lanes, and hedge sides.”",
+"Dysstroma citrata, the dark marbled carpet or northern marbled carpet, is a moth of the family Geometridae. The species was first described by Carl Linnaeus in 1761."
+]
+},
+"n50-10": {
+"figure": 10,
+"shared": false,
+"latin": "Anthrenus verbasci",
+"latin1903": "Water-Carpet. Small Water-Carpet",
+"name": "varied carpet beetle",
+"family": "Dermestidae",
+"flies": "May",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localitiesforthis generally distributed species are York Brighton, Falmouth, Barnstaple, Bristol, Darlington. The situations where it is found are woods, gardens, and hedge sides.”",
+"The varied carpet beetle is a 3 mm-long beetle belonging to the family Dermestidae, positioned in subgenus Nathrenus. They are a common species, often considered a pest of domestic houses and, particularly, natural history museums, where the larvae may damage natural fibers and can damage carpets,…"
+]
+},
+"n50-11": {
+"figure": 11,
+"shared": false,
+"latin": "Coremta Reticularia",
+"latin1903": "Coremta Reticularia",
+"flies": "August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are the Lake Districts, The perfect insect appears in August. CIDARIA SILACEARIA.”"
+]
+},
+"n50-12": {
+"figure": 12,
+"shared": false,
+"latin": "Small Pkoenix",
+"latin1903": "Small Pkoenix",
+"flies": "May, June",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Scarborough, Hale near Liverpool, Brighton, Pembury, Epping, Bristol, Darlington, Stowmarket, Arundel, Exeter, Worcester, Halton, Newcastle-on-Tyne, Lewes, Newnham, Preston, Amble- side, Dunoon, Renfrew, Edinburgh. The situations where it is found are woods, lanes, and hedge sides.”",
+"The caterpillar feeds on the aspen."
+],
+"hidden": true
+},
+"n50-13": {
+"figure": 13,
+"confidence": "unmatched"
+},
+"n50-14": {
+"figure": 14,
+"confidence": "unmatched"
+},
+"n50-15": {
+"figure": 15,
+"shared": false,
+"latin": "The Poplar Carpet",
+"latin1903": "The Poplar Carpet",
+"flies": "July, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Huddersfield, Darlington, Isle of Man, Brighton, Pembury, Storeton near Birkenhead, Newcastle-on-Tyne, Manchester, Faversham, Tenterden, Barnstaple, Lynton, West Looe, Stowmarket, Edinburgh, Glasgow, Arran, Inverness, Waterford. The situations where it is found are woods and…”",
+"The caterpillar feeds on the sallow and the bilberry."
+]
+},
+"n60-1": {
+"figure": 1,
+"shared": false,
+"latin": "Barred Yellow",
+"latin1903": "Barred Yellow",
+"flies": "July, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this beautiful and sufficiently common species are York, Nunburnholme, Charmoutli, Brighton, Humberstone, Falmouth, Faversham, Birkenhead, Dorking, West Looe. The situations where it is found are gardens, lanes, and hedge sides.”",
+"The caterpillar feeds on the rose, as well so beautiful a species may."
+]
+},
+"n60-2": {
+"figure": 2,
+"shared": false,
+"latin": "Barred Straw",
+"latin1903": "Barred Straw",
+"flies": "July, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this also common species are York, Brighton, Humberstone, Faversham, Isle of Wight, Barnstaple, Lynton. The situations where it is found are gardens, lanes, hedge sides, &c.”",
+"The caterpillar feeds on the whitethorn."
+]
+},
+"n60-3": {
+"figure": 3,
+"shared": false,
+"latin": "The Spinach",
+"latin1903": "The Spinach",
+"flies": "June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Brighton, Pembury, Birkenhead, Falmouth, Exeter, Stowmarket, Newnham, Sudbury, Cambridge, Manchester, Preston, Newcastle- on-Tyne, Paisley. The situations where it is found are gardens.”",
+"The caterpillar feeds on the currant tree."
+]
+},
+"n60-4": {
+"figure": 4,
+"shared": false,
+"latin": "Dark Spinach",
+"latin1903": "Dark Spinach",
+"flies": "July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Scarborough, Brighton, Monkton, Newcastle-on-Tyne, Ipswich, Cambridge, Edinburgh, Kingsbury, Birkenhead, Darlington, Manchester, Pembury. The perfect insect appears in July.”",
+"The caterpillar feeds on the goose-foot ( Chenopodium polysper - mum )."
+]
+},
+"n60-5": {
+"figure": 5,
+"shared": false,
+"name": "Eubolia C E R V I N A R I A the Mallow Moth",
+"flies": "September, October",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this neat species are York, Huddersfield, Rotherham, Stowmarket, Mai ton, Bromsgrove, Brighton, Falmouth, Dulwich, Newcastle-upon-Tyne, Cambridge, Lower Guiting, Lewisham, Newnham, Darlington, Plum- stead, Barnstaple, Bristol, Exeter, Black Park, Birkenhead, Worcester, Preston, Ardrossan, Edinburgh. The…”",
+"The caterpillar feeds on the mallow and the hollyhock."
+]
+},
+"n60-6": {
+"figure": 6,
+"confidence": "unmatched"
+},
+"n60-7": {
+"figure": 7,
+"shared": false,
+"latin": "Scotopteryx luridata",
+"latin1903": "Eubolia Palumbaria",
+"name": "July Belle",
+"family": "Geometridae",
+"flies": "May, June, July, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Stockton Common near York, Huddersfield, Bromsgrove Lickev, Falmouth, Edinburgh, Cambridge, Faversham, Charmouth, Barnstaple, Lvndhurst, Manchester, Sudbury, Birkenhead, Lewes, Halton, Newcastle-on-Tyne, Isle of Man, Glasgow, Exeter, Darlington, Newnham, Scarborough. The…”",
+"The caterpillar feeds on the heath ( Calluna vulgaris ) and clover.",
+"Scotopteryx luridata, the July belle, is a species of moth in the family Geometridae. It is found in most of Europe, except Finland and the Baltic region."
+]
+},
+"n60-8": {
+"figure": 8,
+"shared": false,
+"latin": "Eubolia B1Punctari A",
+"latin1903": "Eubolia B1Punctari A",
+"name": "Chalk Carpet. Chalk Moth",
+"flies": "July, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Scarborough, Castle Eden Dene, Charmouth, Pinhay Cliff, Hoylake near Birkenhead, Brighton, Newcastle-on-Tyne, Bristol, Cambridge, Faversham, Halton, Lewes, Dover, West Looe. The situations where it is found are chalky cliffs, chalk pits, and waste grassy places.”",
+"The caterpillar feeds on clover, &c.",
+"Scotopteryx bipunctaria, also known as the chalk carpet, is a moth in the family Geometridae. The species was first described by Michael Denis and Ignaz Schiffermüller in 1775."
+]
+},
+"n60-9": {
+"figure": 9,
+"shared": false,
+"latin": "The Oblique Striped",
+"latin1903": "The Oblique Striped",
+"flies": "May, June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Brighton, New Brighton, Cambridge, Deal, Lewes, Littlehampton in Sussex, Birkenhead. The situations where it is found are heaths.”",
+"The caterpillar feeds on the bedstraw ( Galium verum)."
+],
+"hidden": true
+},
+"n60-10": {
+"figure": 10,
+"shared": false,
+"latin": "Carsia sororiata",
+"latin1903": "Manchester Treble-Bar",
+"name": "Manchester Treble-Bar",
+"family": "Geometridae",
+"flies": "July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Simonswood Moss and BickerstafFe Moss near Liverpool, Chat Moss near Manchester, Newcastle-on-Tyne, Preston, Inverness, Dunoon. The situations where it is found are heathy places.”",
+"The caterpillar feeds on the cranberry ( Vaccinium oxycoccos.",
+"Carsia sororiata, the Manchester treble-bar, is a moth of the family Geometridae. The species was first described by Jacob Hübner in 1813."
+]
+},
+"n60-11": {
+"figure": 11,
+"shared": false,
+"latin": "Aplocera plagiata",
+"latin1903": "Anaitis Plagiaria",
+"name": "Treble Bar",
+"family": "Geometridae",
+"flies": "June, July, August, September",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Scarborough, Brighton, Huddersfield, Anstey, Faversham, Milstead, Stowmarket, Childwall near Liverpool, Tenterden, Weston-super-Mare, Barnstaple, Newnham, Halton, Kingsbury, Manchester, Sudbury, Bristol, Newcastle-on-Tyne, Exeter, Wisbeach, Cambridge, Edinburgh, Gourock, Lyndhurst,…”",
+"The caterpillar feeds on the St.",
+"Aplocera plagiata, known as the treble-bar or St. John's wort inchworm, is a moth of the family Geometridae."
+]
+},
+"n60-12": {
+"figure": 12,
+"shared": false,
+"latin": "Lithostege N1Vearia",
+"latin1903": "Lithostege N1Vearia",
+"flies": "June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Thetford and Brandon in Suffolk. The perfect insect appears in June and July.”"
+]
+},
+"n60-13": {
+"figure": 13,
+"shared": false,
+"flies": "September, October",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for tins species are York, Hooton near Birkenhead, Brighton, Wavendon, Leatherhead, Darlington, Newnham, Coombe in Surrey, Newcastle-on-Tyne, Carlisle, Edinburgh, Stowmarket, Glasgow. The situations where it is found are places where the wild broom grows.”",
+"The caterpillar feeds on the broom."
+]
+},
+"n60-14": {
+"figure": 14,
+"confidence": "unmatched"
+},
+"n60-15": {
+"figure": 15,
+"shared": false,
+"latin": "Tanagra Choeropiiyllaria",
+"latin1903": "Tanagra Choeropiiyllaria",
+"name": "the Chimney-Sweep. Chimney-Sweeper. Sweep",
+"flies": "June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Scarborough, Nun- burnholme, near Warter Priory, Hovvsbam, Huddersfield, Brighton, Darlington, Edinburgh, Kingsbury, Lyndhurst, Bromsgrove, Barnstaple, Lower Guiting, Newcastle-on- Tyne, Manchester, Plymouth, Lynton, Cambridge, Glasgow, Pembury, Newnham. Tbe situations where it is…”",
+"The caterpillar feeds on the chervil {Cheer op hy llum temulentum).",
+"The following is a list of last words uttered by notable individuals during the 20th century (1901–2000). A typical entry will report information in the following order:Last word(s), name and short description, date of death, circumstances around their death, and a reference."
+]
+},
+"n70-1": {
+"figure": 1,
+"shared": false,
+"latin": "Falcaria lacertinaria",
+"latin1903": "Platypteryx Laoertula",
+"name": "Scalloped Hook-tip",
+"family": "Drepanidae",
+"flies": "March, April, May, June",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Langwith and Askham Bog near York, Scarborough, Blean Woods near Can- 43 terbury, Brighton, Horndean, Stowmarket, Worthing, Bristol, Worcester, Exeter, Lower Guiting, Shrewsbury, Crewre, Carlisle, Halton, Epping, Lewres, Lyndhurst, Chat Moss, Manchester, Tenterden, Birch Wood and…”",
+"The caterpillar feeds on the birch.",
+"Falcaria lacertinaria, the scalloped hook-tip, is a moth of the family Drepanidae. The species was first described by Carl Linnaeus in his 1758 10th edition of Systema Naturae It is found in Europe and Anatolia then east to Eastern Siberia."
+]
+},
+"n70-2": {
+"figure": 2,
+"shared": false,
+"latin": "Drepanula S1Cula",
+"latin1903": "Drepanula S1Cula",
+"flies": "May, June",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Brighton, and Leigh Wood near Bristol. The perfect insect appears at the end of May, and in June.”",
+"The caterpillar feeds on the oak, the lime, and the birch."
+]
+},
+"n70-3": {
+"figure": 3,
+"shared": false,
+"latin": "Drepana falcataria",
+"latin1903": "Pebble Hook-Tip",
+"name": "Pebble Hook-tip",
+"family": "Drepanidae",
+"flies": "May, June, August, September",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Langwith and Stock- ton Forest near York, Brighton, Blean Woods near Canterbury, Buttercrambe Moor near Stamford- Bridge, Worthing, Bysing Wood near Faversham, Carlisle, Bristol, Linwood near Market Rasen, Halton, Tenter- den, Isle of Wight, Lower Guiting, Blandford, Epping,…”",
+"The caterpillar feeds on the birch, the alder, the aspen, the willow, and the oak.",
+"Drepana falcataria, the pebble hook-tip, is a moth of the family Drepanidae. The species was first described by Carl Linnaeus in his 1758 10th edition of Systema Naturae."
+]
+},
+"n70-4": {
+"figure": 4,
+"shared": false,
+"latin": "Watsonalla binaria",
+"latin1903": "Oak Hook-Tip",
+"name": "Oak Hook-tip",
+"family": "Drepanidae",
+"flies": "May, June, July, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Brighton, Epping, Carlisle, Lewisham, Bristol, Dulwich, Lewes, Newnham, Stow- market, Worcester, Lympstone. The situations where it is found are oak and birch woods.”",
+"The caterpillar feeds on the oak and the birch.",
+"The oak hook-tip is a moth of the family Drepanidae. It is found in most of Europe except the far north."
+]
+},
+"n70-5": {
+"figure": 5,
+"shared": false,
+"latin": "Watsonalla cultraria",
+"latin1903": "Barred Hook-Tip",
+"name": "Barred Hook-tip",
+"family": "Drepanidae",
+"flies": "May, June, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Richmond Park, Epping Forest, the New Forest, Brighton, Stowmarket, Mick- leham, Tenterden, Sevenoaks, Wavendon, Newnham, Bristol, Dursley, Hal ton, Worcester. 46 The perfect insect appears in May and June; also in August.”",
+"The caterpillar feeds on the beech.",
+"Drepana cultraria, the barred hook-tip, is a moth of the family Drepanidae and part of Drepana subgenus Watsonalla. It is found in southern and central Europe."
+]
+},
+"n70-6": {
+"figure": 6,
+"confidence": "unmatched",
+"hidden": true
+},
+"n70-7": {
+"figure": 7,
+"shared": false,
+"latin": "Oerura Bicuspis",
+"latin1903": "Oerura Bicuspis",
+"flies": "May, June",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “t Localities for this species are Stockton Forest, York, Ripon, Scarborough, Goathland near Whitby, Dublin, Preston, Middlesborough. The perfect insect appears in May, and the beginning of June to the end.”",
+"The caterpillar feeds on the beech, the alder, and the birch."
+],
+"hidden": true
+},
+"n70-8": {
+"figure": 8,
+"shared": false,
+"latin": "Oerura Furcula",
+"latin1903": "Oerura Furcula",
+"name": "Kitten Moth",
+"flies": "June, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Buttercrambe Moor near York, Lewes, Lewisham, Norwood, Ashford in Kent, Taunton, Ilfracombe, Worcester, Durham, Cambridge, Lyndhurst, Carlisle, Bristol, Glasgow, Manchester, Stow- market, Worthing, Lower Guiting, Darlington, Epping, Edinburgh, Preston, Halton, Plymouth. 48 The perfect…”",
+"The caterpillar feeds on the sallow and the willow.",
+"The Sphingidae are a family of moths commonly called sphinx moths, also colloquially known as hawk moths; many of their caterpillars are known as hornworms. The family includes about 1,450 species."
+]
+},
+"n70-9": {
+"figure": 9,
+"shared": false,
+"latin": "Oerura Bifida",
+"latin1903": "Oerura Bifida",
+"flies": "June, July, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Huddersfield, Rotherham, Sutton-on-Derwent, Stockton Forest, Askham Bog and Langwith near York, Brighton, Lewisham, Ashford, Halton, Kingsbury, Manchester, Horndean, Taunton, Sherwood Forest, Carlisle, Preston, Stowmarket, Lower Guiting, Cambridge, Epping, Birkenhead, Bristol,…”",
+"The caterpillar feeds on the aspen and the poplar."
+]
+},
+"n70-10": {
+"figure": 10,
+"shared": false,
+"latin": "Cerura vnula",
+"latin1903": "Ckrura V1Nula",
+"name": "Puss Moth",
+"family": "Notodontidae",
+"flies": "May, June",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this extensively distributed species nr# York, Nafferton, Sutton-on-Derwent, Stockton Forest, Bromsgrove, Brighton, Queenstown, Falmouth, Canterbury, Faversham, Ashford, Cambridge, Bristol, Carlisle, Exeter, Lynton in Devonshire, Sherwood Forest. The situations where it is found are gardens, pool sides,…”",
+"The caterpillar feeds on the willow, the sallow, and the poplar of various sorts.",
+"Megalopyge opercularis is a moth of the family Megalopygidae. It has numerous common names, including southern flannel moth for its adult form, and puss caterpillar, asp, Italian asp, fire caterpillar, woolly slug, opossum bug, puss moth, tree asp, or asp caterpillar."
+]
+},
+"n76-1": {
+"figure": 1,
+"shared": false,
+"latin": "Stauropus fagi",
+"latin1903": "Stauropus Fagi",
+"name": "Lobster Moth",
+"family": "Notodontidae",
+"wingspan": "40–70 mm",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this rather rare species, which derives its name from a supposed resemblance of the caterpillar to the shell-fish so called, are Worcester, Hammersmith, Lewes, Newuham, West Wickham, West Looe, Sherwood Forest, Blandford, Black Park,Epping, Sevenoaks, Cowes, Exeter, Lyndhurst, Arundel, Haltou, Plymouth,…”",
+"The caterpillar feeds on the beech, the oak, and the birch.",
+"The lobster moth, also known as lobster prominent, is a moth from the family Notodontidae. The species was first described by Carl Linnaeus in his 10th edition of Systema Naturae."
+]
+},
+"n76-2": {
+"figure": 2,
+"shared": false,
+"latin": "The Sprawler",
+"latin1903": "The Sprawler",
+"flies": "October",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Doncaster, Carlisle, Tenterden, Brighton, Piannock, Lewisham, Black Park, Sidmouth, Darlington, Epping, Marlow, Dumfries, Exeter, 51 Lyndhurst, Bisterne, Hal ton, Plymouth, Preston, Worcester, Shrewsbury, Lower Guiting, Cambridge, Stow- market, Bristol, Burton-on-Trent,…”",
+"The caterpillar feeds on the birch, the elm, the lime, the sallow, and the oak."
+]
+},
+"n76-3": {
+"figure": 3,
+"shared": false,
+"latin": "Petasia Nubeculosa",
+"latin1903": "Petasia Nubeculosa",
+"flies": "April",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Bannock in Perthshire. The perfect insect appears in April.”",
+"The caterpillar feeds on the birch (and the elm)."
+]
+},
+"n76-4": {
+"figure": 4,
+"shared": false,
+"latin": "Buff Tip",
+"latin1903": "Buff Tip",
+"flies": "June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this plentiful species are York, Driffield, Nafferton, Pocklington, Sutton-on-Perwent, Bromsgrove, 52 Queenstown, Brighton, Anstey, Falmouth, Bisterne, Manchester, Sudbury, Durham, Isle of Man, Dunoon. The situations where it is found are by hedgerow timber, and elsewhere, especially where the elm tree…”",
+"The caterpillar feeds on the elm principally, but also on the oak and the birch, the sallow, the lime, and the nut-tree."
+]
+},
+"n76-5": {
+"figure": 5,
+"confidence": "unmatched"
+},
+"n76-6": {
+"figure": 6,
+"confidence": "unmatched",
+"hidden": true
+},
+"n82-1": {
+"figure": 1,
+"shared": false,
+"latin": "Small Chocolate Tip",
+"latin1903": "Small Chocolate Tip",
+"flies": "May",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Canterbury, Cambridge, Dublin, the Isle of Arran, Brighton, Black Park, Howden, Bristol, Peterborough, Epping, Glasgow, Halton, Pembury, Edinburgh, Ben Nevis, Carlisle, Ilorndean. 54 The perfect insect appears in May.”",
+"The caterpillar feeds on the sallow."
+]
+},
+"n82-2": {
+"figure": 2,
+"shared": false,
+"latin": "Gluphisia crenata",
+"latin1903": "Gluphisia Crenata",
+"name": "Dusky Marbled Brown",
+"family": "Notodontidae",
+"flies": "May, June",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this very rare species are Ongar Park Wood, Halton in Buckinghamshire, and at Epping. The situations where it is found are woods.”",
+"The caterpillar feeds on the poplar.",
+"Gluphisia crenata, the dusky marbled brown, is a moth of the family Notodontidae. The species was first described by Eugenius Johann Christoph Esper in 1785."
+]
+},
+"n82-3": {
+"figure": 3,
+"shared": false,
+"latin": "Ptilophora plumigera",
+"latin1903": "Ptilophora Plumigera",
+"name": "Plumed Prominent",
+"family": "Notodontidae",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Darenth Wood, Birch Wood, Chatham, Henley-on-Thames, Marlow, and Halton. The situations where it is found are woods.”",
+"The caterpillar feeds on the maple.",
+"Ptilophora plumigera, the plumed prominent, is a moth of the family Notodontidae. The species was first described by Michael Denis and Ignaz Schiffermüller in 1775."
+]
+},
+"n82-4": {
+"figure": 4,
+"shared": false,
+"latin": "Pale Prominent",
+"latin1903": "Pale Prominent",
+"flies": "May, June, July, September",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Sutton-on-Derwent, Brighton, Lewisham, Shooter’s Hill, Norwood, Wavendon, Henfield, Tenterden, Lewes, Whippingham, Shrewsbury, Worcester, Stowmarket, Wisbeach, Plymouth, Ipswich, Newark, Derby, Carlisle, Lyndhurst. The situations where it is found are woods, gardens, &c.”",
+"The caterpillar feeds on the aspen, the sallow, and the poplar."
+]
+},
+"n82-5": {
+"figure": 5,
+"shared": false,
+"latin": "Coxcomb Prominent",
+"latin1903": "Coxcomb Prominent",
+"flies": "June, July, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Sheffield, Sutton- on-Derwent, Longwith, Askham Bog, Sherwood Forest, Dunham Park, Shooter’s Hill, Durham, Black Park, Glasgow, Canterbury, Maidstone, Faversham, Henfield, Bisterne, Horndean, Isle of Wight, Malvern. The perfect insect appears in June, July, and August.”",
+"The caterpillar feeds on the birch, the hazel, &c."
+]
+},
+"n82-6": {
+"figure": 6,
+"shared": false,
+"latin": "Maple Prominent",
+"latin1903": "Maple Prominent",
+"flies": "May",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Arundel, Marlow, Henley, Tring, Lynton, Halton. The perfect insect appears in May.”",
+"The caterpillar feeds on the maple."
+]
+},
+"n82-7": {
+"figure": 7,
+"shared": false,
+"latin": "Notodonta Carmel1Ta",
+"latin1903": "Notodonta Carmel1Ta",
+"flies": "March, April, May",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Ongar Park Wood,Darenth Wood, Black Park, Keswick, Birch Wood, West Wickham Wood, Epping, Carlisle. The situations where it is found are woods.”",
+"The caterpillar feeds on the birch."
+]
+},
+"n82-8": {
+"figure": 8,
+"shared": false,
+"latin": "Leucodonta bicoloria",
+"latin1903": "Notodonta Bicolor",
+"name": "White Prominent",
+"family": "Notodontidae",
+"wingspan": "28–36 mm",
+"flies": "May, June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Killarney. The situations where it is found are woods.”",
+"The caterpillar feeds on the birch.",
+"Leucodonta bicoloria, the white prominent, is a moth from the family Notodontidae. It ranges from Western Europe (Ireland) to Hokkaido (Japan) being found in the northern part of Middle Europe, Northern Europe and Russia to the Amur region."
+],
+"hidden": true
+},
+"n88-1": {
+"figure": 1,
+"shared": false,
+"latin": "Swallow Prominent",
+"latin1903": "Swallow Prominent",
+"flies": "May, June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Rotherham, Lang- with, Huddersfield, Ramsgate, Dover, Lewes, Bisterne, Ilorndean, Darlington, Edinburgh, Worcester, Durham, YOL. II.”",
+"The caterpillar feeds on the birch, the poplar, and the willow."
+]
+},
+"n88-2": {
+"figure": 2,
+"shared": false,
+"latin": "Swallow-Likeness Prominent",
+"latin1903": "Swallow-Likeness Prominent",
+"flies": "May, June",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Rotherham, Lang- with, Brighton, Shooter’s Hill, Wandsworth, West Wickham, Cockermouth, Bristol, Halton, Horndean, Birkenhead, Lyndhurst, Malvern, Edinburgh, Manchester, Preston, Derby, Epping, Plymouth, Perth. The perfect insect appears in May and June.”",
+"The caterpillar feeds on the birch."
+]
+},
+"n88-3": {
+"figure": 3,
+"shared": false,
+"latin": "Notodonta dromedarius",
+"latin1903": "Notodonta Dhomedarius",
+"name": "Iron Prominent",
+"family": "Notodontidae",
+"flies": "June",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Lang with, Askham Bog, Shooter’s Hill in Kent, Norwood in Surrey, Birkenhead, Bristol, Edinburgh, Scarborough, Carlisle, Black Park, Brighton, Lower Guiting, Lyndhurst, Horndean, Epping, Glasgow, Manchester, Stowmarket, Halton, Plymouth, Wavendon, Derby, Sheffield, Worcester,…”",
+"The caterpillar feeds on the birch.",
+"Notodonta dromedarius, the iron prominent, is a moth of the family Notodontidae. The species was first described by Carl Linnaeus in 1767."
+]
+},
+"n88-4": {
+"figure": 4,
+"shared": false,
+"latin": "Dark Prominent",
+"latin1903": "Dark Prominent",
+"flies": "May, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are near Dublin. The perfect insect appears in May, August.”",
+"The caterpillar feeds on the aspen, the poplar, and the birch."
+]
+},
+"n88-5": {
+"figure": 5,
+"shared": false,
+"latin": "Pebble Prominent",
+"latin1903": "Pebble Prominent",
+"flies": "May, June, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Scarborough, Brigh- ton, Bromsgrove, Worcester, Norwood, Carlisle, Worthing, Wavendon, Tenterden, Arundel, Preston, Manchester, Stowmarket, Lyndhurst, Lewes, Huddersfield, Horndean, Hal ton, Glasgow, Exeter, Cambridge, Birkenhead, Bristol, Bisterne, Eppiug, Darlington, Newark,…”",
+"The caterpillar feeds on the poplar and the sallow."
+]
+},
+"n88-6": {
+"figure": 6,
+"shared": false,
+"latin": "Great Prominent",
+"latin1903": "Great Prominent",
+"flies": "April, May",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this fine species are York, Doncaster, Stockton Forest, Brighton, West Wickham Wood, Cocker- J’latc '<X?K m 61 mouth, Darentli Wood, Taunton, Carlisle, Tenterden, Shooter’s Hill, Ipswich, Sherwood Forest, Black Park, Shrewsbury, Manchester, Epping, Bister ne, Lyndhurst, Horndean, Halton, Exeter,…”",
+"The caterpillar feeds on the oak."
+],
+"hidden": true
+},
+"n88-7": {
+"figure": 7,
+"shared": false,
+"latin": "Lunar Marbled Brown",
+"latin1903": "Lunar Marbled Brown",
+"flies": "May",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Brighton, Sherwood Forest, Wavendon, Eastham and Hooton near Birkenhead, Black Park, Tring, Bristol, Epping, Halton, Wymondham, Lyndhurst, Manchester, Ply mouth, Worthing, Cockermouth, Worcester, Torwood near Stirling, Carlisle, and Shooter’s Hill near London. The situations where…”",
+"The caterpillar feeds on the oak."
+],
+"hidden": true
+},
+"n88-8": {
+"figure": 8,
+"shared": false,
+"latin": "Marbled Brown",
+"latin1903": "Marbled Brown",
+"flies": "May",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Brighton, Taunton, Sherwood Forest, Ipswich, Lower Guiting, Hal ton, Worcester, Lyndhurst, Delamere Forest, Cockermouth, and near London. The situations where it is found are woods.”",
+"The caterpillar feeds on the oak and the birch."
+]
+},
+"n88-9": {
+"figure": 9,
+"shared": false,
+"latin": "B1Loba Coeruleooephala",
+"latin1903": "B1Loba Coeruleooephala",
+"name": "Figure-Of-Eight Moth",
+"flies": "September",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this common species are York, Ripon, Nunburnholme, Sutton-on-Derwent, Bromsgrove, Perth, Lewisham, Brighton, Bisterne, Carlisle, Dumfries. The situations where it is found are hedge-sides, &c.”",
+"The caterpillar feeds on the blackthorn, wild plum, or sloe."
+]
+},
+"n94-1": {
+"figure": 1,
+"shared": false,
+"latin": "Buff Arches",
+"latin1903": "Buff Arches",
+"flies": "June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Doncaster, Sutton- on-Derwent, Charmouth, Bristol, Faversham, Brighton, Canterbury, Dartford, Dorking, Clapham, Peterborough, Rotherham, Black Park, Arundel, Barnstaple, Gloucester, Monks Wood, Llanelly, Durham, Killarney, Birkenhead, Burton-on-Brent, Cambridge, Lower Guiting,…”",
+"The caterpillar feeds on the bramble."
+]
+},
+"n94-2": {
+"figure": 2,
+"shared": false,
+"latin": "Peach Blossom",
+"latin1903": "Peach Blossom",
+"flies": "June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Beverley, Brighton, Sutton-on-Derwent, Charmonth, Faversham, Darenth Wood, Canterbury, Black Park, Dorking, Arundel, the New Forest, Barnstaple, West Looe, Gloucester, Witney, Monks Wood, Rotherham, Preston, Carlisle, Dumfries, Kilmun, Stirling, Killarney. The situations where it…”",
+"The caterpillar feeds on the bramble."
+]
+},
+"n94-3": {
+"figure": 3,
+"shared": false,
+"latin": "Lesser Satin Carpet",
+"latin1903": "Lesser Satin Carpet",
+"flies": "June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Beverley, Darenth W ood, Ripley near London, Plymouth, Brighton, Sheffield, Petworth, the New Forest, Epping, Lewes, Preston, West Wickham, Dingwall, Worcester, Worthing, Lyndhurst, Stowmarket, Tenterden, Darlington, Lower Guiting, Halton, Huddersfield, Burton-on-Brent,…”",
+"The caterpillar feeds on the birch."
+]
+},
+"n94-4": {
+"figure": 4,
+"shared": false,
+"latin": "Satin Carpet",
+"latin1903": "Satin Carpet",
+"flies": "June",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Huddersfield, Sheffield, Rotherham, Brighton, Darenth Wood, West Wickham, Pembury, Poyning’s, Worcester, Killarney, Tenterden, Stowmarket, Exeter. The situations where it is found are the outskirts of woods.”",
+"The caterpillar feeds on the birch."
+],
+"hidden": true
+},
+"n94-5": {
+"figure": 6,
+"shared": false,
+"latin": "Poplar Lutestring",
+"latin1903": "Poplar Lutestring",
+"flies": "June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Canterbury, Lewes, Darenth Wood, West Wickham, Hal ton, Stowmarket, Bristol, Tenterden, Worthing, Cambridge, Marlow, Lower Guiting, and near London. The situations where it is found are woods.”",
+"The caterpillar feeds on the poplar."
+]
+},
+"n94-6": {
+"figure": 5,
+"shared": false,
+"latin": "Lesser Lutestring",
+"latin1903": "Lesser Lutestring",
+"flies": "August, September",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Doncaster, Sutton- on-Derwent, Brighton, Birch Wood, Arundel, Lyndhurst, Manchester, Bristol, Worcester, Stowmarket, Worthing, Burton-on-Trent, Tenterden, Huddersfield, Wavendon. .”",
+"The caterpillar feeds on the oak."
+]
+},
+"n94-7": {
+"figure": 7,
+"shared": false,
+"latin": "Cymatophora Ocularis",
+"latin1903": "Cymatophora Ocularis",
+"name": "Figure-Of-80",
+"flies": "June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Netley, Bristol, Brandon, Birmingham, Stowmarket, Worcester, Cambridge, Halton. 67 The perfect insect appears at the end of June and the beginning of July.”",
+"The caterpillar feeds on the aspen.",
+"Tethea ocularis, the figure of eighty, is a moth of the family Drepanidae. The species was first described by Carl Linnaeus in his 1767 12th edition of Systema Naturae."
+]
+},
+"n94-8": {
+"figure": 8,
+"shared": false,
+"latin": "Achlya flavicornis",
+"latin1903": "Cymatophora Flavicornis",
+"name": "Yellow Horned",
+"family": "Drepanidae",
+"flies": "March",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Langwith near York, Brighton, Tilgate Forest, Dulwich, Horndean, Newnham, Black Park, Rugeley, Bristol, Dunham Park, Rannock, Birkenhead, Sheffield, Huddersfield, Lewes, Manchester, Worthing, and near London. The situations where it is found are in and near woods.”",
+"The caterpillar feeds on the birch.",
+"Achlya flavicornis, the yellow horned, is a moth of the family Drepanidae. The species was first described by Carl Linnaeus in his 1758 10th edition of Systema Naturae."
+]
+},
+"n94-9": {
+"figure": 9,
+"shared": false,
+"latin": "Frosted Green",
+"latin1903": "Frosted Green",
+"flies": "April",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Brighton, Shooter’s Hill, Black Park, Great Torrington, Bristol, Carlisle, Cockermouth, Exeter, Lewes, Lyndhurst, Manchester, Brentwood, the New Forest, Sherwood Forest, Stow- market, Worcester, Boar’s Wood, Kole near Liverpool, and in places near London. The situations where it…”",
+"The caterpillar feeds on the oak."
+]
+},
+"n104-1": {
+"figure": 1,
+"shared": false,
+"latin": "Mottled Green",
+"latin1903": "Mottled Green",
+"flies": "July, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Brighton, Barnstaple, Falmouth, Bristol, Exeter, Plymouth, Worcester. The perfect insect appears in July and August.”",
+"The caterpillar feeds on lichens."
+]
+},
+"n104-2": {
+"figure": 2,
+"shared": false,
+"latin": "Bryophila Algie",
+"latin1903": "Bryophila Algie",
+"flies": "July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are near Manchester. The perfect insect appears in July.”"
+]
+},
+"n104-3": {
+"figure": 3,
+"shared": false,
+"latin": "Bryophila domestica",
+"latin1903": "Bryophila Perla",
+"name": "Marbled Beauty",
+"family": "Noctuidae",
+"flies": "July, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Sheffield, Sand- Hutton near York, Brighton, Newhaven, Peterborough, Falmouth, Bromsgrove, Birkenhead, Lower Guiting, Huddersfield, Bristol, Darlington, Lewes, Manchester, Exeter, Shrewsbury, Worthing, Burton-on-Trent, Scarborough, Tenterden, Cambridge, Edinburgh, Stowmarket,…”",
+"The marbled beauty is a moth of the family Noctuidae. The species was first described by Johann Siegfried Hufnagel in 1766."
+]
+},
+"n104-4": {
+"figure": 5,
+"shared": false,
+"latin": "Dark Dagger",
+"latin1903": "Dark Dagger",
+"flies": "June",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Nunburnholme, NafFerton, Brighton, Bromsgrove, Sutton -on-Der went, Bristol, Huddersfield, Shrewsbury, Worthing, Cambridge, Lewes, Stowmarket, Exeter, Worcester, Halton. The situations where it is found are hedge sides, gardens, woods, &c.”",
+"The caterpillar feeds on various plants and shrubs."
+]
+},
+"n104-5": {
+"figure": 4,
+"shared": false,
+"latin": "Scaroe Marvel-De-Jour",
+"latin1903": "Scaroe Marvel-De-Jour",
+"flies": "May, June",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Brighton, Whippingham in the Isle of Wight, Alverstone, Bere Forest, the New Forest, Hooton near Birkenhead, Darlington, Lyndhurst, Tenterden, Worthing. The situations where it is found are woods.”",
+"The caterpillar feeds on the oak."
+]
+},
+"n104-6": {
+"figure": 6,
+"shared": false,
+"latin": "Acronicta psi",
+"latin1903": "Acronycta Psi",
+"name": "Grey Dagger",
+"family": "Noctuidae",
+"flies": "June, July, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this common species are York, Nunburnholme, NafFerton, Sutton-on-Derwent, Brighton, Anstey, Bromsgrove. The situations where it is found are woods, gardens, hedge sides, &c.”",
+"The caterpillar feeds on various plants.",
+"The grey dagger is a moth of the family Noctuidae."
+]
+},
+"n104-7": {
+"figure": 7,
+"confidence": "unmatched"
+},
+"n104-8": {
+"figure": 8,
+"shared": false,
+"latin": "Acronicta aceris",
+"latin1903": "Acronycta Aoeris",
+"name": "Sycamore",
+"family": "Noctuidae",
+"flies": "June",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Faversham, Brighton, Lewisham, Cambridge, Tenterden, Birchwood, Lewes, Worthing, Dulwich, Stowmarket, Newhaven, Barnstaple, Black Park, Sudbury, Peterborough. The perfect insect appears in June.”",
+"The caterpillar feeds on the sycamore and the horse-chesnut.",
+"The sycamore is a moth of the family Noctuidae. The species was first described by Carl Linnaeus in his 1758 10th edition of Systema Naturae."
+]
+},
+"n110-1": {
+"figure": 1,
+"shared": false,
+"latin": "Poplar Grey",
+"latin1903": "Poplar Grey",
+"flies": "June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Brighton, the Isle of Man, Lewisham, Taunton, Cambridge, Canterbury, Manchester. The perfect insect appears in June and July.”",
+"The caterpillar feeds on the poplar."
+]
+},
+"n110-2": {
+"figure": 2,
+"shared": false,
+"latin": "Acronicta strigosa",
+"latin1903": "Acronycta Strigosa",
+"name": "Marsh Dagger",
+"family": "Noctuidae",
+"flies": "July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Monkswood, and Ful- bourn near Cambridge. The perfect insect appears in July; July 16.”",
+"The caterpillar feeds on the sloe.",
+"Acronicta strigosa, the marsh dagger, is a moth of the family Noctuidae. It is distributed through most of Europe, east to the Caucasus, northern China, Korea and Japan."
+]
+},
+"n110-3": {
+"figure": 3,
+"shared": false,
+"latin": "Acronicta alni",
+"latin1903": "Acronycta Alni",
+"name": "Alder Moth",
+"family": "Noctuidae",
+"flies": "May, June, July, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Boxhill, York, Doncaster, Bran tingham, Charford near Bromsgrove, Brighton, W ake- field, Holme Bush in Sussex, Brighthampton, Morton near 75 Gainsborough, Halton, Hastings, Burton-on-Treut, Huddersfield, Lewes, Manchester, Ryde, Rugby, Lyndhurst, Pembury, Worthing, Worcester,…”",
+"The caterpillar feeds on the alder.",
+"Acronicta alni, the alder moth, is a moth of the family Noctuidae. It is found in Europe, Turkey, the European part of Russia and the neighbouring countries, the Caucasus, the Ural, southern Siberia, Transbaikalia, the Russian Far East, China, Japan and the Korean Peninsula."
+]
+},
+"n110-4": {
+"figure": 4,
+"shared": false,
+"latin": "Craniophora ligustri",
+"latin1903": "Acronycta Ligustri",
+"name": "Coronet",
+"family": "Noctuidae",
+"flies": "June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Naffer ton, Stockton Forest, Brighton, Bere Forest, Ventnor, Birch Wood, West Looe, Bristol, Cambridge, Exeter, Darenth Wood, West Wickham, Malvern, Peterborough, Black Park, Doncaster, 76 Lewisham, Lower Guiting, Halton, Canterbury, Carlisle, Lewes, Manchester, Plymouth,…”",
+"The caterpillar feeds on the ash and the privet The chrysalis is found in a cocoon among moss or in crevices of bark.",
+"Craniophora ligustri, the coronet, is a moth of the family Noctuidae. The species was first described by Michael Denis and Ignaz Schiffermüller in 1775."
+]
+},
+"n110-5": {
+"figure": 5,
+"confidence": "unmatched"
+},
+"n110-6": {
+"figure": 6,
+"confidence": "unmatched"
+},
+"n110-7": {
+"figure": 7,
+"shared": false,
+"latin": "Acronicta rumicis",
+"latin1903": "Light Knot-Grass",
+"name": "Knot Grass",
+"family": "Noctuidae",
+"flies": "June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Saddleworth, Carlisle, G 1 asgo w, H uddersfield, Manchester, Sheffield, Sto wmarket. The situations where it is found are heaths and moors.”",
+"The caterpillar feeds on the heather and the sweet gale ( Myrica Gale).",
+"Acronicta rumicis, the knot grass moth, is a species of moth which is part of the genus Acronicta and family Noctuidae. It was first described by Carl Linnaeus in his 1758 10th edition of Systema Naturae."
+]
+},
+"n110-8": {
+"figure": 8,
+"confidence": "unmatched"
+},
+"n116-1": {
+"figure": 2,
+"confidence": "unmatched"
+},
+"n116-2": {
+"figure": 1,
+"shared": false,
+"latin": "Powdered Wainscot",
+"latin1903": "Powdered Wainscot",
+"flies": "June",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Cambridge, Falmouth, and Stowmarket. The situations where it is found are the Fens and watery places.”",
+"The caterpillar feeds on the reed meadow-grass (."
+],
+"hidden": true
+},
+"n116-3": {
+"figure": 3,
+"shared": false,
+"latin": "Mythimna conigera",
+"latin1903": "Leucania Conigera",
+"name": "Brown-line Bright-eye",
+"family": "Noctuidae",
+"flies": "June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Sutton-on-Derwent,Nun- burnholme, Charmouth, York, Scarborough, Darlington, the Isle of Man, Brighton, Malvern, Dorking, Bristol, Cambridge, Edinburgh, Halton, Lewes, Barnstaple, Lower Guiting, Huddersfield, Manchester, Plymouth, Worcester, Perth, Isle of Man, New Brighton, and Dacre…”",
+"The caterpillar feeds on grass.",
+"Mythimna conigera, the brown-line bright-eye, is a moth of the family Noctuidae."
+]
+},
+"n116-4": {
+"figure": 4,
+"shared": false,
+"latin": "Mythimna vitellina",
+"latin1903": "Leucania Vitellena",
+"name": "Delicate",
+"family": "Noctuidae",
+"flies": "August, September",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Brighton, Isle of Wight. The perfect insect appears in August and September.”",
+"The caterpillar feeds on grass.",
+"Mythimna vitellina, the delicate, is a moth of the family Noctuidae. The species was first described by Jacob Hübner in 1808."
+]
+},
+"n116-5": {
+"figure": 5,
+"confidence": "unmatched"
+},
+"n116-6": {
+"figure": 7,
+"shared": false,
+"latin": "Mythimna unipuncta",
+"latin1903": "Leucania Extranea",
+"name": "American Wainscot",
+"family": "Noctuidae",
+"flies": "September",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are the Isle of Wight, Lewes. The perfect insect appears in September; September 9.”",
+"Mythimna unipuncta, the true armyworm moth, white-speck moth, common armyworm, or rice armyworm, is a species of moth in the family Noctuidae. The species was first described by Adrian Hardy Haworth in 1809."
+]
+},
+"n116-7": {
+"figure": 6,
+"confidence": "unmatched"
+},
+"n116-8": {
+"figure": 8,
+"shared": false,
+"latin": "Obscure Wainscot",
+"latin1903": "Obscure Wainscot",
+"flies": "June",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Hammersmith Marshes, Bermondsey Marshes, Fairbrook, Faversham, Dorking, Peterborough, and Bidston, near Birkenhead. The situations where it is found are fens and watery places among reeds.”",
+"The caterpillar feeds on the reed ( Arundo phragmites)."
+]
+},
+"n116-9": {
+"figure": 9,
+"confidence": "unmatched"
+},
+"n122-1": {
+"figure": 1,
+"shared": false,
+"latin": "Shore Wainscot",
+"latin1903": "Shore Wainscot",
+"flies": "July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Christchurch, Deal, Waterford, Lytham, the Isle of Wight, Birkenhead, Bristol. The situations where it is found are sand hills on the sea coast.”",
+"The caterpillar feeds on several kinds of grass."
+],
+"hidden": true
+},
+"n122-2": {
+"figure": 2,
+"confidence": "unmatched"
+},
+"n122-3": {
+"figure": 4,
+"shared": false,
+"latin": "Southern Wainscot",
+"latin1903": "Southern Wainscot",
+"flies": "June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are the Isle of Wight, Hammersmith Marshes, Whittlesea Mere, Poynings, Leasowe and Meols near Birkenhead. The situations where it is found are fens and marshy places.”",
+"The caterpillar feeds on several grasses."
+]
+},
+"n122-4": {
+"figure": 3,
+"shared": false,
+"latin": "Leucania comma",
+"latin1903": "Shoulder-Striped Wainscot",
+"name": "Shoulder-striped Wainscot",
+"family": "Noctuidae",
+"flies": "June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Askham Bog, Sutton-on-Derwent, Huddersfield, Nunburnholme, Black Park, Brighton, Lewisham, Bere Forest, Barnstaple, Chester, Birkenhead, Bristol, Cambridge, Lower Guiting, Burton-on-Trent, Manchester, Scarborough, Shrewsbury, Lewes, Worthing, Tenterden, Worcester. The situations…”",
+"The caterpillar feeds on the sorrel ( Rumex acetosella) and various grasses.",
+"The shoulder-striped wainscot is a moth of the family Noctuidae. The species was first described by Carl Linnaeus in 1761."
+]
+},
+"n122-5": {
+"figure": 5,
+"shared": false,
+"latin": "Smoky Wainscot",
+"latin1903": "Smoky Wainscot",
+"flies": "June, July, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Askham Bog, Nun- 86 burnholme, Brighton, Faversliam, Dorking, Isle of Man. Poynings, Barnstaple, Uppingham.”",
+"The caterpillar feeds on the sedge ( Carex divisa ), etc."
+]
+},
+"n122-6": {
+"figure": 6,
+"shared": false,
+"latin": "Common Wainscot",
+"latin1903": "Common Wainscot",
+"flies": "June, July, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Askham Bog, Sutton-on-Derwent, Nuuburnholme, Brighton, Dorking, Faversliam, Barnstaple, the Isle of Man. The situations where it is found are gardens, hedge- sides, etc.”",
+"The caterpillar feeds on different grasses."
+]
+},
+"n122-7": {
+"figure": 7,
+"shared": false,
+"latin": "Leucania Phragmitidis",
+"latin1903": "Leucania Phragmitidis",
+"flies": "July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Deal, Greenwich Marshes, and the Cambridgeshire Fens. The situations where it is found are the fens and reedy places.”",
+"The caterpillar feeds on the young stems of the reed (Arundo phragmites )."
+]
+},
+"n122-8": {
+"figure": 8,
+"shared": false,
+"latin": "Senta flammea",
+"latin1903": "Meliana Flammea",
+"name": "Flame Wainscot",
+"family": "Noctuidae",
+"flies": "June",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are the Cambridgeshire Fens. The situations where it is found are the Fens.”",
+"The flame wainscot is a species of moth of the family Noctuidae. It is found from Europe and across the Palearctic to Japan, but is not found on the Iberian Peninsula, the islands in the Mediterranean Sea, Greece and central and southern Italy."
+],
+"hidden": true
+},
+"n122-9": {
+"figure": 9,
+"shared": false,
+"flies": "August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Hackney Marshes, Hammersmith Marshes, and the Cambridgeshire Fens. The situations where it is found are fens and marshy places.”"
+],
+"hidden": true
+},
+"n122-10": {
+"figure": 10,
+"shared": false,
+"latin": "Lineated Rufous",
+"latin1903": "Lineated Rufous",
+"flies": "June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are near Cambridge. The situations where it is found are fens and marshy places.”"
+]
+},
+"n128-1": {
+"figure": 1,
+"shared": false,
+"latin": "Denticucullus pygmina",
+"latin1903": "Nonagria Fulva",
+"name": "Small Wainscot",
+"family": "Noctuidae",
+"flies": "August, September",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Askham Bog, Sutton- on-Derwent, Whittlesea Mere, Clapham Common, Bristol, Brighton, Birkenhead, Edinburgh, Kingsbury, Darlington, Scarborough, Burton-on-Trent, Manchester. The situations where it is found are woods, marshy places, and feus.”",
+"Denticucullus pygmina, the small wainscot, is a moth of the family Noctuidae. It is found in most of Europe, ranging from northern Spain, through Portugal as far north as Finland."
+]
+},
+"n128-2": {
+"figure": 2,
+"shared": false,
+"latin": "Ozarba concolor",
+"latin1903": "Nonagria Concolor",
+"family": "Noctuidae",
+"flies": "June",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Folkestone, Worcester, Whittlesea Mere, and the Fens of Cambridgeshire. The situations where it is found are marshy places and fens.”"
+],
+"hidden": true
+},
+"n128-3": {
+"figure": 3,
+"shared": false,
+"latin": "Uonagria Hellmanni",
+"latin1903": "Uonagria Hellmanni",
+"flies": "June",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Yaxley Fen and Whittlesea Mere. The situations where it is found are fenny districts.”"
+]
+},
+"n128-4": {
+"figure": 4,
+"shared": false,
+"latin": "Archanara neurica",
+"latin1903": "Nonagria Neurica",
+"name": "White-mantled Wainscot",
+"family": "Noctuidae",
+"flies": "July, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Whittlesea Mere and Yaxley Fen. The situations where it is found are fens and fenny places.”",
+"The caterpillar feeds on the stem of the reed (Arundo phrag mites).",
+"Archanara neurica, the white-mantled wainscot, is a nocturnal moth of the family Noctuidae described by Jacob Hübner in 1808. It is found in Austria, Belgium, Bosnia and Herzegovina, Great Britain, Bulgaria, Croatia, the Czech Republic, Denmark, France, Germany, Hungary, Italy, Latvia,…"
+]
+},
+"n128-5": {
+"figure": 5,
+"shared": false,
+"latin": "Twin-Spot Wainscot",
+"latin1903": "Twin-Spot Wainscot",
+"flies": "August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Weston-super-Mare, the Hammersmith Marshes, and the Cambridgeshire Fens. The situations where it is found are fens and marshes.”",
+"The caterpillar feeds on the stem of the reed ( Arundo phragmites)."
+]
+},
+"n128-6": {
+"figure": 6,
+"shared": false,
+"latin": "Nonagria connexa",
+"latin1903": "Nonagria Cannes",
+"family": "Noctuidae",
+"flies": "August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are in Yaxley Fen. The situations where it is found are the fens.”",
+"The caterpillar feeds on the reed mace ( Typha latifolia)."
+]
+},
+"n128-7": {
+"figure": 7,
+"shared": false,
+"latin": "Nonagria typhae",
+"latin1903": "Nonagria Typhie",
+"name": "Bulrush Wainscot",
+"family": "Noctuidae",
+"flies": "August, September, October",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, ButtercrambeMoor, Birkenhead, Scarborough, Brighton, Hammersmith, Stow- market, Burton-on-Trent., Cambridge, Plymouth, Huddersfield, Manchester, Worthing, Kingsbury, Wavendon. The situations where it is found are marshy places.”",
+"The caterpillar feeds on the reed mace {Typha latifolia).",
+"The bulrush wainscot is a moth of the family Noctuidae. It is found from Ireland and Portugal to southern Fennoscandia, east to western Siberia, the Altai Mountains, Yakutia, Turkey, the Caucasus, Lebanon, Egypt, Arabia, Iraq, Iran, Afghanistan and Central Asia."
+]
+},
+"n128-8": {
+"figure": 8,
+"shared": false,
+"latin": "Rhizedra lutosa",
+"latin1903": "Nonagria Lutosa",
+"name": "Large Wainscot",
+"family": "Noctuidae",
+"flies": "August, September, October, November",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Scarborough, Huddersfield, Croydon, Hammersmith, Brighton, Worthing, Ely, Plumstead, Marlow, Preston, Birkenhead, Bristol, Burton-on-Trent. The situations where it is found are fens and marshy places, where reeds grow.”",
+"Rhizedra lutosa, the large wainscot or Isle of Wight wainscot, is a species of moth of the family Noctuidae. It is native to the Palearctic realm."
+]
+},
+"n128-9": {
+"figure": 9,
+"shared": false,
+"latin": "Longalatedes elymi",
+"latin1903": "Nonagria Elymi",
+"name": "Lyme Grass",
+"family": "Noctuidae",
+"flies": "June",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are the Norwich Fens. The situations where it is found are fens and such places.”",
+"The Lyme grass is a species of moth of the family Noctuidae. It is found along the coasts of southern Sweden, southern Finland, Denmark, Estonia, northern Poland, northern Germany and eastern Great Britain."
+]
+},
+"n138-1": {
+"figure": 1,
+"shared": false,
+"latin": "Goiityna Flavago",
+"latin1903": "Goiityna Flavago",
+"name": "Frosted Orange. Burdock Moth",
+"flies": "September",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Scarborough, Brigh- 03 ton, Sherwood Forest, Exeter, Huddersfield, Shrewsbury, Bromsgrove, Birkenhead, Bristol, Burton-on-Trent, Cambridge, Lower Guiting, Darlington, Kingsbury, Plymouth, Manchester, Worcester. The situations where it is found are lanes, hedge-sides, etc.”",
+"The caterpillar feeds on the roots of different grasses.",
+"The frosted orange moth is a moth of the family Noctuidae which is found in Europe, Armenia, Syria and east through the Palearctic to western Siberia. It has also been recorded in Algeria."
+]
+},
+"n138-2": {
+"figure": 2,
+"confidence": "unmatched"
+},
+"n138-3": {
+"figure": 3,
+"shared": false,
+"latin": "H Yd1Uecia Pktasitis",
+"latin1903": "H Yd1Uecia Pktasitis",
+"flies": "August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Carron, Stirling, Carlisle, Failsworth, Edinburgh, Manchester, Liverpool. The situations where it is found are the banks of streams.”",
+"The caterpillar feeds on the roots of various plants."
+]
+},
+"n138-4": {
+"figure": 4,
+"confidence": "unmatched"
+},
+"n138-5": {
+"figure": 5,
+"confidence": "unmatched"
+},
+"n138-6": {
+"figure": 6,
+"shared": false,
+"latin": "Xylofiiasia Ruhea",
+"latin1903": "Xylofiiasia Ruhea",
+"name": "Clouded Bordered B Kindle",
+"flies": "June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this very common species are York, Nun- buruholme, Sutton-on-Derwent, Charmouth, Brighton, Darenth Wood, Faversham, the New Forest, Black Park, Preston, Edinburgh, Falmouth. The situations where it is found are gardens, hedge- sides, etc.”",
+"The caterpillar feeds on the primrose ( Primula vulgaris ), the sorrel ( Rumex acetosella:), and various grasses, etc.",
+"The following is a table of many of the most fundamental Proto-Indo-European language (PIE) words and roots, with their cognates in all of the major families of descendants."
+]
+},
+"n138-7": {
+"figure": 7,
+"shared": false,
+"latin": "Light Arches",
+"latin1903": "Light Arches",
+"flies": "June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this common species are York, Nunburn- holme, Sutton-on-Derwent, Charmouth, Brighton, Faversham, Black Park, Dorking, Peterborough, the Isle of Man, Penzance, and near Bream Bay, Falmouth. Plate HVJ 97 The situations where it is found are gardens, woods, and hedgerows.”"
+]
+},
+"n138-8": {
+"figure": 8,
+"shared": false,
+"latin": "Lymantria monacha",
+"latin1903": "Reddish Light-Arches",
+"name": "Black Arches",
+"family": "Erebidae",
+"flies": "June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Brighton, Fair- brook, Arundel, Black Park, Monks' Wood, Preston, Bristol, Lewes, Cambridge, Lower Guiting, Plymouth, Scarborough, Stowmarket, Marlow, and near Galway. The situations where it is found are woods.”",
+"The black arches or nun moth is a small Palaearctic moth. It is considered a forest pest."
+]
+},
+"n144-1": {
+"figure": 1,
+"shared": false,
+"latin": "Dark Arches",
+"latin1903": "Dark Arches",
+"flies": "June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this very abundant species are York, Nunburnholme, Charmouth, Worcester, Isle of Man, Tain, Anstey, Brighton, Falmouth, Birkenhead, Sutton- on-Derwent, etc., etc., etc., etc. The situations where it is found are gardens, hedge- sides, lanes, woods, etc.”",
+"The caterpillar feeds on the roots of grasses and other low plants."
+]
+},
+"n144-2": {
+"figure": 3,
+"shared": false,
+"latin": "Slender Clouded Brindle",
+"latin1903": "Slender Clouded Brindle",
+"flies": "July, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Huddersfield, Sutton-on- Derwent, Carlisle, Lewisham, Barnstaple, Doncaster, Burton-on-Trent, Manchester, Stowmarket, Sherwood Forest, Marlow, Chesterfield, Carlisle, and near London. The perfect insect appears in July and August.”",
+"The caterpillar feeds on the rush of different kinds, as the club rush ( Scirpus lacustris ), the quaking grass {Briza media), etc."
+]
+},
+"n144-3": {
+"figure": 2,
+"shared": false,
+"latin": "Clouded Brindle",
+"latin1903": "Clouded Brindle",
+"flies": "June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Sutton-on-Derwent, Brighton, Darenth Wood, Black Park, Bere Forest, Flint, Kingston in Kent, Lyndhurst, Stowmarket, Worcester, Tenterden, Worthing, Wavendon, Plymouth, Manchester, Bristol, Burton-on-Trent, Darlington, Cambridge, Exeter, Halton, Huddersfield, Kingsbury, Lewes,…”",
+"The caterpillar feeds on the roots of several low plants."
+]
+},
+"n144-4": {
+"figure": 4,
+"shared": false,
+"latin": "Dypterygia scabriuscula",
+"latin1903": "Dipterygia Pinastri",
+"name": "Bird's Wing",
+"family": "Noctuidae",
+"flies": "June",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Ampfield, Lewes, Black Park, Lewisham, Worcester, Stowmarket, Kingsbury, Dorking, Manchester. The situations where it is found are gardens, etc., near pine plantations.”",
+"The caterpillar feeds on the sorrel ( Rumex acetosella).",
+"Dypterygia scabriuscula, the bird’s wing, is a moth of the family Noctuidae. The species can be found in Europe and the western Palearctic."
+]
+},
+"n144-5": {
+"figure": 5,
+"confidence": "unmatched"
+},
+"n144-6": {
+"figure": 6,
+"confidence": "unmatched"
+},
+"n144-7": {
+"figure": 7,
+"shared": false,
+"latin": "Spodoptera exigua",
+"latin1903": "Laphygma Exigua",
+"name": "Small Mottled Willow",
+"family": "Noctuidae",
+"flies": "June",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Brighton, Ventnor and Sandown in the Isle of Wight, Worthing. The perfect insect appears in June.”",
+"The beet armyworm or small mottled willow moth is one of the best-known agricultural pest insects. It is also known as the asparagus fern caterpillar."
+]
+},
+"n144-8": {
+"figure": 8,
+"shared": false,
+"latin": "Bordered Gothic",
+"latin1903": "Bordered Gothic",
+"flies": "June",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Stockton Forestnear York, Halton, Lewes, Nunburnholme, Swinhope, Black Park, Brighton, Ditton and Rainhill near Liverpool, Worthing, Bere Forest, Burton-on-Trent, Cambridge, Lower Guiting. The situations where it is found are gardens, woods, and hedges.”",
+"The caterpillar feeds on several low plants, particularly the bladder campion ( Silene inflata )."
+]
+},
+"n144-9": {
+"figure": 9,
+"shared": false,
+"latin": "Feathered Gothic",
+"latin1903": "Feathered Gothic",
+"flies": "August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Sutton-on-Derwent, Scarborough, Worthing, Nunburnholme, Crambe, Lewes, Brighton, Peterborough, New Brighton, Exeter, Preston, Southport, Shrewsbury, Falmouth, Tenterden, Wavendon, Birkenhead, Burton-on-Trent, Bristol, Cambridge, Lower Guiting, Darlington, Hal ton, Lyndhurst,…”"
+]
+},
+"n150-1": {
+"figure": 1,
+"shared": false,
+"latin": "Leucochlaena oditis",
+"latin1903": "Heliophobus Iiispidus",
+"name": "Beautiful Gothic",
+"family": "Noctuidae",
+"flies": "September",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Ventnor, Kibworth, Exmouth, Plymouth, the Isle of Portland. The situations where it is found are sand-hills and rocks on the coast The perfect insect appears in September.”",
+"The caterpillar feeds on the plantain, the lettuce, etc.",
+"The Beautiful Gothic (Leucochlaena oditis) is a Palearctic moth of the family Noctuidae, sub-family Cuculliinae. It is found in southern Europe and north Africa, with occasional finds on the southern coast of England."
+],
+"hidden": true
+},
+"n150-2": {
+"figure": 2,
+"confidence": "unmatched"
+},
+"n150-3": {
+"figure": 3,
+"shared": false,
+"latin": "Feathered Ear",
+"latin1903": "Feathered Ear",
+"flies": "June",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Bristol, Brighton, Mickleham. The situations where it is found are woods.”",
+"The caterpillar feeds on grasses."
+]
+},
+"n150-4": {
+"figure": 4,
+"confidence": "unmatched"
+},
+"n150-5": {
+"figure": 5,
+"confidence": "unmatched",
+"hidden": true
+},
+"n150-6": {
+"figure": 6,
+"shared": false,
+"latin": "Luperina dumerilii",
+"latin1903": "Luperina Dumerilii",
+"name": "Dumeril's Rustic",
+"family": "Noctuidae",
+"flies": "August, September",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Deal, Freshwater in the Isle of Wight, and the Isle of Arran. The perfect insect appears in August and September.”",
+"Luperina dumerilii, or Dumeril's rustic, is a moth of the family Noctuidae. The species was first described by Philogène Auguste Joseph Duponchel in 1826."
+],
+"hidden": true
+},
+"n150-7": {
+"figure": 7,
+"shared": false,
+"latin": "Luperina Oespitis",
+"latin1903": "Luperina Oespitis",
+"flies": "August, September",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Brighton, Deal, Lewisham, the New Forest, Isle of Wight, Plymouth, New Brighton, Isle of Arran, Birkenhead, Manchester, Lewes, Worthing. The situations where it is found are lanes.”",
+"The caterpillar feeds on different kinds of grass."
+]
+},
+"n150-8": {
+"figure": 8,
+"shared": false,
+"latin": "Crymodes Exulis",
+"latin1903": "Crymodes Exulis",
+"flies": "June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are near Plymouth, and in the Isle of Arran. The perfect insect appears in June and July.”",
+"The caterpillar feeds on the stems or roots of grasses."
+]
+},
+"n150-9": {
+"figure": 9,
+"confidence": "unmatched"
+},
+"n150-10": {
+"figure": 10,
+"shared": false,
+"latin": "Doubtful Nutmeg",
+"latin1903": "Doubtful Nutmeg",
+"flies": "June",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Colchester, Faver- sham, Brighton, Chester, Barnstaple, Darenth Wood, Black Park, Falmouth, Manchester, Huddersfield, Burton- on-Trent, Lower Guiting, Hal ton, Bristol, Stowmarket, Cambridge, Edinburgh, Birkenhead, Wavendon, Lewes, Worthing, Worcester. The situations where it is…”"
+],
+"hidden": true
+},
+"n160-1": {
+"figure": 1,
+"shared": false,
+"latin": "Stenus colon",
+"latin1903": "White Colon",
+"family": "Staphylinidae",
+"flies": "May, June, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Deal, Stowmarket, Birkenhead. Thesituations where it is found are sand-hills by the sea.”",
+"Stenus colon is a species of water skater, Genus Stenus, in the beetle family Staphylinidae. It is found in the North Americas."
+]
+},
+"n160-2": {
+"figure": 2,
+"shared": false,
+"latin": "Dusky Brocade",
+"latin1903": "Dusky Brocade",
+"flies": "June, July, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Epping, Black Park, Stockport, Exeter, Scarborough, Preston, Llanferras, Kingstown near Dublin, Stowmarket, Arthur’s Seat near Edinburgh, and near London. The situations where it is found are woods, etc.”",
+"The caterpillar feeds on the grey hair-grass ( Aira canescens )."
+]
+},
+"n160-3": {
+"figure": 3,
+"shared": false,
+"latin": "Cabbage Motit",
+"latin1903": "Cabbage Motit",
+"flies": "May, June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this exceedingly common species are York, Nunburnholme, Stockton Forest, Buttercrambe Moor, 110 Charmouth, Nafferton, Brighton, Falmouth, Worcester, and in London, etc., etc., etc. The situations where it is found are gardens, hedge- sides, woods, etc.”",
+"The caterpillar feeds on the cabbage ( Brassica oleracea J, and other plants."
+]
+},
+"n160-4": {
+"figure": 4,
+"shared": false,
+"flies": "June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Brighton, Walton near Liverpool, Black Park, Canterbury, Cambridge, Chester, Kingsbury, Lyndhurst, Newnham, Lewes, Manchester, Dorking, Brighton, Plymouth, Worthing, Worcester, Burton-on-Trent, Wavendon, Tenterden, Stowmarket. The perfect insect appears at the end of June and in July.”",
+"The caterpillar feeds on the clematis ( Clematis Vitalba ), and various other low plants."
+]
+},
+"n160-5": {
+"figure": 5,
+"shared": false,
+"latin": "Apamea sordens",
+"latin1903": "Rustic Shoulder-Knot",
+"name": "Rustic Shoulder-knot",
+"family": "Noctuidae",
+"flies": "June",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this common species are York, Brighton, Stockton Forest, Buttercrambe Moor, Falmouth, etc., etc. The situations where it is found are gardens, hedge- sides, lanes, etc.”",
+"The caterpillar feeds on various low plants.",
+"Apamea sordens, the rustic shoulder-knot or bordered apamea, is a moth of the family Noctuidae. The species was first described by Johann Siegfried Hufnagel in 1766."
+]
+},
+"n160-6": {
+"figure": 6,
+"shared": false,
+"latin": "Union Rustic",
+"latin1903": "Union Rustic",
+"flies": "July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Buttercrambe Moor, 112 Stockton Forest, Lin wood near Barnsley, Sutton-on-Der- went, Sheffield, Chesterfield, Huddersfield, Scarborough. The situations where it is found are woods.”"
+]
+},
+"n160-7": {
+"figure": 7,
+"shared": false,
+"latin": "Apamea remissa",
+"latin1903": "Apamea Gem1Na",
+"name": "Dusky Brocade",
+"family": "Noctuidae",
+"flies": "June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this common species are York, Butter- crambe Moor, Stockton Forest, Wisbeach, Combe Wood, Darenth Wood, Epping, Brighton, St. Osy til’s, Barnstaple, Kilburn, Preston, Black Park.”",
+"The caterpillar feeds on grass.",
+"Apamea remissa, the dusky brocade, is a species of moth of the family Noctuidae. It is distributed throughout Europe and Turkey, ranging across the Palearctic realm to Siberia, Manchuria and Japan."
+]
+},
+"n160-8": {
+"figure": 8,
+"shared": false,
+"latin": "Apamea unanimis",
+"latin1903": "Apamea Unanimis",
+"name": "Small Clouded Brindle",
+"family": "Noctuidae",
+"flies": "July, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Sutton-on-Derwent, Brighton, Birkenhead, Darlington, Bristol, Edinburgh, plate. XUX 113 Lewes, Stowmarket, Cambridge, Hal ton, Manchester, Tenterden, Lower Guiting, Kingsbury.”",
+"The caterpillar feeds on grass.",
+"Apamea unanimis, the small clouded brindle, is a moth of the family Noctuidae. The species was first described by Jacob Hübner in 1813."
+]
+},
+"n160-9": {
+"figure": 9,
+"shared": false,
+"latin": "Lateroligia ophiogramma",
+"latin1903": "Apamea Ophiogramma",
+"name": "Double Lobed",
+"family": "Noctuidae",
+"flies": "June",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Deptford, and Hammersmith Marshes near London. The situations where it is found are marshy districts where willows grow.”",
+"Apamea ophiogramma, the double lobed, is a moth of the family Noctuidae. It is found in the Palearctic realm in North and Central Europe to the Urals, Turkestan, Russian Far East, and Siberia."
+]
+},
+"n160-10": {
+"figure": 10,
+"shared": false,
+"latin": "The Cresoent",
+"latin1903": "The Cresoent",
+"flies": "July, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Askham Bog, Scarborough, Whittlesea Mere, Brighton, Hammersmith, Killarney, Cambridge, Edinburgh. .”"
+]
+},
+"n166-1": {
+"figure": 1,
+"shared": false,
+"latin": "Common Rustic",
+"latin1903": "Common Rustic",
+"flies": "July, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this very abundant species are York,Sut- ton-on-Derwent, London, Brighton, Humberstone, Nun- burnholme, Falmouth, Worcester, Bromsgrove, etc., etc. The situations where it is fouud are gardens, hedge- sides, wroods, etc.”",
+"The caterpillar feeds on grasses of different sorts."
+]
+},
+"n166-2": {
+"figure": 2,
+"shared": false,
+"latin": "Marked Minor",
+"latin1903": "Marked Minor",
+"flies": "June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this abundant species are York, Sutton-on- Derwent, Brighton, Falmouth, Darenth Wood, Preston, Black Park, Faversham, Carlisle, Bowdon, Glasgow, etc. The situations where it is found are gardens, hedge- sides, woods, etc.”",
+"The caterpillar feeds on the stems of grasses."
+]
+},
+"n166-3": {
+"figure": 3,
+"shared": false,
+"latin": "Middle Barred Minor",
+"latin1903": "Middle Barred Minor",
+"flies": "June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Brighton, Falmouth, Canterbury, Faversham, Peterborough, Worcester, Lewes, Stowmarket, Birkenhead, Wavendon, Bristol, Kingsbury, Scarborough, Shrewsbury, Manchester, Burton-on-Trent, Darlington, Edinburgh, Halton, Huddersfield, Bowdon, Cambridge, Lower Guiting, etc. The perfect…”"
+]
+},
+"n166-4": {
+"figure": 4,
+"shared": false,
+"latin": "Rosy Minor",
+"latin1903": "Rosy Minor",
+"flies": "June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this elegant species are York, Isle of Man, Brighton, Lewisham, Arundel, Tenterden, Exeter, Birkenhead, Cambridge, Deal, Stowmarket, Darlington, Edinburgh, Huddersfield, New Brighton, Scarborough, Lewes, Manchester, Bowdon, Lytham. The situations where it is found are wood sides.”"
+]
+},
+"n166-5": {
+"figure": 5,
+"shared": false,
+"latin": "Cloaked Minor",
+"latin1903": "Cloaked Minor",
+"flies": "July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, New Brighton, Sutton-on-Derwent, Brighton, Eaversham, West Looe, Ealmouth, Bowdon. The perfect insect appears at the end of July.”"
+]
+},
+"n166-6": {
+"figure": 6,
+"shared": false,
+"latin": "Athetis ignava",
+"latin1903": "Miana Expolita",
+"family": "Noctuidae",
+"flies": "July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are near Galway, and Darlington. The perfect insect appears in July; July 21.”",
+"Athetis ignava is a moth of the family Noctuidae. It is found in Southern and Eastern Africa, including the islands of the Indian Ocean."
+]
+},
+"n166-7": {
+"figure": 7,
+"shared": false,
+"latin": "Least Minor",
+"latin1903": "Least Minor",
+"flies": "July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Stockton Forest, Sutton-on-Derwent, Darenth Wood, Whittlesea Mere, Lewes, Poynings, Brighton, Dulwich, Black Park, Tor- wood, Stirling, Birkenhead, Edinburgh, Bristol, Exeter, Shrewsbury, Lyndhurst, Manchester, Wavendon,Burton- on-Trent, Kingsbury, Worthing, Worcester, Bowdon. The…”"
+]
+},
+"n166-8": {
+"figure": 8,
+"shared": false,
+"name": "Mi An A Bondii",
+"flies": "July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are near Folkestone. The situations where it is found are on the coast.”"
+],
+"hidden": true
+},
+"n166-9": {
+"figure": 9,
+"shared": false,
+"latin": "Haworth’S Minor",
+"latin1903": "Haworth’S Minor",
+"flies": "July, August, September",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Askliam Bog, Brighton, Simonswood Moss near Liverpool, Whittlesea Mere, 118 Windermere, Stirling, Darlington, Preston, Edinburgh, Manchester, Bowdon, Saddleworth, Arran, Scarborough, Kilmun. The situations where it is found are heaths, and moist places.”",
+"The caterpillar feeds on the cotton-grass ( Eriophorum anyustifolium)."
+]
+},
+"n166-10": {
+"figure": 10,
+"shared": false,
+"latin": "Charanyca trigrammica",
+"latin1903": "Grammesia Trilinea",
+"name": "Treble Lines",
+"family": "Noctuidae",
+"wingspan": "35–40 mm",
+"flies": "May, June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Lewes, Brighton, Epping, Birkenhead, Bristol, Hammersmith, Burton-on- Trent, Huddersfield, Scarborough, Lewisham, Cambridge, Kingsbury, Manchester, Shrewsbury, Black Park, Exeter, Lyndhurst, Stowmarket, Tenterden, Peterborough, Ilal- ton, Wavendon, Worthing, Worcester, Bowdon. The…”",
+"The caterpillar feeds on the plantain ( Plantago lanceolata).",
+"The Treble Lines (Charanyca trigrammica) is a moth of the family Noctuidae. It is found virtually throughout Europe.In addition, there are occurrences in Asia minor and the Caucasus.In the mountains it rises to altitudes of 1000 metres."
+]
+},
+"n166-11": {
+"figure": 11,
+"shared": false,
+"latin": "Athetis pallustris",
+"latin1903": "Hydrilla Palustris",
+"name": "Marsh Moth",
+"family": "Noctuidae",
+"wingspan": "18–34 mm",
+"flies": "May, June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are at Crompton’s Coppice near York. The situations where it is found are moist places in woods.”",
+"The caterpillar feeds on the plantain ( Plantago lanceolata), and other low plants.",
+"Athetis pallustris, the marsh moth, is a moth of the family Noctuidae. It is found in most of Europe, the southern Urals, southern Russia, Ukraine, eastern Turkey, Siberia, the Amur region, the Russian Far East, Mongolia and northern China."
+]
+},
+"n166-12": {
+"figure": 12,
+"shared": false,
+"latin": "Reddish Buff",
+"latin1903": "Reddish Buff",
+"flies": "June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Lyndhurst in the New Forest, and near Hyde in the Isle of Wight. 120 The situations where it is found are moist places in woods.”",
+"The caterpillar feeds on the teazle and other plants."
+]
+},
+"n172-1": {
+"figure": 1,
+"confidence": "unmatched"
+},
+"n172-2": {
+"figure": 2,
+"confidence": "unmatched"
+},
+"n172-3": {
+"figure": 3,
+"shared": false,
+"latin": "Hoplodrina blanda",
+"latin1903": "Caradrina Blanda",
+"name": "Rustic",
+"family": "Noctuidae",
+"flies": "June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Scarborough, Brighton, Birkenhead, Edinburgh, Lewisham, Bristol, Exeter, Manchester, Faversham, Cambridge, Wavendon, Halton, Tenterden, Black Park, Lower Guiting, Lewes, Kingsbury, Uppingham, Darlington, Worthing. The situations where it is found are woods, etc.”",
+"The caterpillar feeds on various low plants.",
+"Hoplodrina blanda is a moth of the family Noctuidae. It is found in the Palearctic realm."
+]
+},
+"n172-4": {
+"figure": 4,
+"shared": false,
+"latin": "Pale Mottled Willow",
+"latin1903": "Pale Mottled Willow",
+"flies": "June, July, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Local ities for this very common species are York, Sutton - ou-Derwent, Brighton, Falmouth, Birkenhead, Bowdon, etc. The perfect insect appears in June, July, and August.”",
+"The caterpillar feeds on the chickweed ( Alsine media)."
+],
+"hidden": true
+},
+"n172-5": {
+"figure": 5,
+"shared": false,
+"latin": "Brown Feathered Rustic",
+"latin1903": "Brown Feathered Rustic",
+"flies": "June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Beverley, Stockton Forest, Doncaster, Darenth Wood, Stirling, Brighton, Birkenhead, Bristol, Wimbledon Common, Faversham, Edinburgli, Burton-on-Trent, Canterbury, Stowe Wood, Sherwood Forest, Darlington, Exeter, Black Park, Lewes, Huddersfield, Stowmarket, Lyndhurst, Dorking,…”",
+"The caterpillar feeds on the knot grass ( Polygonum aviculare ), and other low plants."
+]
+},
+"n172-6": {
+"figure": 6,
+"shared": false,
+"latin": "Arched Dart",
+"latin1903": "Arched Dart",
+"flies": "July, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Sutton-on-Derwent, New Brighton, Isle of Man, Solway Frith, Tremori, Birkenhead, Darlington, Edinburgh, Stowmarket, Deal, Belcurrick. The situations where it is found are sand hills on the coast.”",
+"The caterpillar feeds on the roots of grasses."
+]
+},
+"n172-7": {
+"figure": 7,
+"shared": false,
+"latin": "Agrotis puta",
+"latin1903": "Shuttle- Shaped Dart",
+"name": "Shuttle Shaped Dart",
+"family": "Noctuidae",
+"flies": "August, September",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for tli is species are Faversham, Hammersmith, Sutton-on-Derwent, Brighton, Birkenhead, Bristol, Lewes, Plymouth, Stowmarket, Lewisham, Cambridge, Hal ton, Lyndhurst, Tenterden, Arundel, Exeter, Peterborough, Wavendon, Newhaven, and near London. The situations where it is found are woods, gardens, etc.”",
+"Agrotis puta, the shuttle-shaped dart, is a moth of the family Noctuidae. The species was first described by Jacob Hübner in 1803."
+]
+},
+"n172-8": {
+"figure": 8,
+"shared": false,
+"latin": "Agrotis ipsilon",
+"latin1903": "Dark Sword-Grass",
+"name": "Dark Sword-grass",
+"family": "Noctuidae",
+"flies": "February, June, September",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this now common but formerly considered rare species are Liverpool, Falmouth, Sutton-on-Derwent, Nunburnholme, Crompton’s Coppice near York, Darenth Wood, Birch Wood, Eppiug, Brighton, Dulwich, New Forest, Chichester, Plymouth, Hammersmith, Barnstaple, Peterborough, Chester, Black Park, Huddersfield,…”",
+"The caterpillar feeds on the roots of grasses.",
+"Agrotis ipsilon, the dark sword-grass, ipsilon dart, black cutworm, greasy cutworm or floodplain cutworm, is a small noctuid moth found worldwide. The moth gets its scientific name from black markings on its forewings shaped like the letter \"Y\" or the Greek letter upsilon."
+]
+},
+"n172-9": {
+"figure": 9,
+"shared": false,
+"latin": "Agrotis biconica",
+"latin1903": "Agrotis Fennica",
+"family": "Noctuidae",
+"flies": "July, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are in Derbyshire — the exact locality I at present am unacquainted with. The perfect insect appears in July and August.”",
+"Agrotis spinifera, or Gregson's dart, is a species of moth in the family Noctuidae. The species was first described by Jacob Hübner in 1808 and is found in southern Europe, Arabia to southern Africa, Madagascar, Turkey, Iraq, Iran, Afghanistan, Pakistan, India to Myanmar and Sri Lanka."
+]
+},
+"n172-10": {
+"figure": 10,
+"shared": false,
+"latin": "Tearly Underwino",
+"latin1903": "Tearly Underwino",
+"flies": "July, August, September",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Wallasey near Birkenhead, Brighton, Shrewsbury, Hammersmith, Bristol, Killarney, Cambridge, Worcester, Lewisham, Lewes, Arundel, Lyndhurst, Deal, New Forest, Manchester, Plymouth, Warrington, Barnstaple, Yentnor, Bonchurch, Isle of Wight, and near London. The situations where it…”",
+"The caterpillar feeds on the plantain ( Plantago lanceolata ), and the dock (it umex pratensis)."
+]
+},
+"n182-1": {
+"figure": 1,
+"shared": false,
+"latin": "Common Dart",
+"latin1903": "Common Dart",
+"flies": "September",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this most abundant species are York, Sutton-on-Derwent, Brighton, Humberstone, Falmouth, Charmouth, Nunburnholme, Bromsgrove, Worcester, Nafferton, Bowdon, etc., etc., etc., etc. The situations where it is found are gardens, hedge- sides, etc.”",
+"The caterpillar feeds on the roots of various grasses."
+]
+},
+"n182-2": {
+"figure": 2,
+"shared": false,
+"latin": "Agrotis trux",
+"latin1903": "Agrotis Lunigera",
+"name": "Crescent Dart",
+"family": "Noctuidae",
+"flies": "June, July, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Edinburgh, Liverpool, Cork, Yentnor and Bonchurch in the Isle of Wight. The perfect insect appears in June, July, and August.”",
+"The caterpillar feeds on the roots of grasses and other low plants.",
+"Agrotis trux, the crescent dart, is a moth of the family Noctuidae. The species was first described by Jacob Hübner in 1824."
+],
+"hidden": true
+},
+"n182-3": {
+"figure": 3,
+"confidence": "unmatched"
+},
+"n182-4": {
+"figure": 4,
+"shared": false,
+"latin": "Heart And Club",
+"latin1903": "Heart And Club",
+"flies": "July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Brighton, Chester, Falmouth, Lewisham, Yentnor, Bonchurch, Birkenhead, Hammersmith, Edinburgh, Lewes, Clapham, Cambridge, Bristol, Halton, Plymouth, Black Park, Stowmarket, Worcester, Arundel, Tenterden, Wavendon. The situations where it is found are woods, gardens, etc.”",
+"The caterpillar feeds on the roots of various low plants."
+]
+},
+"n182-5": {
+"figure": 5,
+"confidence": "unmatched"
+},
+"n182-6": {
+"figure": 6,
+"shared": false,
+"latin": "Agrotis ripae",
+"latin1903": "Agrotis Ripie",
+"name": "Sand Dart",
+"family": "Noctuidae",
+"flies": "June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Runcorn, Barnstaple. The situations where it is found are sand-hills on the coast.”",
+"Agrotis ripae, the sand dart, is a moth of the family Noctuidae. The species was first described by Jacob Hübner in 1823."
+]
+},
+"n182-7": {
+"figure": 7,
+"shared": false,
+"latin": "Agrotis Cur Soria",
+"latin1903": "Agrotis Cur Soria",
+"flies": "July, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Bristol, Yarmouth, New Brighton, Lytham, Solway Firth, Birkenhead, Edinburgh. Plate 12.”",
+"The caterpillar feeds on the spurge ( Euphorbia esuld )."
+]
+},
+"n182-8": {
+"figure": 8,
+"shared": false,
+"latin": "Garden Dart",
+"latin1903": "Garden Dart",
+"flies": "June, July, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Sutton-on-Derwent, Stockton Forest, Brighton, Darlington, Halton, Arundel, Bristol, Edinburgh, Huddersfield, Black Park, Stirling, Cambridge, Exeter, Kingsbury, Carron, Scarborough, Manchester, Shrewsbury, Stowmiarket, Bowdon. The situations where it is found are woods.”",
+"The caterpillar feeds on different low plants."
+]
+},
+"n182-9": {
+"figure": 9,
+"shared": false,
+"latin": "White Lined Dart",
+"latin1903": "White Lined Dart",
+"flies": "August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Brighton, Lewes, Falmouth, Deal, Plymouth, New Brighton, Isle of Man, Solway Frith, Birkenhead, Exeter, Bristol, Manchester, Darlington, Scarborough, Edinburgh, Stowmarket, Bow- don. The perfect insect appears in August.”",
+"The caterpillar feeds on grass and other low plants."
+]
+},
+"n182-10": {
+"figure": 10,
+"shared": false,
+"latin": "Euxoa aquilina",
+"latin1903": "Agrotis Aquilina",
+"family": "Noctuidae",
+"flies": "July, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Stockton Forest, Scarborough, Brighton, Barnstaple, Yarmouth, Plymouth, Birkenhead, Lewes, New Brighton, Cambridge, Bowdon, Manchester, and near London. The perfect insect appears in July and August.”",
+"The caterpillar feeds on the yellow ladies’ bedstraw ( Galium verum).",
+"Euxoa aquilina is a moth of the family Noctuidae. It is found in the Mediterranean region of Europe, North Africa, the Near East and the Middle East."
+],
+"hidden": true
+},
+"n188-1": {
+"figure": 1,
+"shared": false,
+"latin": "Euxoa obelisca",
+"latin1903": "Agrotis Obelisca",
+"name": "Square-Spot Dart",
+"family": "Noctuidae",
+"flies": "August, September",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Sutton-on-Derwent, Scarborough, Brighton, Ventnor, Bonchurch, Isle of Wight, Dublin, Edinburgh. The perfect insect appears in August and September.”",
+"The caterpillar feeds on different low plants.",
+"Euxoa obelisca, the square-spot dart, is a moth of the family Noctuidae. It is found in the Palearctic realm."
+]
+},
+"n188-2": {
+"figure": 2,
+"shared": false,
+"latin": "Xestia agathina",
+"latin1903": "Agrotis Agathina",
+"name": "Heath Rustic",
+"family": "Noctuidae",
+"flies": "August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Stockton Forest, Simons wood Moss near Liverpool, Black Park, Wey- bridge, Lyndhurst, Ticehurst, West Wickham. The situations where it is found are heaths and heathy places in woods.”",
+"The caterpillar feeds on heath.",
+"Xestia agathina, the heath rustic, is a moth of the family Noctuidae. It is found in western and central Europe and Morocco."
+]
+},
+"n188-3": {
+"figure": 3,
+"shared": false,
+"latin": "Agrotis Porpiiyrea",
+"latin1903": "Agrotis Porpiiyrea",
+"name": "True-Lover’S Knot",
+"flies": "June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, LaDgwitli, Aller- thorpe Common, Stockton Forest, Lewes, Black Park, Birkenhead, Lynton, Bristol, Exeter, Rudheath, Edin- burgli, Huddersfield, Lyndhurst, Manchester, Tenterden, Scarborough, Shrewsbury, AVavendon, Leeds, Reigate. The situations where it is found are heaths.”",
+"The caterpillar feeds on heath.",
+"The true lover's knot is a moth of the family Noctuidae. The species was first described by Michael Denis and Ignaz Schiffermüller in 1775."
+]
+},
+"n188-4": {
+"figure": 4,
+"shared": false,
+"latin": "Duchess Of Portland",
+"latin1903": "Duchess Of Portland",
+"flies": "August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this rather rare species are Nunburnholme, Portland, Lytliam, Birkenhead, Edinburgh, Manchester, New Brighton, Shrewsbury. The situations where it is found are gardens, and on the sea-coast.”",
+"The caterpillar feeds on various low plants."
+]
+},
+"n188-5": {
+"figure": 5,
+"shared": false,
+"latin": "Stout Dart",
+"latin1903": "Stout Dart",
+"flies": "June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Scarborough, Nuu- burnholme,Nafferton, Osgodby, Anstey, and near London, Monkswood, Worcester, Lewisham, Stowmarket, Halton, Edinburgh, Darlington, Cambridge, Burton-on-Trent. The situations where it is found are gardens.”",
+"The caterpillar feeds on the dock ( Rumex pratensis ), and other low plants."
+]
+},
+"n188-6": {
+"figure": 6,
+"shared": false,
+"latin": "Rhyacia simulans",
+"latin1903": "Agrotis Pyrophila",
+"name": "Dotted Rustic",
+"family": "Noctuidae",
+"flies": "June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Nunburnholme, 134 Bidston near Birkenhead, Old Swan near Liverpool, Edinburgh, Worcester, Wavendon, Halton. The situations where it is found are gardens, etc.”",
+"The caterpillar feeds on grasses and low plants.",
+"Rhyacia simulans, the dotted rustic, is a moth of the family Noctuidae. The species was first described by Johann Siegfried Hufnagel in 1766."
+]
+},
+"n188-7": {
+"figure": 8,
+"shared": false,
+"latin": "Xestia ashworthii",
+"latin1903": "Agrotis Asiiworthii",
+"name": "Ashworth's Rustic",
+"family": "Noctuidae",
+"flies": "July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Llanferras, Llangollen. 135 Clwyd, Llanrwst, Snowdon, and other places in North Wales.”",
+"The caterpillar feeds on the heath, also on the hare-bell ( Campanula rotund) folia).",
+"Ashworth's rustic is a species of moth. Its colouring is blue/grey and it is mainly nocturnal."
+]
+},
+"n188-8": {
+"figure": 7,
+"confidence": "unmatched"
+},
+"n188-9": {
+"figure": 9,
+"shared": false,
+"latin": "Noctua janthina",
+"latin1903": "Lesser Broad-Bordered",
+"name": "Langmaid's Yellow Underwing",
+"family": "Noctuidae",
+"flies": "July, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Sutton-on-Derwent, Charmouth, Brighton, Bowdon, Faversham, Isle of Wight, Barnstaple, Peterborough. The situations where it is found are hedge-sides, gardens, and woods.”",
+"The caterpillar feeds on the primrose and other low plants.",
+"The lesser broad-bordered yellow underwing or Langmaid's yellow underwing is a moth of the family Noctuidae. It is distributed throughout southern and central Europe, and southern Sweden."
+]
+},
+"n194-1": {
+"figure": 1,
+"shared": false,
+"latin": "Noctua janthina",
+"latin1903": "Broad-Bordered Yellow Underwing",
+"name": "Langmaid's Yellow Underwing",
+"family": "Noctuidae",
+"flies": "June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species, formerl}r thoughtso extremely rare (my friend, Mr. Dale, of Glanville Wootton, had, for several years, with a few other specimens, the wing of one in his cabinet which he had found in a spider’s web), but which is now taken plentifully, are York, Langwith, Stockton Forest, Sandal Beat, and…”",
+"The caterpillar feeds on the primrose and other low plants.",
+"The lesser broad-bordered yellow underwing or Langmaid's yellow underwing is a moth of the family Noctuidae. It is distributed throughout southern and central Europe, and southern Sweden."
+]
+},
+"n194-2": {
+"figure": 2,
+"confidence": "unmatched"
+},
+"n194-3": {
+"figure": 3,
+"shared": false,
+"latin": "Noctua comes",
+"latin1903": "Triphven A Subsequa",
+"name": "Lesser Yellow Underwing",
+"family": "Noctuidae",
+"flies": "July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species, which is distinguished from Triphcena orbona, by a black spot or mark on the upper von ii. t 138 margin of the fore wings near the tip, are the Isle of Bute, Lyndhurst, New Forest, Sherwood Forest.”",
+"The caterpillar feeds on different low plants.",
+"The lesser yellow underwing is a moth of the family Noctuidae."
+]
+},
+"n194-4": {
+"figure": 4,
+"shared": false,
+"latin": "Lesser Yellow Underwixg",
+"latin1903": "Lesser Yellow Underwixg",
+"flies": "August, September",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this common species are Nunburnholme, York, Sutton-on-Derwent, Askham Bog, Isle of Wight, Charmouth, Anstey, Brighton, Falmouth, Bowdon, Black Park, Faversham, Barnstaple, and near London. The situations where it is found are gardens, woods, lanes, and hedgerows.”",
+"The caterpillar feeds on various low plants."
+]
+},
+"n194-5": {
+"figure": 5,
+"shared": false,
+"latin": "Noctua pronuba",
+"latin1903": "Yellow Underwing",
+"name": "Large Yellow Underwing",
+"family": "Noctuidae",
+"flies": "June, July, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this most abundant species are York, Sut- ton-on-Derwent, Askham Bog, Nunburnholme, Anstey, Nafferton, Brighton, Charmouth, Falmouth, Birkenhead, Worcester, Bowdon, Bromsgrove, and near London. The situations where it is found are gardens, woods, lanes, and hedgerows.”",
+"The caterpillar feeds on almost all low plants, the primrose, etc.",
+"The large yellow underwing is a moth, the type species for the family Noctuidae. It is an abundant species throughout the Palearctic realm, one of the most common and most familiar moths of the region."
+]
+},
+"n194-6": {
+"figure": 6,
+"shared": false,
+"latin": "Autumnal Rustic",
+"latin1903": "Autumnal Rustic",
+"flies": "August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Buttercrambe Moor, Stockton Forest, Scarborough, Huddersfield, Brighton, Isle 140 of Man, Storeton near Birkenhead, Wootton near Liverpool, Birch Wood, the New Forest, Edinburgh, Dorking, Weybridge, Lewes, Chichester, Lyndhurst, Manchester, Sherwood Forest, Plymouth, Rotherham,…”"
+],
+"hidden": true
+},
+"n194-7": {
+"figure": 7,
+"shared": false,
+"name": "Noctua Depun Ct A",
+"flies": "July, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Doncaster, Scarborough, Sutton-on-Derwent, Carlisle, Exeter, Manchester, Stow- market. The situations where it is found are woods.”",
+"The caterpillar feeds on the sorrel and other low plants."
+]
+},
+"n194-8": {
+"figure": 8,
+"shared": false,
+"latin": "Double Dart",
+"latin1903": "Double Dart",
+"flies": "June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this sufficiently common species are York, 141 Sutton-on-Derwent, Anstey, Brighton, Bowdon, etc., etc. The situations where it is found are gardens, hedge- sides, etc.”",
+"The caterpillar feeds on various low plants."
+]
+},
+"n204-1": {
+"figure": 1,
+"shared": false,
+"latin": "Noctua plecta",
+"latin1903": "Noctua Plecta",
+"name": "Flame-Shoulder",
+"family": "Noctuidae",
+"flies": "June, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this also common species are York, Sut- ton-on-Derwent, Brighton, Falmouth, Bowdon, etc., etc. The perfect insect appears in June and August?”",
+"The caterpillar feeds on different low plants.",
+"The flame shoulder is a moth of the family Noctuidae. The species was first described by Carl Linnaeus in 1761."
+],
+"hidden": true
+},
+"n204-2": {
+"figure": 2,
+"shared": false,
+"latin": "Basistriga flammatra",
+"latin1903": "Noctua Flammatra",
+"family": "Noctuidae",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are the Isle of Wight. 142 The caterpillar is greeu with paler stripes mi the sides.”",
+"The caterpillar feeds on several low plants.",
+"Dichagyris flammatra, the black collar, is a moth of the family Noctuidae. The species was first described by Michael Denis and Ignaz Schiffermüller in 1775."
+]
+},
+"n204-3": {
+"figure": 3,
+"shared": false,
+"latin": "Setaoeous Hebrew Character",
+"latin1903": "Setaoeous Hebrew Character",
+"flies": "July, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this, whichis anothercommon species, are York, Sutton-on-Derwent, Nunburnholme, Bromsgrove, Charmouth, Lewisham, Plumstead, Black Park, Brighton, Chichester, Bere Forest, Bowdon, Sidmouth, Plymouth, Crewe, Peterborough, Stirling. The situations where it is found are gardens, and the sides of water…”",
+"The caterpillar feeds on several low plants."
+],
+"hidden": true
+},
+"n204-4": {
+"figure": 4,
+"shared": false,
+"latin": "Xestia ditrapezium",
+"latin1903": "Noctua Ditrapezium",
+"name": "Triple-spotted Clay",
+"family": "Noctuidae",
+"flies": "July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Daren th Wood, Ripley near London, Epping, Blandford, Galway, Leith Hill in Surrey, Portsmouth, Birch Wood, and the New Forest. 143 The situations where it is found are woods.”",
+"The caterpillar feeds on various low plants.",
+"Xestia ditrapezium is a moth of the family Noctuidae found in most of Europe, northern Turkey, northern Iran, Transcaucasia, Caucasus, central Asia, from the Altai to Ussuri, Amur, Kuril Islands, northern Mongolia, Tibet, China, Korea, and Japan."
+]
+},
+"n204-5": {
+"figure": 5,
+"shared": false,
+"latin": "Xestia triangulum",
+"latin1903": "Double Square-Spot",
+"name": "Square-spotted Clay",
+"family": "Noctuidae",
+"flies": "June",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Burnby,Sutton-on- Derwent, Stockton Forest, Brighton, Black Park, Lewes, Bowdon, Dorking, Birkenhead, Exeter, Arundel, Bristol, Kingsbury, Lyndhurst, Bere Forest, Burton-on-Trent, Manchester, Sudbury, Cambridge, Plymouth, Tenterden, Preston, Darlington, Stowmarket, Worthing. The…”",
+"The caterpillar feeds on various low plants.",
+"The double square-spot is a moth of the family Noctuidae. It is distributed through most of Europe except the Mediterranean islands and northernmost Fennoscandia."
+]
+},
+"n204-6": {
+"figure": 6,
+"shared": false,
+"name": "N 0 C T U A Rhomboid E A",
+"flies": "July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Scarborough, Linacre near Liverpool, Darenth Wood, Ripley near London, Epping, Bristol, Black Park, Darlington, Reigate, Wavendon, Arundel, Worthing, Chesterfield. The situations where it is found are woods.”",
+"The caterpillar feeds on various low plants."
+]
+},
+"n204-7": {
+"figure": 7,
+"shared": false,
+"latin": "Purple Clay",
+"latin1903": "Purple Clay",
+"flies": "July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this speciesare York, Sutton-on-Derwent, Stockton Forest, Brighton, Perth, Bowdon, Bristol, Bere Forest, Darenth Wood, Birkenhead, Burton-on-Trent, Cambridge, Kingsbury, Scarborough, Preston, Islington, Lewes, Manchester, Stowmarket, Isle of Man,Lyndhurstv Huddersfield, Tenterden, Wavendon, Worthing.…”",
+"The caterpillar feeds on different low plants."
+]
+},
+"n204-8": {
+"figure": 8,
+"shared": false,
+"latin": "Engrailed Clay",
+"latin1903": "Engrailed Clay",
+"flies": "June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Nunburnholme, Sutton-on-Derwent, Stockton Forest, Charmouth, Bowdon, Brighton, Falmouth, Darenth Wood, Bere Forest, Barnstaple, Torwood, Stirling. The situations where it is found are woods, hedge- sides, etc.”",
+"The caterpillar feeds on various low plants."
+]
+},
+"n204-9": {
+"figure": 9,
+"shared": false,
+"latin": "Barred Chesnut",
+"latin1903": "Barred Chesnut",
+"flies": "July, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Hargrave Hall and Hooton near Birkenhead, Lewes, Bowdon, Carlisle, Arran, West Wickham, Bristol, Black Park, Edinburgh, Horn- dean, Huddersfield, Lyndhurst, Plymouth, Sherwood Forest, Manchester, Pembury. The situations where it is found are woods, etc.”"
+]
+},
+"n204-10": {
+"figure": 10,
+"shared": false,
+"latin": "Noctua janthe",
+"latin1903": "Noctua Subrosea",
+"name": "Lesser Broad Bordered Yellow Underwing",
+"family": "Noctuidae",
+"flies": "July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Whittlesea Mere and Yaxley Fen, the Fens of the counties of Cambridge and Huntingdon. The situations where it is found are the Fens.”",
+"The caterpillar feeds on the bog myrtle ( Myrica gale).",
+"Noctua janthe, the lesser broad-bordered yellow underwing, is a moth of the family Noctuidae. Some authors consider Noctua janthe and Noctua janthina to be the same species."
+]
+},
+"n214-1": {
+"figure": 1,
+"shared": false,
+"latin": "Diarsia rubi",
+"latin1903": "Small Square-Spot",
+"name": "Small Square-spot",
+"family": "Noctuidae",
+"flies": "June, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Local ities for this species are York, Sutton-on-Derwent, Stockton Forest, Manchester, Lewes, Black Park, Uppingham, Rudheath, Preston, Birkenhead, Bristol, Exeter, Edinburgh, Bowdon, Burton-on-Trent, Haltou, Cambridge, Kingsbury, Lyndhurst, Shrewsbury, Worthing, Scarborough, Wavendon. The situations where it is found…”",
+"The caterpillar feeds on various low plants.",
+"The small square-spot is a moth of the family Noctuidae. The species was first described by Karl Friedrich Vieweg in 1790."
+]
+},
+"n214-2": {
+"figure": 2,
+"shared": false,
+"latin": "Six Striped Rustic",
+"latin1903": "Six Striped Rustic",
+"flies": "August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Nunburnholme, Sutton-on-Derwent,StocktonForest, Brighton, Lewisham, Bowdon, Shrewsbury, Manchester, Scarborough, Bristol, 148 Wavendon, Deptford, Birkenhead, Worthing, Barnstaple, Burton-on-Trent, Darlington, Peterborough, Edinburgh, Halton, Huddersfield, Lewes, New Brighton,…”",
+"The caterpillar feeds on grasses and other ground plants."
+]
+},
+"n214-3": {
+"figure": 3,
+"shared": false,
+"latin": "Dotted Clay",
+"latin1903": "Dotted Clay",
+"flies": "July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this rather common species are York, Sutton-on-Derwent, Brighton, Burnby, Bowdon, etc., etc., etc. The situations where it is found are woods and gardens.”"
+]
+},
+"n214-4": {
+"figure": 4,
+"shared": false,
+"latin": "Protolampra sobrina",
+"latin1903": "Noctua Sobrina",
+"name": "Cousin German",
+"family": "Noctuidae",
+"flies": "July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are at Rannock,in Perthshire. The perfect insect appears in July.”",
+"Protolampra sobrina, the cousin german, is a moth of the family Noctuidae. The species was first described by Philogène Auguste Joseph Duponchel in 1843."
+]
+},
+"n214-5": {
+"figure": 5,
+"shared": false,
+"latin": "Neglected Rustic",
+"latin1903": "Neglected Rustic",
+"flies": "August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Stockton Forest, Hale near Liverpool, The New Forest, Birch Wood, West W ickh am W ood, Ly n dh urst, Pembury, W ey bridge, Black Park, Ticehurst, Plymouth, and Carlisle. The situations where it is found are heaths aDd heathy places in woods.”",
+"The caterpillar feeds on heather at first, and afterwards on different low plants."
+]
+},
+"n214-6": {
+"figure": 6,
+"shared": false,
+"latin": "Xestia xanthographa",
+"latin1903": "Square-Spot Rustic",
+"name": "Square-spot Rustic",
+"family": "Noctuidae",
+"flies": "August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this excessively common and very variable species are York, Nunburnholme, Sutton-on-Derwent., Charm outh, Brighton, Falmouth, Faversham, Black Park, Exeter, Manchester, Isle of Man, Bowdon, Cambridge, Sherwood Forest, Chester, New Brighton. The situations where it is found are woods, hedge-sides,…”",
+"The caterpillar feeds on grass.",
+"The square-spot rustic is a moth of the family Noctuidae. It is found in Europe, North Africa and east across the Palearctic and in North America."
+]
+},
+"n214-7": {
+"figure": 7,
+"shared": false,
+"latin": "Pine-Devouring Noctua",
+"latin1903": "Pine-Devouring Noctua",
+"flies": "March, April, May",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Langwith, Stockton Forest, Scarborough, Huddersfield, Brighton, Newark? Bowdon, Dunham Park, Wavendon, Manchester, Carlisle, Torwood, and Dunmoor near Stirling, Lyndhurst, Edinburgh, and Birkenhead.”",
+"The caterpillar feeds on the fir."
+]
+},
+"n214-8": {
+"figure": 8,
+"shared": false,
+"name": "Pa Chnobi A Alpina",
+"flies": "August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are at Cairn Gower, in Perthshire. The situations where it is found are on high mountains.”"
+]
+},
+"n214-9": {
+"figure": 9,
+"shared": false,
+"latin": "Hebrew Character",
+"latin1903": "Hebrew Character",
+"flies": "February, March, April, May",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this plentiful species are York, Doncaster, Sutton-on-Derwent, Brighton, Bowdon, Manchester, Bere Wood, Epping, Bromsgrove, Rannock, Nunburnholme, etc., etc. The situations where it is found are hedge-sides, etc.”",
+"The caterpillar feeds on the broom, lilac, clover, etc."
+]
+},
+"n214-10": {
+"figure": 10,
+"shared": false,
+"latin": "Tieniocampa Leucograpiia",
+"latin1903": "Tieniocampa Leucograpiia",
+"flies": "February, March, April",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Wadsworth, Levitt Hag near Doncaster, Darenth Wood, Prestwich, Carlisle, Plate 1!71. 153 $ Henley, Cockermouth, East Grinstead, Leith Hill near Dorking, Horndean, Great Marlow, Barnstaple, and Preston.”",
+"The caterpillar feeds on the plantain ( Plantago lanceolata)."
+]
+},
+"n220-1": {
+"figure": 1,
+"shared": false,
+"latin": "Ked Chesnut",
+"latin1903": "Ked Chesnut",
+"flies": "March, April",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Doncaster, Sutton- on- Derwent, Bowdon, Lewes, Prestwick, Darenth Wood, Worcester, Burton-on-Trent, Preston, Bristol, Epping Forest, Stowmarket, Bannock, Shrewsbury, Birkenhead, East Grinstead, Torwood, Stirling, Horndean, Plymouth, Kingsbury, Newnham, Manchester, Huddersfield,…”",
+"The caterpillar feeds on the dock ( Rumex pratensis)."
+]
+},
+"n220-2": {
+"figure": 2,
+"shared": false,
+"latin": "Clouded Drab",
+"latin1903": "Clouded Drab",
+"flies": "March",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this common species are York, Sutton- on-Derwent, Bromsgrove, Brighton, Faversham, Rau- nock, Bowdon, and Cambridge. The situations where it is found are fields, etc.”",
+"The caterpillar feeds on the oak, the willow, and the sloe."
+]
+},
+"n220-3": {
+"figure": 4,
+"shared": false,
+"name": "Tienioc Amp A Populeti",
+"flies": "March, April",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Sandal Beat near Doncaster, Epping, Dunham Park, Shrewsbury, Manchester, Wimbledon, Preston, Bowdon, Congleton, Black Park, Halton, Kingsbury, Bristol, Birkenhead, Lower Guiting, Cambridge, Bromsgrove, Crewe, Burton-ou- Trent, and near London. The situations where it is found are…”"
+]
+},
+"n220-4": {
+"figure": 3,
+"shared": false,
+"latin": "Orthosia opima",
+"latin1903": "Tieniocampa Opima",
+"name": "Northern Drab",
+"family": "Noctuidae",
+"flies": "February, March, April",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Doncaster, by the banks of the river Don, Stockton Forest, Langwith, Taunton, Birkenhead, Bristol, Manchester. The situations where it is found are wooded places.”",
+"The caterpillar feeds on the poplar and the sallow.",
+"Orthosia opima, the northern drab, is a moth of the family Noctuidae. The species was first described by Jacob Hübner in 1809."
+]
+},
+"n220-5": {
+"figure": 5,
+"shared": false,
+"latin": "' Common Quaker",
+"latin1903": "' Common Quaker",
+"flies": "March, April",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this very common species are York, Sutton-on-Derwent, Bromsgrove, Brighton, Faverslmm, Warter, Bowdon, Cambridge, Bannock, etc., etc. The situations where it is found are hedge-sides, woods, etc.”",
+"The caterpillar feeds on the elm and the oak."
+]
+},
+"n220-6": {
+"figure": 6,
+"shared": false,
+"latin": "Orthosia populeti",
+"latin1903": "Lead-Coloured Drab",
+"name": "Lead-coloured Drab",
+"family": "Noctuidae",
+"flies": "February, March",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Botteric Carr near Doncaster; Sutton-on-Derwent, Birkenhead, Horn- Plate IiVTl i 157 dean, Warrington, Exeter, Darenth Wood, Bowdon, East Grinstead, Bristol, Darlington, Huddersfield, Cambridge, Epping, Kingsbury, Worcester, Newark, Preston, and near London. The situations where…”",
+"The caterpillar feeds on the willow.",
+"Orthosia populeti, the lead-coloured drab, is a moth of the family Noctuidae. It is found in Europe."
+]
+},
+"n220-7": {
+"figure": 7,
+"shared": false,
+"latin": "Blossom Underwing",
+"latin1903": "Blossom Underwing",
+"flies": "March, April",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Sandal Beat near Doncaster, York, Lewes, Dulwich, Lyndhurst, Horndeau, Newnham, Cockermouth. The situations where it is found are woods.”",
+"The caterpillar feeds on the oak."
+]
+},
+"n220-8": {
+"figure": 8,
+"shared": false,
+"latin": "Twin-Spot Quake 11",
+"latin1903": "Twin-Spot Quake 11",
+"flies": "February, March",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Doncaster, Sutton- on-Derwent,Langwith, Lewes, Epping, Taunton, Newark, Dulwich, Dunham Park, Preston, Worcester, Wimbledon, Bowdon, Stowmarket, Kingsbury, Black Park, Plymouth, Huddersfield, ITalton, Marlow, Manchester, Birkenhead, Exeter, Bristol, Arundel, Lyndhurst, Cambridge,…”",
+"The caterpillar feeds on the elm and the aspen."
+]
+},
+"n220-9": {
+"figure": 9,
+"shared": false,
+"latin": "Small Quaker",
+"latin1903": "Small Quaker",
+"flies": "February, March",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this common species are York, Warter, Sutton-on-Derwent, Langwith, Brighton, Dunham Park, Faversham, Bowdon, Doncaster, Hainault Forest, and Bromsgrove. The situations where it is found are hedge-sides and woods.”",
+"The caterpillar feeds on the oak."
+]
+},
+"n220-10": {
+"figure": 10,
+"confidence": "unmatched"
+},
+"n220-11": {
+"figure": 11,
+"shared": false,
+"latin": "Dingy Shears",
+"latin1903": "Dingy Shears",
+"flies": "July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this neat species are York, Askham Bog Nunburnholme, Lewes, Stowraarket, Kingsbury, Exeter, Cambridge, Burton-on-Trent, Bristol, and Birkenhead. The situations where it is found are marshy places.”",
+"The caterpillar feeds on the willow and the poplar."
+]
+},
+"n226-1": {
+"figure": 1,
+"shared": false,
+"latin": "Orthosia cerasi",
+"latin1903": "Red-Lined Quaker",
+"name": "Common Quaker",
+"family": "Noctuidae",
+"flies": "September, October",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this rather common and widely-distributed species are York, Nunburnholme, Sutton-on-Derwent, Bromsgrove, Warter, Brighton, Bowdon, Faversham, Plate LVTQ. 161 Lewisham, Marlow, the New Forest, Barnstaple, Ely, Peterborough, etc., etc.”",
+"The caterpillar feeds on the willow.",
+"The common Quaker is a moth of the family Noctuidae first described by Johan Christian Fabricius in 1775. Some authors prefer the synonym Orthosia stabilis (Denis & Schiffermüller, 1775)."
+]
+},
+"n226-2": {
+"figure": 2,
+"shared": false,
+"latin": "Agrochola macilenta",
+"latin1903": "Yellow-Lined Quaker",
+"name": "yellow-line quaker",
+"family": "Noctuidae",
+"flies": "September, October",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Nunburnholme, Sutton-on-Derwent, Brighton, Birkenhead, Stowmarkef, Lewes, Marlow, Bowdon, Bristol, Arundel, Cambridge, Kingsbury, Wavendon, Barnstaple, Lower Guiting, Ely, Lyndhurst, Darlington, Huddersfield, Shrewsbury, Manchester. The situations where it is found are gardens,…”",
+"The caterpillar feeds on the beech.",
+"Agrochola macilenta, the yellow-line Quaker, is a moth of the family Noctuidae. The species was first described by Jacob Hübner in 1809."
+]
+},
+"n226-3": {
+"figure": 3,
+"shared": false,
+"latin": "Anchooelis Rufina",
+"latin1903": "Anchooelis Rufina",
+"flies": "September",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this handsome species are Sutton-on- Derwent, and Crompton’s Coppice near York, Hertford, Lyndhurst, Burton-on-Trent, Brighton, Manchester, Cambridge, Birkenhead, Edinburgh, Lewes, Plymouth, Lower Guiting, Bristol, Scarborough, Exeter, Wavendon, Barnstaple, Ipswich, Torwood, Stirling, Halton, Tenterden.…”",
+"The caterpillar feeds on the oak."
+]
+},
+"n226-4": {
+"figure": 4,
+"shared": false,
+"latin": "Pale-Headed Chesnut",
+"latin1903": "Pale-Headed Chesnut",
+"flies": "September, October",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Hanging-Heaton near Dewsbury, Faversham, Brighton, Bromsgrove, Bir- 1G3 kenhead, Exeter, Nunburnholme, Bristol, Halton, Lewes, Lewisham, Cambridge, Kingsbury, Chichester, Lower Guiting, Lyndlmrst, Sidmouth, Scarborough, Wavendon, Worcester, Barnstaple, Weston-super-Mare,…”",
+"The caterpillar feeds on the dock ( Rumex pratensis )."
+]
+},
+"n226-5": {
+"figure": 5,
+"shared": false,
+"latin": "Anchoscelis lunosa",
+"latin1903": "Lunar Underwing",
+"name": "Lunar Underwing",
+"family": "Noctuidae",
+"flies": "September",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Brighton, Faversham, Bowdon, Birkenhead, Darenth Wood, Worcester, Scarborough, Lewisham, Wavendon, Plymouth, Chichester, Lewes, Tenterden, Lyndhurst, Kingsbury, Barnstaple, Stowmarket, Exeter, Darlington, Shrewsbury, Bristol, Edinburgh, Cambridge. The situations where it is found are…”",
+"The caterpillar feeds on grass."
+]
+},
+"n226-6": {
+"figure": 6,
+"shared": false,
+"latin": "Brown-Spot Pinion",
+"latin1903": "Brown-Spot Pinion",
+"flies": "September, October",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this common species are York, Huddersfield, Nunburnholme, Bromsgrove, Hanging Heaton near Dewsbury, Brighton, Carron, Stirling, Bowdon, Birch Wood, Darenth Wood, Faversham, New Forest, Arundel, Peterborough. The situations where it is found are woods, hedge- sides, gardens, etc.”",
+"The caterpillar feeds on various low plants."
+]
+},
+"n226-7": {
+"figure": 7,
+"confidence": "unmatched"
+},
+"n226-8": {
+"figure": 8,
+"confidence": "unmatched"
+},
+"n226-9": {
+"figure": 10,
+"shared": false,
+"latin": "Eupsilia transversa",
+"latin1903": "Scopelosoma Satellitia",
+"name": "Satellite",
+"family": "Noctuidae",
+"flies": "February, March, April, October",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this common species are York, Dcncaster, Sutton-on-Derwent, Nunburnholme, Hanging Heaton, Bromsgrove, Bowdon, Weston-super-Mare, Faversham, Epping, The New Forest, Exeter, Plymouth, Durham, Torwood, Stirling, Brighton, Barnstaple, Lewisham. The situations where it is found are woods, hedge- sides,…”",
+"The caterpillar feeds on the oak, the beech, the elm, etc.",
+"Eupsilia transversa, the satellite, is a moth of the family Noctuidae. The species was first described by Johann Siegfried Hufnagel in 1766."
+]
+},
+"n226-10": {
+"figure": 9,
+"shared": false,
+"latin": "Gijea Eryth L.’Ooephala",
+"latin1903": "Gijea Eryth L.’Ooephala",
+"flies": "October, November",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Hurst near Brighton, Lewes, Marlow, Plymouth, Weston-super-Mare. The perfect insect appears in October; October 20, and November.”",
+"The caterpillar feeds on various low plants."
+]
+},
+"n236-1": {
+"figure": 1,
+"shared": false,
+"latin": "Dotted Chesnut",
+"latin1903": "Dotted Chesnut",
+"flies": "March, April, October, November",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this rare species are Bromsgrove, where I took one myself, when at the Grammar School of King Edward the Sixth there, Norbury Park, Brighton, Wor 1G8 cester, Arundel, Newnhara, Lyndliurst, Bristol, Freshwater, Gloucester, Mickleham, Barnstaple, Dublin, Weston-super-Mare, Plymouth, Marlow, Exeter. The…”",
+"The caterpillar feeds on the oak and several plants."
+]
+},
+"n236-2": {
+"figure": 2,
+"shared": false,
+"latin": "Attacus atlas",
+"latin1903": "Orange Upper Wing",
+"name": "Atlas Moth",
+"family": "Saturniidae",
+"wingspan": "250 mm",
+"flies": "March, April, October, November",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Selling Wood near Faversham, Dartmoor, Brighton, Lewes, Darenth Wood, Lyndliurst, Black Park, Tenterden, East Grinstead, Worcester, and Barnstaple. The situations where it is found are oak woods.”",
+"The caterpillar feeds on the oak.",
+"Attacus atlas, the Atlas moth, is a large saturniid moth endemic to the forests of Asia. The species was described by Carl Linnaeus in his 1758 10th edition of Systema Naturae."
+]
+},
+"n236-3": {
+"figure": 3,
+"shared": false,
+"latin": "Tiliacea citrago",
+"latin1903": "Xanthia Citrago",
+"name": "Orange Sallow",
+"family": "Noctuidae",
+"flies": "September",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Walthamstow, Epping Forest, Dartmoor, Lewes, Worcester, Manchester, Huddersfield, Stowmarket, Halton, Shrewsbury, Exeter, Bristol, Kingsbury, and Birkenhead. The perfect insect appears in September; September 1—11.”",
+"The caterpillar feeds on the lime.",
+"Tiliacea citrago, the orange sallow, is a species of moth of the family Noctuidae. It is found in Europe as far east as the Caucasus Mountains and the Urals."
+]
+},
+"n236-4": {
+"figure": 4,
+"shared": false,
+"latin": "Cirrhia icteritia",
+"latin1903": "Xanthia Oerago",
+"name": "Sallow",
+"family": "Noctuidae",
+"flies": "September",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Sutton-on-Derwent, . z 170 Langwith, Askhatn Bog, Faversham, Selling, Edinburgh, Lewes, Darlington, Plymouth, Bowdon, Lower Guiting, Shrewsbury, Ipswich, Cambridge, Bristol, Scarborough, Burton-on-Trent, Southport, Worthing, Birkenhead, Ten terden, Manchester, Lyndhurst,…”",
+"The caterpillar feeds on the catkins of the sallow, and afterwards on low plants."
+]
+},
+"n236-5": {
+"figure": 6,
+"shared": false,
+"latin": "Barred Sallow",
+"latin1903": "Barred Sallow",
+"flies": "September",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Lydiate near Liverpool, Brighton, Freshwater, Birch Wood, Ipswich, Darenth Wood, Bristol, Stowmarket, Black Park, Hal ton, Worcester, Henley-on-Thames, Marlow, and Arundel. The situations where it is found are woods.”",
+"The caterpillar feeds on the beech."
+]
+},
+"n236-6": {
+"figure": 5,
+"shared": false,
+"latin": "Xanthia togata",
+"latin1903": "Pink-Barred Sallow",
+"name": "Pink-barred Sallow",
+"family": "Noctuidae",
+"flies": "September",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Sutton-on-Derwent, Askham Bog, Langwith, Faversham, Selling, Cambridge, Lewes, Exeter, Chichester, Bowdon, Worthing, Burton- on-Trent, Edinburgh, Ipswich, Tenterden, Srowmarket, Bristol, Darlington, Shrewsbury, Manchester, Birkenhead, Lower Guiting, Scarborough, Huddersfield, and…”",
+"The caterpillar feeds on several low plants.",
+"Xanthia togata, the pink-barred sallow, is a species of moth of the family Noctuidae. It is a Holarctic species, and is found throughout Europe and east through the Palearctic to Central Asia, and Siberia up to the Ussuri."
+]
+},
+"n236-7": {
+"figure": 7,
+"shared": false,
+"latin": "Xanthia gilvago",
+"latin1903": "Xanthia Gilvago",
+"name": "dusky-lemon sallow",
+"family": "Noctuidae",
+"flies": "September",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Rotherham, Doncaster, Burton-on-Trent, Freshwater in the Isle of Wight, Ipswich, Cambridge, Derby, Deal, Shrewsbury, Brighton, and Bourne in Lincolnshire. The perfect insect appears in September.”",
+"The caterpillar feeds on the seeds of the elm.",
+"Xanthia gilvago, the dusky-lemon sallow, is a moth of the family Noctuidae. The species was first described by Michael Denis and Ignaz Schiffermüller in 1775."
+]
+},
+"n236-8": {
+"figure": 8,
+"shared": false,
+"latin": "Charanyca ferruginea",
+"latin1903": "Xanthia Ferruginea",
+"name": "Brick-Coloured Moth",
+"family": "Noctuidae",
+"flies": "September, October",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this common species are York, N unburn- holme, Sutton-on-Derwent, Coombe Wood, Faversham, The New Forest, Brighton, Bowdon, and Plymouth. The situations where it is found are gardens, woods, etc.”",
+"The caterpillar feeds on the young buds of the poplar.",
+"The brown rustic is a species of moth of the family Noctuidae. It is found in Europe."
+]
+},
+"n236-9": {
+"figure": 9,
+"shared": false,
+"latin": "Oentre-Barred Sallow",
+"latin1903": "Oentre-Barred Sallow",
+"flies": "September",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this rare species are York, and near Howsham, where my brother Beverley It. Morris, Esq.”",
+"The caterpillar feeds on the ash."
+]
+},
+"n246-1": {
+"figure": 1,
+"shared": false,
+"latin": "Tethea Subtusa",
+"latin1903": "Tethea Subtusa",
+"name": "Olive Moth",
+"wingspan": "60–70 mm",
+"flies": "July, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Local ities for this species are York, Sutton-on- Derwent, Kingsbury, Bristol, Lewes, Carlisle, Bowdon, Huddersfield, Exeter, Worcester, Srowmarket, Burtou-on-Trent, Manchester, Cambridge, Halton, Birkenhead, Clapham, and Hammersmith near London. The situations where it is found are woods.”",
+"The caterpillar feeds on the aspen and the poplar.",
+"Deilephila elpenor, the elephant hawk moth or large elephant hawk moth, is a moth in the family Sphingidae. Its common name is derived from the caterpillar's resemblance to an elephant's trunk."
+]
+},
+"n246-2": {
+"figure": 2,
+"shared": false,
+"latin": "Double Kidney",
+"latin1903": "Double Kidney",
+"flies": "August, September",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Brighton, Bowdon, Cambridge, Black Park, Tenterden, Arundel, Wavendon, and Worcester. The perfect insect appears in August and September.”",
+"The caterpillar feeds on the sallow and the poplar."
+]
+},
+"n246-3": {
+"figure": 3,
+"shared": false,
+"latin": "Angle Striped Sallow",
+"latin1903": "Angle Striped Sallow",
+"flies": "August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Carlisle, Sherwood Forest, and Lewisham. The situations where it is found are birch woods.”",
+"The caterpillar feeds on the oak and the birch."
+],
+"hidden": true
+},
+"n246-4": {
+"figure": 4,
+"shared": false,
+"name": "Scallop-Winged Oak Moth",
+"flies": "June",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Black Park, Lyndhurst, Worcester, Tenterden, and Stowmarket. The perfect insect appears in June.”",
+"The caterpillar feeds on the oak."
+]
+},
+"n246-5": {
+"figure": 5,
+"shared": false,
+"latin": "Dun Bar",
+"latin1903": "Dun Bar",
+"flies": "July, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Langwith near York, and Sutton-on-Derwent, Brighton, Charmouth, etc., etc. The situations where it is found are woods.”",
+"The caterpillar feeds on the oak, the birch, etc."
+]
+},
+"n246-6": {
+"figure": 6,
+"shared": false,
+"latin": "Lunar-Spotted Pinion",
+"latin1903": "Lunar-Spotted Pinion",
+"flies": "August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Birch Wood, Epping, Swinhope, Barham, Brighton, Shrewsbury, Black Park, Stowmarket, Monks’ Wood, Tenterden, Worcester. The situations where it is found are woods.”",
+"The caterpillar feeds on the plum and the pear."
+]
+},
+"n246-7": {
+"figure": 7,
+"shared": false,
+"latin": "White Pinion-Spot",
+"latin1903": "White Pinion-Spot",
+"flies": "July, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Doncaster, Bromsgrove, Cambridge, Rainhill near Liverpool, Brighton, Worcester, Black Park, Reigate, Lewes, Lewisham, Worthing, Plymouth, Kingsbury, Arundel, Wavendon, Halton, Exeter, Dorking, Stowmarket, Burton-on-Trent, and Bristol. The situations where it is found are woods,…”",
+"The caterpillar feeds on the elm."
+]
+},
+"n246-8": {
+"figure": 9,
+"shared": false,
+"latin": "Dusky Sallow",
+"latin1903": "Dusky Sallow",
+"flies": "July, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Doncaster, Deal, Sheldwick, Brighton, Faversham, Bristol, Stowmarket, Ventnor, Lewes, and Peterborough. The situations where it is found are heathy downs and waste places.”",
+"The caterpillar feeds on grasses of different sorts."
+]
+},
+"n246-9": {
+"figure": 8,
+"shared": false,
+"latin": "Cosmia affinis",
+"latin1903": "Cosmia Affinis",
+"name": "Lesser-spotted Pinion",
+"family": "Noctuidae",
+"flies": "July, August",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are Doncaster, Bromsgrove, Lewes, Cambridge, Worthing, High town, and Sefton near Liverpool, Black Park, Reigate, Worcester, Lewisham, . 2 A 178 Wavendon, Plymouth, Arundel, Stowmarket, Lyndhurst, Dorking, Shrewsbury, Kingsbury, Halton, Exeter, Bristol.”",
+"The caterpillar feeds on the elm.",
+"Cosmia affinis, the lesser-spotted pinion, is a moth of the family Noctuidae. It is found in central and southern Europe, north to Great Britain, Denmark, southern Sweden up to Saint Petersburg."
+]
+},
+"n246-10": {
+"figure": 11,
+"shared": false,
+"latin": "Diantiliecia Capsophila",
+"latin1903": "Diantiliecia Capsophila",
+"flies": "June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are near Dublin. The situations where it is found are rocks on the sea coast.”",
+"The caterpillar feeds on the seed vessels of the sea campion ( Silene maritima)."
+]
+},
+"n246-11": {
+"figure": 10,
+"shared": false,
+"latin": "Tawny Shears",
+"latin1903": "Tawny Shears",
+"flies": "June, July",
+"confidence": "ocr",
+"facts": [
+"Morris, 1903: “Localities for this species are York, Sutton-on-Derwent, Stockton Forest, Brighton, Faversliam, Sudbury, Yentnor, Bristol, Halton, Lewes, Edinburgh, Cambridge, Mickle- ham, and near London. The perfect insect appears in June and July.”",
+"The caterpillar feeds on the bladder campion ( Silene inflata)."
+]
+}
+}
+}

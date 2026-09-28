@@ -1,0 +1,112 @@
+{
+"plateKey": "n229",
+"order": 52,
+"canvas": [
+1838,
+2768
+],
+"paper": [
+0.95686274766922,
+0.9098039269447327,
+0.729411780834198
+],
+"source": {
+"flickr": null,
+"bhl": "https://archive.org/details/historyofbritish03morr/page/n229",
+"ia": "https://archive.org/download/historyofbritish03morr/page/n229.jpg"
+},
+"specimens": [
+{
+"id": "n229-1",
+"rotate": "none",
+"plateBox": [
+703,
+319,
+1217,
+977
+],
+"axis": 960,
+"bodyHalf": 0,
+"wingTop": 319,
+"bbox": [
+703,
+319,
+1217,
+977
+],
+"parts": {
+"body": {
+"bbox": [
+696,
+312,
+1223,
+983
+],
+"w": 527,
+"h": 671
+},
+"wing-R": null,
+"wing-L": null
+},
+"role": "underside",
+"sym": 0.894,
+"aspect": 0.78,
+"cy": 0.23
+},
+{
+"id": "n229-2",
+"rotate": "none",
+"plateBox": [
+502,
+1503,
+1437,
+1973
+],
+"axis": 968,
+"bodyHalf": 33,
+"wingTop": 1512,
+"bbox": [
+502,
+1503,
+1437,
+1973
+],
+"parts": {
+"body": {
+"bbox": [
+929,
+1537,
+1006,
+1958
+],
+"w": 77,
+"h": 421
+},
+"wing-R": {
+"bbox": [
+1001,
+1496,
+1443,
+1979
+],
+"w": 442,
+"h": 483
+},
+"wing-L": {
+"bbox": [
+496,
+1511,
+935,
+1979
+],
+"w": 439,
+"h": 468
+}
+},
+"role": "imago",
+"sym": 0.957,
+"aspect": 1.99,
+"cy": 0.63
+}
+]
+}

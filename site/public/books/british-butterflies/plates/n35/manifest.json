@@ -1,0 +1,167 @@
+{
+"plateKey": "n35",
+"order": 5,
+"canvas": [
+1838,
+2768
+],
+"paper": [
+0.9647058844566345,
+0.9137254953384399,
+0.7333333492279053
+],
+"source": {
+"flickr": null,
+"bhl": "https://archive.org/details/historyofbritish03morr/page/n35",
+"ia": "https://archive.org/download/historyofbritish03morr/page/n35.jpg"
+},
+"specimens": [
+{
+"id": "n35-1",
+"rotate": "none",
+"plateBox": [
+607,
+334,
+1201,
+697
+],
+"axis": 904,
+"bodyHalf": 21,
+"wingTop": 353,
+"bbox": [
+607,
+334,
+1201,
+697
+],
+"parts": {
+"body": {
+"bbox": [
+877,
+336,
+971,
+675
+],
+"w": 94,
+"h": 339
+},
+"wing-R": {
+"bbox": [
+925,
+328,
+1207,
+695
+],
+"w": 282,
+"h": 367
+},
+"wing-L": {
+"bbox": [
+600,
+344,
+883,
+703
+],
+"w": 283,
+"h": 359
+}
+},
+"role": "imago",
+"sym": 0.947,
+"aspect": 1.64,
+"cy": 0.19
+},
+{
+"id": "n35-2",
+"rotate": "none",
+"plateBox": [
+583,
+1159,
+1233,
+1549
+],
+"axis": 908,
+"bodyHalf": 23,
+"wingTop": 1180,
+"bbox": [
+583,
+1159,
+1233,
+1549
+],
+"parts": {
+"body": {
+"bbox": [
+879,
+1205,
+936,
+1520
+],
+"w": 57,
+"h": 315
+},
+"wing-R": {
+"bbox": [
+931,
+1152,
+1239,
+1547
+],
+"w": 308,
+"h": 395
+},
+"wing-L": {
+"bbox": [
+576,
+1168,
+885,
+1555
+],
+"w": 309,
+"h": 387
+}
+},
+"role": "imago",
+"sym": 0.965,
+"aspect": 1.67,
+"cy": 0.49
+},
+{
+"id": "n35-3",
+"rotate": "none",
+"plateBox": [
+716,
+1999,
+1125,
+2105
+],
+"axis": 920,
+"bodyHalf": 0,
+"wingTop": 1999,
+"bbox": [
+716,
+1999,
+1125,
+2105
+],
+"parts": {
+"body": {
+"bbox": [
+710,
+1992,
+1131,
+2111
+],
+"w": 421,
+"h": 119
+},
+"wing-R": null,
+"wing-L": null
+},
+"role": "larva",
+"sym": 0.936,
+"aspect": 3.86,
+"cy": 0.74
+}
+]
+}

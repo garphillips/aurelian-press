@@ -1,0 +1,149 @@
+{
+"plateKey": "n7",
+"order": 1,
+"canvas": [
+1848,
+2849
+],
+"paper": [
+0.95686274766922,
+0.9058823585510254,
+0.729411780834198
+],
+"source": {
+"flickr": null,
+"bhl": "https://archive.org/details/historyofbritish03morr/page/n7",
+"ia": "https://archive.org/download/historyofbritish03morr/page/n7.jpg"
+},
+"specimens": [
+{
+"id": "n7-1",
+"rotate": "none",
+"plateBox": [
+343,
+459,
+1401,
+1121
+],
+"axis": 871,
+"bodyHalf": 37,
+"wingTop": 497,
+"bbox": [
+343,
+459,
+1401,
+1121
+],
+"parts": {
+"body": {
+"bbox": [
+752,
+452,
+959,
+986
+],
+"w": 207,
+"h": 534
+},
+"wing-R": {
+"bbox": [
+908,
+472,
+1407,
+1115
+],
+"w": 499,
+"h": 643
+},
+"wing-L": {
+"bbox": [
+336,
+488,
+834,
+1127
+],
+"w": 498,
+"h": 639
+}
+},
+"role": "imago",
+"sym": 0.939,
+"aspect": 1.6,
+"cy": 0.28
+},
+{
+"id": "n7-2",
+"rotate": "none",
+"plateBox": [
+1103,
+1783,
+1541,
+2097
+],
+"axis": 1322,
+"bodyHalf": 0,
+"wingTop": 1783,
+"bbox": [
+1103,
+1783,
+1541,
+2097
+],
+"parts": {
+"body": {
+"bbox": [
+1096,
+1776,
+1547,
+2103
+],
+"w": 451,
+"h": 327
+},
+"wing-R": null,
+"wing-L": null
+},
+"role": "pupa",
+"sym": 0.544,
+"aspect": 1.39,
+"cy": 0.68
+},
+{
+"id": "n7-3",
+"rotate": "none",
+"plateBox": [
+267,
+1855,
+923,
+2090
+],
+"axis": 595,
+"bodyHalf": 0,
+"wingTop": 1855,
+"bbox": [
+267,
+1855,
+923,
+2090
+],
+"parts": {
+"body": {
+"bbox": [
+260,
+1848,
+928,
+2095
+],
+"w": 668,
+"h": 247
+},
+"wing-R": null,
+"wing-L": null
+},
+"role": "larva",
+"sym": 0.772,
+"aspect": 2.79,
+"cy": 0.69
+}
+]
+}
