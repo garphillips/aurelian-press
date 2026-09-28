@@ -237,6 +237,8 @@ const pointerIn = (e: PointerEvent, rect: DOMRect, out: THREE.Vector2) => out.se
     const man = await fetch(`/books/lucas/plates/${key}/manifest.json`).then(r => r.json());
     const [W, H] = man.canvas;
     reading.append(el('div', 'plateNum', `Plate<b>${['', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X'][first.order] ?? first.order}</b>`));
+    // the layers are placed as fractions of the plate, so they need a box with the plate's own proportions
+    const plate = el('div', 'plate'); plate.style.aspectRatio = `${W} / ${H}`; reading.append(plate);
     for (const s of man.specimens) for (const [name, part] of Object.entries<any>(s.parts)) {
       if (!part) continue;
       const img = new Image(); img.src = `/books/lucas/plates/${key}/${s.id}_${name}.webp`;
@@ -245,7 +247,7 @@ const pointerIn = (e: PointerEvent, rect: DOMRect, out: THREE.Vector2) => out.se
       img.style.cssText = `left:${(x0 / W) * 100}%;top:${(y0 / H) * 100}%;width:${((x1 - x0) / W) * 100}%;height:${((y1 - y0) / H) * 100}%;mix-blend-mode:multiply;` +
         `-webkit-mask:url(/books/lucas/plates/${key}/${s.id}_${name}_a.webp) center/100% 100%;mask:url(/books/lucas/plates/${key}/${s.id}_${name}_a.webp) center/100% 100%;` +
         (name === 'wing-L' ? 'transform:scaleX(-1);' : '');
-      reading.append(img);
+      plate.append(img);
     }
   }).catch(() => {});
 

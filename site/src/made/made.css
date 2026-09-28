@@ -58,6 +58,8 @@ pre{background:var(--paper-2);border:1px solid var(--rule);padding:14px 16px;ove
 .frame.gl .curtain.up{opacity:1}
 .frame.gl .reading{position:absolute;inset:0;background:#e8dec4;opacity:0;transition:opacity .01s;pointer-events:none}
 .frame.gl .reading.on{opacity:1}
+.frame.gl .reading .plate{position:absolute;top:4%;bottom:4%;left:50%;transform:translateX(-50%);height:92%;background:#e8dec4}   /* the layers multiply onto this */
+.frame.gl .reading img{-webkit-mask-mode:luminance;mask-mode:luminance}   /* the alpha files are opaque greyscale */
 .frame.gl .reading img{position:absolute}
 .frame.gl .reading .plateNum{position:absolute;top:14px;right:18px;font-family:var(--fell);font-size:13px;color:#4a3f33;font-variant:small-caps;letter-spacing:.16em;text-align:right}
 .frame.gl .reading .plateNum b{display:block;font-size:26px;font-weight:400;font-variant:normal;letter-spacing:.05em;color:#211a13}
