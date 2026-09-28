@@ -59,8 +59,9 @@ mvp/, PLAN.md, PLAN-shelf.md   early trials and the original plans — historica
 4. `scripts/build_content.py` — merges entries, auto data, translations and hand-written `content/species.json`
    (highest priority) → `site/public/books/lucas/content/plates.json`.
 
-**Morris** (Moths and Butterflies) run from sibling repos `../british-moths` and `../british-butterflies`, which
-mirror this layout with a `VOL=<n>` env var (see their `scripts/vol.py`). Their output `out/v<n>/{plates,content}`
+**Morris** (Moths and Butterflies) run from sibling repos `../british-moths` and `../british-butterflies`
+(github.com/garphillips/british-moths and /british-butterflies — clone them beside this one), which mirror this
+layout with a `VOL=<n>` env var (see their `scripts/vol.py`). Their output `out/v<n>/{plates,content}`
 is **copied** into `site/public/books/british-moths/<n>/` and `site/public/books/british-butterflies/`; after a
 re-cut, rsync it back in and commit. (They used to be symlinks; copies keep this repo cloneable on its own.)
 
