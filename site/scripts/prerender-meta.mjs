@@ -32,7 +32,8 @@ for (const b of books) {
   mkdirSync(dir, { recursive: true }); writeFileSync(join(dir, 'index.html'), out);
   pages.push(b.route);
 }
-const urls = ['/', ...pages].map(p => `  <url><loc>${SITE}${p}</loc></url>`).join('\n');
+const made = ['/made/', '/made/how-a-book-is-cut/'];   // static pages under public/made
+const urls = ['/', ...pages, ...made].map(p => `  <url><loc>${SITE}${p}</loc></url>`).join('\n');
 writeFileSync(join(root, 'public/sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`);
 writeFileSync(join(root, 'public/robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${SITE}/sitemap.xml\n`);
 console.log('prerendered', pages.join(' '));

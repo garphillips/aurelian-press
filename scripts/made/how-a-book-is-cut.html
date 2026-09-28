@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How a book is cut · How it’s made · The Aurelian Press</title>
+<meta name="description" content="How The Aurelian Press turns an antique natural-history plate into a page of fluttering specimens: ink alpha, components, the body and wing rig, export, names, and the shader on the page.">
+<link rel="canonical" href="https://aurelianpress.co.uk/made/how-a-book-is-cut/">
+<meta name="theme-color" content="#e8dec4">
+<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32.png">
+<link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="The Aurelian Press">
+<meta property="og:url" content="https://aurelianpress.co.uk/made/how-a-book-is-cut/">
+<meta property="og:title" content="How a book is cut · The Aurelian Press">
+<meta property="og:description" content="From a library scan to a butterfly that lifts its wings, in seven steps. Part I of How it’s made.">
+<meta property="og:image" content="https://aurelianpress.co.uk/og/made-how-a-book-is-cut.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="A cut-out swallowtail from Lucas’s 1835 plates beside the title How a book is cut.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="How a book is cut · The Aurelian Press">
+<meta name="twitter:description" content="From a library scan to a butterfly that lifts its wings, in seven steps.">
+<meta name="twitter:image" content="https://aurelianpress.co.uk/og/made-how-a-book-is-cut.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#e8dec4; --paper-2:#efe6cf; --ink:#211a13; --muted:#4a3f33; --rule:#c9bc9a; --gilt:#a4761f; --red:#a8402c;
+  --ground:#1c1812; --mono:ui-monospace,"SF Mono",Menlo,monospace;
+  --fell:"IM Fell English",Georgia,serif; --garamond:"EB Garamond",Georgia,serif;
+}
+@media (prefers-color-scheme:dark){ :root:not([data-theme="light"]){
+  --paper:#17140f; --paper-2:#211c14; --ink:#e9dfc4; --muted:#a3967c; --rule:#3c3324; --gilt:#d1a24a; --red:#d8684f; --ground:#0d0b08;
+}}
+:root[data-theme="dark"]{ --paper:#17140f; --paper-2:#211c14; --ink:#e9dfc4; --muted:#a3967c; --rule:#3c3324; --gilt:#d1a24a; --red:#d8684f; --ground:#0d0b08; }
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--garamond);font-size:19px;line-height:1.5;overflow-x:hidden}
+a{color:inherit}
+h1,h2,h3{font-family:var(--fell);font-weight:400;margin:0}
+.wrap{max-width:1180px;margin:0 auto;padding:0 16px}
+nav.series{position:absolute;top:0;left:0;right:0;display:flex;justify-content:space-between;align-items:baseline;padding:22px 24px;font-family:var(--fell);font-size:17px;z-index:2}
+nav.series a{text-decoration:none} nav.series a:hover{color:var(--gilt)} nav.series em{font-style:italic}
+nav.series span{font-size:14px;font-style:italic;color:var(--muted)}
+nav.next{max-width:1180px;margin:40px auto 0;padding-top:22px;border-top:1px solid var(--rule);font-family:var(--fell)}
+nav.next span{display:block;font-size:14px;font-style:italic;color:var(--gilt);letter-spacing:.06em}
+nav.next a{font-size:clamp(24px,3vw,32px);text-decoration:none} nav.next a:hover{color:var(--gilt)}
+nav.next small{display:block;font-style:italic;color:var(--muted);font-size:15px}
+header.hero{position:relative;min-height:88vh;display:grid;place-content:center;text-align:center;padding:64px 16px}
+header.hero h1{font-size:clamp(40px,7vw,84px);line-height:1.02;letter-spacing:.01em}
+header.hero p{max-width:34em;margin:22px auto 0;color:var(--muted);font-size:21px}
+header.hero .kicker{font-family:var(--fell);font-style:italic;color:var(--gilt);letter-spacing:.06em;font-size:18px;margin-bottom:14px}
+.scroll-hint{margin-top:56px;color:var(--muted);font-style:italic;font-size:16px}
+.scroll-hint::after{content:"";display:block;width:1px;height:48px;background:var(--rule);margin:14px auto 0}
+
+.stage{min-height:100vh;display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:48px;align-items:center;padding:64px 0}
+.stage .text{max-width:30em}
+.stage .num{font-family:var(--fell);font-style:italic;color:var(--gilt);letter-spacing:.08em;font-size:17px}
+.stage h2{font-size:clamp(30px,4vw,44px);line-height:1.1;margin:6px 0 14px}
+.stage .lede{font-weight:500;font-size:21px;margin:0 0 14px}
+.stage p{margin:0 0 12px}
+.stage .note{color:var(--muted);font-size:17px;font-style:italic}
+code,pre{font-family:var(--mono);font-size:.78em}
+code{background:var(--paper-2);padding:1px 5px;border-radius:3px}
+pre{background:var(--paper-2);border:1px solid var(--rule);padding:14px 16px;overflow:auto;line-height:1.45;margin:0}
+.fig{position:relative}
+.frame{position:relative;background:var(--paper-2);border:1px solid var(--rule);box-shadow:0 20px 50px -30px rgba(0,0,0,.5);overflow:hidden}
+.frame>img,.frame>canvas,.frame>svg{display:block;width:100%;height:auto}
+.stack{position:relative;width:100%}
+.stack>*{position:absolute;inset:0;width:100%;height:100%}
+.tag{position:absolute;font-family:var(--fell);font-style:italic;font-size:14px;color:var(--gilt);background:color-mix(in srgb,var(--paper) 88%,transparent);padding:2px 8px;border:1px solid var(--rule);white-space:nowrap;opacity:0;transition:opacity .8s}
+.in .tag{opacity:1}
+.tag.t1{transition-delay:.8s}.tag.t2{transition-delay:1.5s}.tag.t3{transition-delay:2.2s}
+.caption{font-size:15px;color:var(--muted);margin-top:10px;font-style:italic}
+.legend{display:flex;gap:16px;flex-wrap:wrap;font-size:15px;color:var(--muted);margin-top:10px}
+.legend i{display:inline-block;width:12px;height:12px;border:1.5px solid currentColor;vertical-align:-1px;margin-right:6px}
+.legend .k{color:var(--gilt)} .legend .r{color:var(--red)}
+
+/* stage 1 */
+#s1 .frame img{opacity:0;transform:translateY(8px);transition:opacity 1.6s ease,transform 1.6s ease}
+#s1.in .frame img{opacity:1;transform:none}
+
+/* stage 2: paper → ink alpha */
+#s2 .ground{background:
+  linear-gradient(45deg,#3a3328 25%,transparent 25%,transparent 75%,#3a3328 75%),
+  linear-gradient(45deg,#3a3328 25%,transparent 25%,transparent 75%,#3a3328 75%);
+  background-color:#2c261d;background-size:18px 18px;background-position:0 0,9px 9px}
+#s2 .stack img{transition:opacity 1.4s ease}
+#s2 .plain{opacity:1} #s2 .raw,#s2 .ink,#s2 .specks{opacity:0}
+#s2.in .plain{opacity:0;transition-delay:1s}
+#s2.in .raw{opacity:1;transition-delay:1s}
+#s2.in .specks{opacity:1;transition-delay:2.8s;animation:blink 1.2s 2.8s 2 alternate}
+#s2.in .ink{opacity:1;transition-delay:5s}
+#s2.in .raw{animation:hide 0.01s 5.2s forwards}
+#s2.in .specks{animation:blink 1.2s 2.8s 2 alternate, hide .01s 5.2s forwards}
+@keyframes hide{to{opacity:0}}
+@keyframes blink{from{opacity:.2}to{opacity:1}}
+.swatch{display:inline-flex;align-items:center;gap:10px;border:1px solid var(--rule);padding:6px 10px 6px 6px;margin:6px 0 10px;font-size:15px;color:var(--muted)}
+.swatch i{width:34px;height:34px;display:block;border:1px solid var(--rule)}
+.steps{list-style:none;padding:0;margin:0;font-size:16px}
+.steps li{padding:5px 0 5px 14px;border-left:2px solid var(--rule);opacity:.35;transition:opacity .6s,border-color .6s}
+.in .steps li.on{opacity:1;border-color:var(--gilt)}
+
+/* stage 3: components */
+#s3 svg rect{fill:none;stroke-width:3;vector-effect:non-scaling-stroke;stroke-width:1.2px}
+#s3 svg .raw{stroke:var(--muted);opacity:0;stroke-dasharray:4 3}
+#s3.in svg .raw{animation:appear .5s calc(.4s + var(--i) * 25ms) forwards}
+#s3.in svg .raw.drop{animation:appear .5s calc(.4s + var(--i) * 25ms) forwards, dim 1s 4s forwards}
+#s3 svg .fl{stroke:var(--red);stroke-width:2px;opacity:0}
+#s3.in svg .fl{animation:appear .4s 2.2s forwards, strike .8s 3.2s forwards}
+#s3 svg .keep{stroke:var(--gilt);stroke-width:2.5px;fill:var(--gilt);fill-opacity:0;opacity:0}
+#s3.in svg .keep{animation:keep .9s calc(4.6s + var(--i) * .18s) forwards}
+#s3 svg text{font-family:var(--fell);font-style:italic;font-size:64px;fill:var(--gilt);opacity:0}
+#s3.in svg text{animation:appear .6s calc(5.2s + var(--i) * .18s) forwards}
+@keyframes appear{to{opacity:1}}
+@keyframes dim{to{opacity:.12}}
+@keyframes strike{to{opacity:0;stroke-dashoffset:40}}
+@keyframes keep{to{opacity:1;fill-opacity:.08}}
+
+/* stage 4: the rig */
+#s4 .line{position:absolute;background:var(--gilt);opacity:0}
+#s4 .line.v{width:2px;top:0;bottom:0;transform-origin:top;transform:scaleY(0)}
+#s4 .line.h{height:2px;left:0;right:0;transform-origin:left;transform:scaleX(0)}
+#s4 .band{position:absolute;top:0;bottom:0;background:var(--gilt);opacity:0}
+#s4.in .axis{animation:drawv 1s .6s forwards}
+#s4.in .band{animation:appear 1s 1.6s forwards;opacity:0}
+#s4.in .band{animation:fadeband 1s 1.6s forwards}
+#s4.in .wingtop{animation:drawh 1s 2.4s forwards}
+@keyframes drawv{to{opacity:.9;transform:scaleY(1)}}
+@keyframes drawh{to{opacity:.9;transform:scaleX(1)}}
+@keyframes fadeband{to{opacity:.16}}
+#s4 .plain{transition:opacity 1.2s 3.6s}
+#s4.in .plain{opacity:0}
+#s4 .part{position:absolute;opacity:0;transition:opacity 1.2s 3.6s}
+#s4.in .part{opacity:1}
+#s4.in .part.L{animation:sepL 7s 5s ease-in-out infinite}
+#s4.in .part.R{animation:sepR 7s 5s ease-in-out infinite}
+#s4.in .part.B{animation:sepB 7s 5s ease-in-out infinite}
+@keyframes sepL{0%,70%{transform:none}20%,50%{transform:translate(-9%,3%)}}
+@keyframes sepR{0%,70%{transform:none}20%,50%{transform:translate(9%,3%)}}
+@keyframes sepB{0%,70%{transform:none}20%,50%{transform:translateY(-6%)}}
+#s4 .hinge{position:absolute;top:0;bottom:0;width:0;border-left:1.5px dashed var(--red);opacity:0}
+#s4.in .hinge{animation:appear .8s 5.6s forwards}
+#s4 .label{position:absolute;font-family:var(--fell);font-style:italic;font-size:13px;color:var(--gilt);opacity:0}
+#s4.in .label{animation:appear .6s forwards}
+
+/* stage 5: export */
+.files{list-style:none;padding:0;margin:0 0 14px;font-family:var(--mono);font-size:14px;line-height:1.7}
+.files li{display:flex;justify-content:space-between;gap:12px;border-bottom:1px dashed var(--rule);opacity:0;transform:translateX(-6px)}
+.in .files li{animation:slidein .5s calc(var(--i) * .22s) forwards}
+.files li span:last-child{color:var(--muted)}
+@keyframes slidein{to{opacity:1;transform:none}}
+#s5 pre{opacity:0;transition:opacity 1s 2.6s}
+#s5.in pre{opacity:1}
+
+/* stage 6: the card */
+.card{background:var(--paper-2);border:1px solid var(--rule);padding:26px 28px;max-width:520px;box-shadow:0 30px 60px -40px rgba(0,0,0,.6);position:relative}
+.card .f{opacity:0;transform:translateY(6px)}
+.in .card .f{animation:slidein .7s calc(.3s + var(--i) * .55s) forwards}
+.card .src{float:right;font-family:var(--mono);font-size:11px;color:var(--gilt);border:1px solid var(--rule);padding:1px 6px;margin-left:8px;margin-top:6px}
+.card h3{font-size:34px;line-height:1.05}
+.card .latin{font-style:italic;font-size:22px}
+.card .old{color:var(--muted);font-size:16px}
+.card .row{margin-top:10px;font-size:17px}
+.card .fact{margin-top:12px;font-size:17px}
+.card .unsettled{margin-top:16px;padding-top:10px;border-top:1px dashed var(--rule);font-size:15px;color:var(--muted);font-style:italic}
+
+/* stage 7: flutter */
+#s7 .frame{cursor:pointer}
+#s7 .frame.ink canvas{filter:grayscale(1) sepia(.35) contrast(1.05)}
+.toolbar{display:flex;gap:10px;margin-top:10px;font-size:15px;flex-wrap:wrap;align-items:center}
+.toolbar button{font:inherit;font-family:var(--fell);font-style:italic;background:none;border:1px solid var(--rule);color:var(--ink);padding:4px 12px;cursor:pointer}
+.toolbar button:hover{border-color:var(--gilt);color:var(--gilt)}
+.toolbar .state{color:var(--muted);font-style:italic}
+.readout{font-family:var(--mono);font-size:12px;color:var(--muted);margin-top:6px}
+
+footer.coda{padding:64px 16px 96px;border-top:1px solid var(--rule);margin-top:40px}
+footer .cols{display:grid;grid-template-columns:1fr 1fr;gap:40px;max-width:1180px;margin:0 auto}
+footer h3{font-size:26px;margin-bottom:8px}
+footer p{margin:0 0 10px;font-size:17px}
+footer .fine{color:var(--muted);font-size:15px;font-style:italic;margin-top:24px}
+
+@media (max-width:860px){
+  .stage{grid-template-columns:1fr;gap:26px;min-height:0;padding:56px 0}
+  .stage .text{max-width:none}
+  footer .cols{grid-template-columns:1fr}
+  header.hero{min-height:70vh}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *{animation-duration:.001s !important;animation-delay:0s !important;transition-duration:.001s !important;transition-delay:0s !important}
+  #s4.in .part{animation:none !important}
+}
+</style>
+</head>
+<body>
+<nav class="series"><a href="/">The <em>Aurelian</em> Press</a><span><a href="/made/">How it’s made</a> · part I of II</span></nav>
+<header class="hero">
+  <div class="kicker">How it’s made · I</div>
+  <h1>How a book is cut</h1>
+  <p>A hand-coloured plate from 1835 goes in one end. A butterfly that lifts its wings when you scroll comes out the other. This is every step between, shown on one real specimen.</p>
+  <div class="scroll-hint">scroll</div>
+</header>
+
+<main class="wrap">
+
+<section class="stage" id="s1">
+  <div class="fig">
+    <div class="frame" id="f1"></div>
+    <div class="caption">Plate <span id="plateOrder"></span> of H. Lucas, <i>Histoire naturelle des lépidoptères exotiques</i>, Paris 1835. Scan from the Biodiversity Heritage Library.</div>
+  </div>
+  <div class="text">
+    <div class="num">I</div>
+    <h2>The source</h2>
+    <p class="lede">A scan of a whole page arrives, paper and all.</p>
+    <p>Each plate comes from a library scan: the Biodiversity Heritage Library for Lucas, the Internet Archive for Morris's <i>British Butterflies</i> and <i>British Moths</i>. The page is photographed as it is, with its ruled frame, the engraver's caption, a librarian's pencil number, and a century and a half of foxing.</p>
+    <p class="note">Nothing is retouched. Everything that follows is arithmetic on these pixels.</p>
+  </div>
+</section>
+
+<section class="stage" id="s2">
+  <div class="fig">
+    <div class="frame ground"><div class="stack" id="f2"></div></div>
+    <div class="caption">Where the paper has gone transparent, the chequered ground shows through. Red flashes are specks the density gate removed.</div>
+  </div>
+  <div class="text">
+    <div class="num">II</div>
+    <h2>Paper becomes transparency</h2>
+    <p class="lede">The page's own colour is measured, and everything that is paper fades away.</p>
+    <div class="swatch"><i id="paperSwatch"></i><span>paper = median of every pixel <span id="paperVal"></span></span></div>
+    <ul class="steps" id="steps2">
+      <li>Colour distance from paper, then darkness below paper: whichever is larger becomes the ink alpha.</li>
+      <li>A blur measures local ink density; anything below the gate is a speck and is dropped.</li>
+      <li>What remains is the print: pigment and engraved line, with soft edges kept.</li>
+    </ul>
+    <p class="note">The colour that is kept is stored as a ratio to the paper, so on the page it can be multiplied back onto any paper.</p>
+  </div>
+</section>
+
+<section class="stage" id="s3">
+  <div class="fig">
+    <div class="frame stack-frame"><div class="stack" id="f3"></div></div>
+    <div class="legend"><span><i></i>every connected blob</span><span class="r"><i></i>frame line, erased</span><span class="k"><i></i>kept as a specimen</span></div>
+  </div>
+  <div class="text">
+    <div class="num">III</div>
+    <h2>Finding the specimens</h2>
+    <p class="lede">Blobs of ink are counted, and the ones that are not butterflies are thrown away.</p>
+    <p>The alpha is max-pooled four to one and every connected patch of ink is labelled. Then the rules: a long thin run spanning most of a row or column is the frame line and is erased. Blobs that are tiny beside the largest one are specks. Wide, flat blobs are handwriting or scanner bands. Anything in the bottom seventh of the page is caption. Anything touching the scan's edge is not on the plate.</p>
+    <p>Boxes that overlap are merged, so a detached tail rejoins its swallowtail. Holes inside each survivor are filled to make a silhouette, which is how pale wings survive without becoming lace.</p>
+    <p class="note">When the rules get it wrong, a hand note in <code>plate-overrides.json</code> drops, merges or splits a component. When a cut is still bad, the specimen is hidden rather than re-cut.</p>
+  </div>
+</section>
+
+<section class="stage" id="s4">
+  <div class="fig">
+    <div class="frame"><div class="stack" id="f4"></div></div>
+    <div class="caption">Axis and body band in gilt, first wing row above it. Then the three exported layers, hinged where the wings meet the body.</div>
+  </div>
+  <div class="text">
+    <div class="num">IV</div>
+    <h2>The rig</h2>
+    <p class="lede">Each specimen is split into a body and two wings, so it can be hinged.</p>
+    <p>A sideways single is turned head-up first: the end with the antennae carries far less ink per row than the abdomen. The symmetry axis starts at the ink's centroid and is refined by sliding a mirror across until left best matches right. The body is a narrow band either side of that axis. Sparse rows above the first dense row are antennae and are given to the body.</p>
+    <p>The cut is then simple: what lies left of the band is the left wing, right of it the right wing, and the band itself with the antennae is the body.</p>
+    <p class="note">Values for this specimen: axis at <code id="axisVal"></code> px, body half-width <code id="bodyVal"></code> px, wings from row <code id="wingVal"></code>.</p>
+  </div>
+</section>
+
+<section class="stage" id="s5">
+  <div class="fig">
+    <ul class="files" id="files"></ul>
+    <pre id="excerpt"></pre>
+  </div>
+  <div class="text">
+    <div class="num">V</div>
+    <h2>Export</h2>
+    <p class="lede">Six small images and a manifest, per specimen.</p>
+    <p>Each layer is written twice as WebP: the paper-normalised colour, and its alpha. The manifest records where every part sits in plate pixels, the axis, the body half-width, and the paper colour, so the page can put the pieces back exactly where the engraver had them.</p>
+    <p>Across the three books this comes to about thirteen thousand files and 120 MB, which is the shape of the site: a static folder on Cloudflare Pages, no server, no database.</p>
+    <p class="note">A fourth book would tip past the host's file limit, so it would need atlases or object storage.</p>
+  </div>
+</section>
+
+<section class="stage" id="s6">
+  <div class="fig"><div class="card" id="card"></div></div>
+  <div class="text">
+    <div class="num">VI</div>
+    <h2>A name, and a card</h2>
+    <p class="lede">The 1835 caption is matched to a modern name, and the card is assembled from layers of trust.</p>
+    <p>The handwritten plate captions key each specimen to its entry in Lucas's text. The 1835 binomial is sent to GBIF for an accepted name, with fuzzy fallbacks inside the genus and then the family. Wikipedia supplies a summary and a wingspan; Wikidata a common name when GBIF has none. Lucas's French description is translated.</p>
+    <p>The content builder merges those sources in rising priority: parsed entry, automatic data, translation, and finally the hand-written notes, which win over everything.</p>
+    <p class="note">Cards stay honest. Where the identity is not settled, the card says so, and around thirty-six Lucas names are still open.</p>
+  </div>
+</section>
+
+<section class="stage" id="s7">
+  <div class="fig">
+    <div class="frame" id="f7"><canvas id="cv"></canvas></div>
+    <div class="toolbar">
+      <button id="inkBtn">ink only</button>
+      <button id="pinBtn">pin</button>
+      <span class="state" id="state">move the pointer over the print to stir it</span>
+    </div>
+    <div class="readout" id="readout"></div>
+  </div>
+  <div class="text">
+    <div class="num">VII</div>
+    <h2>On the page</h2>
+    <p class="lede">Body and wings become three planes, and a shader bends the wings about the body.</p>
+    <p>On the site each specimen is three textured planes in Three.js. The wings hinge at the axis, and a vertex shader rotates each point by an angle that lags toward the tip, so the wing flexes rather than flaps like a door. The colour is multiplied onto the paper, which is why a printed wing still looks printed.</p>
+    <p>Everything is slow on purpose. At rest a specimen only breathes. Scrolling gives it energy that decays. Clicking pins it flat and opens the card.</p>
+    <p class="note">This canvas approximates the shader with strips: the same hinge angle, the same amplitude, frequency and lag as the live site.</p>
+  </div>
+</section>
+
+</main>
+
+<footer class="coda">
+  <div class="cols">
+    <div>
+      <h3>Two pipelines</h3>
+      <p>Lucas is cut in this repository. Morris's <i>Butterflies</i> and the four volumes of <i>Moths</i> are cut in sibling repositories that mirror the same scripts one volume at a time, and their output is copied into the site.</p>
+      <p>A pale-wing fix to the cutter is trialled but not rolled out, so badly cut specimens are hidden with a note rather than re-cut. Re-cutting a book is a deliberate decision, not a build step.</p>
+    </div>
+    <div>
+      <h3>The shelf</h3>
+      <p>Three books, oldest first: Lucas 1835 with 80 plates, Morris's <i>British Butterflies</i> 1890 with 72, and Morris's <i>British Moths</i> 1903 with 132 across four volumes. Around 2,400 specimens in all.</p>
+      <p>Built with Vite, TypeScript and Three.js. Deployed as static files to Cloudflare Pages at <a href="https://aurelianpress.co.uk">aurelianpress.co.uk</a>.</p>
+    </div>
+  </div>
+  <p class="fine" style="max-width:1180px;margin-left:auto;margin-right:auto">Specimen shown throughout: Lucas's <i>Papilio macareus</i>, plate n100, figure 1. Scan courtesy of the Biodiversity Heritage Library.</p>
+  <nav class="next"><span>Next</span><a href="/made/the-shelf-and-the-opening/">II · The shelf and the opening</a><small>to follow</small></nav>
+  <p class="fine" style="max-width:1180px;margin:18px auto 0"><a href="/made/">All parts</a> · <a href="/lucas/">Open the Lucas book</a> · <a href="https://github.com/garphillips">Source on GitHub</a></p>
+</footer>
+
+<script>
+const D = /*__DATA__*/null;
+const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const $ = (s, r=document) => r.querySelector(s);
+const el = (t, a={}, ...kids) => { const e = document.createElement(t); for (const [k,v] of Object.entries(a)) k==='style'?e.style.cssText=v:e.setAttribute(k,v); e.append(...kids); return e; };
+const pct = (v, of) => (100*v/of).toFixed(3)+'%';
+
+/* I */
+$('#f1').append(el('img',{src:D.scan,alt:'Scan of plate '+D.key}));
+$('#plateOrder').textContent = D.plate_order;
+const fr = D.frame.rows[0] ?? D.H*0.06;
+$('#f1').append(el('div',{class:'tag t1',style:`left:6%;top:${100*fr/D.H+0.6}%`},'frame line'));
+$('#f1').append(el('div',{class:'tag t2',style:`right:6%;top:89%`},'caption zone'));
+$('#f1').append(el('div',{class:'tag t3',style:`left:${pct(D.spec.plateBox[0],D.W)};top:${pct(D.spec.plateBox[1]-60,D.H)}`},'figure 1'));
+
+/* II */
+const f2 = $('#f2'); f2.style.aspectRatio = D.crop.w+'/'+D.crop.h;
+for (const [cls,src] of [['plain',D.crop.plain],['raw',D.crop.raw],['specks',D.crop.specks],['ink',D.crop.ink]])
+  f2.append(el('img',{class:cls,src,alt:''}));
+const pc = D.paper.map(c=>Math.round(c*255));
+$('#paperSwatch').style.background = `rgb(${pc})`;
+$('#paperVal').textContent = `rgb(${pc.join(', ')})`;
+
+/* III */
+const f3 = $('#f3'); f3.style.aspectRatio = D.W+'/'+D.H;
+f3.append(el('img',{src:D.scan,alt:'',style:'opacity:.9'}));
+const svgNS='http://www.w3.org/2000/svg';
+const svg = document.createElementNS(svgNS,'svg'); svg.setAttribute('viewBox',`0 0 ${D.W} ${D.H}`);
+const overlaps = (a,b) => Math.max(0,Math.min(a[2],b[2])-Math.max(a[0],b[0]))*Math.max(0,Math.min(a[3],b[3])-Math.max(a[1],b[1]));
+D.raw_items.forEach((it,i)=>{
+  const area=(it[2]-it[0])*(it[3]-it[1]);
+  const inside = D.kept.some(k=>overlaps(it,k) > 0.6*area);
+  const r=document.createElementNS(svgNS,'rect');
+  r.setAttribute('x',it[0]);r.setAttribute('y',it[1]);r.setAttribute('width',it[2]-it[0]);r.setAttribute('height',it[3]-it[1]);
+  r.setAttribute('class','raw'+(inside?'':' drop')); r.style.setProperty('--i',i); svg.append(r);
+});
+for (const y of D.frame.rows){ const l=document.createElementNS(svgNS,'line'); l.setAttribute('x1',0);l.setAttribute('x2',D.W);l.setAttribute('y1',y);l.setAttribute('y2',y);l.setAttribute('class','fl');l.setAttribute('stroke-dasharray','12 6');svg.append(l);}
+for (const x of D.frame.cols){ const l=document.createElementNS(svgNS,'line'); l.setAttribute('y1',0);l.setAttribute('y2',D.H);l.setAttribute('x1',x);l.setAttribute('x2',x);l.setAttribute('class','fl');l.setAttribute('stroke-dasharray','12 6');svg.append(l);}
+D.kept.forEach((b,i)=>{
+  const r=document.createElementNS(svgNS,'rect'); r.setAttribute('x',b[0]);r.setAttribute('y',b[1]);r.setAttribute('width',b[2]-b[0]);r.setAttribute('height',b[3]-b[1]);
+  r.setAttribute('class','keep'); r.style.setProperty('--i',i); svg.append(r);
+  const t=document.createElementNS(svgNS,'text'); t.setAttribute('x',b[0]+18); t.setAttribute('y',b[1]+70); t.textContent=i+1; t.style.setProperty('--i',i); svg.append(t);
+});
+f3.append(svg);
+
+/* IV */
+const f4 = $('#f4'); f4.style.aspectRatio = D.crop.w+'/'+D.crop.h;
+const [cx0,cy0] = D.crop.box, cw=D.crop.w, ch=D.crop.h, S=D.spec;
+f4.append(el('img',{class:'plain',src:D.crop.plain,alt:''}));
+f4.append(el('div',{class:'band',style:`left:${pct(S.axis-S.bodyHalf-cx0,cw)};width:${pct(2*S.bodyHalf,cw)}`}));
+f4.append(el('div',{class:'line v axis',style:`left:${pct(S.axis-cx0,cw)}`}));
+f4.append(el('div',{class:'line h wingtop',style:`top:${pct(S.wingTop-cy0,ch)}`}));
+f4.append(el('div',{class:'label',style:`left:${pct(S.axis-cx0+8,cw)};top:2%;animation-delay:1.2s`},'symmetry axis'));
+f4.append(el('div',{class:'label',style:`left:2%;top:${pct(S.wingTop-cy0-22,ch)};animation-delay:3s`},'first wing row'));
+for (const [n,cls] of [['wing-L','L'],['wing-R','R'],['body','B']]){
+  const p=S.parts[n], b=p.bbox;
+  const img=el('img',{src:p.src,alt:n,style:'display:block;width:100%;height:100%'+(cls==='L'?';transform:scaleX(-1)':'')});   // wing-L is exported mirrored, hinge at its left edge
+  f4.append(el('div',{class:'part '+cls,style:`left:${pct(b[0]-cx0,cw)};top:${pct(b[1]-cy0,ch)};width:${pct(b[2]-b[0],cw)};height:${pct(b[3]-b[1],ch)}`},img));
+}
+f4.append(el('div',{class:'hinge',style:`left:${pct(S.axis-S.bodyHalf-cx0,cw)}`}));
+f4.append(el('div',{class:'hinge',style:`left:${pct(S.axis+S.bodyHalf-cx0,cw)}`}));
+$('#axisVal').textContent=S.axis; $('#bodyVal').textContent=S.bodyHalf; $('#wingVal').textContent=S.wingTop;
+
+/* V */
+const files=$('#files');
+D.files.forEach((f,i)=>files.append(el('li',{style:`--i:${i}`},el('span',{},f),el('span',{},(D.sizes[f]/1024).toFixed(1)+' KB'))));
+files.append(el('li',{style:`--i:${D.files.length}`},el('span',{},'manifest.json'),el('span',{},'placement in plate px')));
+$('#excerpt').textContent=D.excerpt;
+
+/* VI */
+const C=D.card, card=$('#card'); let fi=0;
+const field=(cls,src,...kids)=>{ const f=el('div',{class:'f '+cls,style:`--i:${fi++}`}); if(src) f.append(el('span',{class:'src'},src)); f.append(...kids); card.append(f); };
+field('old',  'plate caption', `Lucas 1835: `, el('i',{},C.latin1835), ` · «${C.french1835}»`);
+field('latin','GBIF', C.latin);
+field('h',    'Wikidata', el('h3',{},C.name));
+field('row',  'GBIF', `Family ${C.family}`);
+field('row',  'lucas-entries', C.range);
+C.facts.forEach((t,i)=>field('fact', i===0?'species.json':'', t));
+field('unsettled','', C.confidence==='written' ? 'Identity settled by hand; the note above wins over every automatic source.' : 'This identification is not settled. The card says so rather than guessing.');
+
+/* VII: strips approximating the hinge shader */
+const tune={amp:.38,freq:1.1,lag:.85,rest:.14,breath:.05};
+const cv=$('#cv'), ctx=cv.getContext('2d'), frame7=$('#f7');
+const imgs={}; let loaded=0;
+for (const n of ['body','wing-L','wing-R']){ const im=new Image(); im.onload=()=>loaded++; im.src=S.parts[n].src; imgs[n]=im; }
+let phase=0, amp=0.04, freq=0.6, energy=0, pinned=false, last=performance.now();
+const paperCss=()=>`rgb(${D.paper.map(c=>Math.round(c*255))})`;   // the plate's own paper, whatever the theme
+function size(){ const w=frame7.clientWidth; const aspect=(S.plateBox[3]-S.plateBox[1]+120)/(S.plateBox[2]-S.plateBox[0]+80); cv.width=Math.round(w*devicePixelRatio); cv.height=Math.round(w*aspect*devicePixelRatio); cv.style.height=(w*aspect)+'px'; }
+addEventListener('resize',size); size();
+const span=S.plateBox[2]-S.plateBox[0];
+function draw(now){
+  const dt=Math.min(.05,(now-last)/1000); last=now;
+  if(!reduced){
+    energy*=Math.pow(.35,dt);
+    const targetAmp=pinned?0:tune.breath+energy*tune.amp, targetFreq=pinned?.25:.4+energy*tune.freq;
+    amp+=(targetAmp-amp)*(1-Math.pow(.08,dt)); freq+=(targetFreq-freq)*(1-Math.pow(.15,dt)); phase+=6.2831*freq*dt;
+  } else { amp=0; }
+  const W=cv.width,H=cv.height, sc=(W*.9)/span, ox=W*.05-S.plateBox[0]*sc, oy=H*.5-((S.plateBox[1]+S.plateBox[3])/2)*sc;
+  ctx.setTransform(1,0,0,1,0,0); ctx.globalCompositeOperation='source-over'; ctx.globalAlpha=1; ctx.fillStyle=paperCss(); ctx.fillRect(0,0,W,H);
+  ctx.globalCompositeOperation='multiply';
+  if(loaded<3){ requestAnimationFrame(draw); return; }
+  const th=(u)=>tune.rest+amp*Math.sin(phase-tune.lag*Math.pow(u,1.5));
+  // both wing images start at their hinge (wing-L is stored mirrored), so column x is distance d from the hinge
+  for (const n of ['wing-L','wing-R']){
+    const im=imgs[n], b=S.parts[n].bbox, sign=n==='wing-L'?-1:1, hinge=sign<0?b[2]:b[0];
+    const N=40, sw=im.width/N, h=im.height*sc;
+    for(let i=0;i<N;i++){
+      const sx=i*sw, d=sx+sw/2, u=Math.min(1,d/im.width), t=th(u), c=Math.cos(t);
+      const cxp=ox+(hinge+sign*d*c)*sc, w=Math.max(0.5,sw*c*sc)+0.7, dy=oy+b[1]*sc;
+      ctx.globalAlpha = 1 - 0.3*Math.max(0,Math.sin(t)-tune.rest);
+      ctx.save(); ctx.translate(cxp,dy); if(sign<0) ctx.scale(-1,1);
+      ctx.drawImage(im, sx,0,sw+0.6,im.height, -w/2,0, w,h);
+      ctx.restore();
+    }
+  }
+  ctx.globalAlpha=1;
+  const bb=S.parts.body.bbox, bob=Math.max(0,-Math.sin(phase))*amp*6*sc;
+  ctx.drawImage(imgs.body, ox+bb[0]*sc, oy+bb[1]*sc-bob, (bb[2]-bb[0])*sc, (bb[3]-bb[1])*sc);
+  $('#readout').textContent=`amp ${amp.toFixed(2)}  freq ${freq.toFixed(2)} Hz  lag ${tune.lag}  rest ${tune.rest}  energy ${energy.toFixed(2)}${pinned?'  pinned':''}`;
+  requestAnimationFrame(draw);
+}
+requestAnimationFrame(draw);
+frame7.addEventListener('pointermove',()=>{ if(!pinned) energy=Math.min(1,energy+.06); });
+const setPinned=v=>{ pinned=v; $('#pinBtn').textContent=pinned?'release':'pin'; $('#state').textContent=pinned?`pinned: ${C.name}, ${C.latin}`:'move the pointer over the print to stir it'; };
+frame7.addEventListener('click',()=>setPinned(!pinned));
+$('#pinBtn').addEventListener('click',e=>{e.stopPropagation();setPinned(!pinned);});
+$('#inkBtn').addEventListener('click',()=>{ frame7.classList.toggle('ink'); $('#inkBtn').textContent=frame7.classList.contains('ink')?'hand-coloured':'ink only'; });
+
+/* scroll trigger */
+const io=new IntersectionObserver(es=>es.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('in'); if(e.target.id==='s7') energy=1; if(e.target.id==='s2'){ const li=$('#steps2').children; [0,1,2].forEach(i=>setTimeout(()=>li[i].classList.add('on'), reduced?0:[900,2800,5000][i])); } } }),{threshold:.3});
+document.querySelectorAll('.stage').forEach(s=>io.observe(s));
+if(reduced) document.querySelectorAll('.stage').forEach(s=>s.classList.add('in'));
+</script>
+</body>
+</html>

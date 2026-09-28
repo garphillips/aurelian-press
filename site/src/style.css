@@ -34,8 +34,8 @@ body.reading #volumes:not(:empty){display:block;}
 #plate,#ruler,#hint,#credit,#card{visibility:hidden;}
 body.reading #plate,body.reading #ruler,body.reading #hint,body.reading #credit{visibility:visible;}
 body.reading #card.show{visibility:visible;}
-#labels,#more{display:none;}
-body.shelf #labels,body.shelf #more{display:block;}
+#labels,#more,#made{display:none;}
+body.shelf #labels,body.shelf #more,body.shelf #made{display:block;}
 
 /* the paper curtain between scenes */
 #curtain{position:fixed;inset:0;background:var(--paper);opacity:0;pointer-events:none;transition:opacity .55s ease;z-index:5;}
@@ -55,6 +55,8 @@ body.shelf #labels,body.shelf #more{display:block;}
 #labels a.nudge{animation:nudge .5s ease;}
 @keyframes nudge{0%,100%{margin-left:0}25%{margin-left:-5px}75%{margin-left:5px}}
 #labels a.nudge{opacity:1;}   /* on touch screens a tap opens the book; only a refusal shows the label */
+#made{bottom:20px;left:36px;font-size:13px;font-style:italic;letter-spacing:.03em;color:var(--ink-soft);text-decoration:none;pointer-events:auto;}
+#made:hover{color:var(--ink);}
 #more{left:0;top:0;width:120px;text-align:center;font-size:13px;font-style:italic;line-height:1.4;color:var(--ink-soft);opacity:.75;transition:opacity .35s;}
 
 /* plain list for readers without WebGL or scripts; hidden once the scene runs */
