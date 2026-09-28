@@ -1,0 +1,112 @@
+/* The "how it's made" series: shared page design. Part I carries a copy of this inline (it is one self-contained file). */
+:root{
+  --paper:#e8dec4; --paper-2:#efe6cf; --ink:#211a13; --muted:#4a3f33; --rule:#c9bc9a; --gilt:#a4761f; --red:#a8402c;
+  --mono:ui-monospace,"SF Mono",Menlo,monospace;
+  --fell:"IM Fell English",Georgia,serif; --garamond:"EB Garamond",Georgia,serif;
+}
+@media (prefers-color-scheme:dark){ :root:not([data-theme="light"]){
+  --paper:#17140f; --paper-2:#211c14; --ink:#e9dfc4; --muted:#a3967c; --rule:#3c3324; --gilt:#d1a24a; --red:#d8684f;
+}}
+:root[data-theme="dark"]{ --paper:#17140f; --paper-2:#211c14; --ink:#e9dfc4; --muted:#a3967c; --rule:#3c3324; --gilt:#d1a24a; --red:#d8684f; }
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--garamond);font-size:19px;line-height:1.5;overflow-x:hidden}
+a{color:inherit}
+h1,h2,h3{font-family:var(--fell);font-weight:400;margin:0}
+.wrap{max-width:1180px;margin:0 auto;padding:0 16px;position:relative;z-index:1}
+nav.series{position:absolute;top:0;left:0;right:0;display:flex;justify-content:space-between;align-items:baseline;padding:22px 24px;font-family:var(--fell);font-size:17px;z-index:2}
+nav.series a{text-decoration:none} nav.series a:hover{color:var(--gilt)} nav.series em{font-style:italic}
+nav.series span{font-size:14px;font-style:italic;color:var(--muted)}
+header.hero{position:relative;z-index:1;min-height:88vh;display:grid;place-content:center;text-align:center;padding:64px 16px}
+header.hero h1{font-size:clamp(40px,7vw,84px);line-height:1.02;letter-spacing:.01em}
+header.hero p{max-width:34em;margin:22px auto 0;color:var(--muted);font-size:21px}
+header.hero .kicker{font-family:var(--fell);font-style:italic;color:var(--gilt);letter-spacing:.06em;font-size:18px;margin-bottom:14px}
+.scroll-hint{margin-top:56px;color:var(--muted);font-style:italic;font-size:16px}
+.scroll-hint::after{content:"";display:block;width:1px;height:48px;background:var(--rule);margin:14px auto 0}
+
+.stage{min-height:100vh;display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:48px;align-items:center;padding:64px 0}
+.stage .text{max-width:30em}
+.stage .num{font-family:var(--fell);font-style:italic;color:var(--gilt);letter-spacing:.08em;font-size:17px}
+.stage h2{font-size:clamp(30px,4vw,44px);line-height:1.1;margin:6px 0 14px}
+.stage .lede{font-weight:500;font-size:21px;margin:0 0 14px}
+.stage p{margin:0 0 12px}
+.stage .note{color:var(--muted);font-size:17px;font-style:italic}
+code,pre{font-family:var(--mono);font-size:.78em}
+code{background:var(--paper-2);padding:1px 5px;border-radius:3px}
+pre{background:var(--paper-2);border:1px solid var(--rule);padding:14px 16px;overflow:auto;line-height:1.45;margin:0}
+.fig{position:relative}
+.frame{position:relative;background:var(--paper-2);border:1px solid var(--rule);box-shadow:0 20px 50px -30px rgba(0,0,0,.5);overflow:hidden}
+.frame>img,.frame>canvas{display:block;width:100%;height:auto}
+.caption{font-size:15px;color:var(--muted);margin-top:10px;font-style:italic}
+.legend{display:flex;gap:16px;flex-wrap:wrap;font-size:15px;color:var(--muted);margin-top:10px}
+
+/* WebGL windows: the page's one canvas sits behind everything and is rendered into these rectangles */
+#gl{position:fixed;inset:0;width:100%;height:100%;z-index:0;display:block}
+.frame.gl{background:transparent;aspect-ratio:4/3;touch-action:pan-y}
+.frame.gl .tag{position:absolute;left:0;top:0;transform:translate(-50%,-50%);font-family:var(--fell);font-style:italic;font-size:14px;color:#211a13;
+  background:rgba(240,232,212,.92);padding:2px 9px;border:1px solid rgba(90,75,50,.35);white-space:nowrap;pointer-events:none;opacity:0;transition:opacity .6s}
+.frame.gl .tag.on{opacity:1}
+.frame.gl .tag::before{content:"";position:absolute;left:50%;top:100%;width:1px;height:12px;background:rgba(90,75,50,.6)}
+.frame.gl .label{position:absolute;left:0;top:0;transform:translate(0,-50%);width:190px;padding:10px 14px 9px;color:#211a13;font-family:var(--fell);
+  background:rgba(240,232,212,.92);border:1px solid rgba(90,75,50,.35);box-shadow:0 10px 30px rgba(60,40,15,.14),inset 0 0 0 3px rgba(240,232,212,.9),inset 0 0 0 4px rgba(90,75,50,.22);
+  pointer-events:none;opacity:0;transition:opacity .35s}
+.frame.gl .label.on{opacity:1}
+.frame.gl .label b{display:block;font-weight:400;font-size:16px;line-height:1.15}
+.frame.gl .label span{display:block;margin-top:3px;font-size:12px;color:#4a3f33;font-variant:small-caps;letter-spacing:.1em}
+.frame.gl .label small{display:block;margin-top:4px;font-family:var(--garamond);font-size:12px;font-style:italic;color:#4a3f33}
+.frame.gl .curtain{position:absolute;inset:0;background:#e8dec4;opacity:0;transition:opacity .55s ease;pointer-events:none}
+.frame.gl .curtain.up{opacity:1}
+.frame.gl .reading{position:absolute;inset:0;background:#e8dec4;opacity:0;transition:opacity .01s;pointer-events:none}
+.frame.gl .reading.on{opacity:1}
+.frame.gl .reading img{position:absolute}
+.frame.gl .reading .plateNum{position:absolute;top:14px;right:18px;font-family:var(--fell);font-size:13px;color:#4a3f33;font-variant:small-caps;letter-spacing:.16em;text-align:right}
+.frame.gl .reading .plateNum b{display:block;font-size:26px;font-weight:400;font-variant:normal;letter-spacing:.05em;color:#211a13}
+
+/* controls under a figure */
+.toolbar{display:flex;gap:10px 14px;margin-top:10px;font-size:15px;flex-wrap:wrap;align-items:center}
+.toolbar button{font:inherit;font-family:var(--fell);font-style:italic;background:none;border:1px solid var(--rule);color:var(--ink);padding:4px 12px;cursor:pointer}
+.toolbar button:hover{border-color:var(--gilt);color:var(--gilt)}
+.toolbar label{font-style:italic;color:var(--muted);display:flex;align-items:center;gap:8px}
+.toolbar input[type=range]{accent-color:var(--gilt);width:160px}
+.toolbar .state{color:var(--muted);font-style:italic}
+.readout{font-family:var(--mono);font-size:12px;color:var(--muted);margin-top:6px;min-height:1.4em}
+
+/* 2D canvases shown beside a figure */
+.strip{display:flex;gap:12px;margin-top:12px;align-items:flex-start}
+.strip figure{margin:0;flex:1;min-width:0}
+.strip canvas,.strip img{display:block;width:100%;height:auto;border:1px solid var(--rule);background:var(--paper-2)}
+.strip figcaption{font-size:13px;color:var(--muted);font-style:italic;margin-top:5px}
+
+/* the opening timeline */
+.timeline{margin-top:12px}
+.timeline svg{display:block;width:100%;height:auto;overflow:visible}
+.timeline .axis{stroke:var(--rule);stroke-width:1}
+.timeline .curve{fill:none;stroke-width:2}
+.timeline .rise{stroke:var(--gilt)} .timeline .swing{stroke:var(--ink)} .timeline .open{stroke:var(--red)} .timeline .dolly{stroke:var(--muted);stroke-dasharray:4 3}
+.timeline .head{stroke:var(--ink);stroke-width:1;opacity:.6}
+.timeline text{font-family:var(--fell);font-style:italic;font-size:11px;fill:var(--muted)}
+.phases{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px;font-family:var(--fell);font-style:italic;font-size:14px}
+.phases span{border:1px solid var(--rule);padding:2px 10px;color:var(--muted);transition:color .3s,border-color .3s}
+.phases span.on{color:var(--gilt);border-color:var(--gilt)}
+
+footer.coda{position:relative;z-index:1;padding:64px 16px 96px;border-top:1px solid var(--rule);margin-top:40px}
+footer .cols{display:grid;grid-template-columns:1fr 1fr;gap:40px;max-width:1180px;margin:0 auto}
+footer h3{font-size:26px;margin-bottom:8px}
+footer p{margin:0 0 10px;font-size:17px}
+footer .fine{color:var(--muted);font-size:15px;font-style:italic;margin-top:24px}
+nav.next{max-width:1180px;margin:40px auto 0;padding-top:22px;border-top:1px solid var(--rule);font-family:var(--fell)}
+nav.next span{display:block;font-size:14px;font-style:italic;color:var(--gilt);letter-spacing:.06em}
+nav.next a{font-size:clamp(24px,3vw,32px);text-decoration:none} nav.next a:hover{color:var(--gilt)}
+nav.next small{display:block;font-style:italic;color:var(--muted);font-size:15px}
+
+@media (max-width:860px){
+  .stage{grid-template-columns:1fr;gap:26px;min-height:0;padding:56px 0}
+  .stage .text{max-width:none}
+  footer .cols{grid-template-columns:1fr}
+  header.hero{min-height:70vh}
+  .frame.gl .label{width:150px}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .frame.gl .tag,.frame.gl .label,.frame.gl .curtain{transition-duration:.001s}
+}

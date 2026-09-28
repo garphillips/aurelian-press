@@ -40,11 +40,13 @@ site/                     the one Vite app (all three books)
   public/covers/<id>/          board photos, gilt masks, grain tiles for the bindings
   public/og/, public/icons/    share images and favicons
   public/embed/                self-contained single-specimen pages (scripts/build_embed.py, build_card.py)
-  public/made/                 the "how it's made" series: static pages, one folder per part (built by scripts/made/)
+  public/made/                 the "how it's made" series index and part I (static; built by scripts/made/)
+  made/the-shelf-and-the-opening/   part II: a Vite entry of its own, src/made/shelf-page.ts renders the real
+                               ShelfBook/bindings/Scene into one canvas scissored per figure; shared CSS in src/made/made.css
   public/_redirects            SPA fallback only
 scripts/                  the LUCAS pipeline (Python); the Morris pipelines live in sibling repos, see below
   made/                   the "how it's made" pages: build_part1.py runs the real cutter on plate n100 and fills
-                          how-a-book-is-cut.html into site/public/made/ (plus a share image in public/og/)
+                          how-a-book-is-cut.html into site/public/made/; build_part2_og.py draws part II's share image
 content/                  Lucas content sources (captions, entries, species facts, translations, overrides)
 assets-src/               Lucas scans (book/), author sketches, board photos, OCR text; ~74 MB, committed
 mvp/, PLAN.md, PLAN-shelf.md   early trials and the original plans — historical, not current truth

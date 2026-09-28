@@ -6,6 +6,7 @@ import { resolve } from 'node:path';
 const books = JSON.parse(readFileSync(resolve(__dirname, 'public/books/index.json'), 'utf8')).books.filter((b: any) => b.status === 'ready');
 const input: Record<string, string> = { main: resolve(__dirname, 'index.html') };
 for (const b of books) input[b.id] = resolve(__dirname, b.route.slice(1), 'index.html');
+input['made-shelf'] = resolve(__dirname, 'made/the-shelf-and-the-opening/index.html');   // "how it's made" part II, a page of its own
 
 // static pages under public/ (the "how it's made" series) live at directory URLs; Pages serves their index.html,
 // the dev server would fall through to the SPA shell, so resolve them here

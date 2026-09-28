@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The shelf and the opening · How it’s made · The Aurelian Press</title>
+<meta name="description" content="How the shelf of The Aurelian Press is made: boards, cloth and gilt drawn on canvas, the books floating in their column, the hover, and the lift, swing and cover opening before the paper curtain falls.">
+<link rel="canonical" href="https://aurelianpress.co.uk/made/the-shelf-and-the-opening/">
+<meta name="theme-color" content="#e8dec4">
+<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32.png">
+<link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="The Aurelian Press">
+<meta property="og:url" content="https://aurelianpress.co.uk/made/the-shelf-and-the-opening/">
+<meta property="og:title" content="The shelf and the opening · The Aurelian Press">
+<meta property="og:description" content="Boards, cloth and gilt drawn on canvas; the books in their column; the hover, the lift, the swing and the paper curtain. Part II of How it’s made.">
+<meta property="og:image" content="https://aurelianpress.co.uk/og/made-the-shelf-and-the-opening.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="A bound book lifting from the shelf, its cover opening, beside the title The shelf and the opening.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The shelf and the opening · The Aurelian Press">
+<meta name="twitter:description" content="Boards, cloth and gilt drawn on canvas; the books in their column; the lift, the swing and the paper curtain.">
+<meta name="twitter:image" content="https://aurelianpress.co.uk/og/made-the-shelf-and-the-opening.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Playfair+Display:ital@0;1&family=Libre+Baskerville&family=Cinzel&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/src/made/made.css">
+</head>
+<body>
+<canvas id="gl" aria-hidden="true"></canvas>
+<nav class="series"><a href="/">The <em>Aurelian</em> Press</a><span><a href="/made/">How it’s made</a> · part II of II</span></nav>
+<header class="hero">
+  <div class="kicker">How it’s made · II</div>
+  <h1>The shelf and the opening</h1>
+  <p>Three books float in a column, spines to you. Hover and one comes forward. Click and it lifts, turns, opens to its frontispiece, and the paper closes over it. Every one of those moves is a few lines of arithmetic, shown here on the real books, in the real light.</p>
+  <div class="scroll-hint">scroll</div>
+</header>
+
+<main class="wrap">
+
+<section class="stage" id="s1">
+  <div class="fig">
+    <div class="frame gl" id="f1"></div>
+    <div class="toolbar"><label>explode <input type="range" id="explode" min="0" max="1" step="0.01" value="1"></label><span class="state">drag to pull the book apart; it turns on its own</span></div>
+  </div>
+  <div class="text">
+    <div class="num">I</div>
+    <h2>A book from four boxes</h2>
+    <p class="lede">Back board, spine, page block, front board. The front board sits in its own group, hinged at the spine.</p>
+    <p>Each book on the shelf is four box geometries. The two boards are 0.045 world units thick and overhang the page block by 0.05, the squares of a real binding. The spine wraps the front. The page block is set in by the squares, and its outer face is the first leaf, the one you see when the cover opens.</p>
+    <p>The front board is not a child of the book directly. It lives in a small group whose origin is the spine edge, so rotating that group swings the board open on a true hinge.</p>
+    <p class="note">The name tags are ordinary HTML. Each frame, a point in 3D is projected through the camera and the tag is moved to where it lands. The shelf's labels work the same way.</p>
+  </div>
+</section>
+
+<section class="stage" id="s2">
+  <div class="fig">
+    <div class="frame gl" id="f2"></div>
+    <div class="strip" id="strip2"></div>
+  </div>
+  <div class="text">
+    <div class="num">II</div>
+    <h2>Cloth and gilt, painted twice</h2>
+    <p class="lede">Every face is drawn on a 2D canvas, once in colour and once in a false colour that tells the renderer what is metal.</p>
+    <p>The spine is a canvas at 420 pixels to the world unit. Its base is a photograph of the real binding's grain, tiled at about a third of a unit; where there is no photograph, a woven cloth is generated from noise and a three-pixel weave. The title is set along its length in the book's own face, with a dark offset beneath and a pale highlight above so the lettering stands up like tooled leaf.</p>
+    <p>Then the same face is painted again. Green is roughness and blue is metalness. Cloth is rough and dull, so it is painted green. Gold lettering is painted blue, so it turns metallic and catches the light as the sun moves. Pale lettering is stamped pigment rather than leaf, so it is painted matte and does not glint.</p>
+    <p class="note">Watch the gilt on the spine above as the light circles. The two canvases beneath are exactly what the renderer receives.</p>
+  </div>
+</section>
+
+<section class="stage" id="s3">
+  <div class="fig">
+    <div class="strip" id="strip3"></div>
+    <div class="caption">The paste-down and the first leaf of the Lucas, as painted for the inside of the book.</div>
+  </div>
+  <div class="text">
+    <div class="num">III</div>
+    <h2>The first leaf</h2>
+    <p class="lede">Behind the front board is a frontispiece: the author, multiplied onto cream paper.</p>
+    <p>The page block's outer face is a canvas of cream with a little foxing. The author's portrait is drawn onto it with a multiply blend, so the sketch's white becomes the paper and only its ink is added. Name and dates go beneath in the site's face.</p>
+    <p>One catch: on the shelf the leaf is lit by ambient light, the sun and the room environment, which together sum to well over one. Left alone, the cream would blow out to white. Its base colour is scaled down until the rendered leaf matches the site's paper, which was measured rather than guessed.</p>
+    <p class="note">The paste-down inside the board is plain cream, a little darker toward the hinge.</p>
+  </div>
+</section>
+
+<section class="stage" id="s4">
+  <div class="fig">
+    <div class="frame gl" id="f4"></div>
+    <div class="toolbar"><label>reading light <input type="range" id="light" min="0" max="1" step="0.01" value="0"> shelf light</label></div>
+    <div class="readout" id="lightOut"></div>
+  </div>
+  <div class="text">
+    <div class="num">IV</div>
+    <h2>The light</h2>
+    <p class="lede">The plates are read under a hard, raking sun. The shelf borrows the same scene and softens it.</p>
+    <p>There is one scene for the whole site: a paper plane, an ambient light and a directional sun with a shadow map. When the shelf is built it moves the sun in close to the viewing axis, widens the shadow's penumbra from 9 to 30 with three times the blur samples, turns the sun down and the ambient up, and adds a room environment so the gilt has something to reflect.</p>
+    <p>When a book opens and the shelf is disposed of, every one of those settings is put back for the reading session.</p>
+    <p class="note">Drag the slider between the two setups. The book, the paper and the camera do not move; only the light does.</p>
+  </div>
+</section>
+
+<section class="stage" id="s5">
+  <div class="fig">
+    <div class="frame gl" id="f5"></div>
+    <div class="readout" id="colOut"></div>
+  </div>
+  <div class="text">
+    <div class="num">V</div>
+    <h2>The column</h2>
+    <p class="lede">Books lie on their backs in one column, spines to the viewer, and the page scrolls down it.</p>
+    <p>Each book is placed by its format. The column grows downward, one book's thickness and a gap of half a unit at a time. The camera distance is solved from the longest book plus a margin of air, the field of view and the window's aspect, so the widest spine always fits.</p>
+    <p>The scroll is real: an invisible spacer gives the page a height in proportion to the column, and each frame the focus point slides down the column by however far the page has scrolled. Camera, sun and paper all follow the focus. Nothing else knows scrolling exists.</p>
+    <p class="note">The label cards are HTML, projected from a point just to the right of each book and kept inside the window's edge.</p>
+  </div>
+</section>
+
+<section class="stage" id="s6">
+  <div class="fig">
+    <div class="frame gl" id="f6"></div>
+    <div class="readout" id="hoverOut"></div>
+  </div>
+  <div class="text">
+    <div class="num">VI</div>
+    <h2>Hover</h2>
+    <p class="lede">A ray from the pointer picks a book. The book eases toward the viewer and tips its board.</p>
+    <p>Every frame a ray is cast from the pointer through the camera and tested against the books' meshes. The book under the pointer wants a hover value of one, every other book wants zero, and each value eases toward its target so a book comes forward over a few tenths of a second and settles back the same way.</p>
+    <p>Hover moves the book 0.3 units toward the viewer and tips its front board 0.2 radians, a small nod. The pointer also steers the camera a little, and the camera looks slightly toward the pointer, which is the parallax you feel on the shelf.</p>
+    <p class="note">Move your pointer over the book above. The maths is the same as the shelf's.</p>
+  </div>
+</section>
+
+<section class="stage" id="s7">
+  <div class="fig">
+    <div class="frame gl" id="f7"></div>
+    <div class="toolbar">
+      <button id="play">play the whole move</button>
+      <label>scrub <input type="range" id="scrub" min="0" max="1" step="0.002" value="0"></label>
+    </div>
+    <div class="phases" id="phases"></div>
+    <div class="timeline" id="timeline"></div>
+  </div>
+  <div class="text">
+    <div class="num">VII</div>
+    <h2>The opening</h2>
+    <p class="lede">One number from zero to one drives three overlapping moves, and the camera dollies in as it goes.</p>
+    <p>Opening a book is a single pose function of a parameter t. Over the first 55 hundredths the book rises from its slot to a spot well in front of the column, with a small sine arc so it lifts before it travels. From a tenth to 65 hundredths it turns from lying on its back to standing face-on, a slerp between two quaternions. From 45 hundredths to the end the cover swings 2.75 radians on its hinge. Each span is eased, so the moves overlap without a jolt.</p>
+    <p>The camera follows the same clock, dollying from the shelf distance to a fixed distance in front of the open book over the first seven tenths. The whole move takes 1.7 seconds, then lingers 1.6 on the frontispiece.</p>
+    <p>Then the paper curtain: a page-sized div in the paper colour fades up over half a second. Behind it the shelf is torn down, its lights restored, and the reading session starts on the same canvas. The curtain fades and you are among the plates. Closing runs it all backwards, with the book rebuilt already open so the curtain lifts on the pose you left.</p>
+    <p class="note">Scrub the opening by hand, or play the whole round trip.</p>
+  </div>
+</section>
+
+</main>
+
+<footer class="coda">
+  <div class="cols">
+    <div>
+      <h3>Routes and history</h3>
+      <p>The shelf is the root. Each book has a path of its own, so a shared link opens straight into the plates without the shelf ever being built. Opening from the shelf pushes that path onto the history, and the back button closes the book the same way the close control does.</p>
+      <p>Readers who ask for reduced motion get the end pose of every move immediately, and a curtain that lasts thirty milliseconds.</p>
+    </div>
+    <div>
+      <h3>Tidying up</h3>
+      <p>Every canvas texture, material and geometry a book makes is kept on a list and disposed of when the shelf goes, along with the environment map. The shelf leaves the scene exactly as it found it.</p>
+      <p>Built with Vite, TypeScript and Three.js. This page renders the site's own book class, binding painters and scene, with one WebGL canvas behind the text drawn into each figure in turn.</p>
+    </div>
+  </div>
+  <nav class="next"><span>Previous</span><a href="/made/how-a-book-is-cut/">I · How a book is cut</a></nav>
+  <p class="fine" style="max-width:1180px;margin:18px auto 0"><a href="/made/">All parts</a> · <a href="/">Back to the shelf</a></p>
+</footer>
+<script type="module" src="/src/made/shelf-page.ts"></script>
+</body>
+</html>

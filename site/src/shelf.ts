@@ -6,20 +6,20 @@ import type { BookConfig } from './books';
 import { BOARD, SQUARE, board, edge, spine, pages, firstLeaf, pasteDown, faceMaterial, tex } from './bindings';
 import { reduceMotion } from './specimen';
 
-const GAP = 0.5;             // between books in the column
-const PULL = 0.3;            // hover: how far a book comes toward the viewer
-const TILT = 0.2;            // hover: radians the front board tips toward the viewer
-const MARGIN = 2.4;          // world units of air either side of the longest book
-const LYING = new THREE.Quaternion().setFromEuler(new THREE.Euler(0, 0, Math.PI / 2));     // on its back, head to the left
-const FACING = new THREE.Quaternion().setFromEuler(new THREE.Euler(0, -Math.PI / 2, 0));   // upright, front board to the viewer
-const OPEN_Z = 4.2;          // where the opened book floats, well clear of the row
-const COVER_OPEN = -2.75;    // radians the front board swings
+export const GAP = 0.5;             // between books in the column
+export const PULL = 0.3;            // hover: how far a book comes toward the viewer
+export const TILT = 0.2;            // hover: radians the front board tips toward the viewer
+export const MARGIN = 2.4;          // world units of air either side of the longest book
+export const LYING = new THREE.Quaternion().setFromEuler(new THREE.Euler(0, 0, Math.PI / 2));     // on its back, head to the left
+export const FACING = new THREE.Quaternion().setFromEuler(new THREE.Euler(0, -Math.PI / 2, 0));   // upright, front board to the viewer
+export const OPEN_Z = 4.2;          // where the opened book floats, well clear of the row
+export const COVER_OPEN = -2.75;    // radians the front board swings
 
-const ease = (t: number) => t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
-const span = (t: number, a: number, b: number) => THREE.MathUtils.clamp((t - a) / (b - a), 0, 1);
+export const ease = (t: number) => t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
+export const span = (t: number, a: number, b: number) => THREE.MathUtils.clamp((t - a) / (b - a), 0, 1);
 
-/** One bound volume: boards, spine and page block, the front board on a hinge. */
-class ShelfBook {
+/** One bound volume: boards, spine and page block, the front board on a hinge. (Exported for the "how it's made" pages.) */
+export class ShelfBook {
   group = new THREE.Group();          // origin: bottom centre, spine facing +z
   cover = new THREE.Group();          // hinge at the spine edge of the front board
   meshes: THREE.Mesh[] = [];
